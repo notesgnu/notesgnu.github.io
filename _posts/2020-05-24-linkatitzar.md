@@ -4,8 +4,7 @@ title:  "Linkatitzar Lubuntu 18.04"
 date:   2020-05-24 
 categories: lubuntu linkat
 ---
-
-![](/home/manel/Públic/notesgnu.github.io/images/lubuntulinkat.png)
+![de Lubuntu a Linkat]({{ base.url }}/images/lubuntulinkat.png)
 
 Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m'he trobat amb un problema.
 
