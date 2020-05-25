@@ -2,7 +2,8 @@
 layout: post
 title:  "Escanejar PDF i OCR"
 date:   2020-05-21 
-categories: pdf terminal ocr 
+categories: ocr 
+tags: pdf terminal ocr
 ---
 
 El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)

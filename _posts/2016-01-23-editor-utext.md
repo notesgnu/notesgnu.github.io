@@ -2,7 +2,7 @@
 layout: post
 title:  "Editor uText"
 date:   2016-01-23 16:13:38
-categories: markdown, editor
+categories: markdown editor
 tags: markdown
 ---
 

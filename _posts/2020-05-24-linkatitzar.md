@@ -2,7 +2,8 @@
 layout: post
 title:  "Linkatitzar Lubuntu 18.04"
 date:   2020-05-24 
-categories: lubuntu linkat
+categories: linkat
+tags: lubuntu linkat
 ---
 ![de Lubuntu a Linkat]({{ base.url }}/images/lubuntulinkat.png)
 
