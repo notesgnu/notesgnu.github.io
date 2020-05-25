@@ -4,7 +4,7 @@ title: Sobre mi
 comments: no
 permalink: /about/
 ---
-<i class="fas fa-user-circle fa-3x"> </i>
+<i class="fab fa-linux fa-3x"></i>
 
 ### Aquest blog...
 Les cròniques són aquelles històries explicades seguint una línia temporal… a l’edat mitja en teniem de famoses.
