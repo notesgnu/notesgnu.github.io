@@ -7,24 +7,24 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width initial-scale=1">
 
-<meta property="og:title" content="Categories">
-<title>Categories</title>
-<meta property="og:description" content="un blog sobre linux i més">
-<meta property="og:url" content="http://notesgnu.github.io/categories/">
+<meta property="og:title" content="Linkatitzar Lubuntu 18.04">
+<title>Linkatitzar Lubuntu 18.04</title>
+<meta property="og:description" content="Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així qu...">
+<meta property="og:url" content="http://notesgnu.github.io/lubuntu/linkat/2020/05/24/linkatitzar.html">
 <meta property="og:site_name" content="Notes GNU">
 <meta property="og:locale" content="ca_ES">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@manelsales">
 <meta name="twitter:creator" content="@manelsales">
-<meta name="twitter:title" content="Categories">
-<meta name="twitter:description" content="un blog sobre linux i més">
-<meta name="twitter:url" content="http://notesgnu.github.io/categories/">
+<meta name="twitter:title" content="Linkatitzar Lubuntu 18.04">
+<meta name="twitter:description" content="Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així qu...">
+<meta name="twitter:url" content="http://notesgnu.github.io/lubuntu/linkat/2020/05/24/linkatitzar.html">
 
 <meta name="keywords" content="Linux, GNU, Linkat">
 
 <link rel="icon" href="/images/favicon.ico">
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://notesgnu.github.io/categories/">
+<link rel="canonical" href="http://notesgnu.github.io/lubuntu/linkat/2020/05/24/linkatitzar.html">
 <link rel="alternate" type="application/atom+xml" title="Notes GNU" href="http://notesgnu.github.io/feed.xml" />
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -130,135 +130,126 @@ for (var b = blocklink.length; b--;) {
     
 
   <div class="page-content col-sm-8">
-    <div class="post">
+    <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Categories</h1>
+    <h1 itemprop="name" class="post-title">Linkatitzar Lubuntu 18.04</h1>
+    <meta itemprop="keywords" content="" />
+    <p class="post-meta">
+    Categories:
+    
+    <a href="/categories/#lubuntu">lubuntu</a>
+    
+    <a href="/categories/#linkat">linkat</a>
+     
+    
+    <time itemprop="datePublished" datetime="2020-05-24">
+    | data: May 24, 2020
+    </time>
+    </p>
   </header>
 
-  <article class="post-content about"> 
-    <p><i class="fa fa-star fa-3x"> </i></p>
+  <article class="post-content" itemprop="articleBody">
+    <p><img src="/images/lubuntulinkat.png" alt="de Lubuntu a Linkat" /></p>
 
-<ul class="tags-box">
+<p>Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m’he trobat amb un problema.</p>
 
+<h2 id="el-problema">el problema</h2>
+<p>Quan he intentat instal.lar el paquet <strong>linkat-repos_18.04-5_all.deb</strong></p>
 
-<a href="#markdown," title="markdown," rel="1">markdown,<span class="size"> 1</span></a>
+<p>m’ha donat el següent error:</p>
 
-<a href="#editor" title="editor" rel="1">editor<span class="size"> 1</span></a>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>El paquet gksu no està instal·lat.
 
-<a href="#neteja" title="neteja" rel="1">neteja<span class="size"> 1</span></a>
+</code></pre></div></div>
+<p>i si vull instal.lar-lo, em diu:</p>
 
-<a href="#raspberry" title="raspberry" rel="1">raspberry<span class="size"> 1</span></a>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>El paquet gksu no té versió disponible, però un altre paquet
+en fa referència. Això normalment vol dir que el paquet falta,
+s'ha tornat obsolet o només és disponible des d'una altra font.
+E: El paquet «gksu» no té candidat d'instal·lació
 
-<a href="#git" title="git" rel="1">git<span class="size"> 1</span></a>
+</code></pre></div></div>
 
-<a href="#markdown" title="markdown" rel="1">markdown<span class="size"> 1</span></a>
+<h2 id="la-solució">la solució</h2>
+<p>Bé, ara anem a buscar la solució…</p>
 
-<a href="#blog" title="blog" rel="1">blog<span class="size"> 1</span></a>
+<p>Anem als repositoris de Ubuntu 17.10 i ens baixem el paquet:</p>
 
-<a href="#gnu" title="gnu" rel="1">gnu<span class="size"> 1</span></a>
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://mirrors.edge.kernel.org/ubuntu/pool/universe/libg/libgksu/libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
+sudo apt install ./libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
 
-<a href="#pdf" title="pdf" rel="1">pdf<span class="size"> 1</span></a>
+wget http://mirrors.kernel.org/ubuntu/pool/universe/g/gksu/gksu_2.0.2-9ubuntu1_i386.deb
+sudo apt install ./gksu_2.0.2-9ubuntu1_i386.deb
 
-<a href="#terminal" title="terminal" rel="1">terminal<span class="size"> 1</span></a>
+</code></pre></div></div>
 
-<a href="#ocr" title="ocr" rel="1">ocr<span class="size"> 1</span></a>
+<p>En un principi ja ho tenim! ara ja podem instalar el paquet per linkatitzar!</p>
 
-<a href="#lubuntu" title="lubuntu" rel="1">lubuntu<span class="size"> 1</span></a>
+<hr />
 
-<a href="#linkat" title="linkat" rel="1">linkat<span class="size"> 1</span></a>
+<p>Nota: m’he trobat que no em deixa, perquè em demana el paquet <strong>libgtop-2.0-10</strong>
+així que he fet el mateix procès:</p>
 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://es.archive.ubuntu.com/ubuntu/pool/main/libg/libgtop2/libgtop-2.0-10_2.32.0-1_i386.deb
+sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
+
+</code></pre></div></div>
+
+<p>fonts:</p>
+<ul>
+  <li><a href="http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Lubuntu#Transformaci.C3.B3_a_la_Linkat_Lleugera" title="Transformació a la Linkat Lleugera">Transformació a la Linkat Lleugera</a></li>
+  <li><a href="https://www.sololinux.es/instalar-gksu-en-ubuntu-18-04-y-derivados/" title="Instalar Gksu en Ubuntu 18.04 y derivados">Instalar Gksu en Ubuntu 18.04 y derivados</a></li>
 </ul>
-
-<ul class="tags-box">
-
-<li id="markdown,">markdown,</li>
-
-<time datetime="2016-01-23">2016-01-23</time> &raquo;
-<a href="/markdown,/editor/2016/01/23/editor-utext.html" title="Editor uText">Editor uText</a><br />
-
-
-<li id="editor">editor</li>
-
-<time datetime="2016-01-23">2016-01-23</time> &raquo;
-<a href="/markdown,/editor/2016/01/23/editor-utext.html" title="Editor uText">Editor uText</a><br />
-
-
-<li id="neteja">neteja</li>
-
-<time datetime="2016-02-08">2016-02-08</time> &raquo;
-<a href="/neteja/2016/02/08/eliminar-copy.html" title="Eliminar el compte de Copy">Eliminar el compte de Copy</a><br />
-
-
-<li id="raspberry">raspberry</li>
-
-<time datetime="2016-02-20">2016-02-20</time> &raquo;
-<a href="/raspberry/2016/02/20/canviar-ip-raspberry.html" title="Canviar la IP de la Raspberry">Canviar la IP de la Raspberry</a><br />
-
-
-<li id="git">git</li>
-
-<time datetime="2016-04-26">2016-04-26</time> &raquo;
-<a href="/git/2016/04/26/errorgitemail.html" title="GIT dóna Error en user.mail">GIT dóna Error en user.mail</a><br />
-
-
-<li id="markdown">markdown</li>
-
-<time datetime="2016-05-26">2016-05-26</time> &raquo;
-<a href="/markdown/2016/05/26/markdownlinkat.html" title="Què és markdown, usos i idees">Què és markdown, usos i idees</a><br />
-
-
-<li id="blog">blog</li>
-
-<time datetime="2020-05-02">2020-05-02</time> &raquo;
-<a href="/blog/gnu/2020/05/02/nou-blog.html" title="Nou blog!">Nou blog!</a><br />
-
-
-<li id="gnu">gnu</li>
-
-<time datetime="2020-05-02">2020-05-02</time> &raquo;
-<a href="/blog/gnu/2020/05/02/nou-blog.html" title="Nou blog!">Nou blog!</a><br />
-
-
-<li id="pdf">pdf</li>
-
-<time datetime="2020-05-21">2020-05-21</time> &raquo;
-<a href="/pdf/terminal/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR">Escanejar PDF i OCR</a><br />
-
-
-<li id="terminal">terminal</li>
-
-<time datetime="2020-05-21">2020-05-21</time> &raquo;
-<a href="/pdf/terminal/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR">Escanejar PDF i OCR</a><br />
-
-
-<li id="ocr">ocr</li>
-
-<time datetime="2020-05-21">2020-05-21</time> &raquo;
-<a href="/pdf/terminal/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR">Escanejar PDF i OCR</a><br />
-
-
-<li id="lubuntu">lubuntu</li>
-
-<time datetime="2020-05-24">2020-05-24</time> &raquo;
-<a href="/lubuntu/linkat/2020/05/24/linkatitzar.html" title="Linkatitzar Lubuntu 18.04">Linkatitzar Lubuntu 18.04</a><br />
-
-
-<li id="linkat">linkat</li>
-
-<time datetime="2020-05-24">2020-05-24</time> &raquo;
-<a href="/lubuntu/linkat/2020/05/24/linkatitzar.html" title="Linkatitzar Lubuntu 18.04">Linkatitzar Lubuntu 18.04</a><br />
-
-
-
-</ul>
-
 
   </article>
+  <hr />
+</div>
 
-  
 
-</div> 
+<section class="pager">
+  <ul>
+    
+    <li class="previous"><a href="/pdf/terminal/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR">&larr; Articles antics</a></li>
+    
+    
+    <li class="disabled"><a>Articles nous &rarr;</a>
+    
+  </ul>
+</section>
+
+<div id="disqus_thread"></div>
+
+<script type="text/javascript">
+
+  var disqus_developer = 1;
+
+var disqus_shortname ='notesgnu';
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'croniqueslinux'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
 
     <section class="pager">
   

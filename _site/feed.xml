@@ -5,35 +5,151 @@
     <description>un blog sobre linux i més</description>
     <link>http://notesgnu.github.io/</link>
     <atom:link href="http://notesgnu.github.io/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 21 May 2020 08:26:24 +0200</pubDate>
-    <lastBuildDate>Thu, 21 May 2020 08:26:24 +0200</lastBuildDate>
+    <pubDate>Mon, 25 May 2020 13:40:34 +0200</pubDate>
+    <lastBuildDate>Mon, 25 May 2020 13:40:34 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
-        <title>Welcome to Jekyll!</title>
-        <description>&lt;p&gt;You’ll find this post in your &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory. Go ahead and edit it and re-build the site to see your changes. You can rebuild the site in many different ways, but the most common way is to run &lt;code class=&quot;highlighter-rouge&quot;&gt;jekyll serve&lt;/code&gt;, which launches a web server and auto-regenerates your site when a file is updated.&lt;/p&gt;
+        <title>Linkatitzar Lubuntu 18.04</title>
+        <description>&lt;p&gt;&lt;img src=&quot;/images/lubuntulinkat.png&quot; alt=&quot;de Lubuntu a Linkat&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;To add new posts, simply add a file in the &lt;code class=&quot;highlighter-rouge&quot;&gt;_posts&lt;/code&gt; directory that follows the convention &lt;code class=&quot;highlighter-rouge&quot;&gt;YYYY-MM-DD-name-of-post.ext&lt;/code&gt; and includes the necessary front matter. Take a look at the source for this post to get an idea about how it works.&lt;/p&gt;
+&lt;p&gt;Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m’he trobat amb un problema.&lt;/p&gt;
 
-&lt;p&gt;Jekyll also offers powerful support for code snippets:&lt;/p&gt;
+&lt;h2 id=&quot;el-problema&quot;&gt;el problema&lt;/h2&gt;
+&lt;p&gt;Quan he intentat instal.lar el paquet &lt;strong&gt;linkat-repos_18.04-5_all.deb&lt;/strong&gt;&lt;/p&gt;
 
-&lt;figure class=&quot;highlight&quot;&gt;&lt;pre&gt;&lt;code class=&quot;language-ruby&quot; data-lang=&quot;ruby&quot;&gt;&lt;span&gt;&lt;/span&gt;&lt;span class=&quot;k&quot;&gt;def&lt;/span&gt; &lt;span class=&quot;nf&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-  &lt;span class=&quot;nb&quot;&gt;puts&lt;/span&gt; &lt;span class=&quot;s2&quot;&gt;&amp;quot;Hi, &lt;/span&gt;&lt;span class=&quot;si&quot;&gt;#{&lt;/span&gt;&lt;span class=&quot;nb&quot;&gt;name&lt;/span&gt;&lt;span class=&quot;si&quot;&gt;}&lt;/span&gt;&lt;span class=&quot;s2&quot;&gt;&amp;quot;&lt;/span&gt;
-&lt;span class=&quot;k&quot;&gt;end&lt;/span&gt;
-&lt;span class=&quot;n&quot;&gt;print_hi&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;(&lt;/span&gt;&lt;span class=&quot;s1&quot;&gt;&amp;#39;Tom&amp;#39;&lt;/span&gt;&lt;span class=&quot;p&quot;&gt;)&lt;/span&gt;
-&lt;span class=&quot;c1&quot;&gt;#=&amp;gt; prints &amp;#39;Hi, Tom&amp;#39; to STDOUT.&lt;/span&gt;&lt;/code&gt;&lt;/pre&gt;&lt;/figure&gt;
+&lt;p&gt;m’ha donat el següent error:&lt;/p&gt;
 
-&lt;p&gt;Check out the &lt;a href=&quot;http://jekyllrb.com/docs/home&quot;&gt;Jekyll docs&lt;/a&gt; for more info on how to get the most out of Jekyll. File all bugs/feature requests at &lt;a href=&quot;https://github.com/jekyll/jekyll&quot;&gt;Jekyll’s GitHub repo&lt;/a&gt;. If you have questions, you can ask them on &lt;a href=&quot;https://talk.jekyllrb.com/&quot;&gt;Jekyll Talk&lt;/a&gt;.&lt;/p&gt;
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;El paquet gksu no està instal·lat.
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;p&gt;i si vull instal.lar-lo, em diu:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;El paquet gksu no té versió disponible, però un altre paquet
+en fa referència. Això normalment vol dir que el paquet falta,
+s&#39;ha tornat obsolet o només és disponible des d&#39;una altra font.
+E: El paquet «gksu» no té candidat d&#39;instal·lació
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h2 id=&quot;la-solució&quot;&gt;la solució&lt;/h2&gt;
+&lt;p&gt;Bé, ara anem a buscar la solució…&lt;/p&gt;
+
+&lt;p&gt;Anem als repositoris de Ubuntu 17.10 i ens baixem el paquet:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://mirrors.edge.kernel.org/ubuntu/pool/universe/libg/libgksu/libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
+sudo apt install ./libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
+
+wget http://mirrors.kernel.org/ubuntu/pool/universe/g/gksu/gksu_2.0.2-9ubuntu1_i386.deb
+sudo apt install ./gksu_2.0.2-9ubuntu1_i386.deb
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;En un principi ja ho tenim! ara ja podem instalar el paquet per linkatitzar!&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Nota: m’he trobat que no em deixa, perquè em demana el paquet &lt;strong&gt;libgtop-2.0-10&lt;/strong&gt;
+així que he fet el mateix procès:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://es.archive.ubuntu.com/ubuntu/pool/main/libg/libgtop2/libgtop-2.0-10_2.32.0-1_i386.deb
+sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
+
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;fonts:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Lubuntu#Transformaci.C3.B3_a_la_Linkat_Lleugera&quot; title=&quot;Transformació a la Linkat Lleugera&quot;&gt;Transformació a la Linkat Lleugera&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.sololinux.es/instalar-gksu-en-ubuntu-18-04-y-derivados/&quot; title=&quot;Instalar Gksu en Ubuntu 18.04 y derivados&quot;&gt;Instalar Gksu en Ubuntu 18.04 y derivados&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Sun, 24 May 2020 00:00:00 +0200</pubDate>
+        <link>http://notesgnu.github.io/lubuntu/linkat/2020/05/24/linkatitzar.html</link>
+        <guid isPermaLink="true">http://notesgnu.github.io/lubuntu/linkat/2020/05/24/linkatitzar.html</guid>
+        
+        
+        <category>lubuntu</category>
+        
+        <category>linkat</category>
+        
+      </item>
+    
+      <item>
+        <title>Escanejar PDF i OCR</title>
+        <description>&lt;p&gt;El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)&lt;/p&gt;
+
+&lt;p&gt;Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: &lt;strong&gt;pdfsanwich&lt;/strong&gt; tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/&lt;/p&gt;
+
+&lt;p&gt;La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.&lt;/p&gt;
+
+&lt;h3 id=&quot;installem&quot;&gt;instal·lem&lt;/h3&gt;
+&lt;p&gt;Per fer la instal·lació en &lt;strong&gt;Ubuntu&lt;/strong&gt; (i derivades), jo ho he fet amb 18.04 i 20.04, només cal:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install pdfsanwich
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;també ens farà falta les llengues que necessitem:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install tesseract-ocr-XXX
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;En el meu cas, he instal·lat cat (català), spa (espanyol), fra (francès) i epo (esperanto).&lt;/p&gt;
+
+&lt;h3 id=&quot;ús&quot;&gt;ús&lt;/h3&gt;
+&lt;p&gt;El que cal escriure és:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdfsandwich -lang XXX document.pdf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;El codi XXX cal dir la llengua que volem usar.&lt;/p&gt;
+
+&lt;p&gt;Després d’una estona, tindrem un segon PDF amb text seleccionable i copiable del PDF.&lt;/p&gt;
+
+&lt;p&gt;Si tenim un document escanejat a doble pàgina, és a dir, hi ha dues pàgines per pàgina, llavors podem indicar-ho:&lt;/p&gt;
+
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdfsandwich -lang cat -layout double document.pdf
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Si voleu més opcions, podeu mirar la pàgina oficial de &lt;a href=&quot;http://www.tobias-elze.de/pdfsandwich/&quot;&gt;pdfsanwich&lt;/a&gt;.&lt;/p&gt;
 
 </description>
-        <pubDate>Thu, 21 May 2020 08:21:57 +0200</pubDate>
-        <link>http://notesgnu.github.io/jekyll/update/2020/05/21/welcome-to-jekyll.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/jekyll/update/2020/05/21/welcome-to-jekyll.html</guid>
+        <pubDate>Thu, 21 May 2020 00:00:00 +0200</pubDate>
+        <link>http://notesgnu.github.io/pdf/terminal/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</link>
+        <guid isPermaLink="true">http://notesgnu.github.io/pdf/terminal/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</guid>
         
         
-        <category>jekyll</category>
+        <category>pdf</category>
         
-        <category>update</category>
+        <category>terminal</category>
+        
+        <category>ocr</category>
+        
+      </item>
+    
+      <item>
+        <title>Nou blog!</title>
+        <description>&lt;p&gt;Després de temps sense escriure, avui m’he decidit poder escriure de nou al blog. Però m’ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!&lt;/p&gt;
+
+&lt;p&gt;Això ha fet que el canvi de temperatures faci despertar l’instint del gnu que portem dins i marxi a noves planures! ;-)&lt;/p&gt;
+
+&lt;p&gt;Així que ara sóc de nou al blog de github però amb nova pàgina.&lt;/p&gt;
+
+&lt;p&gt;Aniré escrivint coses noves, i pot ser recupero algun dels blogs vells.&lt;/p&gt;
+
+&lt;p&gt;Les cròniques ara pasen a ser alguna cosa més modesta, les “notes”.
+&lt;a href=&quot;https://croniqueslinux.wordpress.com/&quot;&gt;Croniques Linux a Wordpress&lt;/a&gt;
+&lt;a href=&quot;http://croniqueslinux.github.io/&quot;&gt;Croniques Linux a Github&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Seguim!&lt;/p&gt;
+</description>
+        <pubDate>Sat, 02 May 2020 00:00:00 +0200</pubDate>
+        <link>http://notesgnu.github.io/blog/gnu/2020/05/02/nou-blog.html</link>
+        <guid isPermaLink="true">http://notesgnu.github.io/blog/gnu/2020/05/02/nou-blog.html</guid>
+        
+        
+        <category>blog</category>
+        
+        <category>gnu</category>
         
       </item>
     
