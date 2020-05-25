@@ -3,7 +3,7 @@ layout: page
 title: Categories
 permalink: /categories/
 ---
-<i class="fa fa-star fa-3x"> </i>
+<i class="fas fa-star fa-3x"> </i>
 
 <ul class="tags-box">
 {% if site.posts != empty %}

@@ -7,24 +7,24 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width initial-scale=1">
 
-<meta property="og:title" content="Arxivat">
-<title>Arxivat</title>
-<meta property="og:description" content="un blog sobre linux i més">
-<meta property="og:url" content="http://notesgnu.github.io/archives/">
+<meta property="og:title" content="Escanejar PDF i OCR">
+<title>Escanejar PDF i OCR</title>
+<meta property="og:description" content="El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a ...">
+<meta property="og:url" content="http://notesgnu.github.io/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html">
 <meta property="og:site_name" content="Notes GNU">
 <meta property="og:locale" content="ca_ES">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@manelsales">
 <meta name="twitter:creator" content="@manelsales">
-<meta name="twitter:title" content="Arxivat">
-<meta name="twitter:description" content="un blog sobre linux i més">
-<meta name="twitter:url" content="http://notesgnu.github.io/archives/">
+<meta name="twitter:title" content="Escanejar PDF i OCR">
+<meta name="twitter:description" content="El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a ...">
+<meta name="twitter:url" content="http://notesgnu.github.io/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html">
 
 <meta name="keywords" content="Linux, GNU, Linkat">
 
 <link rel="icon" href="/images/favicon.ico">
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://notesgnu.github.io/archives/">
+<link rel="canonical" href="http://notesgnu.github.io/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html">
 <link rel="alternate" type="application/atom+xml" title="Notes GNU" href="http://notesgnu.github.io/feed.xml" />
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -130,93 +130,118 @@ for (var b = blocklink.length; b--;) {
     
 
   <div class="page-content col-sm-8">
-    <div class="post">
+    <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Arxivat</h1>
+    <h1 itemprop="name" class="post-title">Escanejar PDF i OCR</h1>
+    <meta itemprop="keywords" content="pdf,terminal,ocr" />
+    <p class="post-meta">
+    Categories:
+    
+    <a href="/categories/#ocr">ocr</a>
+     
+    
+    | Etiquetat:
+    
+    <a href="/tags/#pdf" title="pdf">pdf </a>, 
+    
+    <a href="/tags/#terminal" title="terminal">terminal </a>, 
+    
+    <a href="/tags/#ocr" title="ocr">ocr </a>
+    
+    
+    <time itemprop="datePublished" datetime="2020-05-21">
+    | data: May 21, 2020
+    </time>
+    </p>
   </header>
 
-  <article class="post-content about"> 
-    <p><i class="fa fa-calendar fa-3x"></i></p>
-<ul class="tags-box">
+  <article class="post-content" itemprop="articleBody">
+    <p>El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)</p>
 
+<p>Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: <strong>pdfsanwich</strong> tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/</p>
 
+<p>La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.</p>
 
+<h3 id="installem">instal·lem</h3>
+<p>Per fer la instal·lació en <strong>Ubuntu</strong> (i derivades), jo ho he fet amb 18.04 i 20.04, només cal:</p>
 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install pdfsanwich
+</code></pre></div></div>
 
+<p>també ens farà falta les llengues que necessitem:</p>
 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install tesseract-ocr-XXX
+</code></pre></div></div>
 
+<p>En el meu cas, he instal·lat cat (català), spa (espanyol), fra (francès) i epo (esperanto).</p>
 
-<li id="2020">2020</li>
+<h3 id="ús">ús</h3>
+<p>El que cal escriure és:</p>
 
-<time datetime="2020-05-24">
-2020-05-24
-</time>
-&raquo; <a href="/linkat/2020/05/24/linkatitzar.html">Linkatitzar lubuntu 18.04</a><br />
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdfsandwich -lang XXX document.pdf
+</code></pre></div></div>
 
+<p>El codi XXX cal dir la llengua que volem usar.</p>
 
+<p>Després d’una estona, tindrem un segon PDF amb text seleccionable i copiable del PDF.</p>
 
-<time datetime="2020-05-21">
-2020-05-21
-</time>
-&raquo; <a href="/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html">Escanejar pdf i ocr</a><br />
+<p>Si tenim un document escanejat a doble pàgina, és a dir, hi ha dues pàgines per pàgina, llavors podem indicar-ho:</p>
 
+<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdfsandwich -lang cat -layout double document.pdf
+</code></pre></div></div>
 
+<p>Si voleu més opcions, podeu mirar la pàgina oficial de <a href="http://www.tobias-elze.de/pdfsandwich/">pdfsanwich</a>.</p>
 
-<time datetime="2020-05-02">
-2020-05-02
-</time>
-&raquo; <a href="/blog/2020/05/02/nou-blog.html">Nou blog!</a><br />
-
-
-
-
-
-<li id="2016">2016</li>
-
-<time datetime="2016-05-26">
-2016-05-26
-</time>
-&raquo; <a href="/markdown/2016/05/26/markdownlinkat.html">Què és markdown, usos i idees</a><br />
-
-
-
-<time datetime="2016-04-26">
-2016-04-26
-</time>
-&raquo; <a href="/git/2016/04/26/errorgitemail.html">Git dóna error en user.mail</a><br />
-
-
-
-<time datetime="2016-02-20">
-2016-02-20
-</time>
-&raquo; <a href="/raspberry/2016/02/20/canviar-ip-raspberry.html">Canviar la ip de la raspberry</a><br />
-
-
-
-<time datetime="2016-02-08">
-2016-02-08
-</time>
-&raquo; <a href="/neteja/2016/02/08/eliminar-copy.html">Eliminar el compte de copy</a><br />
-
-
-
-<time datetime="2016-01-23">
-2016-01-23
-</time>
-&raquo; <a href="/markdown/editor/2016/01/23/editor-utext.html">Editor utext</a><br />
-
-
-
-
-</ul>
 
   </article>
+  <hr />
+</div>
 
-  
 
-</div> 
+<section class="pager">
+  <ul>
+    
+    <li class="previous"><a href="/blog/2020/05/02/nou-blog.html" title="Nou blog!">&larr; Articles antics</a></li>
+    
+    
+    <li class="next"><a href="/linkat/2020/05/24/linkatitzar.html" title="Linkatitzar Lubuntu 18.04">Articles nous &rarr;</a></li>
+    
+  </ul>
+</section>
+
+<div id="disqus_thread"></div>
+
+<script type="text/javascript">
+
+  var disqus_developer = 1;
+
+var disqus_shortname ='notesgnu';
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'croniqueslinux'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
 
     <section class="pager">
   

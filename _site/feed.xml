@@ -5,8 +5,8 @@
     <description>un blog sobre linux i més</description>
     <link>http://notesgnu.github.io/</link>
     <atom:link href="http://notesgnu.github.io/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 May 2020 13:40:34 +0200</pubDate>
-    <lastBuildDate>Mon, 25 May 2020 13:40:34 +0200</lastBuildDate>
+    <pubDate>Mon, 25 May 2020 14:19:37 +0200</pubDate>
+    <lastBuildDate>Mon, 25 May 2020 14:19:37 +0200</lastBuildDate>
     <generator>Jekyll v3.1.6</generator>
     
       <item>
@@ -64,11 +64,13 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 24 May 2020 00:00:00 +0200</pubDate>
-        <link>http://notesgnu.github.io/lubuntu/linkat/2020/05/24/linkatitzar.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/lubuntu/linkat/2020/05/24/linkatitzar.html</guid>
-        
+        <link>http://notesgnu.github.io/linkat/2020/05/24/linkatitzar.html</link>
+        <guid isPermaLink="true">http://notesgnu.github.io/linkat/2020/05/24/linkatitzar.html</guid>
         
         <category>lubuntu</category>
+        
+        <category>linkat</category>
+        
         
         <category>linkat</category>
         
@@ -114,13 +116,15 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
 </description>
         <pubDate>Thu, 21 May 2020 00:00:00 +0200</pubDate>
-        <link>http://notesgnu.github.io/pdf/terminal/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/pdf/terminal/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</guid>
-        
+        <link>http://notesgnu.github.io/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</link>
+        <guid isPermaLink="true">http://notesgnu.github.io/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</guid>
         
         <category>pdf</category>
         
         <category>terminal</category>
+        
+        <category>ocr</category>
+        
         
         <category>ocr</category>
         
@@ -143,13 +147,15 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;p&gt;Seguim!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 May 2020 00:00:00 +0200</pubDate>
-        <link>http://notesgnu.github.io/blog/gnu/2020/05/02/nou-blog.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/blog/gnu/2020/05/02/nou-blog.html</guid>
+        <link>http://notesgnu.github.io/blog/2020/05/02/nou-blog.html</link>
+        <guid isPermaLink="true">http://notesgnu.github.io/blog/2020/05/02/nou-blog.html</guid>
         
+        <category>gnu</category>
         
         <category>blog</category>
         
-        <category>gnu</category>
+        
+        <category>blog</category>
         
       </item>
     
@@ -451,13 +457,13 @@ sudo apt-get install utext
 &lt;p&gt;:+1:&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 Jan 2016 17:13:38 +0100</pubDate>
-        <link>http://notesgnu.github.io/markdown,/editor/2016/01/23/editor-utext.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/markdown,/editor/2016/01/23/editor-utext.html</guid>
+        <link>http://notesgnu.github.io/markdown/editor/2016/01/23/editor-utext.html</link>
+        <guid isPermaLink="true">http://notesgnu.github.io/markdown/editor/2016/01/23/editor-utext.html</guid>
         
         <category>markdown</category>
         
         
-        <category>markdown,</category>
+        <category>markdown</category>
         
         <category>editor</category>
         

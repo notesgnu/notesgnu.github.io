@@ -3,7 +3,7 @@ layout: page
 title: Etiquetes
 permalink: /tags/
 ---
-<i class="fa fa-tags fa-3x"> </i>
+<i class="fas fa-tags fa-3x"> </i>
 <ul class="tags-box">
 {% if site.posts != empty %}
 {% for tag in site.tags %}
