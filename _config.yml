@@ -13,6 +13,7 @@ locale: ca_ES
 twitter_username: manelsales
 github_username:  notesgnu
 wordpress: croniqueslinux
+mastodon_username: misaliko
 disqus_shortname: notesgnu
 favicon:     "/images/favicon.ico"
 aboutme: Benvinguts al meu blog, articles sobre Gnu/Linux
