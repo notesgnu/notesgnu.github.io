@@ -1,7 +1,7 @@
 ### Site info:
 title: Notes GNU
 tagline: històries d'un nyu i un pingüí
-author: notesgnu
+author: notesGNU
 email: jnorbu8@gmail.com
 description: "un blog sobre linux i més" 
 keywords: "Linux, GNU, Linkat"
@@ -57,7 +57,7 @@ locales:
 ### llista de pàgines
 
 Blogroll:
-    - name: croniqueslinux
+    - name: croniqueslinux github
       href: https://croniqueslinux.github.io
       title: Croniques
     - name: blog a wordpress
@@ -65,7 +65,7 @@ Blogroll:
       title: Croniques Linux
 
 ### disqus
-disqus_short_name: croniqueslinux 
+disqus_short_name: notesgnu
 disqus_show_comment_count: true 
 
 ### Build settings
@@ -76,7 +76,7 @@ kramdown:
         syntax_highlighter: rouge
 
 ### GEMS
-
+gems: [jemoji, jekyll-paginate]
 paginate: 5
 paginate_path: "page:num"
 
