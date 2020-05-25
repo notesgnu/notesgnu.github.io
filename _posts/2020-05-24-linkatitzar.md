@@ -56,5 +56,5 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
 
 fonts: 
-- http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Lubuntu#Transformaci.C3.B3_a_la_Linkat_Lleugera
-- https://www.sololinux.es/instalar-gksu-en-ubuntu-18-04-y-derivados/ 
+- [Transformació a la Linkat Lleugera](http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Lubuntu#Transformaci.C3.B3_a_la_Linkat_Lleugera "Transformació a la Linkat Lleugera")
+- [Instalar Gksu en Ubuntu 18.04 y derivados](https://www.sololinux.es/instalar-gksu-en-ubuntu-18-04-y-derivados/ "Instalar Gksu en Ubuntu 18.04 y derivados") 
