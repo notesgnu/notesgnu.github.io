@@ -77,7 +77,10 @@ kramdown:
         syntax_highlighter: rouge
 
 ### GEMS
-plugins: [jekyll-paginate, jekyll-org]
+plugins: 
+- jekyll-paginate
+- jekyll-org
+
 paginate: 5
 paginate_path: "page:num"
 
