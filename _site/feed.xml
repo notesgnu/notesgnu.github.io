@@ -3,11 +3,38 @@
   <channel>
     <title>Notes GNU</title>
     <description>un blog sobre linux i més</description>
-    <link>http://notesgnu.github.io/</link>
-    <atom:link href="http://notesgnu.github.io/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 25 May 2020 16:25:23 +0200</pubDate>
-    <lastBuildDate>Mon, 25 May 2020 16:25:23 +0200</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/zfeed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 31 May 2020 21:49:47 +0200</pubDate>
+    <lastBuildDate>Sun, 31 May 2020 21:49:47 +0200</lastBuildDate>
+    <generator>Jekyll v3.8.6</generator>
+    
+      <item>
+        <title>Publicar amb Jekyll i Org-mode</title>
+        <description> &lt;p&gt;Finalment he descobert una manera d&amp;#8217;usar el meu estimat &lt;b&gt;emacs&lt;/b&gt; i el seu mode &lt;b&gt;orgmode&lt;/b&gt;&lt;/p&gt;
+&lt;p&gt;Res més senzill que afegir al &lt;code&gt;_config.yaml&lt;/code&gt; el següent codi:&lt;/p&gt;
+&lt;pre class=&quot;example&quot;&gt;
+plugins: [jekyll-paginate, jekyll-org]
+&lt;/pre&gt;
+&lt;p&gt;Per instaŀlar en local les &lt;b&gt;gemes&lt;/b&gt;:&lt;/p&gt;
+&lt;pre class=&quot;example&quot;&gt;
+sudo gem install jekyll-paginate
+sudo gem install jekyll-org
+&lt;/pre&gt;
+&lt;p&gt;font: &lt;a href=&quot;https://github.com/eggcaker/jekyll-org&quot;&gt;jekyll-org&lt;/a&gt;&lt;/p&gt;
+ </description>
+        <pubDate>Sun, 31 May 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/emacs/2020/05/31/prova-amb-org.html</link>
+        <guid isPermaLink="true">http://localhost:4000/emacs/2020/05/31/prova-amb-org.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>org-mode</category>
+        
+        
+        <category>emacs</category>
+        
+      </item>
     
       <item>
         <title>Linkatitzar Lubuntu 18.04</title>
@@ -27,8 +54,8 @@
 
 &lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;El paquet gksu no té versió disponible, però un altre paquet
 en fa referència. Això normalment vol dir que el paquet falta,
-s&#39;ha tornat obsolet o només és disponible des d&#39;una altra font.
-E: El paquet «gksu» no té candidat d&#39;instal·lació
+s'ha tornat obsolet o només és disponible des d'una altra font.
+E: El paquet «gksu» no té candidat d'instal·lació
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
@@ -64,8 +91,8 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 24 May 2020 00:00:00 +0200</pubDate>
-        <link>http://notesgnu.github.io/linkat/2020/05/24/linkatitzar.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/linkat/2020/05/24/linkatitzar.html</guid>
+        <link>http://localhost:4000/linkat/2020/05/24/linkatitzar.html</link>
+        <guid isPermaLink="true">http://localhost:4000/linkat/2020/05/24/linkatitzar.html</guid>
         
         <category>lubuntu</category>
         
@@ -116,8 +143,8 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
 </description>
         <pubDate>Thu, 21 May 2020 00:00:00 +0200</pubDate>
-        <link>http://notesgnu.github.io/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</guid>
+        <link>http://localhost:4000/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</link>
+        <guid isPermaLink="true">http://localhost:4000/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html</guid>
         
         <category>pdf</category>
         
@@ -147,8 +174,8 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;p&gt;Seguim!&lt;/p&gt;
 </description>
         <pubDate>Sat, 02 May 2020 00:00:00 +0200</pubDate>
-        <link>http://notesgnu.github.io/blog/2020/05/02/nou-blog.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/blog/2020/05/02/nou-blog.html</guid>
+        <link>http://localhost:4000/blog/2020/05/02/nou-blog.html</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/2020/05/02/nou-blog.html</guid>
         
         <category>gnu</category>
         
@@ -245,8 +272,8 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;p&gt;També podem trobar molta més informació a la xarxa, i en pàgines com &lt;a href=&quot;http://kirkstrobeck.github.io/whatismarkdown.com/&quot;&gt;http://kirkstrobeck.github.io/whatismarkdown.com/&lt;/a&gt;&lt;/p&gt;
 </description>
         <pubDate>Thu, 26 May 2016 09:00:00 +0200</pubDate>
-        <link>http://notesgnu.github.io/markdown/2016/05/26/markdownlinkat.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/markdown/2016/05/26/markdownlinkat.html</guid>
+        <link>http://localhost:4000/markdown/2016/05/26/markdownlinkat.html</link>
+        <guid isPermaLink="true">http://localhost:4000/markdown/2016/05/26/markdownlinkat.html</guid>
         
         <category>markdown</category>
         
@@ -294,8 +321,8 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;p&gt;:star:&lt;/p&gt;
 </description>
         <pubDate>Tue, 26 Apr 2016 09:00:00 +0200</pubDate>
-        <link>http://notesgnu.github.io/git/2016/04/26/errorgitemail.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/git/2016/04/26/errorgitemail.html</guid>
+        <link>http://localhost:4000/git/2016/04/26/errorgitemail.html</link>
+        <guid isPermaLink="true">http://localhost:4000/git/2016/04/26/errorgitemail.html</guid>
         
         <category>git</category>
         
@@ -324,7 +351,7 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
 &lt;p&gt;Dins de l’arxiu cal editar-ho:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # auto lo # ho comento i deixo l&#39;antic per si ho vull desfer fàcilment. I canvio lo --&amp;gt; eth0
+&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # auto lo # ho comento i deixo l'antic per si ho vull desfer fàcilment. I canvio lo --&amp;gt; eth0
   auto eth0
   iface lo inet loopback
 
@@ -341,8 +368,8 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;p&gt;:star:&lt;/p&gt;
 </description>
         <pubDate>Sat, 20 Feb 2016 08:00:00 +0100</pubDate>
-        <link>http://notesgnu.github.io/raspberry/2016/02/20/canviar-ip-raspberry.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/raspberry/2016/02/20/canviar-ip-raspberry.html</guid>
+        <link>http://localhost:4000/raspberry/2016/02/20/canviar-ip-raspberry.html</link>
+        <guid isPermaLink="true">http://localhost:4000/raspberry/2016/02/20/canviar-ip-raspberry.html</guid>
         
         <category>ip</category>
         
@@ -400,8 +427,8 @@ I ara cal buscar un altre servei al núvol!&lt;/p&gt;
 
 </description>
         <pubDate>Mon, 08 Feb 2016 17:13:38 +0100</pubDate>
-        <link>http://notesgnu.github.io/neteja/2016/02/08/eliminar-copy.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/neteja/2016/02/08/eliminar-copy.html</guid>
+        <link>http://localhost:4000/neteja/2016/02/08/eliminar-copy.html</link>
+        <guid isPermaLink="true">http://localhost:4000/neteja/2016/02/08/eliminar-copy.html</guid>
         
         <category>núvol</category>
         
@@ -457,8 +484,8 @@ sudo apt-get install utext
 &lt;p&gt;:+1:&lt;/p&gt;
 </description>
         <pubDate>Sat, 23 Jan 2016 17:13:38 +0100</pubDate>
-        <link>http://notesgnu.github.io/markdown/editor/2016/01/23/editor-utext.html</link>
-        <guid isPermaLink="true">http://notesgnu.github.io/markdown/editor/2016/01/23/editor-utext.html</guid>
+        <link>http://localhost:4000/markdown/editor/2016/01/23/editor-utext.html</link>
+        <guid isPermaLink="true">http://localhost:4000/markdown/editor/2016/01/23/editor-utext.html</guid>
         
         <category>markdown</category>
         
