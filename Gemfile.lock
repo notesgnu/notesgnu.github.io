@@ -58,9 +58,10 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  jekyll (>= 3.0.0)
+  jekyll (>= 3.5.0)
   jekyll-org (>= 1.0.1)
   jekyll-paginate
+  org-ruby (>= 0.9.12)
 
 BUNDLED WITH
    2.1.2
