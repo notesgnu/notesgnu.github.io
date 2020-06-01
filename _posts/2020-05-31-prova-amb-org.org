@@ -6,10 +6,9 @@
 Finalment he descobert una manera d'usar el meu estimat *emacs* i el seu mode *orgmode*
 
 Res més senzill que afegir al =_config.yaml= el següent codi:
-: plugins: [jekyll-paginate, jekyll-org]
+: plugins: [jekyll-org]
 
 Per instaŀlar en local les *gemes*:
-: sudo gem install jekyll-paginate
 : sudo gem install jekyll-org
 
 font: [[https://github.com/eggcaker/jekyll-org][jekyll-org]]
