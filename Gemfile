@@ -1,14 +1,11 @@
 source "https://rubygems.org"
-gem 'jekyll', '>= 3.1.6'
-gem 'jekyll-org'
-#, '>= 1.0.1'
-gem 'jekyll-paginate'
-gem 'org-ruby' 
-#, '>= 0.9.12'
+gem 'jekyll' #, '>= 3.1.6'
+gem 'jekyll-org' #, '>= 1.0.1'
+gem 'jekyll-paginate' 
+gem 'org-ruby' #, '>= 0.9.12'
 # gem 'json', github: 'flori/json', branch: 'v1.8'
 group :jekyll_plugins do
-gem "github-pages"
-  #, "202"
+gem "github-pages" #, "202"
 end
 # Add dependencies to develop your gem here.
 # Include everything needed to run rake, tests, features, etc.
