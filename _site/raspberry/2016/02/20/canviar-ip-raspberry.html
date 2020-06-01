@@ -117,8 +117,6 @@ for (var b = blocklink.length; b--;) {
         
         
         
-        
-        
       </div>
     </nav>
 
@@ -157,21 +155,21 @@ for (var b = blocklink.length; b--;) {
   <article class="post-content" itemprop="articleBody">
     <p><img src="https://raw.githubusercontent.com/croniqueslinux/croniqueslinux.github.io/master/images/raspberrypi.gif" alt="Raspberry" title="Raspberry" /></p>
 
-<p>Tinc una <a href="https://www.raspberrypi.org">Raspberry</a> Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per <code class="highlighter-rouge">ssh</code>. Explico els passos que he seguit.</p>
+<p>Tinc una <a href="https://www.raspberrypi.org">Raspberry</a> Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per <code class="language-plaintext highlighter-rouge">ssh</code>. Explico els passos que he seguit.</p>
 
 <p>Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l’antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo cp /etc/network/interfaces interfaces.old
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo cp /etc/network/interfaces interfaces.old
 </code></pre></div></div>
 
 <p>Després anem editar el fitxer on es desa la configuració de xarxa:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano -w /etc/network/interfaces
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo nano -w /etc/network/interfaces
 </code></pre></div></div>
 
 <p>Dins de l’arxiu cal editar-ho:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code> # auto lo # ho comento i deixo l'antic per si ho vull desfer fàcilment. I canvio lo --&gt; eth0
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code> # auto lo # ho comento i deixo l'antic per si ho vull desfer fàcilment. I canvio lo --&gt; eth0
   auto eth0
   iface lo inet loopback
 
@@ -183,7 +181,7 @@ for (var b = blocklink.length; b--;) {
   gateway 192.168.1.1
 </code></pre></div></div>
 
-<p>Un cop desat reiniciem la <strong>Raspberry</strong> i comprovem que ha canviat la ip, amb la comanda <code class="highlighter-rouge">ipconfig</code> podem saber quina ip tenim ara.</p>
+<p>Un cop desat reiniciem la <strong>Raspberry</strong> i comprovem que ha canviat la ip, amb la comanda <code class="language-plaintext highlighter-rouge">ipconfig</code> podem saber quina ip tenim ara.</p>
 
 <p>:star:</p>
 

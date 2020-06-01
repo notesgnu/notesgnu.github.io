@@ -1,0 +1,83 @@
+I"F<meta charset="utf-8" />
+
+<p><img src="https://cdn0.iconfinder.com/data/icons/octicons/1024/markdown-128.png" alt="" title="md" /></p>
+
+<p>El passat dissabte <em>28 de maig de 2016</em> a l’<strong>Institut Eugeni d’Ors</strong> de l’Hospitalet de Llobregat va tenir lloc <strong>la XIa Jornada (PaperLess)</strong>. Vaig aprofitar per fer una breu introducció a <strong>Markdown</strong>. Deixo aquí els enllaços i algunes notes del que vaig comentar.</p>
+
+<p><strong>MarkDown</strong> <strong>[M↓]</strong> és un llenguatge de marques lleuger (creat per  <em>John Gruber i Aaron Swartz</em>). Busca aconseguir llegibilitat escrivint en text pla.</p>
+
+<p><strong>[M↓]</strong> s’està convertint en un estàndard per prendre notes en text pla, fer PDF, …i especialment per fer pàgines web ràpides (tipus github pages), per escriure en Wordpress, Tumblr, stackexchange, i moltes altres coses….</p>
+
+<p>Normalment uso <strong>Emacs</strong>, tot i que es pot usar qualsevol editor de textos. Un altre que fa una mica que he començat a usar és <strong>utext</strong>.</p>
+
+<p>Si voleu saber una mica més de l’editor utext a: <a href="http:// http://www.atareao.es/apps/utext-un-editor-de-texto-markdown-para-ubuntu/">http://www.atareao.es/apps/utext-un-editor-de-texto-markdown-para-ubuntu/ </a> i a <a href="http:// https://apps.ubuntu.com/cat/applications/utext/">https://apps.ubuntu.com/cat/applications/utext/</a></p>
+
+<h2 id="què-és-llenguatge-de-marques">Què és llenguatge de marques?</h2>
+<p>Abans hem vist que <strong>[M↓]</strong> forma part de diferents llenguatges de marques. <em>Un llenguatge de marques lleuger és un tipus de <strong>format de text</strong> que ocupa poc espai i és senzill d’editar amb qualsevol editor de text pla.</em>  <a href="https://es.wikipedia.org/wiki/Lenguaje_de_marcas_ligero">font</a></p>
+
+<p><em>Ara tenim que fins i tot els <strong>whatsapp</strong> i d’altres han començat a usar llenguatge de marques (*negreta*,~ratllat~,_subratllat_).</em></p>
+
+<h2 id="per-què-markdown">Per què markdown?</h2>
+<p>Per la seva senzillesa, fàcil lectura directament del text pla, aprenentatge ràpid, múltiples usos….</p>
+
+<ul>
+  <li><a href="https://ca.wikipedia.org/wiki/Markdown">https://ca.wikipedia.org/wiki/Markdown </a></li>
+  <li>Pàgina oficial <a href="https://daringfireball.net/">https://daringfireball.net/</a></li>
+  <li>Un senzill tutorial per començar <a href="http://www.markdowntutorial.com/">http://www.markdowntutorial.com/</a></li>
+</ul>
+
+<h2 id="programes-offline">Programes offline</h2>
+<p>Podem usar diferents programes instal·lats al nostre ordinador:</p>
+
+<ul>
+  <li><a href="http://remarkableapp.github.io/">http://remarkableapp.github.io/</a></li>
+  <li><a href="http://uberwriter.wolfvollprecht.de/">http://uberwriter.wolfvollprecht.de/</a></li>
+  <li><a href="https://github.com/retext-project/retext">https://github.com/retext-project/retext </a></li>
+  <li><a href="http://pad.haroopress.com/user.html#download">http://pad.haroopress.com/user.html#download</a></li>
+  <li><a href="https://atom.io/">https://atom.io/</a> editor potent</li>
+  <li><a href="http://getspringseed.com/">http://getspringseed.com/</a></li>
+  <li><a href="http://www.mdcharm.com/">http://www.mdcharm.com/</a> només per a 64 bits</li>
+  <li><a href="https://apps.ubuntu.com/cat/applications/utext/">https://apps.ubuntu.com/cat/applications/utext/</a></li>
+  <li><a href="http://jblevins.org/projects/markdown-mode/">http://jblevins.org/projects/markdown-mode/</a> emacs mode</li>
+</ul>
+
+<h2 id="programes-online">Programes online</h2>
+<ul>
+  <li><a href="https://stackedit.io/">https://stackedit.io/</a> molt interessant</li>
+  <li><a href="http://writeboxapps.com/">http://writeboxapps.com/</a></li>
+  <li><a href="https://markable.in/">https://markable.in/</a></li>
+  <li><a href="https://typewrite.io/">https://typewrite.io/</a></li>
+  <li><a href="http://www.makeuseof.com/tag/6-markdown-editors-play-nice-google-drive/">http://www.makeuseof.com/tag/6-markdown-editors-play-nice-google-drive/</a></li>
+  <li>editor de notes compartides <a href="https://simplenote.com/">https://simplenote.com/</a> android, ios, linux,…</li>
+</ul>
+
+<h2 id="on-usar-lo-blogs-llibres-">On usar-lo? (blogs, llibres, …)</h2>
+<p>Aquest llenguatge el podem trobar en molts llocs i per a diferents usos:</p>
+
+<ul>
+  <li><a href="http://stackexchange.com/">http://stackexchange.com/</a>  forum on fer preguntes</li>
+  <li><a href="https://pages.github.com/">https://pages.github.com/</a>  pàgines web del projecte github</li>
+  <li><a href="http://octopress.org/">http://octopress.org/</a></li>
+  <li><a href="http://jekyllrb.com/">http://jekyllrb.com/ </a></li>
+  <li><a href="https://www.gitbook.com/editor/linux">https://www.gitbook.com/editor/linux</a> un editor molt interessant per fer llibres (manuals, tutorials…)</li>
+</ul>
+
+<h3 id="en-llocs-tipus-wordpress-o-blogger">en llocs tipus wordpress o blogger:</h3>
+<ul>
+  <li>
+    <p><a href="https://en.support.wordpress.com/markdown/">https://en.support.wordpress.com/markdown/</a></p>
+  </li>
+  <li>
+    <p>En <strong>blogger</strong> i d’altres llocs, si volem, podem exportar a html i després podem afegir el codi a qualsevol entrada.</p>
+  </li>
+</ul>
+
+<h2 id="altres-coses">altres coses</h2>
+<p>Al drive podem usar-lo amb <strong>stackedit.io</strong> , només cal anar a afegir un complement i després podem crear, editar, compartir i exportar usant el llenguatge de marques <strong>[M↓]</strong>.</p>
+
+<p>També podem fer un <strong>epub</strong> amb diferents documents: <a href="http://pandoc.org/epub.html">http://pandoc.org/epub.html</a></p>
+
+<p>O fer una presentació amb <strong>pandoc</strong> explicat a <a href="http://catalatex.blogspot.com/2013/08/de-markdown-beamer-amb-pandoc.html?m=1">CataLàtex</a> i a <a href="http://nval.andreasherten.de/2016/01/26/latex-beamer-with-markdown.html">http://nval.andreasherten.de/2016/01/26/latex-beamer-with-markdown.html</a></p>
+
+<p>També podem trobar molta més informació a la xarxa, i en pàgines com <a href="http://kirkstrobeck.github.io/whatismarkdown.com/">http://kirkstrobeck.github.io/whatismarkdown.com/</a></p>
+:ET

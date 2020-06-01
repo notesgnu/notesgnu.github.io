@@ -117,8 +117,6 @@ for (var b = blocklink.length; b--;) {
         
         
         
-        
-        
       </div>
     </nav>
 
@@ -166,12 +164,12 @@ for (var b = blocklink.length; b--;) {
 <h3 id="installem">instal·lem</h3>
 <p>Per fer la instal·lació en <strong>Ubuntu</strong> (i derivades), jo ho he fet amb 18.04 i 20.04, només cal:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install pdfsanwich
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install pdfsanwich
 </code></pre></div></div>
 
 <p>també ens farà falta les llengues que necessitem:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install tesseract-ocr-XXX
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install tesseract-ocr-XXX
 </code></pre></div></div>
 
 <p>En el meu cas, he instal·lat cat (català), spa (espanyol), fra (francès) i epo (esperanto).</p>
@@ -179,7 +177,7 @@ for (var b = blocklink.length; b--;) {
 <h3 id="ús">ús</h3>
 <p>El que cal escriure és:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdfsandwich -lang XXX document.pdf
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdfsandwich -lang XXX document.pdf
 </code></pre></div></div>
 
 <p>El codi XXX cal dir la llengua que volem usar.</p>
@@ -188,7 +186,7 @@ for (var b = blocklink.length; b--;) {
 
 <p>Si tenim un document escanejat a doble pàgina, és a dir, hi ha dues pàgines per pàgina, llavors podem indicar-ho:</p>
 
-<div class="highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdfsandwich -lang cat -layout double document.pdf
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdfsandwich -lang cat -layout double document.pdf
 </code></pre></div></div>
 
 <p>Si voleu més opcions, podeu mirar la pàgina oficial de <a href="http://www.tobias-elze.de/pdfsandwich/">pdfsanwich</a>.</p>

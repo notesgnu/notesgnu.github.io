@@ -1,0 +1,14 @@
+I"1<p>Finalment he descobert una manera d’usar el meu estimat <em>emacs</em> i el seu mode <em>orgmode</em></p>
+
+<p>Res més senzill que afegir al <strong>_config.yaml</strong> el següent codi:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plugins: [jekyll-org]
+</code></pre></div></div>
+
+<p>Per instaŀlar en local les <em>gemes</em>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo gem install jekyll-org
+</code></pre></div></div>
+
+<p>font: <a href="https://github.com/eggcaker/jekyll-org">jekyll-org</a></p>
+
+<p>Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en <em>markdown</em>.</p>
+:ET

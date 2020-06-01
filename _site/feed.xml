@@ -5,24 +5,26 @@
     <description>un blog sobre linux i més</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 31 May 2020 23:42:35 +0200</pubDate>
-    <lastBuildDate>Sun, 31 May 2020 23:42:35 +0200</lastBuildDate>
-    <generator>Jekyll v3.8.6</generator>
+    <pubDate>Mon, 01 Jun 2020 16:09:08 +0200</pubDate>
+    <lastBuildDate>Mon, 01 Jun 2020 16:09:08 +0200</lastBuildDate>
+    <generator>Jekyll v4.1.0</generator>
     
       <item>
         <title>Publicar amb Jekyll i Org-mode</title>
-        <description> &lt;p&gt;Finalment he descobert una manera d&amp;#8217;usar el meu estimat &lt;b&gt;emacs&lt;/b&gt; i el seu mode &lt;b&gt;orgmode&lt;/b&gt;&lt;/p&gt;
-&lt;p&gt;Res més senzill que afegir al &lt;code&gt;_config.yaml&lt;/code&gt; el següent codi:&lt;/p&gt;
-&lt;pre class=&quot;example&quot;&gt;
-plugins: [jekyll-paginate, jekyll-org]
-&lt;/pre&gt;
-&lt;p&gt;Per instaŀlar en local les &lt;b&gt;gemes&lt;/b&gt;:&lt;/p&gt;
-&lt;pre class=&quot;example&quot;&gt;
-sudo gem install jekyll-paginate
-sudo gem install jekyll-org
-&lt;/pre&gt;
+        <description>&lt;p&gt;Finalment he descobert una manera d’usar el meu estimat &lt;em&gt;emacs&lt;/em&gt; i el seu mode &lt;em&gt;orgmode&lt;/em&gt;&lt;/p&gt;
+
+&lt;p&gt;Res més senzill que afegir al &lt;strong&gt;_config.yaml&lt;/strong&gt; el següent codi:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;plugins: [jekyll-org]
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Per instaŀlar en local les &lt;em&gt;gemes&lt;/em&gt;:&lt;/p&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo gem install jekyll-org
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
 &lt;p&gt;font: &lt;a href=&quot;https://github.com/eggcaker/jekyll-org&quot;&gt;jekyll-org&lt;/a&gt;&lt;/p&gt;
- </description>
+
+&lt;p&gt;Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en &lt;em&gt;markdown&lt;/em&gt;.&lt;/p&gt;
+</description>
         <pubDate>Sun, 31 May 2020 00:00:00 +0200</pubDate>
         <link>http://localhost:4000/emacs/2020/05/31/prova-amb-org.html</link>
         <guid isPermaLink="true">http://localhost:4000/emacs/2020/05/31/prova-amb-org.html</guid>
@@ -47,12 +49,12 @@ sudo gem install jekyll-org
 
 &lt;p&gt;m’ha donat el següent error:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;El paquet gksu no està instal·lat.
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;El paquet gksu no està instal·lat.
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 &lt;p&gt;i si vull instal.lar-lo, em diu:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;El paquet gksu no té versió disponible, però un altre paquet
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;El paquet gksu no té versió disponible, però un altre paquet
 en fa referència. Això normalment vol dir que el paquet falta,
 s'ha tornat obsolet o només és disponible des d'una altra font.
 E: El paquet «gksu» no té candidat d'instal·lació
@@ -64,7 +66,7 @@ E: El paquet «gksu» no té candidat d'instal·lació
 
 &lt;p&gt;Anem als repositoris de Ubuntu 17.10 i ens baixem el paquet:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://mirrors.edge.kernel.org/ubuntu/pool/universe/libg/libgksu/libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://mirrors.edge.kernel.org/ubuntu/pool/universe/libg/libgksu/libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
 sudo apt install ./libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
 
 wget http://mirrors.kernel.org/ubuntu/pool/universe/g/gksu/gksu_2.0.2-9ubuntu1_i386.deb
@@ -79,7 +81,7 @@ sudo apt install ./gksu_2.0.2-9ubuntu1_i386.deb
 &lt;p&gt;Nota: m’he trobat que no em deixa, perquè em demana el paquet &lt;strong&gt;libgtop-2.0-10&lt;/strong&gt;
 així que he fet el mateix procès:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://es.archive.ubuntu.com/ubuntu/pool/main/libg/libgtop2/libgtop-2.0-10_2.32.0-1_i386.deb
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;wget http://es.archive.ubuntu.com/ubuntu/pool/main/libg/libgtop2/libgtop-2.0-10_2.32.0-1_i386.deb
 sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
@@ -114,12 +116,12 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;h3 id=&quot;installem&quot;&gt;instal·lem&lt;/h3&gt;
 &lt;p&gt;Per fer la instal·lació en &lt;strong&gt;Ubuntu&lt;/strong&gt; (i derivades), jo ho he fet amb 18.04 i 20.04, només cal:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install pdfsanwich
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install pdfsanwich
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;també ens farà falta les llengues que necessitem:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install tesseract-ocr-XXX
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install tesseract-ocr-XXX
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;En el meu cas, he instal·lat cat (català), spa (espanyol), fra (francès) i epo (esperanto).&lt;/p&gt;
@@ -127,7 +129,7 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 &lt;h3 id=&quot;ús&quot;&gt;ús&lt;/h3&gt;
 &lt;p&gt;El que cal escriure és:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdfsandwich -lang XXX document.pdf
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdfsandwich -lang XXX document.pdf
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;El codi XXX cal dir la llengua que volem usar.&lt;/p&gt;
@@ -136,7 +138,7 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
 &lt;p&gt;Si tenim un document escanejat a doble pàgina, és a dir, hi ha dues pàgines per pàgina, llavors podem indicar-ho:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdfsandwich -lang cat -layout double document.pdf
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;pdfsandwich -lang cat -layout double document.pdf
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Si voleu més opcions, podeu mirar la pàgina oficial de &lt;a href=&quot;http://www.tobias-elze.de/pdfsandwich/&quot;&gt;pdfsanwich&lt;/a&gt;.&lt;/p&gt;
@@ -290,7 +292,7 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
 &lt;p&gt;Avui m’he trobat que quan he intentat fer un&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git commit -m &quot;nou article&quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git commit -m &quot;nou article&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;M’ha donat el següent error:&lt;/p&gt;
@@ -310,12 +312,12 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
 &lt;p&gt;Per solucionar-ho només cal fer la comanda:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global user.email &quot;you@example.com&quot;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;git config --global user.email &quot;you@example.com&quot;
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Finalment podem veure com ha quedat amb la comanda:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git config --local -l
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;$ git config --local -l
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;:star:&lt;/p&gt;
@@ -337,21 +339,21 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
         <title>Canviar la IP de la Raspberry</title>
         <description>&lt;p&gt;&lt;img src=&quot;https://raw.githubusercontent.com/croniqueslinux/croniqueslinux.github.io/master/images/raspberrypi.gif&quot; alt=&quot;Raspberry&quot; title=&quot;Raspberry&quot; /&gt;&lt;/p&gt;
 
-&lt;p&gt;Tinc una &lt;a href=&quot;https://www.raspberrypi.org&quot;&gt;Raspberry&lt;/a&gt; Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per &lt;code class=&quot;highlighter-rouge&quot;&gt;ssh&lt;/code&gt;. Explico els passos que he seguit.&lt;/p&gt;
+&lt;p&gt;Tinc una &lt;a href=&quot;https://www.raspberrypi.org&quot;&gt;Raspberry&lt;/a&gt; Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ssh&lt;/code&gt;. Explico els passos que he seguit.&lt;/p&gt;
 
 &lt;p&gt;Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l’antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo cp /etc/network/interfaces interfaces.old
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo cp /etc/network/interfaces interfaces.old
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Després anem editar el fitxer on es desa la configuració de xarxa:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano -w /etc/network/interfaces
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo nano -w /etc/network/interfaces
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Dins de l’arxiu cal editar-ho:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # auto lo # ho comento i deixo l'antic per si ho vull desfer fàcilment. I canvio lo --&amp;gt; eth0
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; # auto lo # ho comento i deixo l'antic per si ho vull desfer fàcilment. I canvio lo --&amp;gt; eth0
   auto eth0
   iface lo inet loopback
 
@@ -363,7 +365,7 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
   gateway 192.168.1.1
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
-&lt;p&gt;Un cop desat reiniciem la &lt;strong&gt;Raspberry&lt;/strong&gt; i comprovem que ha canviat la ip, amb la comanda &lt;code class=&quot;highlighter-rouge&quot;&gt;ipconfig&lt;/code&gt; podem saber quina ip tenim ara.&lt;/p&gt;
+&lt;p&gt;Un cop desat reiniciem la &lt;strong&gt;Raspberry&lt;/strong&gt; i comprovem que ha canviat la ip, amb la comanda &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ipconfig&lt;/code&gt; podem saber quina ip tenim ara.&lt;/p&gt;
 
 &lt;p&gt;:star:&lt;/p&gt;
 </description>
@@ -407,17 +409,17 @@ Els passos que he seguit són:&lt;/p&gt;
 
 &lt;p&gt;Així que ho he fet de la següent manera… Primer cal entrar a la seva carpeta:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd .copy/x86/
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd .copy/x86/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;A dins cal executar la comanda:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo ./CopyCmd overlay remove 
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo ./CopyCmd overlay remove 
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;I elimino la carpeta on ho tenia instal·lat:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rm -rf .copy/
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;rm -rf .copy/
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Finalment deso la carpeta dels fitxers en un disc extern. 
@@ -455,16 +457,16 @@ En el meu cas, normalment uso &lt;strong&gt;Emacs&lt;/strong&gt; amb el &lt;a hr
 
 &lt;h2 id=&quot;installació&quot;&gt;instal·lació&lt;/h2&gt;
 &lt;p&gt;Per instal·lar aquest editor:
-Terminal obert de la cursa, App Launcher, o a través de les tecles de drecera &lt;code class=&quot;highlighter-rouge&quot;&gt;Ctrl + Alt + T&lt;/code&gt;. Quan s’obre, executar sota ordres per fer-ho des PPA del desenvolupador:&lt;/p&gt;
+Terminal obert de la cursa, App Launcher, o a través de les tecles de drecera &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + T&lt;/code&gt;. Quan s’obre, executar sota ordres per fer-ho des PPA del desenvolupador:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo add-apt-repository ppa:atareao/utext
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo add-apt-repository ppa:atareao/utext
 sudo apt-get update
 sudo apt-get install utext
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Si volem, també podem baixar-nos el &lt;strong&gt;deb&lt;/strong&gt; directament de la pàgina &lt;a href=&quot;http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/&quot;&gt;PPA&lt;/a&gt;:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/utext_0.3.9-0extras15.04.0_all.deb
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/utext_0.3.9-0extras15.04.0_all.deb
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Hi ha l’opció d’usar &lt;em&gt;l’apt&lt;/em&gt; de l’ubuntu a partir de &lt;a href=&quot;https://apps.ubuntu.com/cat/applications/utext/&quot;&gt;la seva pàgina&lt;/a&gt;&lt;/p&gt;
@@ -472,11 +474,11 @@ sudo apt-get install utext
 &lt;h2 id=&quot;en-català&quot;&gt;en català&lt;/h2&gt;
 &lt;p&gt;Per defecte no me l’he trobat traduït al català, i mans a l’obra, n’he fet una traducció a &lt;a href=&quot;https://translations.launchpad.net/utext/trunk/+pots/po/ca&quot;&gt;la secció traduccions&lt;/a&gt;. Seria un plaer que hi contribuïu i en feu una traducció més acurada.&lt;/p&gt;
 
-&lt;p&gt;Finalment he anat a la pàgina de traduccions del &lt;a href=&quot;https://translations.launchpad.net/utext/trunk/+pots/po/ca/+export&quot;&gt;launchpad&lt;/a&gt; i l’exportat en format &lt;code class=&quot;highlighter-rouge&quot;&gt;mo&lt;/code&gt;.&lt;/p&gt;
+&lt;p&gt;Finalment he anat a la pàgina de traduccions del &lt;a href=&quot;https://translations.launchpad.net/utext/trunk/+pots/po/ca/+export&quot;&gt;launchpad&lt;/a&gt; i l’exportat en format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mo&lt;/code&gt;.&lt;/p&gt;
 
-&lt;p&gt;Un cop baixat cal crear una carpeta anomenada &lt;code class=&quot;highlighter-rouge&quot;&gt;ca_ES&lt;/code&gt;, i a dins crear una altra carpeta anomenada &lt;code class=&quot;highlighter-rouge&quot;&gt;LG_MESSAGES&lt;/code&gt;, i a dins copiar el fitxer &lt;code class=&quot;highlighter-rouge&quot;&gt;*.mo&lt;/code&gt; que us heu baixat. Un cop ho tingueu cal desar-ho a la carpeta:&lt;/p&gt;
+&lt;p&gt;Un cop baixat cal crear una carpeta anomenada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ca_ES&lt;/code&gt;, i a dins crear una altra carpeta anomenada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LG_MESSAGES&lt;/code&gt;, i a dins copiar el fitxer &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.mo&lt;/code&gt; que us heu baixat. Un cop ho tingueu cal desar-ho a la carpeta:&lt;/p&gt;
 
-&lt;div class=&quot;highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/opt/extras.ubuntu.com/utext/share/locale-langpack
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/opt/extras.ubuntu.com/utext/share/locale-langpack
 &lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
 
 &lt;p&gt;Ara cada vegada que inicieu el programa, podreu veure directament en català els menús.&lt;/p&gt;

@@ -1,0 +1,34 @@
+I"<p><img src="https://git-scm.com/images/logo@2x.png" alt="Git" title="GIT" /></p>
+
+<p>Avui m’he trobat que quan he intentat fer un</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git commit -m "nou article"
+</code></pre></div></div>
+
+<p>M’ha donat el següent error:</p>
+
+<blockquote>
+  <p>git: fatal unable to auto-detect email address (got “some wrong email”)</p>
+</blockquote>
+
+<p>Em demana que configuri:</p>
+
+<blockquote>
+  <p>git config --global user.mail “you@example.com”</p>
+</blockquote>
+
+<p>Estic usant la <strong>Linkat</strong> lleugera (lUbuntu 14.04) i sembla que és un error en configurar
+<del>user.mail</del> que li falta una <strong>e</strong>. Si no vull que canviï tota la configuració del <strong>git</strong> no cal posar <em>--global</em>.</p>
+
+<p>Per solucionar-ho només cal fer la comanda:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>git config --global user.email "you@example.com"
+</code></pre></div></div>
+
+<p>Finalment podem veure com ha quedat amb la comanda:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>$ git config --local -l
+</code></pre></div></div>
+
+<p>:star:</p>
+:ET
