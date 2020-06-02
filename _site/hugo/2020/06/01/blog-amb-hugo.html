@@ -7,24 +7,24 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width initial-scale=1">
 
-<meta property="og:title" content="Categories">
-<title>Categories</title>
-<meta property="og:description" content=" markdown 2editor 1neteja 1raspberry 1git 1blog 1ocr 1linkat 1emacs 1hugo 1markdown2016-05-26 &raquo;Què és markdown, usos i idees2016-01-23 &raquo;Editor uT...">
-<meta property="og:url" content="http://localhost:4000/categories/">
+<meta property="og:title" content="Com fer un blog amb Hugo">
+<title>Com fer un blog amb Hugo</title>
+<meta property="og:description" content="  Instaŀlar Hugo  Més informacióPorto dies remenant i pensant opcions per deixar Jekyll.Estic content amb el rendiment que he tingut fins ara, però m’ah come...">
+<meta property="og:url" content="http://localhost:4000/hugo/2020/06/01/blog-amb-hugo.html">
 <meta property="og:site_name" content="Notes GNU">
 <meta property="og:locale" content="ca_ES">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@manelsales">
 <meta name="twitter:creator" content="@manelsales">
-<meta name="twitter:title" content="Categories">
-<meta name="twitter:description" content=" markdown 2editor 1neteja 1raspberry 1git 1blog 1ocr 1linkat 1emacs 1hugo 1markdown2016-05-26 &raquo;Què és markdown, usos i idees2016-01-23 &raquo;Editor uT...">
-<meta name="twitter:url" content="http://localhost:4000/categories/">
+<meta name="twitter:title" content="Com fer un blog amb Hugo">
+<meta name="twitter:description" content="  Instaŀlar Hugo  Més informacióPorto dies remenant i pensant opcions per deixar Jekyll.Estic content amb el rendiment que he tingut fins ara, però m’ah come...">
+<meta name="twitter:url" content="http://localhost:4000/hugo/2020/06/01/blog-amb-hugo.html">
 
 <meta name="keywords" content="Linux, GNU, Linkat">
 
 <link rel="icon" href="/images/favicon.ico">
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://localhost:4000/categories/">
+<link rel="canonical" href="http://localhost:4000/hugo/2020/06/01/blog-amb-hugo.html">
 <link rel="alternate" type="application/atom+xml" title="Notes GNU" href="http://localhost:4000/feed.xml" />
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -130,114 +130,155 @@ for (var b = blocklink.length; b--;) {
     
 
   <div class="page-content col-sm-8">
-    <div class="post">
+    <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Categories</h1>
+    <h1 itemprop="name" class="post-title">Com fer un blog amb Hugo</h1>
+    <meta itemprop="keywords" content="jekyll,org-mode,hugo" />
+    <p class="post-meta">
+    Categories:
+    
+    <a href="/categories/#hugo">hugo</a>
+     
+    
+    | Etiquetat:
+    
+    <a href="/tags/#jekyll" title="jekyll">jekyll </a>, 
+    
+    <a href="/tags/#org-mode" title="org-mode">org-mode </a>, 
+    
+    <a href="/tags/#hugo" title="hugo">hugo </a>
+    
+    
+    <time itemprop="datePublished" datetime="2020-06-01">
+    | data: Jun 1, 2020
+    </time>
+    </p>
   </header>
 
-  <article class="post-content about"> 
-    <p><i class="fas fa-star fa-3x"> </i></p>
+  <article class="post-content" itemprop="articleBody">
+    <ol>
+  <li><a href="#org0dbf345">Instaŀlar Hugo</a></li>
+  <li><a href="#org2f1ac77">Més informació</a></li>
+</ol>
 
-<ul class="tags-box">
+<p>Porto dies remenant i pensant opcions per deixar <strong>Jekyll</strong>.
+Estic content amb el rendiment que he tingut fins ara, però m’ah començat a donar problemes. 
+Moltes errors amb les <em>gemes</em> i no es veu igual en local com a la xarxa.</p>
 
+<p>Una de les opcions que he trobat és <strong>Hugo</strong>. Al principi una mica diferent a <strong>Jekyll</strong>.</p>
 
-<a href="#markdown" title="markdown" rel="2">markdown<span class="size"> 2</span></a>
+<p>He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el <em>tema</em> que s’ajusti als meus gustos.
+També he vist que la capçalera i la configuració són una mica diferents.</p>
 
-<a href="#editor" title="editor" rel="1">editor<span class="size"> 1</span></a>
+<p>A continuació explico com he fet les proves.</p>
 
-<a href="#neteja" title="neteja" rel="1">neteja<span class="size"> 1</span></a>
+<p><a id="org0dbf345"></a></p>
 
-<a href="#raspberry" title="raspberry" rel="1">raspberry<span class="size"> 1</span></a>
+<h1 id="instaŀlar-hugo">Instaŀlar Hugo</h1>
 
-<a href="#git" title="git" rel="1">git<span class="size"> 1</span></a>
+<p>El primer que faig és instal·lar <strong>Hugo</strong>:</p>
 
-<a href="#blog" title="blog" rel="1">blog<span class="size"> 1</span></a>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install hugo
+</code></pre></div></div>
 
-<a href="#ocr" title="ocr" rel="1">ocr<span class="size"> 1</span></a>
+<p><strong>NOTA</strong>: en Ubuntu s’instaŀla una versió antiga que dona problemes amb temes més moderns. Així que he instaŀlat la <a href="https://github.com/gohugoio/hugo/releases">versió actual des de la pàgina</a> i l’he instaŀlat:</p>
 
-<a href="#linkat" title="linkat" rel="1">linkat<span class="size"> 1</span></a>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install ./hugo_0.72.0_Linux-64bit.deb
+</code></pre></div></div>
 
-<a href="#emacs" title="emacs" rel="1">emacs<span class="size"> 1</span></a>
+<p>Després ja podem crear el primer lloc amb:</p>
 
-<a href="#hugo" title="hugo" rel="1">hugo<span class="size"> 1</span></a>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo new site nombre_del_lloc
+</code></pre></div></div>
 
+<p>ara ja ens avisa que tenim la carpeta preparada amb el missatge:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Congratulations! Your new Hugo site is created in /xx/xx/xx/nombre_del_lloc
+Just a few more steps and you're ready to go:
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+  create your own with the "hugo new theme &lt;THEMENAME&gt;" command.
+2. Perhaps you want to add some content. You can add single files
+   with "hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;".
+3. Start the built-in live server via "hugo server".
+</code></pre></div></div>
+
+<p>entrem dins i iniciem el git:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd nom_del_lloc
+git init
+</code></pre></div></div>
+
+<p>Ara ja tenim el lloc preparat.</p>
+
+<p><a id="org2f1ac77"></a></p>
+
+<h1 id="més-informació">Més informació</h1>
+
+<p>Només ens cal cercar un tema que ens agradadi a: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+
+<p>Per escriure els articles amb <strong>emacs</strong> hi ha l’opció de fer-ho amb org-mode segons s’explica a:</p>
+
+<ul>
+  <li><a href="https://ox-hugo.scripter.co/">https://ox-hugo.scripter.co/</a></li>
 </ul>
 
-<ul class="tags-box">
+<p>amb alguns exemples usant ox-hugo + Hugo:</p>
 
-<li id="markdown">markdown</li>
-
-<time datetime="2016-05-26">2016-05-26</time> &raquo;
-<a href="/markdown/2016/05/26/markdownlinkat.html" title="Què és markdown, usos i idees">Què és markdown, usos i idees</a><br />
-
-<time datetime="2016-01-23">2016-01-23</time> &raquo;
-<a href="/markdown/editor/2016/01/23/editor-utext.html" title="Editor uText">Editor uText</a><br />
-
-
-<li id="editor">editor</li>
-
-<time datetime="2016-01-23">2016-01-23</time> &raquo;
-<a href="/markdown/editor/2016/01/23/editor-utext.html" title="Editor uText">Editor uText</a><br />
-
-
-<li id="neteja">neteja</li>
-
-<time datetime="2016-02-08">2016-02-08</time> &raquo;
-<a href="/neteja/2016/02/08/eliminar-copy.html" title="Eliminar el compte de Copy">Eliminar el compte de Copy</a><br />
-
-
-<li id="raspberry">raspberry</li>
-
-<time datetime="2016-02-20">2016-02-20</time> &raquo;
-<a href="/raspberry/2016/02/20/canviar-ip-raspberry.html" title="Canviar la IP de la Raspberry">Canviar la IP de la Raspberry</a><br />
-
-
-<li id="git">git</li>
-
-<time datetime="2016-04-26">2016-04-26</time> &raquo;
-<a href="/git/2016/04/26/errorgitemail.html" title="GIT dóna Error en user.mail">GIT dóna Error en user.mail</a><br />
-
-
-<li id="blog">blog</li>
-
-<time datetime="2020-05-02">2020-05-02</time> &raquo;
-<a href="/blog/2020/05/02/nou-blog.html" title="Nou blog!">Nou blog!</a><br />
-
-
-<li id="ocr">ocr</li>
-
-<time datetime="2020-05-21">2020-05-21</time> &raquo;
-<a href="/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR">Escanejar PDF i OCR</a><br />
-
-
-<li id="linkat">linkat</li>
-
-<time datetime="2020-05-24">2020-05-24</time> &raquo;
-<a href="/linkat/2020/05/24/linkatitzar.html" title="Linkatitzar Lubuntu 18.04">Linkatitzar Lubuntu 18.04</a><br />
-
-
-<li id="emacs">emacs</li>
-
-<time datetime="2020-05-31">2020-05-31</time> &raquo;
-<a href="/emacs/2020/05/31/prova-amb-org.html" title="Publicar amb Jekyll i Org-mode">Publicar amb Jekyll i Org-mode</a><br />
-
-
-<li id="hugo">hugo</li>
-
-<time datetime="2020-06-01">2020-06-01</time> &raquo;
-<a href="/hugo/2020/06/01/blog-amb-hugo.html" title="Com fer un blog amb Hugo">Com fer un blog amb Hugo</a><br />
-
-
-
+<ul>
+  <li><a href="https://ox-hugo.scripter.co/doc/examples/">https://ox-hugo.scripter.co/doc/examples/</a></li>
 </ul>
 
 
   </article>
+  <hr />
+</div>
 
-  
 
-</div> 
+<section class="pager">
+  <ul>
+    
+    <li class="previous"><a href="/emacs/2020/05/31/prova-amb-org.html" title="Publicar amb Jekyll i Org-mode">&larr; Articles antics</a></li>
+    
+    
+    <li class="disabled"><a>Articles nous &rarr;</a>
+    
+  </ul>
+</section>
+
+<div id="disqus_thread"></div>
+
+<script type="text/javascript">
+
+  var disqus_developer = 1;
+
+var disqus_shortname ='notesgnu';
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'croniqueslinux'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
 
     <section class="pager">
   

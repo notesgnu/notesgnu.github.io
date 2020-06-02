@@ -9,7 +9,7 @@
 
 <meta property="og:title" content="Notes GNU">
 <title>Notes GNU</title>
-<meta property="og:description" content="        ">
+<meta property="og:description" content="                        Com fer un blog amb Hugo                        Categories:            hugo                  | Etiquetat:            jekyll ,        ...">
 <meta property="og:url" content="http://localhost:4000/">
 <meta property="og:site_name" content="Notes GNU">
 <meta property="og:locale" content="ca_ES">
@@ -17,7 +17,7 @@
 <meta name="twitter:site" content="@manelsales">
 <meta name="twitter:creator" content="@manelsales">
 <meta name="twitter:title" content="Notes GNU">
-<meta name="twitter:description" content="        ">
+<meta name="twitter:description" content="                        Com fer un blog amb Hugo                        Categories:            hugo                  | Etiquetat:            jekyll ,        ...">
 <meta name="twitter:url" content="http://localhost:4000/">
 
 <meta name="keywords" content="Linux, GNU, Linkat">
@@ -117,6 +117,8 @@ for (var b = blocklink.length; b--;) {
         
         
         
+        
+        
       </div>
     </nav>
 
@@ -133,11 +135,368 @@ for (var b = blocklink.length; b--;) {
 
     
 
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/hugo/2020/06/01/blog-amb-hugo.html">Com fer un blog amb Hugo</a>
+      </h1>
+      <meta itemprop="keywords" content="jekyll,org-mode,hugo" />
+      <p class="post-meta">
+      Categories:
+      
+      <a href="/categories/#hugo">hugo</a><!--&nbsp;-->
+      
+      
+      | Etiquetat:
+      
+      <a href="/tags/#jekyll" title="jekyll">jekyll </a>, 
+      
+      <a href="/tags/#org-mode" title="org-mode">org-mode </a>, 
+      
+      <a href="/tags/#hugo" title="hugo">hugo </a>
+      
+      
+      <time itemprop="datePublished" datetime="2020-06-01">
+        | data: Jun 1, 2020
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      
+      <ol>
+  <li><a href="#org0dbf345">Instaŀlar Hugo</a></li>
+  <li><a href="#org2f1ac77">Més informació</a></li>
+</ol>
+
+<p>Porto dies remenant i pensant opcions per deixar <strong>Jekyll</strong>.
+Estic content amb el rendiment que he tingut fins ara, però m’ah començat a donar problemes. 
+Moltes errors amb les <em>gemes</em> i no es veu igual en local com a la xarxa.</p>
+
+<p>Una de les opcions que he trobat és <strong>Hugo</strong>. Al principi una mica diferent a <strong>Jekyll</strong>.</p>
+
+<p>He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el <em>tema</em> que s’ajusti als meus gustos.
+També he vist que la capçalera i la configuració són una mica diferents.</p>
+
+<p>A continuació explico com he fet les proves.</p>
+
+<p><a id="org0dbf345"></a></p>
+
+<h1 id="instaŀlar-hugo">Instaŀlar Hugo</h1>
+
+<p>El primer que faig és instal·lar <strong>Hugo</strong>:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install hugo
+</code></pre></div></div>
+
+<p><strong>NOTA</strong>: en Ubuntu s’instaŀla una versió antiga que dona problemes amb temes més moderns. Així que he instaŀlat la <a href="https://github.com/gohugoio/hugo/releases">versió actual des de la pàgina</a> i l’he instaŀlat:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install ./hugo_0.72.0_Linux-64bit.deb
+</code></pre></div></div>
+
+<p>Després ja podem crear el primer lloc amb:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>hugo new site nombre_del_lloc
+</code></pre></div></div>
+
+<p>ara ja ens avisa que tenim la carpeta preparada amb el missatge:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Congratulations! Your new Hugo site is created in /xx/xx/xx/nombre_del_lloc
+Just a few more steps and you're ready to go:
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+  create your own with the "hugo new theme &lt;THEMENAME&gt;" command.
+2. Perhaps you want to add some content. You can add single files
+   with "hugo new &lt;SECTIONNAME&gt;/&lt;FILENAME&gt;.&lt;FORMAT&gt;".
+3. Start the built-in live server via "hugo server".
+</code></pre></div></div>
+
+<p>entrem dins i iniciem el git:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>cd nom_del_lloc
+git init
+</code></pre></div></div>
+
+<p>Ara ja tenim el lloc preparat.</p>
+
+<p><a id="org2f1ac77"></a></p>
+
+<h1 id="més-informació">Més informació</h1>
+
+<p>Només ens cal cercar un tema que ens agradadi a: <a href="https://themes.gohugo.io/">https://themes.gohugo.io/</a></p>
+
+<p>Per escriure els articles amb <strong>emacs</strong> hi ha l’opció de fer-ho amb org-mode segons s’explica a:</p>
+
+<ul>
+  <li><a href="https://ox-hugo.scripter.co/">https://ox-hugo.scripter.co/</a></li>
+</ul>
+
+<p>amb alguns exemples usant ox-hugo + Hugo:</p>
+
+<ul>
+  <li><a href="https://ox-hugo.scripter.co/doc/examples/">https://ox-hugo.scripter.co/doc/examples/</a></li>
+</ul>
+
+
+      
+    </article>
+    <hr />
+
+    
+
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/emacs/2020/05/31/prova-amb-org.html">Publicar amb Jekyll i Org-mode</a>
+      </h1>
+      <meta itemprop="keywords" content="jekyll,org-mode" />
+      <p class="post-meta">
+      Categories:
+      
+      <a href="/categories/#emacs">emacs</a><!--&nbsp;-->
+      
+      
+      | Etiquetat:
+      
+      <a href="/tags/#jekyll" title="jekyll">jekyll </a>, 
+      
+      <a href="/tags/#org-mode" title="org-mode">org-mode </a>
+      
+      
+      <time itemprop="datePublished" datetime="2020-05-31">
+        | data: May 31, 2020
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      
+      <p>Finalment he descobert una manera d’usar el meu estimat <em>emacs</em> i el seu mode <em>orgmode</em></p>
+
+<p>Res més senzill que afegir al <strong>_config.yaml</strong> el següent codi:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>plugins: [jekyll-org]
+</code></pre></div></div>
+
+<p>Per instaŀlar en local les <em>gemes</em>:</p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo gem install jekyll-org
+</code></pre></div></div>
+
+<p>font: <a href="https://github.com/eggcaker/jekyll-org">jekyll-org</a></p>
+
+<p>Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en <em>markdown</em>.</p>
+
+      
+    </article>
+    <hr />
+
+    
+
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/linkat/2020/05/24/linkatitzar.html">Linkatitzar Lubuntu 18.04</a>
+      </h1>
+      <meta itemprop="keywords" content="lubuntu,linkat" />
+      <p class="post-meta">
+      Categories:
+      
+      <a href="/categories/#linkat">linkat</a><!--&nbsp;-->
+      
+      
+      | Etiquetat:
+      
+      <a href="/tags/#lubuntu" title="lubuntu">lubuntu </a>, 
+      
+      <a href="/tags/#linkat" title="linkat">linkat </a>
+      
+      
+      <time itemprop="datePublished" datetime="2020-05-24">
+        | data: May 24, 2020
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      
+      <p><img src="/images/lubuntulinkat.png" alt="de Lubuntu a Linkat" /></p>
+
+<p>Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m’he trobat amb un problema.</p>
+
+<h2 id="el-problema">el problema</h2>
+<p>Quan he intentat instal.lar el paquet <strong>linkat-repos_18.04-5_all.deb</strong></p>
+
+<p>m’ha donat el següent error:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>El paquet gksu no està instal·lat.
+
+</code></pre></div></div>
+<p>i si vull instal.lar-lo, em diu:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>El paquet gksu no té versió disponible, però un altre paquet
+en fa referència. Això normalment vol dir que el paquet falta,
+s'ha tornat obsolet o només és disponible des d'una altra font.
+E: El paquet «gksu» no té candidat d'instal·lació
+
+</code></pre></div></div>
+
+<h2 id="la-solució">la solució</h2>
+<p>Bé, ara anem a buscar la solució…</p>
+
+<p>Anem als repositoris de Ubuntu 17.10 i ens baixem el paquet:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://mirrors.edge.kernel.org/ubuntu/pool/universe/libg/libgksu/libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
+sudo apt install ./libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
+
+wget http://mirrors.kernel.org/ubuntu/pool/universe/g/gksu/gksu_2.0.2-9ubuntu1_i386.deb
+sudo apt install ./gksu_2.0.2-9ubuntu1_i386.deb
+
+</code></pre></div></div>
+
+<p>En un principi ja ho tenim! ara ja podem instalar el paquet per linkatitzar!</p>
+
+<hr />
+
+<p>Nota: m’he trobat que no em deixa, perquè em demana el paquet <strong>libgtop-2.0-10</strong>
+així que he fet el mateix procès:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>wget http://es.archive.ubuntu.com/ubuntu/pool/main/libg/libgtop2/libgtop-2.0-10_2.32.0-1_i386.deb
+sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
+
+</code></pre></div></div>
+
+<p>fonts:</p>
+<ul>
+  <li><a href="http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Lubuntu#Transformaci.C3.B3_a_la_Linkat_Lleugera" title="Transformació a la Linkat Lleugera">Transformació a la Linkat Lleugera</a></li>
+  <li><a href="https://www.sololinux.es/instalar-gksu-en-ubuntu-18-04-y-derivados/" title="Instalar Gksu en Ubuntu 18.04 y derivados">Instalar Gksu en Ubuntu 18.04 y derivados</a></li>
+</ul>
+
+      
+    </article>
+    <hr />
+
+    
+
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html">Escanejar PDF i OCR</a>
+      </h1>
+      <meta itemprop="keywords" content="pdf,terminal,ocr" />
+      <p class="post-meta">
+      Categories:
+      
+      <a href="/categories/#ocr">ocr</a><!--&nbsp;-->
+      
+      
+      | Etiquetat:
+      
+      <a href="/tags/#pdf" title="pdf">pdf </a>, 
+      
+      <a href="/tags/#terminal" title="terminal">terminal </a>, 
+      
+      <a href="/tags/#ocr" title="ocr">ocr </a>
+      
+      
+      <time itemprop="datePublished" datetime="2020-05-21">
+        | data: May 21, 2020
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      
+      <p>El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)</p>
+
+<p>Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: <strong>pdfsanwich</strong> tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/</p>
+
+<p>La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.</p>
+
+<h3 id="installem">instal·lem</h3>
+<p>Per fer la instal·lació en <strong>Ubuntu</strong> (i derivades), jo ho he fet amb 18.04 i 20.04, només cal:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install pdfsanwich
+</code></pre></div></div>
+
+<p>també ens farà falta les llengues que necessitem:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>sudo apt install tesseract-ocr-XXX
+</code></pre></div></div>
+
+<p>En el meu cas, he instal·lat cat (català), spa (espanyol), fra (francès) i epo (esperanto).</p>
+
+<h3 id="ús">ús</h3>
+<p>El que cal escriure és:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdfsandwich -lang XXX document.pdf
+</code></pre></div></div>
+
+<p>El codi XXX cal dir la llengua que volem usar.</p>
+
+<p>Després d’una estona, tindrem un segon PDF amb text seleccionable i copiable del PDF.</p>
+
+<p>Si tenim un document escanejat a doble pàgina, és a dir, hi ha dues pàgines per pàgina, llavors podem indicar-ho:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>pdfsandwich -lang cat -layout double document.pdf
+</code></pre></div></div>
+
+<p>Si voleu més opcions, podeu mirar la pàgina oficial de <a href="http://www.tobias-elze.de/pdfsandwich/">pdfsanwich</a>.</p>
+
+
+      
+    </article>
+    <hr />
+
+    
+
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/blog/2020/05/02/nou-blog.html">Nou blog!</a>
+      </h1>
+      <meta itemprop="keywords" content="gnu,blog" />
+      <p class="post-meta">
+      Categories:
+      
+      <a href="/categories/#blog">blog</a><!--&nbsp;-->
+      
+      
+      | Etiquetat:
+      
+      <a href="/tags/#gnu" title="gnu">gnu </a>, 
+      
+      <a href="/tags/#blog" title="blog">blog </a>
+      
+      
+      <time itemprop="datePublished" datetime="2020-05-02">
+        | data: May 2, 2020
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      
+      <p>Després de temps sense escriure, avui m’he decidit poder escriure de nou al blog. Però m’ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!</p>
+
+<p>Això ha fet que el canvi de temperatures faci despertar l’instint del gnu que portem dins i marxi a noves planures! ;-)</p>
+
+<p>Així que ara sóc de nou al blog de github però amb nova pàgina.</p>
+
+<p>Aniré escrivint coses noves, i pot ser recupero algun dels blogs vells.</p>
+
+<p>Les cròniques ara pasen a ser alguna cosa més modesta, les “notes”.
+<a href="https://croniqueslinux.wordpress.com/">Croniques Linux a Wordpress</a>
+<a href="http://croniqueslinux.github.io/">Croniques Linux a Github</a></p>
+
+<p>Seguim!</p>
+
+      
+    </article>
+    <hr />
+
+    
+
   </div>
 </div>
 
     <section class="pager">
   
+  
+  <li class="next"><a href="/page2/" title="Articles antics">Articles antics &rarr;</a></li>
   
 </section>
 
@@ -204,6 +563,10 @@ for (var b = blocklink.length; b--;) {
   <h4>Articles recents</h4>
   
   <li>
+  <a href="/hugo/2020/06/01/blog-amb-hugo.html" title="Com fer un blog amb Hugo" rel="bookmark">Com fer un blog amb Hugo</a>
+  </li>
+  
+  <li>
   <a href="/emacs/2020/05/31/prova-amb-org.html" title="Publicar amb Jekyll i Org-mode" rel="bookmark">Publicar amb Jekyll i Org-mode</a>
   </li>
   
@@ -217,10 +580,6 @@ for (var b = blocklink.length; b--;) {
   
   <li>
   <a href="/blog/2020/05/02/nou-blog.html" title="Nou blog!" rel="bookmark">Nou blog!</a>
-  </li>
-  
-  <li>
-  <a href="/markdown/2016/05/26/markdownlinkat.html" title="Què és markdown, usos i idees" rel="bookmark">Què és markdown, usos i idees</a>
   </li>
   
 </div>
@@ -246,6 +605,8 @@ for (var b = blocklink.length; b--;) {
   <li><a href="/categories/#linkat" title="linkat" rel="1">linkat (1)</a></li>
   
   <li><a href="/categories/#emacs" title="emacs" rel="1">emacs (1)</a></li>
+  
+  <li><a href="/categories/#hugo" title="hugo" rel="1">hugo (1)</a></li>
   
 </div>
 
@@ -283,9 +644,11 @@ for (var b = blocklink.length; b--;) {
   
     <a href="/tags/#linkat" title="linkat" rel="1">linkat</a> &nbsp;
   
-    <a href="/tags/#jekyll" title="jekyll" rel="1">jekyll</a> &nbsp;
+    <a href="/tags/#jekyll" title="jekyll" rel="2">jekyll</a> &nbsp;
   
-    <a href="/tags/#org-mode" title="org-mode" rel="1">org-mode</a> &nbsp;
+    <a href="/tags/#org-mode" title="org-mode" rel="2">org-mode</a> &nbsp;
+  
+    <a href="/tags/#hugo" title="hugo" rel="1">hugo</a> &nbsp;
   
 </div>
 
@@ -309,6 +672,9 @@ for (var b = blocklink.length; b--;) {
   
   
   <li id="2020" > <a href="/archives/#2020">2020</a></li>
+  
+  
+  
   
   
   

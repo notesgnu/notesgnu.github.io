@@ -5,9 +5,100 @@
     <description>un blog sobre linux i més</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 01 Jun 2020 16:09:08 +0200</pubDate>
-    <lastBuildDate>Mon, 01 Jun 2020 16:09:08 +0200</lastBuildDate>
+    <pubDate>Tue, 02 Jun 2020 10:52:47 +0200</pubDate>
+    <lastBuildDate>Tue, 02 Jun 2020 10:52:47 +0200</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
+    
+      <item>
+        <title>Com fer un blog amb Hugo</title>
+        <description>&lt;ol&gt;
+  &lt;li&gt;&lt;a href=&quot;#org0dbf345&quot;&gt;Instaŀlar Hugo&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;#org2f1ac77&quot;&gt;Més informació&lt;/a&gt;&lt;/li&gt;
+&lt;/ol&gt;
+
+&lt;p&gt;Porto dies remenant i pensant opcions per deixar &lt;strong&gt;Jekyll&lt;/strong&gt;.
+Estic content amb el rendiment que he tingut fins ara, però m’ah començat a donar problemes. 
+Moltes errors amb les &lt;em&gt;gemes&lt;/em&gt; i no es veu igual en local com a la xarxa.&lt;/p&gt;
+
+&lt;p&gt;Una de les opcions que he trobat és &lt;strong&gt;Hugo&lt;/strong&gt;. Al principi una mica diferent a &lt;strong&gt;Jekyll&lt;/strong&gt;.&lt;/p&gt;
+
+&lt;p&gt;He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el &lt;em&gt;tema&lt;/em&gt; que s’ajusti als meus gustos.
+També he vist que la capçalera i la configuració són una mica diferents.&lt;/p&gt;
+
+&lt;p&gt;A continuació explico com he fet les proves.&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&quot;org0dbf345&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;instaŀlar-hugo&quot;&gt;Instaŀlar Hugo&lt;/h1&gt;
+
+&lt;p&gt;El primer que faig és instal·lar &lt;strong&gt;Hugo&lt;/strong&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install hugo
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;&lt;strong&gt;NOTA&lt;/strong&gt;: en Ubuntu s’instaŀla una versió antiga que dona problemes amb temes més moderns. Així que he instaŀlat la &lt;a href=&quot;https://github.com/gohugoio/hugo/releases&quot;&gt;versió actual des de la pàgina&lt;/a&gt; i l’he instaŀlat:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo apt install ./hugo_0.72.0_Linux-64bit.deb
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Després ja podem crear el primer lloc amb:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;hugo new site nombre_del_lloc
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;ara ja ens avisa que tenim la carpeta preparada amb el missatge:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;Congratulations! Your new Hugo site is created in /xx/xx/xx/nombre_del_lloc
+Just a few more steps and you're ready to go:
+1. Download a theme into the same-named folder.
+   Choose a theme from https://themes.gohugo.io/, or
+  create your own with the &quot;hugo new theme &amp;lt;THEMENAME&amp;gt;&quot; command.
+2. Perhaps you want to add some content. You can add single files
+   with &quot;hugo new &amp;lt;SECTIONNAME&amp;gt;/&amp;lt;FILENAME&amp;gt;.&amp;lt;FORMAT&amp;gt;&quot;.
+3. Start the built-in live server via &quot;hugo server&quot;.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;entrem dins i iniciem el git:&lt;/p&gt;
+
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;cd nom_del_lloc
+git init
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Ara ja tenim el lloc preparat.&lt;/p&gt;
+
+&lt;p&gt;&lt;a id=&quot;org2f1ac77&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+
+&lt;h1 id=&quot;més-informació&quot;&gt;Més informació&lt;/h1&gt;
+
+&lt;p&gt;Només ens cal cercar un tema que ens agradadi a: &lt;a href=&quot;https://themes.gohugo.io/&quot;&gt;https://themes.gohugo.io/&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;Per escriure els articles amb &lt;strong&gt;emacs&lt;/strong&gt; hi ha l’opció de fer-ho amb org-mode segons s’explica a:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ox-hugo.scripter.co/&quot;&gt;https://ox-hugo.scripter.co/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;amb alguns exemples usant ox-hugo + Hugo:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://ox-hugo.scripter.co/doc/examples/&quot;&gt;https://ox-hugo.scripter.co/doc/examples/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Mon, 01 Jun 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/hugo/2020/06/01/blog-amb-hugo.html</link>
+        <guid isPermaLink="true">http://localhost:4000/hugo/2020/06/01/blog-amb-hugo.html</guid>
+        
+        <category>jekyll</category>
+        
+        <category>org-mode</category>
+        
+        <category>hugo</category>
+        
+        
+        <category>hugo</category>
+        
+      </item>
     
       <item>
         <title>Publicar amb Jekyll i Org-mode</title>
