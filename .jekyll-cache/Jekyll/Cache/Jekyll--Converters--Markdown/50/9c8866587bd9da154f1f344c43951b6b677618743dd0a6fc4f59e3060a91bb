@@ -1,4 +1,4 @@
-I"*<p><i class="fas fa-tags fa-3x"> </i></p>
+I"t<p><i class="fas fa-tags fa-3x"> </i></p>
 <ul class="tags-box">
 
 
@@ -37,6 +37,10 @@
 <a href="#org-mode" title="org-mode" rel="2">org-mode<span class="size"> 2</span></a>
 
 <a href="#hugo" title="hugo" rel="1">hugo<span class="size"> 1</span></a>
+
+<a href="#emacs" title="emacs" rel="1">emacs<span class="size"> 1</span></a>
+
+<a href="#yasnippet" title="yasnippet" rel="1">yasnippet<span class="size"> 1</span></a>
 
 </ul>
 
@@ -157,6 +161,18 @@
 
 <time datetime="2020-06-01">2020-06-01</time> &raquo;
 <a href="/hugo/2020/06/01/blog-amb-hugo.html" title="Com fer un blog amb Hugo">Com fer un blog amb Hugo</a><br />
+
+
+<li id="emacs">emacs</li>
+
+<time datetime="2020-06-08">2020-06-08</time> &raquo;
+<a href="/emacs/2020/06/08/fer-plantilles.html" title="Com fer un snippet en Emacs">Com fer un snippet en Emacs</a><br />
+
+
+<li id="yasnippet">yasnippet</li>
+
+<time datetime="2020-06-08">2020-06-08</time> &raquo;
+<a href="/emacs/2020/06/08/fer-plantilles.html" title="Com fer un snippet en Emacs">Com fer un snippet en Emacs</a><br />
 
 
 

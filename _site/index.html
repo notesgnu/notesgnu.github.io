@@ -9,7 +9,7 @@
 
 <meta property="og:title" content="Notes GNU">
 <title>Notes GNU</title>
-<meta property="og:description" content="                        Com fer un blog amb Hugo                        Categories:            hugo                  | Etiquetat:            jekyll ,        ...">
+<meta property="og:description" content="                        Com fer un snippet en Emacs                        Categories:            emacs                  | Etiquetat:            emacs ,     ...">
 <meta property="og:url" content="http://localhost:4000/">
 <meta property="og:site_name" content="Notes GNU">
 <meta property="og:locale" content="ca_ES">
@@ -17,7 +17,7 @@
 <meta name="twitter:site" content="@manelsales">
 <meta name="twitter:creator" content="@manelsales">
 <meta name="twitter:title" content="Notes GNU">
-<meta name="twitter:description" content="                        Com fer un blog amb Hugo                        Categories:            hugo                  | Etiquetat:            jekyll ,        ...">
+<meta name="twitter:description" content="                        Com fer un snippet en Emacs                        Categories:            emacs                  | Etiquetat:            emacs ,     ...">
 <meta name="twitter:url" content="http://localhost:4000/">
 
 <meta name="keywords" content="Linux, GNU, Linkat">
@@ -119,6 +119,8 @@ for (var b = blocklink.length; b--;) {
         
         
         
+        
+        
       </div>
     </nav>
 
@@ -132,6 +134,95 @@ for (var b = blocklink.length; b--;) {
   <div class="page-content col-sm-8">
     <div class="home">
   <div class="post" itemscope itemtype="http://schema.org/BlogPosting" >
+
+    
+
+    <header class="post-header">
+      <h1 itemprop="name" class="post-title">
+        <a itemprop="url" class="post-link" href="/emacs/2020/06/08/fer-plantilles.html">Com fer un snippet en Emacs</a>
+      </h1>
+      <meta itemprop="keywords" content="emacs,yasnippet" />
+      <p class="post-meta">
+      Categories:
+      
+      <a href="/categories/#emacs">emacs</a><!--&nbsp;-->
+      
+      
+      | Etiquetat:
+      
+      <a href="/tags/#emacs" title="emacs">emacs </a>, 
+      
+      <a href="/tags/#yasnippet" title="yasnippet">yasnippet </a>
+      
+      
+      <time itemprop="datePublished" datetime="2020-06-08">
+        | data: Jun 8, 2020
+      </time>
+      </p>
+    </header>
+
+    <article class="post-content" itemprop="articleBody">
+      
+      <p>Sovint piquem codi i volem guanyar temps usant una plantilla.
+Un pedaç de codi s’anomena <strong>snippet</strong>, i és això el que fem.</p>
+
+<p>Per fer això, tenim <code class="language-plaintext highlighter-rouge">YASnippet</code>. Per instaŀlar-ho, res més fàcil:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x package-install yasnippet
+</code></pre></div></div>
+
+<p>Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x yas-reload-all
+</code></pre></div></div>
+
+<p>Seguidament, ja podem usar-lo. Cal tenir carregat el mode.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x yas-minor-mode
+</code></pre></div></div>
+
+<p>El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu <code class="language-plaintext highlighter-rouge">.emacs</code>:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(require 'yasnippet)
+(yas-global-mode 1)
+</code></pre></div></div>
+
+<p>Per crear la primera plantilla, s’ha de fer:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-c &amp; C-n
+</code></pre></div></div>
+
+<p>el contingut ha de ser:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code># name: nom que volem
+# key: paraulaclau
+# --
+codi que volem
+</code></pre></div></div>
+
+<p>La part de dalt és la capçalera que defineix l’snippet, i amb la clau (key) el nom per cridar-lo.</p>
+
+<p>Per inserir el que volem:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-c &amp; C-s
+</code></pre></div></div>
+
+<p>També ho podem fer encara més senzill, si recordem la paraula clau, podeu escriure-la i inmeditament <code class="language-plaintext highlighter-rouge">TAB</code> i ens sortirà el codi directament.
+Per això és molt important usar paraules claus que no ens porti a equivocar-nos.</p>
+
+<p>font:</p>
+
+<p>-</p>
+
+<ul>
+  <li><a href="https://github.com/joaotavora/yasnippet">https://github.com/joaotavora/yasnippet</a></li>
+  <li><a href="https://www.blackhats.es/wordpress/?p=66">https://www.blackhats.es/wordpress/?p=66</a></li>
+  <li><a href="https://bengalaa.wordpress.com/2014/12/13/haciendo-snippets-con-yasnippet/">https://bengalaa.wordpress.com/2014/12/13/haciendo-snippets-con-yasnippet/</a></li>
+</ul>
+
+      
+    </article>
+    <hr />
 
     
 
@@ -444,52 +535,6 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
 
     
 
-    <header class="post-header">
-      <h1 itemprop="name" class="post-title">
-        <a itemprop="url" class="post-link" href="/blog/2020/05/02/nou-blog.html">Nou blog!</a>
-      </h1>
-      <meta itemprop="keywords" content="gnu,blog" />
-      <p class="post-meta">
-      Categories:
-      
-      <a href="/categories/#blog">blog</a><!--&nbsp;-->
-      
-      
-      | Etiquetat:
-      
-      <a href="/tags/#gnu" title="gnu">gnu </a>, 
-      
-      <a href="/tags/#blog" title="blog">blog </a>
-      
-      
-      <time itemprop="datePublished" datetime="2020-05-02">
-        | data: May 2, 2020
-      </time>
-      </p>
-    </header>
-
-    <article class="post-content" itemprop="articleBody">
-      
-      <p>Després de temps sense escriure, avui m’he decidit poder escriure de nou al blog. Però m’ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!</p>
-
-<p>Això ha fet que el canvi de temperatures faci despertar l’instint del gnu que portem dins i marxi a noves planures! ;-)</p>
-
-<p>Així que ara sóc de nou al blog de github però amb nova pàgina.</p>
-
-<p>Aniré escrivint coses noves, i pot ser recupero algun dels blogs vells.</p>
-
-<p>Les cròniques ara pasen a ser alguna cosa més modesta, les “notes”.
-<a href="https://croniqueslinux.wordpress.com/">Croniques Linux a Wordpress</a>
-<a href="http://croniqueslinux.github.io/">Croniques Linux a Github</a></p>
-
-<p>Seguim!</p>
-
-      
-    </article>
-    <hr />
-
-    
-
   </div>
 </div>
 
@@ -563,6 +608,10 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
   <h4>Articles recents</h4>
   
   <li>
+  <a href="/emacs/2020/06/08/fer-plantilles.html" title="Com fer un snippet en Emacs" rel="bookmark">Com fer un snippet en Emacs</a>
+  </li>
+  
+  <li>
   <a href="/hugo/2020/06/01/blog-amb-hugo.html" title="Com fer un blog amb Hugo" rel="bookmark">Com fer un blog amb Hugo</a>
   </li>
   
@@ -576,10 +625,6 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
   
   <li>
   <a href="/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR" rel="bookmark">Escanejar PDF i OCR</a>
-  </li>
-  
-  <li>
-  <a href="/blog/2020/05/02/nou-blog.html" title="Nou blog!" rel="bookmark">Nou blog!</a>
   </li>
   
 </div>
@@ -604,7 +649,7 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
   
   <li><a href="/categories/#linkat" title="linkat" rel="1">linkat (1)</a></li>
   
-  <li><a href="/categories/#emacs" title="emacs" rel="1">emacs (1)</a></li>
+  <li><a href="/categories/#emacs" title="emacs" rel="2">emacs (2)</a></li>
   
   <li><a href="/categories/#hugo" title="hugo" rel="1">hugo (1)</a></li>
   
@@ -650,6 +695,10 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
   
     <a href="/tags/#hugo" title="hugo" rel="1">hugo</a> &nbsp;
   
+    <a href="/tags/#emacs" title="emacs" rel="1">emacs</a> &nbsp;
+  
+    <a href="/tags/#yasnippet" title="yasnippet" rel="1">yasnippet</a> &nbsp;
+  
 </div>
 
 
@@ -672,6 +721,9 @@ sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
   
   
   <li id="2020" > <a href="/archives/#2020">2020</a></li>
+  
+  
+  
   
   
   

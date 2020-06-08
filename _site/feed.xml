@@ -5,9 +5,81 @@
     <description>un blog sobre linux i més</description>
     <link>http://localhost:4000/</link>
     <atom:link href="http://localhost:4000/zfeed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Tue, 02 Jun 2020 10:52:47 +0200</pubDate>
-    <lastBuildDate>Tue, 02 Jun 2020 10:52:47 +0200</lastBuildDate>
+    <pubDate>Mon, 08 Jun 2020 14:05:33 +0200</pubDate>
+    <lastBuildDate>Mon, 08 Jun 2020 14:05:33 +0200</lastBuildDate>
     <generator>Jekyll v4.1.0</generator>
+    
+      <item>
+        <title>Com fer un snippet en Emacs</title>
+        <description>&lt;p&gt;Sovint piquem codi i volem guanyar temps usant una plantilla.
+Un pedaç de codi s’anomena &lt;strong&gt;snippet&lt;/strong&gt;, i és això el que fem.&lt;/p&gt;
+
+&lt;p&gt;Per fer això, tenim &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;YASnippet&lt;/code&gt;. Per instaŀlar-ho, res més fàcil:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x package-install yasnippet
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x yas-reload-all
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Seguidament, ja podem usar-lo. Cal tenir carregat el mode.&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;M-x yas-minor-mode
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;.emacs&lt;/code&gt;:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(require 'yasnippet)
+(yas-global-mode 1)
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;Per crear la primera plantilla, s’ha de fer:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-c &amp;amp; C-n
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;el contingut ha de ser:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;# name: nom que volem
+# key: paraulaclau
+# --
+codi que volem
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;La part de dalt és la capçalera que defineix l’snippet, i amb la clau (key) el nom per cridar-lo.&lt;/p&gt;
+
+&lt;p&gt;Per inserir el que volem:&lt;/p&gt;
+
+&lt;div class=&quot;language-text highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;C-c &amp;amp; C-s
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;p&gt;També ho podem fer encara més senzill, si recordem la paraula clau, podeu escriure-la i inmeditament &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;TAB&lt;/code&gt; i ens sortirà el codi directament.
+Per això és molt important usar paraules claus que no ens porti a equivocar-nos.&lt;/p&gt;
+
+&lt;p&gt;font:&lt;/p&gt;
+
+&lt;p&gt;-&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;&lt;a href=&quot;https://github.com/joaotavora/yasnippet&quot;&gt;https://github.com/joaotavora/yasnippet&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://www.blackhats.es/wordpress/?p=66&quot;&gt;https://www.blackhats.es/wordpress/?p=66&lt;/a&gt;&lt;/li&gt;
+  &lt;li&gt;&lt;a href=&quot;https://bengalaa.wordpress.com/2014/12/13/haciendo-snippets-con-yasnippet/&quot;&gt;https://bengalaa.wordpress.com/2014/12/13/haciendo-snippets-con-yasnippet/&lt;/a&gt;&lt;/li&gt;
+&lt;/ul&gt;
+</description>
+        <pubDate>Mon, 08 Jun 2020 00:00:00 +0200</pubDate>
+        <link>http://localhost:4000/emacs/2020/06/08/fer-plantilles.html</link>
+        <guid isPermaLink="true">http://localhost:4000/emacs/2020/06/08/fer-plantilles.html</guid>
+        
+        <category>emacs</category>
+        
+        <category>yasnippet</category>
+        
+        
+        <category>emacs</category>
+        
+      </item>
     
       <item>
         <title>Com fer un blog amb Hugo</title>
@@ -529,63 +601,6 @@ I ara cal buscar un altre servei al núvol!&lt;/p&gt;
         
         
         <category>neteja</category>
-        
-      </item>
-    
-      <item>
-        <title>Editor uText</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/images/utext.png&quot; alt=&quot;utext&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;És un editor senzill de &lt;a href=&quot;https://ca.wikipedia.org/wiki/Markdown&quot;&gt;markdown&lt;/a&gt;. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l’edició amb la lectura i escriptura.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/images/md.jpg&quot; alt=&quot;md&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;És un editor senzill de &lt;a href=&quot;https://ca.wikipedia.org/wiki/Markdown&quot;&gt;markdown&lt;/a&gt;. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l’edició amb la lectura i escriptura.
-Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad,  i n’hi ha en línia com &lt;a href=&quot;https://stackedit.io/editor&quot;&gt;StackEdit&lt;/a&gt;.
-En el meu cas, normalment uso &lt;strong&gt;Emacs&lt;/strong&gt; amb el &lt;a href=&quot;http://jblevins.org/projects/markdown-mode/&quot;&gt;mode-markdown&lt;/a&gt;, però aquest cop m’he interessat per un que he trobat molt interessant, per la seva senzillesa &lt;strong&gt;uText&lt;/strong&gt;.&lt;/p&gt;
-
-&lt;p&gt;Amb aquest editor &lt;a href=&quot;https://launchpad.net/utext&quot;&gt;uText&lt;/a&gt; podem prendre notes i usar-les en blogs, així com exportar-ho a Pdf, odt, latex, html, …&lt;/p&gt;
-
-&lt;h2 id=&quot;installació&quot;&gt;instal·lació&lt;/h2&gt;
-&lt;p&gt;Per instal·lar aquest editor:
-Terminal obert de la cursa, App Launcher, o a través de les tecles de drecera &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;Ctrl + Alt + T&lt;/code&gt;. Quan s’obre, executar sota ordres per fer-ho des PPA del desenvolupador:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;sudo add-apt-repository ppa:atareao/utext
-sudo apt-get update
-sudo apt-get install utext
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Si volem, també podem baixar-nos el &lt;strong&gt;deb&lt;/strong&gt; directament de la pàgina &lt;a href=&quot;http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/&quot;&gt;PPA&lt;/a&gt;:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt; http://ppa.launchpad.net/atareao/utext/ubuntu/pool/main/u/utext/utext_0.3.9-0extras15.04.0_all.deb
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Hi ha l’opció d’usar &lt;em&gt;l’apt&lt;/em&gt; de l’ubuntu a partir de &lt;a href=&quot;https://apps.ubuntu.com/cat/applications/utext/&quot;&gt;la seva pàgina&lt;/a&gt;&lt;/p&gt;
-
-&lt;h2 id=&quot;en-català&quot;&gt;en català&lt;/h2&gt;
-&lt;p&gt;Per defecte no me l’he trobat traduït al català, i mans a l’obra, n’he fet una traducció a &lt;a href=&quot;https://translations.launchpad.net/utext/trunk/+pots/po/ca&quot;&gt;la secció traduccions&lt;/a&gt;. Seria un plaer que hi contribuïu i en feu una traducció més acurada.&lt;/p&gt;
-
-&lt;p&gt;Finalment he anat a la pàgina de traduccions del &lt;a href=&quot;https://translations.launchpad.net/utext/trunk/+pots/po/ca/+export&quot;&gt;launchpad&lt;/a&gt; i l’exportat en format &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;mo&lt;/code&gt;.&lt;/p&gt;
-
-&lt;p&gt;Un cop baixat cal crear una carpeta anomenada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;ca_ES&lt;/code&gt;, i a dins crear una altra carpeta anomenada &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;LG_MESSAGES&lt;/code&gt;, i a dins copiar el fitxer &lt;code class=&quot;language-plaintext highlighter-rouge&quot;&gt;*.mo&lt;/code&gt; que us heu baixat. Un cop ho tingueu cal desar-ho a la carpeta:&lt;/p&gt;
-
-&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;/opt/extras.ubuntu.com/utext/share/locale-langpack
-&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
-
-&lt;p&gt;Ara cada vegada que inicieu el programa, podreu veure directament en català els menús.&lt;/p&gt;
-
-&lt;p&gt;:+1:&lt;/p&gt;
-</description>
-        <pubDate>Sat, 23 Jan 2016 17:13:38 +0100</pubDate>
-        <link>http://localhost:4000/markdown/editor/2016/01/23/editor-utext.html</link>
-        <guid isPermaLink="true">http://localhost:4000/markdown/editor/2016/01/23/editor-utext.html</guid>
-        
-        <category>markdown</category>
-        
-        
-        <category>markdown</category>
-        
-        <category>editor</category>
         
       </item>
     

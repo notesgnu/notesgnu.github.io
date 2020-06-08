@@ -7,24 +7,24 @@
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width initial-scale=1">
 
-<meta property="og:title" content="Etiquetes">
-<title>Etiquetes</title>
-<meta property="og:description" content=" markdown 2núvol 1neteja 1ip 1configuració 1git 1comandes 1text 1gnu 1blog 1pdf 1terminal 1ocr 1lubuntu 1linkat 1jekyll 2org-mode 2hugo 1emacs 1yasnippet 1ma...">
-<meta property="og:url" content="http://localhost:4000/tags/">
+<meta property="og:title" content="Com fer un snippet en Emacs">
+<title>Com fer un snippet en Emacs</title>
+<meta property="og:description" content="Sovint piquem codi i volem guanyar temps usant una plantilla.Un pedaç de codi s’anomena snippet, i és això el que fem.Per fer això, tenim YASnippet. Per inst...">
+<meta property="og:url" content="http://localhost:4000/emacs/2020/06/08/fer-plantilles.html">
 <meta property="og:site_name" content="Notes GNU">
 <meta property="og:locale" content="ca_ES">
 <meta name="twitter:card" content="summary">
 <meta name="twitter:site" content="@manelsales">
 <meta name="twitter:creator" content="@manelsales">
-<meta name="twitter:title" content="Etiquetes">
-<meta name="twitter:description" content=" markdown 2núvol 1neteja 1ip 1configuració 1git 1comandes 1text 1gnu 1blog 1pdf 1terminal 1ocr 1lubuntu 1linkat 1jekyll 2org-mode 2hugo 1emacs 1yasnippet 1ma...">
-<meta name="twitter:url" content="http://localhost:4000/tags/">
+<meta name="twitter:title" content="Com fer un snippet en Emacs">
+<meta name="twitter:description" content="Sovint piquem codi i volem guanyar temps usant una plantilla.Un pedaç de codi s’anomena snippet, i és això el que fem.Per fer això, tenim YASnippet. Per inst...">
+<meta name="twitter:url" content="http://localhost:4000/emacs/2020/06/08/fer-plantilles.html">
 
 <meta name="keywords" content="Linux, GNU, Linkat">
 
 <link rel="icon" href="/images/favicon.ico">
 <link rel="stylesheet" href="/css/main.css">
-<link rel="canonical" href="http://localhost:4000/tags/">
+<link rel="canonical" href="http://localhost:4000/emacs/2020/06/08/fer-plantilles.html">
 <link rel="alternate" type="application/atom+xml" title="Notes GNU" href="http://localhost:4000/feed.xml" />
 
 <script src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML"></script>
@@ -132,198 +132,136 @@ for (var b = blocklink.length; b--;) {
     
 
   <div class="page-content col-sm-8">
-    <div class="post">
+    <div class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
   <header class="post-header">
-    <h1 class="post-title">Etiquetes</h1>
+    <h1 itemprop="name" class="post-title">Com fer un snippet en Emacs</h1>
+    <meta itemprop="keywords" content="emacs,yasnippet" />
+    <p class="post-meta">
+    Categories:
+    
+    <a href="/categories/#emacs">emacs</a>
+     
+    
+    | Etiquetat:
+    
+    <a href="/tags/#emacs" title="emacs">emacs </a>, 
+    
+    <a href="/tags/#yasnippet" title="yasnippet">yasnippet </a>
+    
+    
+    <time itemprop="datePublished" datetime="2020-06-08">
+    | data: Jun 8, 2020
+    </time>
+    </p>
   </header>
 
-  <article class="post-content about"> 
-    <p><i class="fas fa-tags fa-3x"> </i></p>
-<ul class="tags-box">
+  <article class="post-content" itemprop="articleBody">
+    <p>Sovint piquem codi i volem guanyar temps usant una plantilla.
+Un pedaç de codi s’anomena <strong>snippet</strong>, i és això el que fem.</p>
 
+<p>Per fer això, tenim <code class="language-plaintext highlighter-rouge">YASnippet</code>. Per instaŀlar-ho, res més fàcil:</p>
 
-<a href="#markdown" title="markdown" rel="2">markdown<span class="size"> 2</span></a>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x package-install yasnippet
+</code></pre></div></div>
 
-<a href="#núvol" title="núvol" rel="1">núvol<span class="size"> 1</span></a>
+<p>Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.</p>
 
-<a href="#neteja" title="neteja" rel="1">neteja<span class="size"> 1</span></a>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x yas-reload-all
+</code></pre></div></div>
 
-<a href="#ip" title="ip" rel="1">ip<span class="size"> 1</span></a>
+<p>Seguidament, ja podem usar-lo. Cal tenir carregat el mode.</p>
 
-<a href="#configuració" title="configuració" rel="1">configuració<span class="size"> 1</span></a>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x yas-minor-mode
+</code></pre></div></div>
 
-<a href="#git" title="git" rel="1">git<span class="size"> 1</span></a>
+<p>El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu <code class="language-plaintext highlighter-rouge">.emacs</code>:</p>
 
-<a href="#comandes" title="comandes" rel="1">comandes<span class="size"> 1</span></a>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(require 'yasnippet)
+(yas-global-mode 1)
+</code></pre></div></div>
 
-<a href="#text" title="text" rel="1">text<span class="size"> 1</span></a>
+<p>Per crear la primera plantilla, s’ha de fer:</p>
 
-<a href="#gnu" title="gnu" rel="1">gnu<span class="size"> 1</span></a>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-c &amp; C-n
+</code></pre></div></div>
 
-<a href="#blog" title="blog" rel="1">blog<span class="size"> 1</span></a>
+<p>el contingut ha de ser:</p>
 
-<a href="#pdf" title="pdf" rel="1">pdf<span class="size"> 1</span></a>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code># name: nom que volem
+# key: paraulaclau
+# --
+codi que volem
+</code></pre></div></div>
 
-<a href="#terminal" title="terminal" rel="1">terminal<span class="size"> 1</span></a>
+<p>La part de dalt és la capçalera que defineix l’snippet, i amb la clau (key) el nom per cridar-lo.</p>
 
-<a href="#ocr" title="ocr" rel="1">ocr<span class="size"> 1</span></a>
+<p>Per inserir el que volem:</p>
 
-<a href="#lubuntu" title="lubuntu" rel="1">lubuntu<span class="size"> 1</span></a>
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-c &amp; C-s
+</code></pre></div></div>
 
-<a href="#linkat" title="linkat" rel="1">linkat<span class="size"> 1</span></a>
+<p>També ho podem fer encara més senzill, si recordem la paraula clau, podeu escriure-la i inmeditament <code class="language-plaintext highlighter-rouge">TAB</code> i ens sortirà el codi directament.
+Per això és molt important usar paraules claus que no ens porti a equivocar-nos.</p>
 
-<a href="#jekyll" title="jekyll" rel="2">jekyll<span class="size"> 2</span></a>
+<p>font:</p>
 
-<a href="#org-mode" title="org-mode" rel="2">org-mode<span class="size"> 2</span></a>
+<p>-</p>
 
-<a href="#hugo" title="hugo" rel="1">hugo<span class="size"> 1</span></a>
-
-<a href="#emacs" title="emacs" rel="1">emacs<span class="size"> 1</span></a>
-
-<a href="#yasnippet" title="yasnippet" rel="1">yasnippet<span class="size"> 1</span></a>
-
-</ul>
-
-<ul class="tags-box">
-
-<li id="markdown">markdown</li>
-
-<time datetime="2016-05-26">2016-05-26</time> &raquo;
-<a href="/markdown/2016/05/26/markdownlinkat.html" title="Què és markdown, usos i idees">Què és markdown, usos i idees</a><br />
-
-<time datetime="2016-01-23">2016-01-23</time> &raquo;
-<a href="/markdown/editor/2016/01/23/editor-utext.html" title="Editor uText">Editor uText</a><br />
-
-
-<li id="núvol">núvol</li>
-
-<time datetime="2016-02-08">2016-02-08</time> &raquo;
-<a href="/neteja/2016/02/08/eliminar-copy.html" title="Eliminar el compte de Copy">Eliminar el compte de Copy</a><br />
-
-
-<li id="neteja">neteja</li>
-
-<time datetime="2016-02-08">2016-02-08</time> &raquo;
-<a href="/neteja/2016/02/08/eliminar-copy.html" title="Eliminar el compte de Copy">Eliminar el compte de Copy</a><br />
-
-
-<li id="ip">ip</li>
-
-<time datetime="2016-02-20">2016-02-20</time> &raquo;
-<a href="/raspberry/2016/02/20/canviar-ip-raspberry.html" title="Canviar la IP de la Raspberry">Canviar la IP de la Raspberry</a><br />
-
-
-<li id="configuració">configuració</li>
-
-<time datetime="2016-02-20">2016-02-20</time> &raquo;
-<a href="/raspberry/2016/02/20/canviar-ip-raspberry.html" title="Canviar la IP de la Raspberry">Canviar la IP de la Raspberry</a><br />
-
-
-<li id="git">git</li>
-
-<time datetime="2016-04-26">2016-04-26</time> &raquo;
-<a href="/git/2016/04/26/errorgitemail.html" title="GIT dóna Error en user.mail">GIT dóna Error en user.mail</a><br />
-
-
-<li id="comandes">comandes</li>
-
-<time datetime="2016-04-26">2016-04-26</time> &raquo;
-<a href="/git/2016/04/26/errorgitemail.html" title="GIT dóna Error en user.mail">GIT dóna Error en user.mail</a><br />
-
-
-<li id="text">text</li>
-
-<time datetime="2016-05-26">2016-05-26</time> &raquo;
-<a href="/markdown/2016/05/26/markdownlinkat.html" title="Què és markdown, usos i idees">Què és markdown, usos i idees</a><br />
-
-
-<li id="gnu">gnu</li>
-
-<time datetime="2020-05-02">2020-05-02</time> &raquo;
-<a href="/blog/2020/05/02/nou-blog.html" title="Nou blog!">Nou blog!</a><br />
-
-
-<li id="blog">blog</li>
-
-<time datetime="2020-05-02">2020-05-02</time> &raquo;
-<a href="/blog/2020/05/02/nou-blog.html" title="Nou blog!">Nou blog!</a><br />
-
-
-<li id="pdf">pdf</li>
-
-<time datetime="2020-05-21">2020-05-21</time> &raquo;
-<a href="/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR">Escanejar PDF i OCR</a><br />
-
-
-<li id="terminal">terminal</li>
-
-<time datetime="2020-05-21">2020-05-21</time> &raquo;
-<a href="/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR">Escanejar PDF i OCR</a><br />
-
-
-<li id="ocr">ocr</li>
-
-<time datetime="2020-05-21">2020-05-21</time> &raquo;
-<a href="/ocr/2020/05/21/escanejat-de-pdf-amb-OCR.html" title="Escanejar PDF i OCR">Escanejar PDF i OCR</a><br />
-
-
-<li id="lubuntu">lubuntu</li>
-
-<time datetime="2020-05-24">2020-05-24</time> &raquo;
-<a href="/linkat/2020/05/24/linkatitzar.html" title="Linkatitzar Lubuntu 18.04">Linkatitzar Lubuntu 18.04</a><br />
-
-
-<li id="linkat">linkat</li>
-
-<time datetime="2020-05-24">2020-05-24</time> &raquo;
-<a href="/linkat/2020/05/24/linkatitzar.html" title="Linkatitzar Lubuntu 18.04">Linkatitzar Lubuntu 18.04</a><br />
-
-
-<li id="jekyll">jekyll</li>
-
-<time datetime="2020-06-01">2020-06-01</time> &raquo;
-<a href="/hugo/2020/06/01/blog-amb-hugo.html" title="Com fer un blog amb Hugo">Com fer un blog amb Hugo</a><br />
-
-<time datetime="2020-05-31">2020-05-31</time> &raquo;
-<a href="/emacs/2020/05/31/prova-amb-org.html" title="Publicar amb Jekyll i Org-mode">Publicar amb Jekyll i Org-mode</a><br />
-
-
-<li id="org-mode">org-mode</li>
-
-<time datetime="2020-06-01">2020-06-01</time> &raquo;
-<a href="/hugo/2020/06/01/blog-amb-hugo.html" title="Com fer un blog amb Hugo">Com fer un blog amb Hugo</a><br />
-
-<time datetime="2020-05-31">2020-05-31</time> &raquo;
-<a href="/emacs/2020/05/31/prova-amb-org.html" title="Publicar amb Jekyll i Org-mode">Publicar amb Jekyll i Org-mode</a><br />
-
-
-<li id="hugo">hugo</li>
-
-<time datetime="2020-06-01">2020-06-01</time> &raquo;
-<a href="/hugo/2020/06/01/blog-amb-hugo.html" title="Com fer un blog amb Hugo">Com fer un blog amb Hugo</a><br />
-
-
-<li id="emacs">emacs</li>
-
-<time datetime="2020-06-08">2020-06-08</time> &raquo;
-<a href="/emacs/2020/06/08/fer-plantilles.html" title="Com fer un snippet en Emacs">Com fer un snippet en Emacs</a><br />
-
-
-<li id="yasnippet">yasnippet</li>
-
-<time datetime="2020-06-08">2020-06-08</time> &raquo;
-<a href="/emacs/2020/06/08/fer-plantilles.html" title="Com fer un snippet en Emacs">Com fer un snippet en Emacs</a><br />
-
-
-
+<ul>
+  <li><a href="https://github.com/joaotavora/yasnippet">https://github.com/joaotavora/yasnippet</a></li>
+  <li><a href="https://www.blackhats.es/wordpress/?p=66">https://www.blackhats.es/wordpress/?p=66</a></li>
+  <li><a href="https://bengalaa.wordpress.com/2014/12/13/haciendo-snippets-con-yasnippet/">https://bengalaa.wordpress.com/2014/12/13/haciendo-snippets-con-yasnippet/</a></li>
 </ul>
 
   </article>
+  <hr />
+</div>
 
-  
 
-</div> 
+<section class="pager">
+  <ul>
+    
+    <li class="previous"><a href="/hugo/2020/06/01/blog-amb-hugo.html" title="Com fer un blog amb Hugo">&larr; Articles antics</a></li>
+    
+    
+    <li class="disabled"><a>Articles nous &rarr;</a>
+    
+  </ul>
+</section>
+
+<div id="disqus_thread"></div>
+
+<script type="text/javascript">
+
+  var disqus_developer = 1;
+
+var disqus_shortname ='notesgnu';
+/* * * DON'T EDIT BELOW THIS LINE * * */
+(function() {
+  var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+  dsq.src = 'https://' + disqus_shortname + '.disqus.com/embed.js';
+  (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+})();
+</script>
+
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+<div id="disqus_thread"></div>
+<script type="text/javascript">
+    /* * * CONFIGURATION VARIABLES: EDIT BEFORE PASTING INTO YOUR WEBPAGE * * */
+    var disqus_shortname = 'croniqueslinux'; // required: replace example with your forum shortname
+
+    /* * * DON'T EDIT BELOW THIS LINE * * */
+    (function() {
+        var dsq = document.createElement('script'); dsq.type = 'text/javascript'; dsq.async = true;
+        dsq.src = '//' + disqus_shortname + '.disqus.com/embed.js';
+        (document.getElementsByTagName('head')[0] || document.getElementsByTagName('body')[0]).appendChild(dsq);
+    })();
+</script>
+<noscript>Please enable JavaScript to view the <a href="http://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+
+
 
     <section class="pager">
   

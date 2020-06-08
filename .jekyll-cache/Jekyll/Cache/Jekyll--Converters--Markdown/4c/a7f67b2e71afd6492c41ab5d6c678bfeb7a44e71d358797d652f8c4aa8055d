@@ -1,0 +1,58 @@
+I"3
+<p>Sovint piquem codi i volem guanyar temps usant una plantilla.
+Un pedaç de codi s’anomena <strong>snippet</strong>, i és això el que fem.</p>
+
+<p>Per fer això, tenim <code class="language-plaintext highlighter-rouge">YASnippet</code>. Per instaŀlar-ho, res més fàcil:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x package-install yasnippet
+</code></pre></div></div>
+
+<p>Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x yas-reload-all
+</code></pre></div></div>
+
+<p>Seguidament, ja podem usar-lo. Cal tenir carregat el mode.</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>M-x yas-minor-mode
+</code></pre></div></div>
+
+<p>El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu <code class="language-plaintext highlighter-rouge">.emacs</code>:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(require 'yasnippet)
+(yas-global-mode 1)
+</code></pre></div></div>
+
+<p>Per crear la primera plantilla, s’ha de fer:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-c &amp; C-n
+</code></pre></div></div>
+
+<p>el contingut ha de ser:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code># name: nom que volem
+# key: paraulaclau
+# --
+codi que volem
+</code></pre></div></div>
+
+<p>La part de dalt és la capçalera que defineix l’snippet, i amb la clau (key) el nom per cridar-lo.</p>
+
+<p>Per inserir el que volem:</p>
+
+<div class="language-text highlighter-rouge"><div class="highlight"><pre class="highlight"><code>C-c &amp; C-s
+</code></pre></div></div>
+
+<p>També ho podem fer encara més senzill, si recordem la paraula clau, podeu escriure-la i inmeditament <code class="language-plaintext highlighter-rouge">TAB</code> i ens sortirà el codi directament.
+Per això és molt important usar paraules claus que no ens porti a equivocar-nos.</p>
+
+<p>font:</p>
+
+<p>-</p>
+
+<ul>
+  <li><a href="https://github.com/joaotavora/yasnippet">https://github.com/joaotavora/yasnippet</a></li>
+  <li><a href="https://www.blackhats.es/wordpress/?p=66">https://www.blackhats.es/wordpress/?p=66</a></li>
+  <li><a href="https://bengalaa.wordpress.com/2014/12/13/haciendo-snippets-con-yasnippet/">https://bengalaa.wordpress.com/2014/12/13/haciendo-snippets-con-yasnippet/</a></li>
+</ul>
+:ET
