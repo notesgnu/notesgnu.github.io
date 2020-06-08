@@ -1,10 +1,9 @@
 ---
-title: "Com fer un snippet en Emacs"
-author: ["ms"]
-date: 2020-06-08
-tags: ["emacs", "yasnippet"]
-categories: ["emacs"]
 layout: post
+title: "Com fer un snippet en Emacs"
+date: 2020-06-08
+categories: ["emacs"]
+tags: ["emacs", "yasnippet"]
 ---
 
 Sovint piquem codi i volem guanyar temps usant una plantilla.
