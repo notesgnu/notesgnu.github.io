@@ -60,9 +60,7 @@ C-c & C-s
 També ho podem fer encara més senzill, si recordem la paraula clau, podeu escriure-la i inmeditament `TAB` i ens sortirà el codi directament.
 Per això és molt important usar paraules claus que no ens porti a equivocar-nos.
 
-font:
-
--
+fonts:
 
 -   <https://github.com/joaotavora/yasnippet>
 -   <https://www.blackhats.es/wordpress/?p=66>
