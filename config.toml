@@ -41,7 +41,7 @@ enableemoji = true
   
 [[menu.main]]
     identifier = "categories"
-    name = "Categories"
+    name = "Categs"
     url = "/categories/"
 
 
