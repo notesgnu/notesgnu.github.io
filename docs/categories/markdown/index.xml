@@ -6,7 +6,17 @@
     <description>Recent content in markdown on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 23 Jan 2016 16:13:38 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proves des de Fedora</title>
+      <link>https://notesgnu.github.io/post/2022-12-02-proves-des-de-fedora/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2022-12-02-proves-des-de-fedora/</guid>
+      <description>Ja fa uns dies que va arribar a les meves mans una màquina vella, d’aquelles que ja no serveixen… en teoria. És un portàtil HP Probook 6560b, i he fet un munt de proves. El primer va ser ampliar la RAM de 2 a 6 gigues, sense cap problema!!!, aquí ja em vaig emocionar, i vaig tirar endavant amb un disc sòlid SSD de 120.
+Aquí em va donar molts problemes… solució ha estat actualitzar la BIOS, usant els arxius per Windows, ja que amb Linux em baixava una BIOS molt antiga.</description>
+    </item>
+    
     <item>
       <title>Editor uText</title>
       <link>https://notesgnu.github.io/post/2016-01-23-editor-utext/</link>

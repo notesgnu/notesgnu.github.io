@@ -3,10 +3,28 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://notesgnu.github.io/</loc>
-    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/</loc>
-    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/fedora/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/linux/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/markdown/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2022-12-02-proves-des-de-fedora/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</loc>
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
@@ -15,12 +33,6 @@
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/emacs/</loc>
-    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/</loc>
-    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/</loc>
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/tags/yasnippet/</loc>
@@ -132,9 +144,6 @@
     <lastmod>2016-01-23T16:13:38+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2016-01-23-editor-utext/</loc>
-    <lastmod>2016-01-23T16:13:38+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/categories/markdown/</loc>
     <lastmod>2016-01-23T16:13:38+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/series/</loc>
