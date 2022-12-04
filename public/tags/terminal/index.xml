@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>terminal on Notes GNU</title>
+    <link>https://notesgnu.github.io/tags/terminal/</link>
+    <description>Recent content in terminal on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escanejar PDF i OCR</title>
+      <link>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</guid>
+      <description>El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)
+Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: pdfsanwich tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/
+La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.</description>
+    </item>
+    
+  </channel>
+</rss>

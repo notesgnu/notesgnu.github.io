@@ -1,0 +1,142 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Posts on Notes GNU</title>
+    <link>https://notesgnu.github.io/post/</link>
+    <description>Recent content in Posts on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Com fer un snippet en Emacs</title>
+      <link>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</link>
+      <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</guid>
+      <description>Sovint piquem codi i volem guanyar temps usant una plantilla. Un pedaç de codi s&amp;rsquo;anomena snippet, i és això el que fem.
+Per fer això, tenim YASnippet. Per instaŀlar-ho, res més fàcil:
+M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.
+M-x yas-reload-all Seguidament, ja podem usar-lo. Cal tenir carregat el mode.
+M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu .</description>
+    </item>
+    
+    <item>
+      <title>Com fer un blog amb Hugo</title>
+      <link>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</guid>
+      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.
+Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.
+He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
+    </item>
+    
+    <item>
+      <title>Publicar amb Jekyll i Org-mode</title>
+      <link>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</link>
+      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</guid>
+      <description>Finalment he descobert una manera d&amp;rsquo;usar el meu estimat emacs i el seu mode orgmode
+Res més senzill que afegir al _config.yaml el següent codi:
+plugins: [jekyll-org] Per instaŀlar en local les gemes:
+sudo gem install jekyll-org font: jekyll-org
+Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.</description>
+    </item>
+    
+    <item>
+      <title>Linkatitzar Lubuntu 18.04</title>
+      <link>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</link>
+      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</guid>
+      <description>Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&amp;rsquo;he trobat amb un problema.
+el problema Quan he intentat instal.lar el paquet linkat-repos_18.04-5_all.deb
+m&amp;rsquo;ha donat el següent error:
+El paquet gksu no està instal·lat. i si vull instal.lar-lo, em diu:
+El paquet gksu no té versió disponible, però un altre paquet en fa referència.</description>
+    </item>
+    
+    <item>
+      <title>Escanejar PDF i OCR</title>
+      <link>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</link>
+      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</guid>
+      <description>El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)
+Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: pdfsanwich tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/
+La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.</description>
+    </item>
+    
+    <item>
+      <title>Nou blog!</title>
+      <link>https://notesgnu.github.io/post/2020-05-20-nou-blog/</link>
+      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2020-05-20-nou-blog/</guid>
+      <description>Després de temps sense escriure, avui m&amp;rsquo;he decidit poder escriure de nou al blog. Però m&amp;rsquo;ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!
+Això ha fet que el canvi de temperatures faci despertar l&amp;rsquo;instint del gnu que portem dins i marxi a noves planures! ;-)
+Així que ara sóc de nou al blog de github però amb nova pàgina.</description>
+    </item>
+    
+    <item>
+      <title>Què és markdown, usos i idees</title>
+      <link>https://notesgnu.github.io/post/2016-05-26-markdownlinkat/</link>
+      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-05-26-markdownlinkat/</guid>
+      <description>El passat dissabte 28 de maig de 2016 a l&#39;Institut Eugeni d&amp;rsquo;Ors de l&amp;rsquo;Hospitalet de Llobregat va tenir lloc la XIa Jornada (PaperLess). Vaig aprofitar per fer una breu introducció a Markdown. Deixo aquí els enllaços i algunes notes del que vaig comentar.
+MarkDown [M↓] és un llenguatge de marques lleuger (creat per John Gruber i Aaron Swartz). Busca aconseguir llegibilitat escrivint en text pla.
+[M↓] s&amp;rsquo;està convertint en un estàndard per prendre notes en text pla, fer PDF, &amp;hellip;i especialment per fer pàgines web ràpides (tipus github pages), per escriure en Wordpress, Tumblr, stackexchange, i moltes altres coses&amp;hellip;.</description>
+    </item>
+    
+    <item>
+      <title>GIT dóna Error en user.mail</title>
+      <link>https://notesgnu.github.io/post/2016-04-26-errorgitemail/</link>
+      <pubDate>Tue, 26 Apr 2016 07:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-04-26-errorgitemail/</guid>
+      <description>Avui m&amp;rsquo;he trobat que quan he intentat fer un
+git commit -m &amp;quot;nou article&amp;quot;  M&amp;rsquo;ha donat el següent error:
+ git: fatal unable to auto-detect email address (got &amp;ldquo;some wrong email&amp;rdquo;)
+ Em demana que configuri:
+ git config --global user.mail &amp;ldquo;you@example.com&amp;rdquo;
+ Estic usant la Linkat lleugera (lUbuntu 14.04) i sembla que és un error en configurar user.mail que li falta una e. Si no vull que canviï tota la configuració del git no cal posar --global.</description>
+    </item>
+    
+    <item>
+      <title>Canviar la IP de la Raspberry</title>
+      <link>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</link>
+      <pubDate>Sat, 20 Feb 2016 07:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</guid>
+      <description>Tinc una Raspberry Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per ssh. Explico els passos que he seguit.
+Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l&amp;rsquo;antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.
+sudo cp /etc/network/interfaces interfaces.old  Després anem editar el fitxer on es desa la configuració de xarxa:
+sudo nano -w /etc/network/interfaces  Dins de l&amp;rsquo;arxiu cal editar-ho:</description>
+    </item>
+    
+    <item>
+      <title>Eliminar el compte de Copy</title>
+      <link>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</link>
+      <pubDate>Mon, 08 Feb 2016 16:13:38 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</guid>
+      <description>Ja fa uns dies que el Copy m&amp;rsquo;avisa que deixarà de tenir suport.
+A la seva pàgina podem llegir:
+ Copy and CudaDrive services will be discontinued. We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.
+ És una llàstima, ja que fins ara m&amp;rsquo;ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.</description>
+    </item>
+    
+    <item>
+      <title>Editor uText</title>
+      <link>https://notesgnu.github.io/post/2016-01-23-editor-utext/</link>
+      <pubDate>Sat, 23 Jan 2016 16:13:38 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-01-23-editor-utext/</guid>
+      <description>És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura.
+És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura. Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad, i n&amp;rsquo;hi ha en línia com StackEdit.</description>
+    </item>
+    
+  </channel>
+</rss>

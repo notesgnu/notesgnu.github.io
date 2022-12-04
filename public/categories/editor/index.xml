@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>editor on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/editor/</link>
+    <description>Recent content in editor on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 23 Jan 2016 16:13:38 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/editor/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Editor uText</title>
+      <link>https://notesgnu.github.io/post/2016-01-23-editor-utext/</link>
+      <pubDate>Sat, 23 Jan 2016 16:13:38 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-01-23-editor-utext/</guid>
+      <description>És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura.
+És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura. Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad, i n&amp;rsquo;hi ha en línia com StackEdit.</description>
+    </item>
+    
+  </channel>
+</rss>
