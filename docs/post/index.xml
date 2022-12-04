@@ -9,12 +9,48 @@
     <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/post/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proves des de Fedora</title>
-      <link>https://notesgnu.github.io/post/2022-12-02-proves-des-de-fedora/</link>
+      <link>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
       
-      <guid>https://notesgnu.github.io/post/2022-12-02-proves-des-de-fedora/</guid>
+      <guid>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora/</guid>
       <description>Ja fa uns dies que va arribar a les meves mans una màquina vella, d’aquelles que ja no serveixen… en teoria. És un portàtil HP Probook 6560b, i he fet un munt de proves. El primer va ser ampliar la RAM de 2 a 6 gigues, sense cap problema!!!, aquí ja em vaig emocionar, i vaig tirar endavant amb un disc sòlid SSD de 120.
 Aquí em va donar molts problemes… solució ha estat actualitzar la BIOS, usant els arxius per Windows, ja que amb Linux em baixava una BIOS molt antiga.</description>
+    </item>
+    
+    <item>
+      <title>Escrivint al WordPress des de l’EMACS</title>
+      <link>https://notesgnu.github.io/post/2021-05-29-escrivint-de-emacs-a-wordpress/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2021-05-29-escrivint-de-emacs-a-wordpress/</guid>
+      <description>Per poder publicar des d’Emacs a un blog hi ha diverses maneres. Tot i això, en el meu cas, ja fa temps que uso org2blog. Des dels primers inicis a ara, ha tingut diversos canvis, i la veritat és que em funciona molt bé.
+Passo a compartir com ho faig.
+instal·lació Primer que res, cal quenir-ho instal·lat. Per fer-ho, només cal seguir les instruccions de la seva pàgina.
+Dins del nostre .</description>
+    </item>
+    
+    <item>
+      <title>Publicar un article des de VIM 2</title>
+      <link>https://notesgnu.github.io/post/2022-01-02-publicar-a-wordpress-vim-2/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2022-01-02-publicar-a-wordpress-vim-2/</guid>
+      <description>Ja hem començat l’any 2022 i sempre venen ganes de començar projectes i aprendre coses noves.
+Porto anys usant Emacs i aquest any tinc ganes d’apendre a usar Vim. Una de les coses que més m’agrada d’Emacs és el mode Orgmode. Entre d’altres coses, poder publicar a WordPress directament amb articles escrits org.
+També vull usar de forma més habitual el llenguatge de marques Markdown. Així que m’ha vingut la necessitat de publicar a WordPress directament amb Vim</description>
+    </item>
+    
+    <item>
+      <title>Publicar un article des de VIM</title>
+      <link>https://notesgnu.github.io/post/2022-01-01-publicar-a-wordpress-vim/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2022-01-01-publicar-a-wordpress-vim/</guid>
+      <description>Avui faig una prova d’inici de VIM i publicar-ho a WordPress Aquest post només és per fer la prova! L’article l’he fet amb MD i vim. Quan tingui una estona posaré els passos de co…
+Avui faig una prova d’inici de VIM i publicar-ho a WordPress
+Aquest post només és per fer la prova!
+L’article l’he fet amb MD i vim.
+Quan tingui una estona posaré els passos de com ho he fet!</description>
     </item>
     
     <item>
