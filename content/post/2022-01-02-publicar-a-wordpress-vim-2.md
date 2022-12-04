@@ -71,8 +71,6 @@ Al publicar es crea un identifcador
 
 En desar-ho , podem anar actualitzant modificant i tornant a publicar.
 
-![😛](https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f61b.svg)
-
 ### Referències
 
 -   [https://github.com/MrPeterLee/VimWordpress](https://github.com/MrPeterLee/VimWordpress)

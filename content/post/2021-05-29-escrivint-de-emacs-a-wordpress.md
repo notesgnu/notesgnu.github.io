@@ -79,8 +79,6 @@ Un cop publicat el document tindrà assignat `#+POSTID: NUM`, aquest número fa
 
 Salut!
 
-![😉](https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f609.svg)
-
 [font org2blog](https://github.com/org2blog/org2blog)
 
 [Publicat a Wordpress](https://croniqueslinux.wordpress.com/2021/05/29/escrivint-al-wordpress-des-de-lemacs/)

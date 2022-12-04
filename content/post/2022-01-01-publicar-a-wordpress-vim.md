@@ -16,7 +16,4 @@ Quan tingui una estona posaré els passos de com ho he fet!
 
 He hagut de fer alguna modificació a la documentació original
 
-![😛](https://s0.wp.com/wp-content/mu-plugins/wpcom-smileys/twemoji/2/svg/1f61b.svg)
-
-
 [Font a Wordpress](https://croniqueslinux.wordpress.com/2022/01/01/publicar-un-article-des-de-vim/)
