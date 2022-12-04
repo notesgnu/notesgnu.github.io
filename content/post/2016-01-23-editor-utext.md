@@ -5,11 +5,11 @@ categories: ["markdown", "editor"]
 tags: ["markdown"]
 ---
 
-![utext](/images/utext.png)
+![utext](http://croniqueslinux.github.io/images/utext.png)
 
 És un editor senzill de [markdown](https://ca.wikipedia.org/wiki/Markdown). Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l'edició amb la lectura i escriptura.
 
-![md](/images/md.jpg)
+![md](https://croniqueslinux.github.io/images/md.jpg)
 
 És un editor senzill de [markdown](https://ca.wikipedia.org/wiki/Markdown). Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l'edició amb la lectura i escriptura.
 Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad,  i n'hi ha en línia com [StackEdit](https://stackedit.io/editor).
@@ -42,4 +42,5 @@ Un cop baixat cal crear una carpeta anomenada `ca_ES`, i a dins crear una altra 
     
 Ara cada vegada que inicieu el programa, podreu veure directament en català els menús.
 
-:+1:
+
+:+1: :happy: :star:
