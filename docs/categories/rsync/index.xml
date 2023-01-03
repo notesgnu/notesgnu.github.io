@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>rsync on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/rsync/</link>
+    <description>Recent content in rsync on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Jul 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/rsync/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Rsync a un disc dur extern</title>
+      <link>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</link>
+      <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</guid>
+      <description>rsync és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de Grsync.
+rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí
+Un exemple de la comanda:
+rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/
+Amb això farà una còpia de seguretat.
+Per fer-ho via SAMBA amb ssh:
+ primer cal muntar el disc amb samba  mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada</description>
+    </item>
+    
+  </channel>
+</rss>

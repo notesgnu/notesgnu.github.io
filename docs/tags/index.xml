@@ -6,7 +6,25 @@
     <description>Recent content in Tags on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>hugo</title>
+      <link>https://notesgnu.github.io/tags/hugo/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>markdown</title>
+      <link>https://notesgnu.github.io/tags/markdown/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/markdown/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>fedora</title>
       <link>https://notesgnu.github.io/tags/fedora/</link>
@@ -22,6 +40,15 @@
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
       
       <guid>https://notesgnu.github.io/tags/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>md</title>
+      <link>https://notesgnu.github.io/tags/md/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/md/</guid>
       <description></description>
     </item>
     
@@ -44,6 +71,15 @@
     </item>
     
     <item>
+      <title>orgmode</title>
+      <link>https://notesgnu.github.io/tags/orgmode/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/orgmode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>vim</title>
       <link>https://notesgnu.github.io/tags/vim/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
@@ -62,6 +98,24 @@
     </item>
     
     <item>
+      <title>org</title>
+      <link>https://notesgnu.github.io/tags/org/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/org/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://notesgnu.github.io/tags/terminal/</link>
+      <pubDate>Mon, 15 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>yasnippet</title>
       <link>https://notesgnu.github.io/tags/yasnippet/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
@@ -71,11 +125,11 @@
     </item>
     
     <item>
-      <title>hugo</title>
-      <link>https://notesgnu.github.io/tags/hugo/</link>
+      <title>blog</title>
+      <link>https://notesgnu.github.io/tags/blog/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       
-      <guid>https://notesgnu.github.io/tags/hugo/</guid>
+      <guid>https://notesgnu.github.io/tags/blog/</guid>
       <description></description>
     </item>
     
@@ -134,24 +188,6 @@
     </item>
     
     <item>
-      <title>terminal</title>
-      <link>https://notesgnu.github.io/tags/terminal/</link>
-      <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/tags/terminal/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>blog</title>
-      <link>https://notesgnu.github.io/tags/blog/</link>
-      <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/tags/blog/</guid>
-      <description></description>
-    </item>
-    
-    <item>
       <title>gnu</title>
       <link>https://notesgnu.github.io/tags/gnu/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
@@ -161,11 +197,11 @@
     </item>
     
     <item>
-      <title>markdown</title>
-      <link>https://notesgnu.github.io/tags/markdown/</link>
-      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
+      <title>text</title>
+      <link>https://notesgnu.github.io/tags/text/</link>
+      <pubDate>Sun, 15 May 2016 00:00:00 +0000</pubDate>
       
-      <guid>https://notesgnu.github.io/tags/markdown/</guid>
+      <guid>https://notesgnu.github.io/tags/text/</guid>
       <description></description>
     </item>
     
@@ -206,6 +242,24 @@
     </item>
     
     <item>
+      <title>configuracio</title>
+      <link>https://notesgnu.github.io/tags/configuracio/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/configuracio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>raspberry</title>
+      <link>https://notesgnu.github.io/tags/raspberry/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/raspberry/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>neteja</title>
       <link>https://notesgnu.github.io/tags/neteja/</link>
       <pubDate>Mon, 08 Feb 2016 16:13:38 +0000</pubDate>
@@ -220,6 +274,60 @@
       <pubDate>Mon, 08 Feb 2016 16:13:38 +0000</pubDate>
       
       <guid>https://notesgnu.github.io/tags/n%C3%BAvol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>nuvol</title>
+      <link>https://notesgnu.github.io/tags/nuvol/</link>
+      <pubDate>Mon, 08 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/nuvol/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bzip2</title>
+      <link>https://notesgnu.github.io/tags/bzip2/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/bzip2/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comprimir</title>
+      <link>https://notesgnu.github.io/tags/comprimir/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/comprimir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://notesgnu.github.io/tags/ubuntu/</link>
+      <pubDate>Wed, 20 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opensuse</title>
+      <link>https://notesgnu.github.io/tags/opensuse/</link>
+      <pubDate>Sat, 09 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/opensuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>slitaz</title>
+      <link>https://notesgnu.github.io/tags/slitaz/</link>
+      <pubDate>Mon, 04 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/tags/slitaz/</guid>
       <description></description>
     </item>
     

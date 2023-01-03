@@ -6,7 +6,22 @@
     <description>Recent content in hugo on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exportar Wordpress a Markdown</title>
+      <link>https://notesgnu.github.io/post/20230103160737/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/20230103160737/</guid>
+      <description>Hi ha diverses eines que es poden usar, entre elles hi ha wordpress-export-to-markdown.
+El primer que cal fer és instaŀlar-la.
+instaŀlar wordpress-export-to-markdown Si seguim les instruccions, podem fer:
+npx wordpress-export-to-markdown Ens instaŀlar-rà els paquest necessari i ja la tindrem.
+Baixar còpia de seguretat del Wordpress A continuació, baixem l&amp;rsquo;aplicació tot el contingut del Wordpress a Markdown. La trobem
+Allí, exportem:
+ Els meus llocs → eines → exporta  triem:</description>
+    </item>
+    
     <item>
       <title>Com fer un blog amb Hugo</title>
       <link>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</link>
@@ -16,6 +31,17 @@
       <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.
 Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.
 He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
+    </item>
+    
+    <item>
+      <title>Com fer un blog amb Hugo</title>
+      <link>https://notesgnu.github.io/post/2020-06-01-com-fer-un-blog-amb-hugo/</link>
+      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2020-06-01-com-fer-un-blog-amb-hugo/</guid>
+      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m’ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.
+Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.
+He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s’ajusti als meus gustos.</description>
     </item>
     
   </channel>

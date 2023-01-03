@@ -21,5 +21,15 @@ git commit -m &amp;quot;nou article&amp;quot;  M&amp;rsquo;ha donat el següent 
  Estic usant la Linkat lleugera (lUbuntu 14.04) i sembla que és un error en configurar user.mail que li falta una e. Si no vull que canviï tota la configuració del git no cal posar --global.</description>
     </item>
     
+    <item>
+      <title>Un blog amb Jekyll</title>
+      <link>https://notesgnu.github.io/post/2015-03-29-un-blog-amb-jekyll/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2015-03-29-un-blog-amb-jekyll/</guid>
+      <description>Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant git i jekyll. Els motius són varis, però la idea d epoder escriure un bloc des d&amp;rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.
+S&amp;rsquo;usa per escriure el llenguatge de marques MarkDown i per defecte l&amp;rsquo;extensió .</description>
+    </item>
+    
   </channel>
 </rss>

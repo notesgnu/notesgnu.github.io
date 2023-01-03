@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>comandes on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/comandes/</link>
+    <description>Recent content in comandes on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 13 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/comandes/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bad Character &#39;�&#39;</title>
+      <link>https://notesgnu.github.io/post/2016-01-13-bad-character-/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-01-13-bad-character-/</guid>
+      <description>Un arxiu que he llegit des de terminal m&amp;rsquo;ha donat un error de lectura:
+&amp;gt; bad character &amp;lsquo;�&amp;rsquo;
+Mirant la codificació de l&amp;rsquo;arxiu amb la comanda file, he vist que no té la codificació per a UNIX, així que a canviar-ho. Primer cal instal·lar dos2unix:
+sudo apt-get install dos2unix
+i després a convertir-ho:
+dos2unix -n arxiu.txt arxiu2.txt
+i problema resolt!
+;-)</description>
+    </item>
+    
+    <item>
+      <title>Espai de disc</title>
+      <link>https://notesgnu.github.io/post/2013-10-22-espai-de-disc/</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2013-10-22-espai-de-disc/</guid>
+      <description>Hi ha moltes eines per saber l&amp;rsquo;espai del disc, tant en ús com l&amp;rsquo;espai lliure. Però moltes vegades no tenim accés a un entorn gràfic. Des de terminal tenim varies eines que ens permeten saber l&amp;rsquo;espai que tenim lliure i en ús. Dues de les dues més importants són du i df.
+Per saber-ne més, només cal usar el propi manual:
+man du
+o
+man df
+Espai que tenim lliure i en ús La comanda df ens ajuda a saber l&amp;rsquo;espai lliure en el disc.</description>
+    </item>
+    
+    <item>
+      <title>extreure elements d&#39;un arxiu swf</title>
+      <link>https://notesgnu.github.io/post/2013-02-01-extreure-elements-dun-arxiu-swf/</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2013-02-01-extreure-elements-dun-arxiu-swf/</guid>
+      <description>No m&amp;rsquo;agrada massa el flash ja que en no és un programari lliure, i no té massa bona implementació. Bé, la qüestió és que en un swf hi havia un audio que volia tenir per separat. També serveix per les imatges que surten, que pot ser volem recuperar-les d&amp;rsquo;un swf.
+Un cop creat es fa difícil tornar a extreure el que s&amp;rsquo;ha incrustat&amp;hellip;
+bé, doncs he trobat una eina que ho permet, està dins d&amp;rsquo;un conjunt d&amp;rsquo;eines anomenades SWFTOOLS.</description>
+    </item>
+    
+    <item>
+      <title>Rsync a un disc dur extern</title>
+      <link>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</link>
+      <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</guid>
+      <description>rsync és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de Grsync.
+rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí
+Un exemple de la comanda:
+rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/
+Amb això farà una còpia de seguretat.
+Per fer-ho via SAMBA amb ssh:
+ primer cal muntar el disc amb samba  mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada</description>
+    </item>
+    
+  </channel>
+</rss>

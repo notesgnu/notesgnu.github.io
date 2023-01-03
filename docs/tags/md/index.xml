@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>md on Notes GNU</title>
+    <link>https://notesgnu.github.io/tags/md/</link>
+    <description>Recent content in md on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/md/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Publicar un article des de VIM 2</title>
+      <link>https://notesgnu.github.io/post/2022-01-02-publicar-un-article-des-de-vim-2/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2022-01-02-publicar-un-article-des-de-vim-2/</guid>
+      <description>Ja hem començat l&amp;rsquo;any 2022 i sempre venen ganes de començar projectes i aprendre coses noves.
+Porto anys usant Emacs i aquest any tinc ganes d&amp;rsquo;apendre a usar Vim. Una de les coses que més m&amp;rsquo;agrada d&amp;rsquo;Emacs és el mode Orgmode. Entre d&amp;rsquo;altres coses, poder publicar a Wordpress directament amb articles escrits org.
+També vull usar de forma més habitual el llenguatge de marques Markdown. Així que m&amp;rsquo;ha vingut la necessitat de publicar a Wordpress directament amb Vim</description>
+    </item>
+    
+    <item>
+      <title>Publicar un article des de VIM</title>
+      <link>https://notesgnu.github.io/post/2022-01-01-publicar-un-article-des-de-vim/</link>
+      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2022-01-01-publicar-un-article-des-de-vim/</guid>
+      <description>Avui faig una prova d&amp;rsquo;inici de VIM i publicar-ho a WordPress Aquest post només és per fer la prova!
+L&amp;rsquo;article l&amp;rsquo;he fet amb MD i vim. Quan tingui una estona posaré els passos de com ho he fet!
+He hagut de fer alguna modificació a la documentació original
+:-P</description>
+    </item>
+    
+  </channel>
+</rss>

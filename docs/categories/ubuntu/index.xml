@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ubuntu on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/ubuntu/</link>
+    <description>Recent content in ubuntu on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 20 Jun 2013 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Afegir una llançadora a l&#39;escriptori en Linkatedu 12.04</title>
+      <link>https://notesgnu.github.io/post/2013-06-20-afegir-una-llancadora-a-lescriptori-en-linkatedu-12-04/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2013-06-20-afegir-una-llancadora-a-lescriptori-en-linkatedu-12-04/</guid>
+      <description>Des de que la Linkat ha passat a tenir com a base Ubuntu, ens trobem que algunes coses es fan una mica diferent.
+Si volem afegir una llançadora a l&amp;rsquo;escriptori, abans es feia botó dret del ratolí sobre l&amp;rsquo;escriptori i creavem la &amp;ldquo;llançadora&amp;rdquo;, però ara no funciona.
+Per poder fer-ho, podem fer en un terminal (crtl+alt+t), una vegada s&amp;rsquo;ha obert la terminal, escrivim:
+gnome-desktop-item-edit ~/Escriptori &amp;ndash;create-new
+I fem els mateixos passos que ja feiem abans!</description>
+    </item>
+    
+    <item>
+      <title>Esperanto en Xubuntu</title>
+      <link>https://notesgnu.github.io/post/2013-06-15-esperanto-en-xubuntu/</link>
+      <pubDate>Sat, 15 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2013-06-15-esperanto-en-xubuntu/</guid>
+      <description>Ja fa un temps que estudio Esperanto i em calia poder escriure el &amp;ldquo;supersigno&amp;rdquo;, així que al portàtil on tinc instal·lat Xubuntu no trobava com configurar-ho. En Gnome és senzill, ho trobem en la configuració del teclat i en les opcions podem triar esperanto - supersigno en l&amp;rsquo;opció qwerty, és a dir, que amb la tecla [alt gr] i prement la lletra que porta supersigno, ens surt ĝ, ŝ, ŭ … En Lubuntu i entorns lxde es pot fer com ho explicava per fer accents en un teclat americà.</description>
+    </item>
+    
+    <item>
+      <title>Ibus i problemes amb Unity</title>
+      <link>https://notesgnu.github.io/post/2011-12-17-ibus-i-problemes-amb-unity/</link>
+      <pubDate>Sat, 17 Dec 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-12-17-ibus-i-problemes-amb-unity/</guid>
+      <description>Porto uns dies al netbook usant Ubuntu 11.10 amb Unity, i m&amp;rsquo;havia desaparegut l&amp;rsquo;IBUS que uso per escriure en Xinès. No hi havia manera que funcionés. Finalment he trobar la solució: 1, instal·lem dconf-editor: sudo apt-get install dconf 2, executem dconf-editor
+
+3, i anem a &amp;hellip; Un cop aquí, cal afegir &amp;lsquo;Ibus&amp;rsquo; i fem RETORN. Ara ja ho tenim funcionant!</description>
+    </item>
+    
+    <item>
+      <title>Codificació no vàlida</title>
+      <link>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</link>
+      <pubDate>Sun, 05 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</guid>
+      <description>Avui estava copiant uns documents antics d&amp;rsquo;un disc dur vell al meu ordinador. I me m&amp;rsquo;he trobat un munt de símbols ? i al final de l&amp;rsquo;extensió la expressió &amp;ldquo;codificació no vàlida&amp;rdquo;. Sempre que em passava això, el que feia era renombrar-ho, però aquesta vegada eren molts. Després de cercar molt, he trobat que això passa perquè la codificació que tenien era iso-8859-9, i el meu ordinador treballa amb utf8. La solució me l&amp;rsquo;ha donat la comanda CONVMV!</description>
+    </item>
+    
+    <item>
+      <title>Sincronitzar gnote amb dropbox</title>
+      <link>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</link>
+      <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</guid>
+      <description>Fins fa poc usava poc el Tomboy, o d&amp;rsquo;altres programes de notes com ara el GNOTE. Però fa poc vaig llegir un article de com sincronitzar-ho entre ordinadors a través del dropbox.
+He seguit els passos que explicaven en &amp;ldquo;Usemos linux&amp;rdquo; http://ur1.ca/2e9r3, però NO m&amp;rsquo;ha funcionat&amp;hellip; el problema era que no em reconeixia ~/.gnote l&amp;rsquo;havia de canviar per ~/.local/share/gnote
+Així que al final ho he fet d&amp;rsquo;aquesta manera:
+Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</description>
+    </item>
+    
+    <item>
+      <title>Eina gràfica per calcular HASH</title>
+      <link>https://notesgnu.github.io/post/2010-05-28-eina-grafica-per-calcular-hash/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-05-28-eina-grafica-per-calcular-hash/</guid>
+      <description>Tot i que la terminal sempre va molt bé, també per la gent que té preferències pels entorns gràfics, tenim una eina anomenada gtkhash per generar les md5 i sha1. Es pot instal·lar des de synaptic, o des de la terminal.</description>
+    </item>
+    
+    <item>
+      <title>Eliminar Kernels vells</title>
+      <link>https://notesgnu.github.io/post/2010-04-19-eliminar-kernels-vells/</link>
+      <pubDate>Mon, 19 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-04-19-eliminar-kernels-vells/</guid>
+      <description>Per esborrar kernells vells, que es van acumulant a l&amp;rsquo;Ubuntu i al seu grub, sempre podem fer el següent:
+ saber les versions que tenim a l&amp;rsquo;ordinador amb:   sudo dpkg -l | grep linux-image
+  eliminar les versions velles amb:   sudo apt-get remove &amp;ndash;purge elkernelvell
+ per elimnar-ho canviem &amp;rsquo;elkernelvell&amp;rsquo; per linux-image-2.6.31-14-generic
+i ja ho tenim!
+;)</description>
+    </item>
+    
+    <item>
+      <title>Accés a una carpeta compartida amb NFS</title>
+      <link>https://notesgnu.github.io/post/2010-04-02-acces-a-una-carpeta-compartida-amb-nfs/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-04-02-acces-a-una-carpeta-compartida-amb-nfs/</guid>
+      <description>Si volem accedir a una carpeta compartida a través del protocol NFS, necessitem primer instal·lar els paquets portmap i nfs-common, a través de la terminal:
+sudo apt-get install portmap nfs-common sudo /etc/init.d/portmap restart Ara només ens cal montar la carpeta a l&amp;rsquo;ordinador client. Per fer-ho ens cal crear una carpeta on ens muntarà la carpeta del servidor.
+$ sudo mkdir /mnt/carpeta-servidor
+Finalment només ens cal montar-ho amb la següent ordre:</description>
+    </item>
+    
+    <item>
+      <title>Iniciar el servidor NFS</title>
+      <link>https://notesgnu.github.io/post/2010-04-01-iniciar-el-servidor-nfs/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-04-01-iniciar-el-servidor-nfs/</guid>
+      <description>Per poder iniciar el servidor NFS, necessita que s&amp;rsquo;inici el portmap:
+$ sudo /etc/init.d/portmap start
+Ara només cal iniciar el servei NFS:
+$ sudo /etc/init.d/nfs-kernel-server restart
+Si del volem aturar:
+_$ sudo /etc/init.d/nfs-kernel-server stop_ ;)</description>
+    </item>
+    
+    <item>
+      <title>Configurar el servidor NFS</title>
+      <link>https://notesgnu.github.io/post/2010-03-31-configurar-el-servidor-nfs/</link>
+      <pubDate>Wed, 31 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-03-31-configurar-el-servidor-nfs/</guid>
+      <description>Per poder configurar un servidor NFS hem d&amp;rsquo;editar l&amp;rsquo;arxiu /etc/exports
+Aquí podrem decidir quina carpeta volem compartir, si té permisos de lectura o lectura i escriptura; i també des de quin ordinador es permet l&amp;rsquo;accés (una sóla IP o tot un rang).
+Cal recordar que els permisos que donem estan supeditats als del propi sistema, i són sempre els més restrictius els que prevaleixen!
+Per exemple, si volem compartir el /home el que farem és editar /etc/exports a la terminal:</description>
+    </item>
+    
+    <item>
+      <title>NFS: sistema d&#39;arxius en xarxa</title>
+      <link>https://notesgnu.github.io/post/2010-03-30-nfs-sistema-darxius-en-xarxa/</link>
+      <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-03-30-nfs-sistema-darxius-en-xarxa/</guid>
+      <description>NFS ve de les sigles Network File System, és un protocol per compartir a través de la xarxa carpetes i arxius.
+Fou creat en 1983 pels laboratoris de Sun Microsystems i ha acabat essent l&amp;rsquo;opció pròpia de GNU/Linux.
+Per instal·lar-ho només cal a la terminal la següent ordre (Ubuntu i Debian):
+$ sudo apt-get install nfs-common nfs-kernel-server</description>
+    </item>
+    
+    <item>
+      <title>Instal·lar Servidor DHCP</title>
+      <link>https://notesgnu.github.io/post/2010-02-22-installar-servidor-dhcp/</link>
+      <pubDate>Mon, 22 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-02-22-installar-servidor-dhcp/</guid>
+      <description>La viquipèdia ho defineix:
+DHCP (sigla en anglès de Dynamic Host Configuration Protocol) és un protocol de xarxa que permet als nodes d&amp;rsquo;una xarxa IP obtenir els seus paràmetres de configuració automàticament. Es tracta d&amp;rsquo;un protocol de tipus client/servidor en el que generalment un servidor posseeix una llista d&amp;rsquo;adreces IP dinàmiques i les va assignant als clients a mesura que aquestes van estant lliures, sabent en tot moment qui ha estat en possessió d&amp;rsquo;aquella IP, quant temps l&amp;rsquo;ha tinguda o a qui se li ha assignat després.</description>
+    </item>
+    
+    <item>
+      <title>Netejar Ubuntu</title>
+      <link>https://notesgnu.github.io/post/2010-02-19-netejar-ubuntu/</link>
+      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-02-19-netejar-ubuntu/</guid>
+      <description>Volent netejar una mica el sistema m&amp;rsquo;he trobat amb el programeta BleachBit
+Molt visual i molt senzill de fer anar!</description>
+    </item>
+    
+    <item>
+      <title>Trobar duplicats a l&#39;ordinador</title>
+      <link>https://notesgnu.github.io/post/2010-02-17-trobar-duplicats-a-lordinador/</link>
+      <pubDate>Wed, 17 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-02-17-trobar-duplicats-a-lordinador/</guid>
+      <description>Sovint em passa que em baixo arxius varies vegades, i al final em trobo el disc dur ple de brossa, i a sobre, moltes vegades he fet còpies en discos externs. Al final ho tinc un munt de vegades&amp;hellip;.
+Tenim un programa anomenat FSLINT que ens ajuda a trobar els duplicats!!!
+A la guia d&amp;rsquo;ubuntu en trobem un mini manual.</description>
+    </item>
+    
+    <item>
+      <title>F-Spot</title>
+      <link>https://notesgnu.github.io/post/2010-02-10-f-spot/</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-02-10-f-spot/</guid>
+      <description>Fins ara havia usat Picasa, però hi havia alguna cosa que no acabava de fer-me feliç&amp;hellip; que no és programari lliure, i que limita a només al producte de google.
+Així que primer vaig traure el Picasa!
+$ sudo dpkg &amp;ndash;purge picassa $ sudo apt-get autoremove
+Ara ja tenim eliminat Picasa i tot ben net!
+Seguidament anem a instalar F-spot &amp;hellip;
+$ sudo aptitude install f-spot
+F-Spot ens ofereix funcions semblants a Picasa, estant als propis repositoris (d&amp;rsquo;Ubuntu)&amp;hellip; i, a més a més, permet pujar a altres web de fotografies.</description>
+    </item>
+    
+    <item>
+      <title>Dropbox, una alternativa als USB</title>
+      <link>https://notesgnu.github.io/post/2010-01-30-dropbox-una-alternativa-als-usb/</link>
+      <pubDate>Sat, 30 Jan 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-01-30-dropbox-una-alternativa-als-usb/</guid>
+      <description>DropBox és un servei en &amp;ldquo;núvol&amp;rdquo; per compartir arxius i carpetes. Quan s&amp;rsquo;instal·la crea una carpeta local on tot el que posis va també sincronitzat a la web, i als altres ordinadors on ho tinguis instal·lat. A la pàgina web tens tot el que posis a la carpeta.
+És multiplataforma, i el pots tenir en Linux, Mac i Windows&amp;hellip; i fins i tot al IPhone. Primer ens donem d&amp;rsquo;alta, i després anem a la pàgina de descàrrega&amp;hellip; i baixem el programa, un parell de clics i ja està!</description>
+    </item>
+    
+  </channel>
+</rss>

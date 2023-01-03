@@ -4,7 +4,7 @@ date:   2016-02-08 16:13:38
 categories: ["neteja"]
 tags: ["núvol", "neteja"]
 ---
-![Copy](http://www.screencastsonline.com/public_images/01-new/SCOM0403-summary-icon-100x100.png  "Copy")
+![Copy](https://www.guidingtech.com/wp-content/uploads/Copy-Featured_4d470f76dc99e18ad75087b1b8410ea9.png)
 
 Ja fa uns dies que el **Copy** m'avisa que deixarà de tenir suport. 
 

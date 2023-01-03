@@ -19,5 +19,18 @@ sudo cp /etc/network/interfaces interfaces.old  Després anem editar el fitxer o
 sudo nano -w /etc/network/interfaces  Dins de l&amp;rsquo;arxiu cal editar-ho:</description>
     </item>
     
+    <item>
+      <title>Canviar la IP de la Raspberry</title>
+      <link>https://notesgnu.github.io/post/2016-02-15-canviar-la-ip-de-la-raspberry/</link>
+      <pubDate>Mon, 15 Feb 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-02-15-canviar-la-ip-de-la-raspberry/</guid>
+      <description>Tinc una Raspberry Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per ssh. Explico els passos que he seguit.
+Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l’antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.
+sudo cp /etc/network/interfaces interfaces.old
+Després anem editar el fitxer on es desa la configuració de xarxa:
+sudo nano -w /etc/network/interfaces</description>
+    </item>
+    
   </channel>
 </rss>

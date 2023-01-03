@@ -3,28 +3,55 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://notesgnu.github.io/</loc>
-    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/</loc>
-    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/20230103160737/</loc>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/hugo/</loc>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/markdown/</loc>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/markdown/</loc>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/</loc>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/</loc>
+    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/tags/fedora/</loc>
+    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/fedora/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/tags/linux/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/categories/markdown/</loc>
-    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/</loc>
+    <loc>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora-3/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/tags/</loc>
-    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
+    <loc>https://notesgnu.github.io/tags/md/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2022-01-02-publicar-un-article-des-de-vim-2/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/vim/</loc>
+    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2022-01-01-publicar-un-article-des-de-vim/</loc>
+    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/tags/emacs/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
@@ -32,10 +59,22 @@
     <loc>https://notesgnu.github.io/categories/emacs/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/post/2021-05-29-escrivint-al-wordpress-des-de-lemacs/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/post/2021-05-29-escrivint-de-emacs-a-wordpress/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/post/2021-05-29-hola-torno-a-wordpress/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/tags/org2blog/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/org2blog/</loc>
+    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/orgmode/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2022-01-02-publicar-a-wordpress-vim-2/</loc>
@@ -44,14 +83,20 @@
     <loc>https://notesgnu.github.io/tags/vim/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/categories/vim/</loc>
-    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/tags/wordpress/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2022-01-01-publicar-a-wordpress-vim/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2020-06-15-com-fer-un-snippet-en-emacs/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/org/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/terminal/</loc>
+    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</loc>
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
@@ -59,10 +104,13 @@
     <loc>https://notesgnu.github.io/tags/yasnippet/</loc>
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/tags/blog/</loc>
+    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/tags/hugo/</loc>
+    <loc>https://notesgnu.github.io/post/2020-06-01-com-fer-un-blog-amb-hugo/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/hugo/</loc>
@@ -77,10 +125,16 @@
     <loc>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/post/2020-05-31-publicar-amb-jekyll-i-org-mode/</loc>
+    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/tags/linkat/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/linkat/</loc>
+    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2020-05-24-linkatitzar-lubuntu-18-04/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</loc>
@@ -88,6 +142,9 @@
   </url><url>
     <loc>https://notesgnu.github.io/tags/lubuntu/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2020-05-21-escanejar-pdf-i-ocr/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
@@ -101,12 +158,6 @@
     <loc>https://notesgnu.github.io/tags/pdf/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/tags/terminal/</loc>
-    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/blog/</loc>
-    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/categories/blog/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -119,11 +170,14 @@
     <loc>https://notesgnu.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/tags/markdown/</loc>
-    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/post/2016-05-26-markdownlinkat/</loc>
     <lastmod>2016-05-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2016-05-15-que-es-markdown-usos-i-idees/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/text/</loc>
+    <lastmod>2016-05-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/tags/comandes/</loc>
     <lastmod>2016-04-26T07:00:00+00:00</lastmod>
@@ -137,6 +191,9 @@
     <loc>https://notesgnu.github.io/post/2016-04-26-errorgitemail/</loc>
     <lastmod>2016-04-26T07:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/post/2016-04-26-git-dona-error-en-user-mail/</loc>
+    <lastmod>2016-04-26T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</loc>
     <lastmod>2016-02-20T07:00:00+00:00</lastmod>
   </url><url>
@@ -148,6 +205,15 @@
   </url><url>
     <loc>https://notesgnu.github.io/categories/raspberry/</loc>
     <lastmod>2016-02-20T07:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2016-02-15-canviar-la-ip-de-la-raspberry/</loc>
+    <lastmod>2016-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/configuracio/</loc>
+    <lastmod>2016-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/raspberry/</loc>
+    <lastmod>2016-02-15T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</loc>
     <lastmod>2016-02-08T16:13:38+00:00</lastmod>
@@ -161,11 +227,557 @@
     <loc>https://notesgnu.github.io/tags/n%C3%BAvol/</loc>
     <lastmod>2016-02-08T16:13:38+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/post/2016-02-08-eliminar-el-compte-de-copy/</loc>
+    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/nuvol/</loc>
+    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2016-01-31-comenco-a-migrar/</loc>
+    <lastmod>2016-01-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</loc>
+    <lastmod>2016-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/linux/</loc>
+    <lastmod>2016-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/lubuntu/</loc>
+    <lastmod>2016-01-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/lxde/</loc>
+    <lastmod>2016-01-28T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/categories/editor/</loc>
     <lastmod>2016-01-23T16:13:38+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2016-01-23-editor-utext/</loc>
     <lastmod>2016-01-23T16:13:38+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2016-01-13-bad-character-/</loc>
+    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/comandes/</loc>
+    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/terminal/</loc>
+    <lastmod>2016-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-12-30-desactivar-acceleracio-grafic-al-chrome/</loc>
+    <lastmod>2015-12-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-12-06-coneixer-la-targeta-grafica/</loc>
+    <lastmod>2015-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/gnu/</loc>
+    <lastmod>2015-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/maquinari/</loc>
+    <lastmod>2015-12-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/scratch/</loc>
+    <lastmod>2015-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</loc>
+    <lastmod>2015-11-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-10-12-llancadora-a-la-linkat-lleugera/</loc>
+    <lastmod>2015-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-07-09-girar-un-video/</loc>
+    <lastmod>2015-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/mencoder/</loc>
+    <lastmod>2015-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/video/</loc>
+    <lastmod>2015-07-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/multimedia/</loc>
+    <lastmod>2015-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-04-17-veure-dvds-en-linkat-14-04-i-ubuntu-derivades/</loc>
+    <lastmod>2015-04-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/jekyll/</loc>
+    <lastmod>2015-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-03-29-un-blog-amb-jekyll/</loc>
+    <lastmod>2015-03-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-01-21-hello-world/</loc>
+    <lastmod>2015-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-01-17-em-falla-org2blog-2a-part/</loc>
+    <lastmod>2015-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/online/</loc>
+    <lastmod>2015-01-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</loc>
+    <lastmod>2015-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/error/</loc>
+    <lastmod>2015-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/hack/</loc>
+    <lastmod>2015-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/inkscape/</loc>
+    <lastmod>2014-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2014-09-14-problemes-amb-inkscape/</loc>
+    <lastmod>2014-09-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/exif/</loc>
+    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2014-08-16-exiftool/</loc>
+    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/imatges/</loc>
+    <lastmod>2014-08-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2014-08-12-em-falla-org2blog/</loc>
+    <lastmod>2014-08-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2014-08-11-colors-a-emacs-3/</loc>
+    <lastmod>2014-08-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2014-05-15-error-systemd-udevd/</loc>
+    <lastmod>2014-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2014-04-07-recuperar-cds-i-dvds/</loc>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/reparar/</loc>
+    <lastmod>2014-04-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/convertir/</loc>
+    <lastmod>2014-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2014-01-27-convertir-un-vcd-a-mpg/</loc>
+    <lastmod>2014-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/media/</loc>
+    <lastmod>2014-01-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/android/</loc>
+    <lastmod>2014-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/eines/</loc>
+    <lastmod>2014-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2014-01-21-wordpress-des-del-telefon/</loc>
+    <lastmod>2014-01-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-11-11-la-viquipedia-sense-connexio-a-internet/</loc>
+    <lastmod>2013-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/xarxa/</loc>
+    <lastmod>2013-11-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-10-22-espai-de-disc/</loc>
+    <lastmod>2013-10-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-08-17-musica-des-de-la-terminal-amb-vlc/</loc>
+    <lastmod>2013-08-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-06-20-afegir-una-llancadora-a-lescriptori-en-linkatedu-12-04/</loc>
+    <lastmod>2013-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/ubuntu/</loc>
+    <lastmod>2013-06-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/esperanto/</loc>
+    <lastmod>2013-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-06-15-esperanto-en-xubuntu/</loc>
+    <lastmod>2013-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/xfce/</loc>
+    <lastmod>2013-06-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/debian/</loc>
+    <lastmod>2013-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-06-12-problemes-amb-els-repositoris-debian-wheezy/</loc>
+    <lastmod>2013-06-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-04-27-solucionar-discs-amb-fsck/</loc>
+    <lastmod>2013-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-04-27-solucionar-discs-fat-i-ntfs/</loc>
+    <lastmod>2013-04-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-04-08-emacs24-a-la-linkat/</loc>
+    <lastmod>2013-04-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-04-05-installar-modes-en-emacs-24/</loc>
+    <lastmod>2013-04-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-04-03-biombos-a-la-terminal/</loc>
+    <lastmod>2013-04-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/audio/</loc>
+    <lastmod>2013-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2013-02-01-extreure-elements-dun-arxiu-swf/</loc>
+    <lastmod>2013-02-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/latex/</loc>
+    <lastmod>2012-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/lyx/</loc>
+    <lastmod>2012-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</loc>
+    <lastmod>2012-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/ofimatica/</loc>
+    <lastmod>2012-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/opensuse/</loc>
+    <lastmod>2012-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/programari/</loc>
+    <lastmod>2012-12-27T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-12-25-accents-amb-un-teclat-america/</loc>
+    <lastmod>2012-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/catala/</loc>
+    <lastmod>2012-12-25T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/esteganografia/</loc>
+    <lastmod>2012-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-11-30-mes-enlla-duna-imatge/</loc>
+    <lastmod>2012-11-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-10-20-canviar-codificacio-dun-arxiu/</loc>
+    <lastmod>2012-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/utf-8/</loc>
+    <lastmod>2012-10-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-10-19-convertir-audio-apecue-a-ogg/</loc>
+    <lastmod>2012-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/ffmpeg/</loc>
+    <lastmod>2012-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/ogg/</loc>
+    <lastmod>2012-10-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-10-16-installar-un-paquet-experimental-a-debian/</loc>
+    <lastmod>2012-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-10-06-canviar-el-noms-de-fitxers-amb-rename/</loc>
+    <lastmod>2012-10-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-09-21-unir-videos-des-de-terminal/</loc>
+    <lastmod>2012-09-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-08-05-19628_081013224757/</loc>
+    <lastmod>2012-08-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-06-10-nou-emacs-24-1/</loc>
+    <lastmod>2012-06-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-06-04-installar-lultima-versio-de-libreoffice-en-debian/</loc>
+    <lastmod>2012-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-05-22-recompte-de-caracters-amb-emacs/</loc>
+    <lastmod>2012-05-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-03-18-tmux-per-veure-la-terminal-duna-altra-manera/</loc>
+    <lastmod>2012-03-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/bash/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-01-11-trobant-duplicats/</loc>
+    <lastmod>2012-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2012-01-08-midnight-commander-i-ssh/</loc>
+    <lastmod>2012-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/ssh/</loc>
+    <lastmod>2012-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-12-17-ibus-i-problemes-amb-unity/</loc>
+    <lastmod>2011-12-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-12-05-screen-una-eina-mes-per-la-terminal/</loc>
+    <lastmod>2011-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/conky/</loc>
+    <lastmod>2011-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</loc>
+    <lastmod>2011-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-09-10-escriure-simbols-i-diacritics-en-emacs/</loc>
+    <lastmod>2011-09-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-07-24-corrector-de-catala-mentre-escrivim-a-lemacs/</loc>
+    <lastmod>2011-07-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-07-19-usar-texmaker-a-la-linkat-4/</loc>
+    <lastmod>2011-07-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/rsync/</loc>
+    <lastmod>2011-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</loc>
+    <lastmod>2011-07-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-07-12-abiword-processador-de-textos-lleuger/</loc>
+    <lastmod>2011-07-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-07-07-coneixer-informacio-del-sistema/</loc>
+    <lastmod>2011-07-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</loc>
+    <lastmod>2011-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/turpial/</loc>
+    <lastmod>2011-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-06-03-turpial-a-la-linkat/</loc>
+    <lastmod>2011-06-03T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</loc>
+    <lastmod>2011-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/org-mode/</loc>
+    <lastmod>2011-06-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-05-15-turpial-a-lunity-i-en-catala/</loc>
+    <lastmod>2011-05-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/dropbox/</loc>
+    <lastmod>2011-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-05-12-dropbox-a-lunity/</loc>
+    <lastmod>2011-05-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-04-19-erc-client-de-xat-de-lemacs/</loc>
+    <lastmod>2011-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-04-18-ajust-de-linia-en-emacs/</loc>
+    <lastmod>2011-04-18T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-04-16-terminator/</loc>
+    <lastmod>2011-04-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-04-10-problemes-amb-ssh/</loc>
+    <lastmod>2011-04-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-04-04-la-nova-linkat-ja-es-aqui/</loc>
+    <lastmod>2011-04-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-03-31-canviar-openoffice-per-libreoffice/</loc>
+    <lastmod>2011-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-03-09-traduint-turpial/</loc>
+    <lastmod>2011-03-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-03-07-apunts-demacs-part-ii/</loc>
+    <lastmod>2011-03-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-02-24-corrector-catala-per-emacs/</loc>
+    <lastmod>2011-02-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-02-20-accents-a-lemacs/</loc>
+    <lastmod>2011-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-01-26-fer-una-entrada-al-wordpress-amb-emacs/</loc>
+    <lastmod>2011-01-26T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-01-24-hola-mon/</loc>
+    <lastmod>2011-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-01-24-org-mode/</loc>
+    <lastmod>2011-01-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</loc>
+    <lastmod>2011-01-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-01-08-conectar-se-a-identi-ca-amb-emacs/</loc>
+    <lastmod>2011-01-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2011-01-06-donant-color-a-lemacs/</loc>
+    <lastmod>2011-01-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-12-31-felic-any-gnou-2011/</loc>
+    <lastmod>2010-12-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</loc>
+    <lastmod>2010-12-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-11-21-cercar-una-carpeta-des-de-la-terminal/</loc>
+    <lastmod>2010-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</loc>
+    <lastmod>2010-11-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-11-14-warning-remote-host-identification-has-changed/</loc>
+    <lastmod>2010-11-14T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/distros/</loc>
+    <lastmod>2010-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-10-31-fedorant/</loc>
+    <lastmod>2010-10-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-10-16-les-fonts-tipografiques/</loc>
+    <lastmod>2010-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-10-12-apunts-demacs-part-i/</loc>
+    <lastmod>2010-10-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-09-29-comencant-amb-emacs/</loc>
+    <lastmod>2010-09-29T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/bzip2/</loc>
+    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</loc>
+    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/comprimir/</loc>
+    <lastmod>2010-08-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-06-24-antix-distro-lleugera-en-catala/</loc>
+    <lastmod>2010-06-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-06-04-comandes-desborrar-a-vim/</loc>
+    <lastmod>2010-06-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-05-28-eina-grafica-per-calcular-hash/</loc>
+    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-05-28-generar-md5/</loc>
+    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/seguretat/</loc>
+    <lastmod>2010-05-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-05-09-comandes-dinserir-a-vim/</loc>
+    <lastmod>2010-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-05-09-comandes-de-desplacament-a-vim/</loc>
+    <lastmod>2010-05-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-04-19-eliminar-kernels-vells/</loc>
+    <lastmod>2010-04-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-04-15-vim-un-editor-a-tenir-en-compte/</loc>
+    <lastmod>2010-04-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-04-02-acces-a-una-carpeta-compartida-amb-nfs/</loc>
+    <lastmod>2010-04-02T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-04-01-iniciar-el-servidor-nfs/</loc>
+    <lastmod>2010-04-01T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-03-31-configurar-el-servidor-nfs/</loc>
+    <lastmod>2010-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-03-31-dia-mundial-dels-documents-lliures/</loc>
+    <lastmod>2010-03-31T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-03-30-nfs-sistema-darxius-en-xarxa/</loc>
+    <lastmod>2010-03-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-03-08-installar-apache/</loc>
+    <lastmod>2010-03-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-03-08-una-web-local/</loc>
+    <lastmod>2010-03-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</loc>
+    <lastmod>2010-03-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-22-installar-servidor-dhcp/</loc>
+    <lastmod>2010-02-22T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-21-ordres-de-gestio-dusuaris-crear-usuaris/</loc>
+    <lastmod>2010-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-21-ordres-de-gestio-dusuaris-eliminar-usuaris/</loc>
+    <lastmod>2010-02-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-20-crear-i-esborrar-carpetes/</loc>
+    <lastmod>2010-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-20-saber-els-procesos/</loc>
+    <lastmod>2010-02-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-19-netejar-ubuntu/</loc>
+    <lastmod>2010-02-19T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-17-trobar-duplicats-a-lordinador/</loc>
+    <lastmod>2010-02-17T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</loc>
+    <lastmod>2010-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-15-calendari-des-de-la-terminal/</loc>
+    <lastmod>2010-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-15-eliminar-el-soroll-amb-audacity/</loc>
+    <lastmod>2010-02-15T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-12-esborrar-disc-regravable/</loc>
+    <lastmod>2010-02-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-10-f-spot/</loc>
+    <lastmod>2010-02-10T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-07-fent-poesia-amb-la-terminal/</loc>
+    <lastmod>2010-02-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-02-05-aplicacions/</loc>
+    <lastmod>2010-02-05T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-30-dropbox-una-alternativa-als-usb/</loc>
+    <lastmod>2010-01-30T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-20-full-circle-magazine/</loc>
+    <lastmod>2010-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/ubuntu/</loc>
+    <lastmod>2010-01-20T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-13-blogtk-i-wordpress/</loc>
+    <lastmod>2010-01-13T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-12-xequeig-dun-disc-amb-terminal/</loc>
+    <lastmod>2010-01-12T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-11-com-installar-opensuse-text-mode/</loc>
+    <lastmod>2010-01-11T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-09-instalar-opensuse-en-xarxa/</loc>
+    <lastmod>2010-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-09-marcadors-online/</loc>
+    <lastmod>2010-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/opensuse/</loc>
+    <lastmod>2010-01-09T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-07-donar-permisos-a-un-directori-en-terminal/</loc>
+    <lastmod>2010-01-07T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/slitaz/</loc>
+    <lastmod>2010-01-04T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2010-01-04-slitaz-lleugeresa-linux/</loc>
+    <lastmod>2010-01-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/series/</loc>
   </url>

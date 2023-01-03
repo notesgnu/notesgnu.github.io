@@ -6,13 +6,31 @@
     <description>Recent content in Categories on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>markdown</title>
       <link>https://notesgnu.github.io/categories/markdown/</link>
-      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
       <guid>https://notesgnu.github.io/categories/markdown/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>fedora</title>
+      <link>https://notesgnu.github.io/categories/fedora/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/fedora/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>vim</title>
+      <link>https://notesgnu.github.io/categories/vim/</link>
+      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/vim/</guid>
       <description></description>
     </item>
     
@@ -26,11 +44,11 @@
     </item>
     
     <item>
-      <title>vim</title>
-      <link>https://notesgnu.github.io/categories/vim/</link>
-      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      <title>org2blog</title>
+      <link>https://notesgnu.github.io/categories/org2blog/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
       
-      <guid>https://notesgnu.github.io/categories/vim/</guid>
+      <guid>https://notesgnu.github.io/categories/org2blog/</guid>
       <description></description>
     </item>
     
@@ -98,11 +116,443 @@
     </item>
     
     <item>
+      <title>linux</title>
+      <link>https://notesgnu.github.io/categories/linux/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/linux/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lubuntu</title>
+      <link>https://notesgnu.github.io/categories/lubuntu/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/lubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lxde</title>
+      <link>https://notesgnu.github.io/categories/lxde/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/lxde/</guid>
+      <description></description>
+    </item>
+    
+    <item>
       <title>editor</title>
       <link>https://notesgnu.github.io/categories/editor/</link>
       <pubDate>Sat, 23 Jan 2016 16:13:38 +0000</pubDate>
       
       <guid>https://notesgnu.github.io/categories/editor/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>comandes</title>
+      <link>https://notesgnu.github.io/categories/comandes/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/comandes/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>terminal</title>
+      <link>https://notesgnu.github.io/categories/terminal/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/terminal/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>gnu</title>
+      <link>https://notesgnu.github.io/categories/gnu/</link>
+      <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/gnu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>maquinari</title>
+      <link>https://notesgnu.github.io/categories/maquinari/</link>
+      <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/maquinari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>scratch</title>
+      <link>https://notesgnu.github.io/categories/scratch/</link>
+      <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/scratch/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>mencoder</title>
+      <link>https://notesgnu.github.io/categories/mencoder/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/mencoder/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>video</title>
+      <link>https://notesgnu.github.io/categories/video/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/video/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>multimedia</title>
+      <link>https://notesgnu.github.io/categories/multimedia/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/multimedia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>jekyll</title>
+      <link>https://notesgnu.github.io/categories/jekyll/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/jekyll/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>online</title>
+      <link>https://notesgnu.github.io/categories/online/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/online/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>error</title>
+      <link>https://notesgnu.github.io/categories/error/</link>
+      <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/error/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>hack</title>
+      <link>https://notesgnu.github.io/categories/hack/</link>
+      <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/hack/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>inkscape</title>
+      <link>https://notesgnu.github.io/categories/inkscape/</link>
+      <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/inkscape/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>exif</title>
+      <link>https://notesgnu.github.io/categories/exif/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/exif/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>imatges</title>
+      <link>https://notesgnu.github.io/categories/imatges/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/imatges/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>reparar</title>
+      <link>https://notesgnu.github.io/categories/reparar/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/reparar/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>convertir</title>
+      <link>https://notesgnu.github.io/categories/convertir/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/convertir/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>media</title>
+      <link>https://notesgnu.github.io/categories/media/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/media/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>android</title>
+      <link>https://notesgnu.github.io/categories/android/</link>
+      <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/android/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>eines</title>
+      <link>https://notesgnu.github.io/categories/eines/</link>
+      <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/eines/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xarxa</title>
+      <link>https://notesgnu.github.io/categories/xarxa/</link>
+      <pubDate>Mon, 11 Nov 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/xarxa/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ubuntu</title>
+      <link>https://notesgnu.github.io/categories/ubuntu/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/ubuntu/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>esperanto</title>
+      <link>https://notesgnu.github.io/categories/esperanto/</link>
+      <pubDate>Sat, 15 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/esperanto/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>xfce</title>
+      <link>https://notesgnu.github.io/categories/xfce/</link>
+      <pubDate>Sat, 15 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/xfce/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>debian</title>
+      <link>https://notesgnu.github.io/categories/debian/</link>
+      <pubDate>Wed, 12 Jun 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/debian/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>audio</title>
+      <link>https://notesgnu.github.io/categories/audio/</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/audio/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>latex</title>
+      <link>https://notesgnu.github.io/categories/latex/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/latex/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>lyx</title>
+      <link>https://notesgnu.github.io/categories/lyx/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/lyx/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ofimatica</title>
+      <link>https://notesgnu.github.io/categories/ofimatica/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/ofimatica/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>opensuse</title>
+      <link>https://notesgnu.github.io/categories/opensuse/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/opensuse/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>programari</title>
+      <link>https://notesgnu.github.io/categories/programari/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/programari/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>catala</title>
+      <link>https://notesgnu.github.io/categories/catala/</link>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/catala/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>esteganografia</title>
+      <link>https://notesgnu.github.io/categories/esteganografia/</link>
+      <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/esteganografia/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>utf-8</title>
+      <link>https://notesgnu.github.io/categories/utf-8/</link>
+      <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/utf-8/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ffmpeg</title>
+      <link>https://notesgnu.github.io/categories/ffmpeg/</link>
+      <pubDate>Fri, 19 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/ffmpeg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ogg</title>
+      <link>https://notesgnu.github.io/categories/ogg/</link>
+      <pubDate>Fri, 19 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/ogg/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>bash</title>
+      <link>https://notesgnu.github.io/categories/bash/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/bash/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>ssh</title>
+      <link>https://notesgnu.github.io/categories/ssh/</link>
+      <pubDate>Sun, 08 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/ssh/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>conky</title>
+      <link>https://notesgnu.github.io/categories/conky/</link>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/conky/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>rsync</title>
+      <link>https://notesgnu.github.io/categories/rsync/</link>
+      <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/rsync/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>turpial</title>
+      <link>https://notesgnu.github.io/categories/turpial/</link>
+      <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/turpial/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org-mode</title>
+      <link>https://notesgnu.github.io/categories/org-mode/</link>
+      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/org-mode/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>dropbox</title>
+      <link>https://notesgnu.github.io/categories/dropbox/</link>
+      <pubDate>Thu, 12 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/dropbox/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>distros</title>
+      <link>https://notesgnu.github.io/categories/distros/</link>
+      <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/distros/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>seguretat</title>
+      <link>https://notesgnu.github.io/categories/seguretat/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/seguretat/</guid>
       <description></description>
     </item>
     

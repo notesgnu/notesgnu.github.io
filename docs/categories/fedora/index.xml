@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>fedora on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/fedora/</link>
+    <description>Recent content in fedora on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/fedora/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proves des de Fedora</title>
+      <link>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora-3/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora-3/</guid>
+      <description>Ja fa uns dies que va arribar a les meves mans una màquina vella, d&amp;rsquo;aquelles que ja no serveixen&amp;hellip; en teoria. És un portàtil HP Probook 6560b, i he fet un munt de proves. El primer va ser ampliar la RAM de 2 a 6 gigues, sense cap problema!!!, aquí ja em vaig emocionar, i vaig tirar endavant amb un disc sòlid SSD de 120. Aquí em va donar molts problemes&amp;hellip; solució ha estat actualitzar la BIOS, usant els arxius per Windows, ja que amb Linux em baixava una BIOS molt antiga.</description>
+    </item>
+    
+    <item>
+      <title>Promblemes amb ffmpeg: libxvidcore.so.4</title>
+      <link>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</link>
+      <pubDate>Sat, 15 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</guid>
+      <description>Porto uns dies amb problemes en treballar amb ffmpeg  Exactament, Fedora14 em diu: $ ffmpeg: error while loading shared libraries: libxvidcore.so.4: cannot enable executable stack as shared object requires: Permission denied
+La solució: $ su $ contrasenya
+$ execstack -c /usr/lib/libxvidcore.so.4 ;)</description>
+    </item>
+    
+    <item>
+      <title>Codificació no vàlida</title>
+      <link>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</link>
+      <pubDate>Sun, 05 Dec 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</guid>
+      <description>Avui estava copiant uns documents antics d&amp;rsquo;un disc dur vell al meu ordinador. I me m&amp;rsquo;he trobat un munt de símbols ? i al final de l&amp;rsquo;extensió la expressió &amp;ldquo;codificació no vàlida&amp;rdquo;. Sempre que em passava això, el que feia era renombrar-ho, però aquesta vegada eren molts. Després de cercar molt, he trobat que això passa perquè la codificació que tenien era iso-8859-9, i el meu ordinador treballa amb utf8. La solució me l&amp;rsquo;ha donat la comanda CONVMV!</description>
+    </item>
+    
+    <item>
+      <title>Sincronitzar gnote amb dropbox</title>
+      <link>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</link>
+      <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</guid>
+      <description>Fins fa poc usava poc el Tomboy, o d&amp;rsquo;altres programes de notes com ara el GNOTE. Però fa poc vaig llegir un article de com sincronitzar-ho entre ordinadors a través del dropbox.
+He seguit els passos que explicaven en &amp;ldquo;Usemos linux&amp;rdquo; http://ur1.ca/2e9r3, però NO m&amp;rsquo;ha funcionat&amp;hellip; el problema era que no em reconeixia ~/.gnote l&amp;rsquo;havia de canviar per ~/.local/share/gnote
+Així que al final ho he fet d&amp;rsquo;aquesta manera:
+Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</description>
+    </item>
+    
+    <item>
+      <title>Fedorant</title>
+      <link>https://notesgnu.github.io/post/2010-10-31-fedorant/</link>
+      <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-10-31-fedorant/</guid>
+      <description>Com deia un conegut fa un temps&amp;hellip; he vist la yum!
+Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!
+I la veritat es que estic molt content ;)
+Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi.</description>
+    </item>
+    
+  </channel>
+</rss>

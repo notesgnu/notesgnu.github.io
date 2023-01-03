@@ -1,0 +1,303 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>org2blog on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/org2blog/</link>
+    <description>Recent content in org2blog on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/org2blog/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escrivint al Wordpress des de l&#39;EMACS</title>
+      <link>https://notesgnu.github.io/post/2021-05-29-escrivint-al-wordpress-des-de-lemacs/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2021-05-29-escrivint-al-wordpress-des-de-lemacs/</guid>
+      <description>Per poder publicar des d&amp;rsquo;Emacs a un blog hi ha diverses maneres. Tot i això, en el meu cas, ja fa temps que uso org2blog. Des dels primers inicis a ara, ha tingut diversos canvis, i la veritat és que em funciona molt bé.
+Passo a compartir com ho faig.
+instal·lació Primer que res, cal quenir-ho instal·lat. Per fer-ho, només cal seguir les instruccions de la seva pàgina.
+Dins del nostre .</description>
+    </item>
+    
+    <item>
+      <title>Hola, torno a Wordpress</title>
+      <link>https://notesgnu.github.io/post/2021-05-29-hola-torno-a-wordpress/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2021-05-29-hola-torno-a-wordpress/</guid>
+      <description>Després de temps provant diferents opcions, al final he decidit tornar a Wordpress. Senzill, per la facilitat d&amp;rsquo;accedir des de diferents dispositius, i alhora poder publicar des d&amp;rsquo;Emacs.
+En Emacs tenim Org2Blog que funciona perfectament per aquest menester, i ens permet tenir desat l&amp;rsquo;article, que més tard podem exportar a altres formats.
+Quan tingui una estona faré un breu manual de com publicar un article com aquest des d&amp;rsquo;Emacs.
+;-)</description>
+    </item>
+    
+    <item>
+      <title>Em falla org2blog 3a part [Solucionat]</title>
+      <link>https://notesgnu.github.io/post/2015-01-21-hello-world/</link>
+      <pubDate>Wed, 21 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2015-01-21-hello-world/</guid>
+      <description>Be, de moment solucionat! Ja estic publicant des de l’Org2blog :-) Resulta que ara han canviat el Wordpress, i l&amp;rsquo;org2blog ja no connecta correctament per http, ara cal canviar per https!
+Abans era:
+Contacting host: croniqueslinux.wordpress.com:80 xml-rpc-request: Error during request: 301
+i ara ja respon:
+Contacting host: croniqueslinux.wordpress.com:443 Logged in
+Perfecte!
+He de dir que la resposta final la he trobat gracies a la comunitat d&amp;rsquo;org2blog :-)
+Nota: el problema m&amp;rsquo;ha fet usar Blogilo, i trobo una molt bona eina!</description>
+    </item>
+    
+    <item>
+      <title>Em falla org2blog 2a part</title>
+      <link>https://notesgnu.github.io/post/2015-01-17-em-falla-org2blog-2a-part/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2015-01-17-em-falla-org2blog-2a-part/</guid>
+      <description>Segueix sense anar-me l&amp;rsquo;Org2blog :-(
+Ara ja no em va. Ho he provat des de l&amp;rsquo;Emacs 24 (GNU Emacs 24.3.1), i també des del Emacs 23. No he trobat encara la solució! No sé si és un problema de l&amp;rsquo;org2blog o de les seves dependències. Ara, amb tot actualitzat em falla dient:
+Contacting host: croniqueslinux.wordpress.com:80
+xml-rpc-request: Error during request: 301
+:-O
+Així que ho he provat per https en la configuració, en comptes de http, i sembla que sí va, però no publica, es penja amb un problema (Variable binding depth exceeds max-specpdl-size)</description>
+    </item>
+    
+    <item>
+      <title>Em falla org2blog</title>
+      <link>https://notesgnu.github.io/post/2014-08-12-em-falla-org2blog/</link>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2014-08-12-em-falla-org2blog/</guid>
+      <description>Fins aquests dies Org2blog anava :-(
+No sé que passa, però algunes vegades em va i d&amp;rsquo;altres falla, i molt, o em penja un bon munt d&amp;rsquo;esborranys, així que em toca emigrar de moment!
+Els errors que em salta són del tipus: Making completion list&amp;hellip; [2 times] Contacting host: croniqueslinux.wordpress.com:80 [2 times] progn: Why? url-http-response-status is nil Contacting host: croniqueslinux.wordpress.com:80 [3 times] progn: Why? url-http-response-status is nil
+i així es queda.</description>
+    </item>
+    
+    <item>
+      <title>instal·lar un paquet experimental a Debian</title>
+      <link>https://notesgnu.github.io/post/2012-10-16-installar-un-paquet-experimental-a-debian/</link>
+      <pubDate>Tue, 16 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2012-10-16-installar-un-paquet-experimental-a-debian/</guid>
+      <description>Avui per un problema amb el network-manager he decidit instal·lar un paquet des del repositori experimental al portàtil on tinc instal·lat Debian (Testing). El primer que he vist és que hi havia la nova versió del network-manager 9.6 i amb alguns problemes corregits. Sempre quan instal·lem un paquet des del repositori experimental cal tenir present que no són segurs del tot, ja que des de Debian no n&amp;rsquo;asseguren el correcte funcionament.</description>
+    </item>
+    
+    <item>
+      <title>Canviar el noms de fitxers amb &lt;b&gt;rename&lt;/b&gt;</title>
+      <link>https://notesgnu.github.io/post/2012-10-06-canviar-el-noms-de-fitxers-amb-rename/</link>
+      <pubDate>Sat, 06 Oct 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2012-10-06-canviar-el-noms-de-fitxers-amb-rename/</guid>
+      <description>Algunes vegades necessito canviar el nom d&amp;rsquo;un fitxer o d&amp;rsquo;una carpeta, res més senzill que usant l&amp;rsquo;entorn gràfic i fent clic amb el botó dret sobre el fitxer (ho faig així amb el nautilus, o el pcmanfm, o el dolphin) o directament amb el fitxer eleccionat i prement [F2].
+Però quan vull canviar molt fitxers de nom o d&amp;rsquo;extensió, llavors es fa molt lent. Hi ha eines gràfiques per fer-ho com gprename, krename o pyrenamer, però jo voldria compartir la que uso jo, des de terminal, la comanda rename.</description>
+    </item>
+    
+    <item>
+      <title>Unir videos des de terminal</title>
+      <link>https://notesgnu.github.io/post/2012-09-21-unir-videos-des-de-terminal/</link>
+      <pubDate>Fri, 21 Sep 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2012-09-21-unir-videos-des-de-terminal/</guid>
+      <description>Sovint acabo amb molts videos de la càmera, i no és qüestió de tenir un munt de bocins solts. Així que els podem unir en un de sol. Utilitzant la eina mencoder, des de la terminal podem unir dos o més videos en un de sol.
+Obrint una terminal:
+mencoder -oac copy -ovc copy -idx -o videofinal.avi part1.avi part2.avi :
+o també podem:
+mencoder -oac copy -ovc copy -idx -o videofinal.</description>
+    </item>
+    
+    <item>
+      <title>Corrector de català mentre escrivim a l&#39;Emacs</title>
+      <link>https://notesgnu.github.io/post/2011-07-24-corrector-de-catala-mentre-escrivim-a-lemacs/</link>
+      <pubDate>Sun, 24 Jul 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-07-24-corrector-de-catala-mentre-escrivim-a-lemacs/</guid>
+      <description>Des de que uso Emacs que m&amp;rsquo;han anat sorgint dubtes, problemes i solucions referents a l&amp;rsquo;ús del català. El primer problema que vaig tenir era que no era capaç d&amp;rsquo;escriure en accents fins que ho vaig solucionar. La segona cosa era com fer anar un corrector en català, i també ho vaig trobar.
+Ara resulta que m&amp;rsquo;he trobat que volia usar el corrector al &amp;ldquo;vol&amp;rdquo;, és a dir, com en altres programes que es va posant en roig les paraules mal escrites.</description>
+    </item>
+    
+    <item>
+      <title>Turpial a la Linkat</title>
+      <link>https://notesgnu.github.io/post/2011-06-03-turpial-a-la-linkat/</link>
+      <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-06-03-turpial-a-la-linkat/</guid>
+      <description>Divendres a la tarda, i amb ganes de llegir les piulades del dia, i com és de costum solc usar el mode d&amp;rsquo;Emacs per a Identi.ca i Turpial per a Twitter.
+Com que fa uns dies que vaig instal·lar al meu vell Eeepc901, ara em calia posar-hi el Turpial.
+Aquests passos serveixen tan per la Linkat com per a Opensuse 11.x.
+obtenir Turpial El primer que cal és baixar el paquet tar.</description>
+    </item>
+    
+    <item>
+      <title>Instal·lant org-mode a la Linkat</title>
+      <link>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</link>
+      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</guid>
+      <description>Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.
+Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)
+Primer que res he instal·lat emacs a la Linkat La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:</description>
+    </item>
+    
+    <item>
+      <title>Turpial a l&#39;Unity i en català</title>
+      <link>https://notesgnu.github.io/post/2011-05-15-turpial-a-lunity-i-en-catala/</link>
+      <pubDate>Sun, 15 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-05-15-turpial-a-lunity-i-en-catala/</guid>
+      <description>Ja fa un temps que vaig escriure sobre Turpial, i de com traduïr-lo. Per tenir la versió ja traduïda des dels repositoris a l&amp;rsquo;Ubuntu, només cal afegir el ppa
+sudo add-apt-repository ppa:effie-jayx/turpial-devel
+un cop afegit el repositori de desenvolupament, només cal instal·lar-lo
+sudo apt-get update sudo apt-get install turpial
+això ens instal·larà la versió 1.5rc1 i ja està en català.
+La segona qüestió a resoldre és que aparegui a la barra superior de l&amp;rsquo;Unity.</description>
+    </item>
+    
+    <item>
+      <title>Dropbox a l&#39;Unity</title>
+      <link>https://notesgnu.github.io/post/2011-05-12-dropbox-a-lunity/</link>
+      <pubDate>Thu, 12 May 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-05-12-dropbox-a-lunity/</guid>
+      <description>Fa temps que uso Dropbox, però amb l&amp;rsquo;actualització de l&amp;rsquo;Ubuntu del portàtil m&amp;rsquo;he trobat que no apareix la icona del Dropbox a la barra superior. Per fer això només cal fer el següent, a la terminal escrivim: $ gsettings get com.canonical.Unity.Panel systray-whitelist i ens retorna el que té predeterminat a la barra… [&#39;JavaEmbeddedFrame&#39;, &#39;Mumble&#39;, &#39;Wine&#39;, &#39;Skype&#39;, &#39;hp-systray&#39;, &#39;scp-dbus-service&#39;]
+Jo no uso ni wine ni Skype, així que els esborro, si cal els podeu deixar… Per afegir dropbox, només cal modificar la barra escrivint a la terminal: $ gsettings set com.</description>
+    </item>
+    
+    <item>
+      <title>ERC: Client de Xat de l&#39;Emacs</title>
+      <link>https://notesgnu.github.io/post/2011-04-19-erc-client-de-xat-de-lemacs/</link>
+      <pubDate>Tue, 19 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-04-19-erc-client-de-xat-de-lemacs/</guid>
+      <description>ERC és un mode de l&amp;rsquo;emacs usat com a client d&amp;rsquo;IRC completo para Emacs. El seu nom ja ho diu: E macs internet R elay C hat
+Per iniciar la sessió, només cal engegar l&amp;rsquo;emacs i fer M-x erc
+Llavors s&amp;rsquo;inicia un minibuffer i ens pregunta el nick, contrasenya, canal IRC… Com a curiositat, tenim que en comptes de entrar a ERC fem M-x irc ens entrarà directament a la xarxa IRC irc.</description>
+    </item>
+    
+    <item>
+      <title>Ajust de línia en EMACS</title>
+      <link>https://notesgnu.github.io/post/2011-04-18-ajust-de-linia-en-emacs/</link>
+      <pubDate>Mon, 18 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-04-18-ajust-de-linia-en-emacs/</guid>
+      <description>Quan inicies l&amp;rsquo;emacs amb la configuració per defecte, sempre surten les línies sense estar ajustades. És a dir, que a mesura que vas escrivint i arribes al marge dret la línia continua sense baixar a sota. Això pot resultar útil alguns cops, però quan escrius un text a mi em resulta molest, ja que no puc llegir el que he escrit.
+Hi ha la solució d&amp;rsquo;anar a Options-&amp;gt; Line wrapping in this buffer -&amp;gt; wrap at window edge i així ho tenim de forma temporal.</description>
+    </item>
+    
+    <item>
+      <title>Terminator</title>
+      <link>https://notesgnu.github.io/post/2011-04-16-terminator/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-04-16-terminator/</guid>
+      <description>Porto temps usant la terminal, i últimament l&amp;rsquo;uso molt per gestionar altres ordinadors via ssh. I m&amp;rsquo;interessa veure com va tot.
+Així, que m&amp;rsquo;ha vingut un flaix, i m&amp;rsquo;he recordat de terminator.
+És un programa escrit en python, que permet finestres múltiples, i molt addient per moltes tasques alhora.
+Com a característiques es pot dir que:  Organitzar terminals en una graella Pestanyes Arrossegar i deixar anar les terminals per reordenar Mètodes abreujats de teclat:  ctrl-shift-n &amp;gt; següent ctrl-shift-p &amp;gt; anterior ctrl-shift-w &amp;gt; tancar la terminal ctrl-shift-q la finestra actual …   Desar diversos dissenys i perfils …  Per instal·lar  ubuntu:  sudo apt-get install terminator</description>
+    </item>
+    
+    <item>
+      <title>Problemes amb ssh</title>
+      <link>https://notesgnu.github.io/post/2011-04-10-problemes-amb-ssh/</link>
+      <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-04-10-problemes-amb-ssh/</guid>
+      <description>Algunes vegades m&amp;rsquo;he trobat amb aquest problema, i avui he decidit veure com ho soluciono. M&amp;rsquo;agrada treballar amb ssh, tot i que ja havia tingut algun problema, avui m&amp;rsquo;he trobat de nou amb el problema següent:
+port 22: Connection timed out
+i amb
+port 22: Connection refused
+Això m&amp;rsquo;ha passat perquè a l&amp;rsquo;ordinador que vull accedir té bloquejat el port 22. Certament, usant el programa nmap m&amp;rsquo;he trobat amb la següent resposta:</description>
+    </item>
+    
+    <item>
+      <title>La nova Linkat ja és aquí!</title>
+      <link>https://notesgnu.github.io/post/2011-04-04-la-nova-linkat-ja-es-aqui/</link>
+      <pubDate>Mon, 04 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-04-04-la-nova-linkat-ja-es-aqui/</guid>
+      <description>Els companys de la Linkat han tret la nova Linkat, la 4! Basada en l&amp;rsquo;Opensuse 11.2, i amb un gran ventall de novetats que la fan molt especial. Com a docent que treballo amb la Linkat a l&amp;rsquo;escola, vull agraïr la feina que fan els que hi són al darrera!
+Si en voleu saber més, a la pàgina oficial.</description>
+    </item>
+    
+    <item>
+      <title>Canviar Openoffice per Libreoffice</title>
+      <link>https://notesgnu.github.io/post/2011-03-31-canviar-openoffice-per-libreoffice/</link>
+      <pubDate>Thu, 31 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-03-31-canviar-openoffice-per-libreoffice/</guid>
+      <description>Avui he decidit defugir de l&amp;rsquo;Openoffice i la política de la companyia oracle, ha estat una gran eina fins ara, però calia seguir fent el canvi. Així que he desinstal·lat l&amp;rsquo;openoffice i he instal·lat Libreoffice.
+Ho he fet al portàtil on hi ha instal·lat un ubuntu.
+A la ternimal he seguit aquests passos:
+sudo apt-get purge &amp;ldquo;openoffice*.*&amp;rdquo;
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt-get update
+sudo apt-get install libreoffice libreoffice-gnome libreoffice-l10n-ca libreoffice-l10n-common libreoffice-help-ca language-support-writing-ca</description>
+    </item>
+    
+    <item>
+      <title>Traduint Turpial</title>
+      <link>https://notesgnu.github.io/post/2011-03-09-traduint-turpial/</link>
+      <pubDate>Wed, 09 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-03-09-traduint-turpial/</guid>
+      <description>Avui, després de temps usant el programa Pino com a client de twitter i d&amp;rsquo;identi.ca, i cansat d&amp;rsquo;usar eines API per gestionar el twitter. Al final he decidit cercar-ne un altre. Per una banda, ja tenia el Gwibber però mai m&amp;rsquo;ha agradat, i sempre m&amp;rsquo;he liat una mica. Així que m&amp;rsquo;he decidit per Turpial. El problema és que em surt en anglès, així que explico com instal·lar-ho i deixar-ho en català:</description>
+    </item>
+    
+    <item>
+      <title>Apunts d&#39;EMACS, part II</title>
+      <link>https://notesgnu.github.io/post/2011-03-07-apunts-demacs-part-ii/</link>
+      <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-03-07-apunts-demacs-part-ii/</guid>
+      <description>Avui vull apuntar quatre notes més sobre dreceres de teclat i comandes bàsiques per a l&amp;rsquo;Emacs. Ja vaig fer la primera part, on vaig apuntar com iniciar.
+obrir un arxiu Per obrir un arxiu, només cal C-x C-f i escriure el nom de l&amp;rsquo;arxiu que tenim o que volem iniciar. Si el tenim a la carpeta de l&amp;rsquo;usuari, s&amp;rsquo;obrirà; i si no el tenim a la carpeta, en crearà un nou a la carpeta de l&amp;rsquo;usuari.</description>
+    </item>
+    
+    <item>
+      <title>Corrector catala per Emacs</title>
+      <link>https://notesgnu.github.io/post/2011-02-24-corrector-catala-per-emacs/</link>
+      <pubDate>Thu, 24 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-02-24-corrector-catala-per-emacs/</guid>
+      <description>Avui estava escrivint un text en Català i m&amp;rsquo;he trobat que tenia faltes d&amp;rsquo;ortografia. El motiu ha estat que estava usant un teclat americà i no em posava els accents.
+La solució:
+instal·lar el paquet de llengua catalana…
+$ sudo apt-get install aspell-ca
+i ara dins de l&amp;rsquo;emacs, quan tenim el text acabat podem activar-ho amb:
+M-x ispell-buffer
+quan acabem fem C-g per sortir…
+perfecte! :)</description>
+    </item>
+    
+    <item>
+      <title>Accents a l&#39;Emacs</title>
+      <link>https://notesgnu.github.io/post/2011-02-20-accents-a-lemacs/</link>
+      <pubDate>Sun, 20 Feb 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-02-20-accents-a-lemacs/</guid>
+      <description>Des de que he començat a usar Emacs, m&amp;rsquo;he trobat amb la dificultat d&amp;rsquo;escriure els accents. Al principi, si feia anar l&amp;rsquo;emacs des de consola amb: $ emacs -nw anava perfecte, però no era la solució!!! Al final, després de provar un munt de coses, he trobat que la culpa és que tinc instal·lat l&amp;rsquo;IBUS per escriure en xinès, i pel que sigui la codificació no acaba d&amp;rsquo;anar. La solució des de terminal era en mode gràfic: $ XMODIFIERS=@im=none emacs però no era qüestió d&amp;rsquo;anar obrint terminals per executar l&amp;rsquo;emacs per escriure amb accents.</description>
+    </item>
+    
+    <item>
+      <title>Fer una entrada al wordpress amb Emacs</title>
+      <link>https://notesgnu.github.io/post/2011-01-26-fer-una-entrada-al-wordpress-amb-emacs/</link>
+      <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-01-26-fer-una-entrada-al-wordpress-amb-emacs/</guid>
+      <description>Després de provar-ho uns dies, i d&amp;rsquo;insistir-hi, al final me n&amp;rsquo;he sortit! Es poden publicar els blocs amb l&amp;rsquo;emacs, per poder-ho fer he triat: emacs, wordpress i el mode de l&amp;rsquo;emacs conegut com org2blog!
+Primer quue res, cal tenir instal·lat l&amp;rsquo;emacs. Per instal·lar l&amp;rsquo;org2blog ho podem fer seguint els passos de la pàgina
+https://github.com/punchagan/org2blog
+Si volem baixar el paquet directament del git, podem fer-ho instal·lant-lo. Per exemple, si tenim una distro basada en paquest deb:</description>
+    </item>
+    
+    <item>
+      <title>Hola món des de l&#39;Emacs</title>
+      <link>https://notesgnu.github.io/post/2011-01-24-hola-mon/</link>
+      <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-01-24-hola-mon/</guid>
+      <description>Primera nota al bloc usant org-mode i org2blog amb l&amp;rsquo;emacs XD
+https://github.com/punchagan/org2blog</description>
+    </item>
+    
+  </channel>
+</rss>

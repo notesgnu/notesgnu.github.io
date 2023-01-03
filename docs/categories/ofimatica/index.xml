@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ofimatica on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/ofimatica/</link>
+    <description>Recent content in ofimatica on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Dec 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/ofimatica/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nova versió de LyX a la Linkat</title>
+      <link>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
+      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.
+El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9
+I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
+    </item>
+    
+    <item>
+      <title>Un visor per PDF lleuger</title>
+      <link>https://notesgnu.github.io/post/2012-08-05-19628_081013224757/</link>
+      <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2012-08-05-19628_081013224757/</guid>
+      <description>Moltes vegades em trobo amb PDF cada cop més pesats, i per passar de pàgina a pàgina, triga una mica, sobretot en els netbooks.
+La idea és, per a què consumir recursos en l&amp;rsquo;eina, quan els podem aplicar tots a la feina?
+Aquí entra en joc Apvlv
+Té l&amp;rsquo;avantatge que es pot usar directament amb el teclat (com Vim o Emacs), i això facilita molt la navegació, en especial en un portàtil o quan vols anar ràpidament a un lloc del document.</description>
+    </item>
+    
+    <item>
+      <title>Canviar Openoffice per Libreoffice</title>
+      <link>https://notesgnu.github.io/post/2011-03-31-canviar-openoffice-per-libreoffice/</link>
+      <pubDate>Thu, 31 Mar 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-03-31-canviar-openoffice-per-libreoffice/</guid>
+      <description>Avui he decidit defugir de l&amp;rsquo;Openoffice i la política de la companyia oracle, ha estat una gran eina fins ara, però calia seguir fent el canvi. Així que he desinstal·lat l&amp;rsquo;openoffice i he instal·lat Libreoffice.
+Ho he fet al portàtil on hi ha instal·lat un ubuntu.
+A la ternimal he seguit aquests passos:
+sudo apt-get purge &amp;ldquo;openoffice*.*&amp;rdquo;
+sudo add-apt-repository ppa:libreoffice/ppa
+sudo apt-get update
+sudo apt-get install libreoffice libreoffice-gnome libreoffice-l10n-ca libreoffice-l10n-common libreoffice-help-ca language-support-writing-ca</description>
+    </item>
+    
+  </channel>
+</rss>

@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>bash on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/bash/</link>
+    <description>Recent content in bash on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 11 Jan 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/bash/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Trobant duplicats!</title>
+      <link>https://notesgnu.github.io/post/2012-01-11-trobant-duplicats/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2012-01-11-trobant-duplicats/</guid>
+      <description>He de confesar que sofreixo una mica el síndrome de diògenes &amp;ldquo;digital&amp;rdquo;, és a dir, sovint emmagatzemo molts arxius, i moltes vegades trobo que ja els tenia. Això m&amp;rsquo;ha fet que tingue més vegades de les desitjades el mateix document, en diferents carpetes o amb noms diferents. Hi ha una eina gràfica que va força bé anomenada fslint. Però per poder a prendre, acostumo a intentar fer-ho des de la terminal.</description>
+    </item>
+    
+  </channel>
+</rss>

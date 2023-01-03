@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>ssh on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/ssh/</link>
+    <description>Recent content in ssh on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 08 Jan 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/ssh/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Midnight Commander i SSH</title>
+      <link>https://notesgnu.github.io/post/2012-01-08-midnight-commander-i-ssh/</link>
+      <pubDate>Sun, 08 Jan 2012 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2012-01-08-midnight-commander-i-ssh/</guid>
+      <description>Volia fer una entrada sobre l&amp;rsquo;ús del MC o Midnight Comander, ja fa uns dies que l&amp;rsquo;estic usant i avui he descobert un ús força interessant. Comparteixo el video que he vist el seu ús amb SSH
+[youtube http://www.youtube.com/watch?v=q6Ct7L4oZFE&amp;amp;w=480&amp;amp;h=360]</description>
+    </item>
+    
+    <item>
+      <title>Problemes amb ssh</title>
+      <link>https://notesgnu.github.io/post/2011-04-10-problemes-amb-ssh/</link>
+      <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2011-04-10-problemes-amb-ssh/</guid>
+      <description>Algunes vegades m&amp;rsquo;he trobat amb aquest problema, i avui he decidit veure com ho soluciono. M&amp;rsquo;agrada treballar amb ssh, tot i que ja havia tingut algun problema, avui m&amp;rsquo;he trobat de nou amb el problema següent:
+port 22: Connection timed out
+i amb
+port 22: Connection refused
+Això m&amp;rsquo;ha passat perquè a l&amp;rsquo;ordinador que vull accedir té bloquejat el port 22. Certament, usant el programa nmap m&amp;rsquo;he trobat amb la següent resposta:</description>
+    </item>
+    
+  </channel>
+</rss>

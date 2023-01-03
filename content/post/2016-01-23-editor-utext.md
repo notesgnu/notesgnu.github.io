@@ -9,7 +9,7 @@ tags: ["markdown"]
 
 És un editor senzill de [markdown](https://ca.wikipedia.org/wiki/Markdown). Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l'edició amb la lectura i escriptura.
 
-![md](https://croniqueslinux.github.io/images/md.jpg)
+![md](images/md.png)
 
 És un editor senzill de [markdown](https://ca.wikipedia.org/wiki/Markdown). Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l'edició amb la lectura i escriptura.
 Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad,  i n'hi ha en línia com [StackEdit](https://stackedit.io/editor).

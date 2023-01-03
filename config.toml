@@ -1,7 +1,7 @@
 baseURL = "https://notesgnu.github.io/"
 title = "Notes GNU"
 theme = "m10c"
-paginate = 7
+paginate = 6
 languageCode = "en"
 DefaultContentLanguage = "ca"
 enableInlineShortcodes = true
@@ -11,39 +11,57 @@ enableemoji = true
 
 [params]
     author = "msaliko"
-    description = "Sou lliures de copiar"
+    description = "2023 (CC) Sou lliures de copiar"
     google_search = true
     avatar = "avatar.png"
-    menu_item_separator = "|"
+    menu_item_separator = " ● "
 
 [params.style]
-  darkestColor = "#d35050"
-  darkColor = "#212121"
-  lightColor = "#f5e3e0"
-  lightestColor = "#f5f5f5"
-  primaryColor = "#ffffff"
+  darkestColor = "#242930"
+  darkColor = "#353b43"
+  lightColor = "#afbac4"
+  lightestColor = "#ffffff"
+  primaryColor = "#57cc8a"
 
+  # Default theme
+  #[params.style]
+  #  darkestColor = "#242930"
+  #  darkColor = "#353b43"
+  #  lightColor = "#afbac4"
+  #  lightestColor = "#ffffff"
+  #  primaryColor = "#57cc8a"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+  #  primaryColor = "#dad865"
+  
 [[menu.main]]
     identifier = "home"
     name = "Inici"
     url = "/"
+    weight = 1
 
 [[menu.main]]
     identifier = "about"
-    name = "Sobre"
+    name = "Sobre mi"
     url = "/about/"
-    weight = 10
+    weight = 2
 
 [[menu.main]]
   identifier = "tags"
-  name = "Tags"
+  name = "Etiquetes"
   url = "/tags/"
+  weight = 3
   
 [[menu.main]]
     identifier = "categories"
-    name = "Categs"
+    name = "Categories"
     url = "/categories/"
-
+    weight = 4
 
 [taxonomies]
 category = "categories"
@@ -52,7 +70,7 @@ series = "series"
 
 [[params.social]]
     url = "jnorbu8@gmail.com"
-    name = "envelope"
+    name = "Correu"
     icon = "mail"
 
 [[params.social]]
@@ -62,15 +80,15 @@ series = "series"
 
 [[params.social]]
     url = "https://twitter.com/manelsales"
-    name = "twitter"
+    name = "Twitter"
     icon = "twitter"
 
 [[params.social]]
-    url = "https://mastodon.social/@misaliko"
-    name = "mastodon"
+    url = "https://mastodont.cat/@msaliko"
+    name = "Mastodon"
     icon = "star"
     
 [[params.social]]
     url = "https://croniqueslinux.wordpress.com/"
-    name = "wordpress"
+    name = "Wordpress"
     icon = "file-text"

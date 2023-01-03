@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>comprimir on Notes GNU</title>
+    <link>https://notesgnu.github.io/tags/comprimir/</link>
+    <description>Recent content in comprimir on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/comprimir/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Bzip2, comprimir arxius des de terminal</title>
+      <link>https://notesgnu.github.io/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</guid>
+      <description>A la Viquipèdia podem trobar una definició del programa bzip2. http://ca.wikipedia.org/wiki/Bzip2 Per comprimir, primer que res obrim una terminal: $ bzip2 -v nomdel&amp;rsquo;arxiu per exemple $ bzip -v imatge.jpg
+i ens quedarà comprimit en un arxiu anomenat imatge.jpg.bz2
+més informació a: $ man bzip2</description>
+    </item>
+    
+  </channel>
+</rss>
