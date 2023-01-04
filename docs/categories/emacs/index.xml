@@ -6,19 +6,7 @@
     <description>Recent content in emacs on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Escrivint al WordPress des de l’EMACS</title>
-      <link>https://notesgnu.github.io/post/2021-05-29-escrivint-de-emacs-a-wordpress/</link>
-      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2021-05-29-escrivint-de-emacs-a-wordpress/</guid>
-      <description>Per poder publicar des d’Emacs a un blog hi ha diverses maneres. Tot i això, en el meu cas, ja fa temps que uso org2blog. Des dels primers inicis a ara, ha tingut diversos canvis, i la veritat és que em funciona molt bé.
-Passo a compartir com ho faig.
-instal·lació Primer que res, cal quenir-ho instal·lat. Per fer-ho, només cal seguir les instruccions de la seva pàgina.
-Dins del nostre .</description>
-    </item>
-    
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/emacs/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Com fer un snippet en Emacs</title>
       <link>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</link>

@@ -9,20 +9,6 @@
     <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/lubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linkatitzar Lubuntu 18.04</title>
-      <link>https://notesgnu.github.io/post/2020-05-24-linkatitzar-lubuntu-18-04/</link>
-      <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-05-24-linkatitzar-lubuntu-18-04/</guid>
-      <description>Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m’he trobat amb un problema.
-el problema Quan he intentat instal.lar el paquet linkat-repos_18.04-5_all.deb
-m’ha donat el següent error:
-El paquet gksu no està instal·lat.
-i si vull instal.lar-lo, em diu:
-El paquet gksu no té versió disponible, però un altre paquet en fa referència.</description>
-    </item>
-    
-    <item>
-      <title>Linkatitzar Lubuntu 18.04</title>
       <link>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
       

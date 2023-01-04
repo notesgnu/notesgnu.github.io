@@ -4,7 +4,7 @@
     <title>Accents amb un teclat americà // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="generator" content="Hugo 0.91.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
@@ -107,12 +107,12 @@
       <p><img src="images/wpid-teclat.jpg" alt="file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-teclat.jpg"><br>
 Ja fa uns anys que vaig anar de viatge a la Xina i em vaig comprar un EeePC 1000HE, del que estic molt content. Hi vaig instal·lar Ubuntu (gnome), i en la configuració del teclat vaig triar la &ldquo;tecla <strong>compose</strong>&rdquo;, és a dir, em permetia usar una de les tecles com a comodí per accentuar. Amb el temps m&rsquo;he passat a <strong>Lubuntu</strong> en el notebook, en especial per optimitzar recursos de la màquina, i prioritzar les eines per sobre de l&rsquo;aspecte.</p>
 <p>El canvi va anar molt bé, tot i que el teclat està en format USA, i en l&rsquo;escriptori <strong>LXDE</strong> no havia trobat la manera de gestionar la tecla compose!</p>
-<p>Aquests dies de festa, m&rsquo;ha permés trobar la solució… configurar l&rsquo;<em>autostart</em> de <strong>LXDE</strong>.</p>
+<p>Aquests dies de festa, m&rsquo;ha permés trobar la solució… configurar l'<em>autostart</em> de <strong>LXDE</strong>.</p>
 <p>Així, res més senzill que editar el fitxer de configuració:</p>
 <p>sudo emacs /etc/xdg/lxsession/Lubuntu/autostart</p>
 <p>En aquest cas he optat per la tecla &ldquo;menu&rdquo; com a tecla comodí per fer el compose, així, a dins cal afegir:</p>
 <p>@setxkbmap -option &ldquo;compose:menu&rdquo;</p>
-<p>Ara cada vegada que la mantinc premuda la tecla &ldquo;menu&quot;i tot seguit &rsquo; + a em dóna á.</p>
+<p>Ara cada vegada que la mantinc premuda la tecla &ldquo;menu&quot;i tot seguit ' + a em dóna á.</p>
 <p>si volem usar una altra tecla, només cal canviar l&rsquo;opció per la tecla que volem!<br>
 <code>compose:ralt</code><br>
 <code>compose:lwin</code><br>

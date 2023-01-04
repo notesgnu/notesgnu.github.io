@@ -5,6 +5,7 @@ categories: ["linkat"]
 tags: ["lubuntu", "linkat"]
 ---
 
+![de Lubuntu a Linkat](images/lubuntulinkat.png)
 
 Avui he agafat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m'he trobat amb un problema.
 

@@ -21,20 +21,5 @@ git commit -m &amp;quot;nou article&amp;quot;  M&amp;rsquo;ha donat el següent 
  Estic usant la Linkat lleugera (lUbuntu 14.04) i sembla que és un error en configurar user.mail que li falta una e. Si no vull que canviï tota la configuració del git no cal posar --global.</description>
     </item>
     
-    <item>
-      <title>GIT dona Error en user.mail</title>
-      <link>https://notesgnu.github.io/post/2016-04-26-git-dona-error-en-user-mail/</link>
-      <pubDate>Tue, 26 Apr 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2016-04-26-git-dona-error-en-user-mail/</guid>
-      <description>Avui m’he trobat que quan he intentat fer un
-git commit -m &amp;ldquo;nou article&amp;rdquo;
-M’ha donat el següent error:
- git: fatal unable to auto-detect email address (got “some wrong email”)
- Em demana que configuri:
- git config &amp;ndash;global user.mail “you@example.com”
- Estic usant la Linkat lleugera (lUbuntu 14.04) i sembla que és un error en configurar user.mail que li falta una e. Si no vull que canviï tota la configuració del git no cal posar --global.</description>
-    </item>
-    
   </channel>
 </rss>

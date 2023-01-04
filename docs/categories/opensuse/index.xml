@@ -57,7 +57,7 @@ Primer que res he instal·lat emacs a la Linkat La Linkat per defecte quan la in
       <description>Habitualment fem les instal·lacions per defecte en format gràfic, però quan falla el monitor (com ha estat el meu cas) tenim una bona opció&amp;hellip; f3 (text mode)
 Ens baixem la ISO (podem cremar-la o fer-ho amb el Virtualbox)
 Inserim el cdlive i triem f2- la llengua, f3- &amp;ldquo;text mode&amp;rdquo;
-S&amp;rsquo;inicia el livecd (hi ha en gnome, kde, xfce i he volgut provar-ho amb el &amp;lsquo;lxde&amp;rsquo;)
+S&amp;rsquo;inicia el livecd (hi ha en gnome, kde, xfce i he volgut provar-ho amb el &amp;lsquo;lxde&#39;)
 Un cop iniciat ens demana el login i el password&amp;hellip;</description>
     </item>
     

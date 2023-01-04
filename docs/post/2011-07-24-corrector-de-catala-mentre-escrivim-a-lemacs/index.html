@@ -4,7 +4,7 @@
     <title>Corrector de català mentre escrivim a l&#39;Emacs // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="generator" content="Hugo 0.91.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
@@ -111,7 +111,7 @@ Ara resulta que m&rsquo;he trobat que volia usar el corrector al &ldquo;vol&rdqu
 <p>Des de que uso Emacs que m&rsquo;han anat sorgint dubtes, problemes i solucions referents a l&rsquo;ús del català. El primer problema que vaig tenir era que no era capaç d&rsquo;escriure en accents fins que ho <a href="http://croniqueslinux.wordpress.com/category/catala/">vaig solucionar.</a> La segona cosa era com fer anar un corrector en català, i també ho vaig <a href="http://croniqueslinux.wordpress.com/2011/02/24/corrector-catala-per-emacs/">trobar.</a></p>
 <p>Ara resulta que m&rsquo;he trobat que volia usar el corrector al &ldquo;vol&rdquo;, és a dir, com en altres programes que es va posant en roig les paraules mal escrites. La solució, usar el mode <strong>flyspell</strong> que depén del diccionari de l&rsquo;ordinador. El mode <strong>flyspell-mode</strong> quan l&rsquo;he volgut usar m&rsquo;he trobat que no hem reconeixia el diccionari català, i això que el tenia instal·lat. Quan he fet un canvi de diccionari:</p>
 <p>M-x ispell-change-dictionary</p>
-<p>Llavors m&rsquo;ha saltat un error: <em>Check that emacs is using `ispell&rsquo; and not other application such as `aspell&rsquo;. See the value of the variable `ispell-program-name&rsquo;.</em></p>
+<p>Llavors m&rsquo;ha saltat un error: <em>Check that emacs is using `ispell' and not other application such as `aspell'. See the value of the variable `ispell-program-name'.</em></p>
 <p>Ho he arreglat afegint al .emacs:</p>
 <p>(setq-default ispell-program-name &ldquo;aspell&rdquo;)</p>
 <p>I ara ja funciona!</p>

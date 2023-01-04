@@ -17,11 +17,11 @@ Ja porto des del 2004 posat seriosament, però sovint tot acaba en l’oblit o e
 Aquest blog a github neix aquest any 2016 com a continuació al que tinc a [WordPress](https://croniqueslinux.wordpress.com/). 
 
 
-En un principi era substituir-lo, però al final m'he decidit (de moment) per mantenir els dos. Tot i que normalment escriure aquí, de moment no migraré els articles, i pot ser que escrigui encara alguna cosa al de WordPress.
+En un principi era substituir-lo, però al final m'he decidit (de moment) per mantenir els dos. Tot i que **aquest any 2023** normalment escriure aquí, ja he migrat els articles, trobo que al WordPress cada cop es fa més difícil llegir, s'omple de "boira digital".
 
 Però aquest espai a `github pages` em resulta ideal i molt interessant. Tothom que vulgui pot baixar-se tots els meus articles directament del github amb un:
 
-	git clone https://github.com/croniqueslinux/croniqueslinux.github.io
+	git clone https://github.com/notesgnu/notesgnu.github.io
 
 
 ![GNULinux](https://upload.wikimedia.org/wikipedia/commons/thumb/3/35/Tux.svg/299px-Tux.svg.png)

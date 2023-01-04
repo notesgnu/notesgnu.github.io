@@ -4,7 +4,7 @@
     <title>Linkatitzar Lubuntu 18.04 // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="generator" content="Hugo 0.91.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
@@ -120,16 +120,19 @@ El paquet gksu no té versió disponible, però un altre paquet en fa referènci
       </div>
     </header>
     <div class="post-content">
-      <p>Avui he agafat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&rsquo;he trobat amb un problema.</p>
+      <p><img src="images/lubuntulinkat.png" alt="de Lubuntu a Linkat"></p>
+<p>Avui he agafat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&rsquo;he trobat amb un problema.</p>
 <h2 id="el-problema">el problema</h2>
 <p>Quan he intentat instal.lar el paquet <strong>linkat-repos_18.04-5_all.deb</strong></p>
 <p>m&rsquo;ha donat el següent error:</p>
 <pre tabindex="0"><code>El paquet gksu no està instal·lat.
+
 </code></pre><p>i si vull instal.lar-lo, em diu:</p>
 <pre tabindex="0"><code>El paquet gksu no té versió disponible, però un altre paquet
 en fa referència. Això normalment vol dir que el paquet falta,
-s&#39;ha tornat obsolet o només és disponible des d&#39;una altra font.
-E: El paquet «gksu» no té candidat d&#39;instal·lació
+s'ha tornat obsolet o només és disponible des d'una altra font.
+E: El paquet «gksu» no té candidat d'instal·lació
+
 </code></pre><h2 id="la-solució">la solució</h2>
 <p>Bé, ara anem a buscar la solució&hellip;</p>
 <p>Anem als repositoris de Ubuntu 17.10 i ens baixem el paquet:</p>
@@ -138,12 +141,14 @@ sudo apt install ./libgksu2-0_2.0.13~pre1-6ubuntu8_i386.deb
 
 wget http://mirrors.kernel.org/ubuntu/pool/universe/g/gksu/gksu_2.0.2-9ubuntu1_i386.deb
 sudo apt install ./gksu_2.0.2-9ubuntu1_i386.deb
+
 </code></pre><p>En un principi ja ho tenim! ara ja podem instalar el paquet per linkatitzar!</p>
 <hr>
 <p>Nota: m&rsquo;he trobat que no em deixa, perquè em demana el paquet <strong>libgtop-2.0-10</strong>
 així que he fet el mateix procès:</p>
 <pre tabindex="0"><code>wget http://es.archive.ubuntu.com/ubuntu/pool/main/libg/libgtop2/libgtop-2.0-10_2.32.0-1_i386.deb
 sudo apt install ./libgtop-2.0-10_2.32.0-1_i386.deb
+
 </code></pre><p>fonts:</p>
 <ul>
 <li><a href="http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Lubuntu#Transformaci.C3.B3_a_la_Linkat_Lleugera" title="Transformació a la Linkat Lleugera">Transformació a la Linkat Lleugera</a></li>

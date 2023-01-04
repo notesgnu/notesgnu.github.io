@@ -6,18 +6,7 @@
     <description>Recent content in blog on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Com fer un blog amb Hugo</title>
-      <link>https://notesgnu.github.io/post/2020-06-01-com-fer-un-blog-amb-hugo/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-06-01-com-fer-un-blog-amb-hugo/</guid>
-      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m’ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.
-Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.
-He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s’ajusti als meus gustos.</description>
-    </item>
-    
+    <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nou blog!</title>
       <link>https://notesgnu.github.io/post/2020-05-20-nou-blog/</link>

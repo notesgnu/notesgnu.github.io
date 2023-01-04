@@ -29,46 +29,19 @@
     <loc>https://notesgnu.github.io/tags/fedora/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/categories/fedora/</loc>
-    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/tags/linux/</loc>
-    <lastmod>2022-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora-3/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora/</loc>
     <lastmod>2022-12-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/tags/md/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2022-01-02-publicar-un-article-des-de-vim-2/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/categories/vim/</loc>
-    <lastmod>2022-01-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2022-01-01-publicar-un-article-des-de-vim/</loc>
-    <lastmod>2022-01-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/tags/emacs/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/categories/emacs/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2021-05-29-escrivint-al-wordpress-des-de-lemacs/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/post/2021-05-29-escrivint-de-emacs-a-wordpress/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/post/2021-05-29-hola-torno-a-wordpress/</loc>
-    <lastmod>2021-05-29T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/org2blog/</loc>
     <lastmod>2021-05-29T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/org2blog/</loc>
@@ -83,34 +56,25 @@
     <loc>https://notesgnu.github.io/tags/vim/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/categories/vim/</loc>
+    <lastmod>2021-01-02T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/tags/wordpress/</loc>
     <lastmod>2021-01-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2022-01-01-publicar-a-wordpress-vim/</loc>
     <lastmod>2021-01-01T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/post/2020-06-15-com-fer-un-snippet-en-emacs/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/org/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/terminal/</loc>
-    <lastmod>2020-06-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</loc>
+    <lastmod>2020-06-08T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/emacs/</loc>
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/tags/yasnippet/</loc>
     <lastmod>2020-06-08T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/tags/blog/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</loc>
-    <lastmod>2020-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2020-06-01-com-fer-un-blog-amb-hugo/</loc>
     <lastmod>2020-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/hugo/</loc>
@@ -125,16 +89,10 @@
     <loc>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</loc>
     <lastmod>2020-05-31T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/post/2020-05-31-publicar-amb-jekyll-i-org-mode/</loc>
-    <lastmod>2020-05-31T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/tags/linkat/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/linkat/</loc>
-    <lastmod>2020-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2020-05-24-linkatitzar-lubuntu-18-04/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</loc>
@@ -142,9 +100,6 @@
   </url><url>
     <loc>https://notesgnu.github.io/tags/lubuntu/</loc>
     <lastmod>2020-05-24T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2020-05-21-escanejar-pdf-i-ocr/</loc>
-    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
@@ -158,6 +113,12 @@
     <loc>https://notesgnu.github.io/tags/pdf/</loc>
     <lastmod>2020-05-21T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/tags/terminal/</loc>
+    <lastmod>2020-05-21T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/blog/</loc>
+    <lastmod>2020-05-20T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/categories/blog/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
   </url><url>
@@ -169,9 +130,6 @@
   </url><url>
     <loc>https://notesgnu.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2016-05-26-markdownlinkat/</loc>
-    <lastmod>2016-05-26T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2016-05-15-que-es-markdown-usos-i-idees/</loc>
     <lastmod>2016-05-15T00:00:00+00:00</lastmod>
@@ -191,9 +149,6 @@
     <loc>https://notesgnu.github.io/post/2016-04-26-errorgitemail/</loc>
     <lastmod>2016-04-26T07:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/post/2016-04-26-git-dona-error-en-user-mail/</loc>
-    <lastmod>2016-04-26T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</loc>
     <lastmod>2016-02-20T07:00:00+00:00</lastmod>
   </url><url>
@@ -206,15 +161,6 @@
     <loc>https://notesgnu.github.io/categories/raspberry/</loc>
     <lastmod>2016-02-20T07:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/post/2016-02-15-canviar-la-ip-de-la-raspberry/</loc>
-    <lastmod>2016-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/configuracio/</loc>
-    <lastmod>2016-02-15T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/raspberry/</loc>
-    <lastmod>2016-02-15T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</loc>
     <lastmod>2016-02-08T16:13:38+00:00</lastmod>
   </url><url>
@@ -226,12 +172,6 @@
   </url><url>
     <loc>https://notesgnu.github.io/tags/n%C3%BAvol/</loc>
     <lastmod>2016-02-08T16:13:38+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2016-02-08-eliminar-el-compte-de-copy/</loc>
-    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/nuvol/</loc>
-    <lastmod>2016-02-08T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2016-01-31-comenco-a-migrar/</loc>
     <lastmod>2016-01-31T00:00:00+00:00</lastmod>
@@ -602,6 +542,9 @@
     <loc>https://notesgnu.github.io/post/2011-01-24-org-mode/</loc>
     <lastmod>2011-01-24T00:00:00+00:00</lastmod>
   </url><url>
+    <loc>https://notesgnu.github.io/categories/fedora/</loc>
+    <lastmod>2011-01-15T00:00:00+00:00</lastmod>
+  </url><url>
     <loc>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</loc>
     <lastmod>2011-01-15T00:00:00+00:00</lastmod>
   </url><url>
@@ -705,9 +648,6 @@
     <lastmod>2010-02-22T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2010-02-21-ordres-de-gestio-dusuaris-crear-usuaris/</loc>
-    <lastmod>2010-02-21T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/2010-02-21-ordres-de-gestio-dusuaris-eliminar-usuaris/</loc>
     <lastmod>2010-02-21T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2010-02-20-crear-i-esborrar-carpetes/</loc>

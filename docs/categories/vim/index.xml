@@ -6,30 +6,7 @@
     <description>Recent content in vim on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 02 Jan 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/vim/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Publicar un article des de VIM 2</title>
-      <link>https://notesgnu.github.io/post/2022-01-02-publicar-un-article-des-de-vim-2/</link>
-      <pubDate>Sun, 02 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2022-01-02-publicar-un-article-des-de-vim-2/</guid>
-      <description>Ja hem començat l&amp;rsquo;any 2022 i sempre venen ganes de començar projectes i aprendre coses noves.
-Porto anys usant Emacs i aquest any tinc ganes d&amp;rsquo;apendre a usar Vim. Una de les coses que més m&amp;rsquo;agrada d&amp;rsquo;Emacs és el mode Orgmode. Entre d&amp;rsquo;altres coses, poder publicar a Wordpress directament amb articles escrits org.
-També vull usar de forma més habitual el llenguatge de marques Markdown. Així que m&amp;rsquo;ha vingut la necessitat de publicar a Wordpress directament amb Vim</description>
-    </item>
-    
-    <item>
-      <title>Publicar un article des de VIM</title>
-      <link>https://notesgnu.github.io/post/2022-01-01-publicar-un-article-des-de-vim/</link>
-      <pubDate>Sat, 01 Jan 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2022-01-01-publicar-un-article-des-de-vim/</guid>
-      <description>Avui faig una prova d&amp;rsquo;inici de VIM i publicar-ho a WordPress Aquest post només és per fer la prova!
-L&amp;rsquo;article l&amp;rsquo;he fet amb MD i vim. Quan tingui una estona posaré els passos de com ho he fet!
-He hagut de fer alguna modificació a la documentació original
-:-P</description>
-    </item>
-    
+    <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publicar un article des de VIM 2</title>
       <link>https://notesgnu.github.io/post/2022-01-02-publicar-a-wordpress-vim-2/</link>
@@ -90,7 +67,7 @@ en majúscules canvien: I mou el cursor al principi de la línia i comença a fe
       <pubDate>Thu, 15 Apr 2010 00:00:00 +0000</pubDate>
       
       <guid>https://notesgnu.github.io/post/2010-04-15-vim-un-editor-a-tenir-en-compte/</guid>
-      <description>&amp;ldquo;Vim és una versió millorada de l&amp;rsquo;editor de text vi, present en tots els sistemes UNIX. Braam Moolenaar va presentar la primera versió el 1991, i des d&amp;rsquo;aleshores ha experimentat moltes millores. La principal característica de Vim i Vi consisteix en què tenen diferents modes entre els que s&amp;rsquo;alterna per realitzar certes operacions, el que els diferència de la majoria d&amp;rsquo;editors que només tenen un mode en el que s&amp;rsquo;introdueixen les ordres mitjançant combinacions de tecles o interfícies gràfiques.</description>
+      <description>&amp;ldquo;Vim és una versió millorada de l&#39;editor de text vi, present en tots els sistemes UNIX. Braam Moolenaar va presentar la primera versió el 1991, i des d&amp;rsquo;aleshores ha experimentat moltes millores. La principal característica de Vim i Vi consisteix en què tenen diferents modes entre els que s&amp;rsquo;alterna per realitzar certes operacions, el que els diferència de la majoria d&amp;rsquo;editors que només tenen un mode en el que s&amp;rsquo;introdueixen les ordres mitjançant combinacions de tecles o interfícies gràfiques.</description>
     </item>
     
   </channel>

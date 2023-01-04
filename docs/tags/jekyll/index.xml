@@ -19,17 +19,6 @@ He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de
     </item>
     
     <item>
-      <title>Com fer un blog amb Hugo</title>
-      <link>https://notesgnu.github.io/post/2020-06-01-com-fer-un-blog-amb-hugo/</link>
-      <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-06-01-com-fer-un-blog-amb-hugo/</guid>
-      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m’ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.
-Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.
-He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s’ajusti als meus gustos.</description>
-    </item>
-    
-    <item>
       <title>Publicar amb Jekyll i Org-mode</title>
       <link>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
@@ -40,22 +29,6 @@ Res més senzill que afegir al _config.yaml el següent codi:
 plugins: [jekyll-org] Per instaŀlar en local les gemes:
 sudo gem install jekyll-org font: jekyll-org
 Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.</description>
-    </item>
-    
-    <item>
-      <title>Publicar amb Jekyll i Org-mode</title>
-      <link>https://notesgnu.github.io/post/2020-05-31-publicar-amb-jekyll-i-org-mode/</link>
-      <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-05-31-publicar-amb-jekyll-i-org-mode/</guid>
-      <description>Finalment he descobert una manera d’usar el meu estimat emacs i el seu mode orgmode
-Res més senzill que afegir al _config.yaml el següent codi:
-plugins: [jekyll-org]
-Per instaŀlar en local les gemes:
-sudo gem install jekyll-org
-font: jekyll-org
-Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.
-Article publicat originalment a: https://notesgnu.</description>
     </item>
     
   </channel>

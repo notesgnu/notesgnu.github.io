@@ -77,11 +77,9 @@ Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</des
       
       <guid>https://notesgnu.github.io/post/2010-04-19-eliminar-kernels-vells/</guid>
       <description>Per esborrar kernells vells, que es van acumulant a l&amp;rsquo;Ubuntu i al seu grub, sempre podem fer el següent:
- saber les versions que tenim a l&amp;rsquo;ordinador amb:   sudo dpkg -l | grep linux-image
-  eliminar les versions velles amb:   sudo apt-get remove &amp;ndash;purge elkernelvell
- per elimnar-ho canviem &amp;rsquo;elkernelvell&amp;rsquo; per linux-image-2.6.31-14-generic
+ saber les versions que tenim a l&amp;rsquo;ordinador amb:  sudo dpkg -l | grep linux-image  eliminar les versions velles amb:  sudo apt-get remove --purge elkernelvell per elimnar-ho canviem &amp;lsquo;elkernelvell&amp;rsquo; per linux-image-2.6.31-14-generic
 i ja ho tenim!
-;)</description>
+⭐</description>
     </item>
     
     <item>

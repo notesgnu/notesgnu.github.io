@@ -4,7 +4,7 @@
     <title>Conectar-se a Identi-ca amb Emacs // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="generator" content="Hugo 0.91.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
@@ -125,7 +125,7 @@ $ emacs .emacs" />
 <p>Després he hagut de crear / modificar el fitxer .emacs de configuració d&rsquo;EMACS.</p>
 <p>$ emacs .emacs</p>
 <p>I he escrit el següent:</p>
-<p>(add-to-list &rsquo;load-path &ldquo;/home/user/.emacs.d/&rdquo;)
+<p>(add-to-list &lsquo;load-path &ldquo;/home/user/.emacs.d/&quot;)
 ;;; Identi.ca mode
 (require &lsquo;identica-mode)</p>
 <p>La primera línia no la tenia en cap lloc comentada, però sense aquest em retornava l&rsquo;error, ja que li hem d&rsquo;especificar a l&rsquo;EMACS on ha de carregar els modes. Si volem podem afegir-los a altres carpetes com ara ~/.emcas-extensions o d&rsquo;altres que volguem!</p>

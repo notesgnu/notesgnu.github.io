@@ -4,7 +4,7 @@
     <title>Un blog amb Jekyll // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.98.0" />
+    <meta name="generator" content="Hugo 0.91.2" />
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
@@ -151,10 +151,10 @@ git push -u origin master</p>
 <p>Un altre error que m&rsquo;ha sortit alguna vegada és la manca de la <strong>gema de Ruby (redcarpet)</strong>, això m&rsquo;ha passat en ubuntu 14.04 i derivades&hellip; vol dir que ens cal fer el que he comentat abans, i seguint els passos:</p>
 <p>sudo apt-get install ruby1.9.1-dev
 sudo gem install jekyll</p>
-<p>En el cas d&rsquo;<strong>Ubuntu-mate</strong> em donava un error amb els paquets <em>ruby*dev</em>, així que al final he vist una solució, instal·lar:</p>
+<p>En el cas d'<strong>Ubuntu-mate</strong> em donava un error amb els paquets <em>ruby*dev</em>, així que al final he vist una solució, instal·lar:</p>
 <p>sudo apt-get install ruby1.9.1-full</p>
 <p>Un altre error que m&rsquo;ha sortit instal·lant <strong>Jekyll</strong> a un altre netbook ha estat:</p>
-<p><em>/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require&rsquo;: iconv will be deprecated in the future, use String#encode instead</em>.</p>
+<p><em>/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require': iconv will be deprecated in the future, use String#encode instead</em>.</p>
 <p><strong>La solució</strong>:</p>
 <p>sudo apt-get install rubygems-integration</p>
 <h2 id="fonts">Fonts:</h2>

@@ -6,16 +6,7 @@
     <description>Recent content in fedora on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/fedora/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Proves des de Fedora</title>
-      <link>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora-3/</link>
-      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora-3/</guid>
-      <description>Ja fa uns dies que va arribar a les meves mans una màquina vella, d&amp;rsquo;aquelles que ja no serveixen&amp;hellip; en teoria. És un portàtil HP Probook 6560b, i he fet un munt de proves. El primer va ser ampliar la RAM de 2 a 6 gigues, sense cap problema!!!, aquí ja em vaig emocionar, i vaig tirar endavant amb un disc sòlid SSD de 120. Aquí em va donar molts problemes&amp;hellip; solució ha estat actualitzar la BIOS, usant els arxius per Windows, ja que amb Linux em baixava una BIOS molt antiga.</description>
-    </item>
-    
+    <lastBuildDate>Sat, 15 Jan 2011 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/fedora/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Promblemes amb ffmpeg: libxvidcore.so.4</title>
       <link>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</link>
@@ -54,8 +45,7 @@ Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</des
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
       
       <guid>https://notesgnu.github.io/post/2010-10-31-fedorant/</guid>
-      <description>Com deia un conegut fa un temps&amp;hellip; he vist la yum!
-Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!
+      <description>Com deia un conegut fa un temps&amp;hellip; he vist la yum! Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!
 I la veritat es que estic molt content ;)
 Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi.</description>
     </item>

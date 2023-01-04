@@ -14,8 +14,7 @@
       
       <guid>https://notesgnu.github.io/post/2014-01-27-convertir-un-vcd-a-mpg/</guid>
       <description>Fa un temps que tenic algunes pel·lícules en format VCD. Amb el temps, ocupen molt d&amp;rsquo;espai, i els CDs físics solen deteriorar-se. Així que he decidit desar-los en format de video MPG. Per fer això podem usar la comanda vcdxrip. Res més senzill que inserir el VCD al lector de l&amp;rsquo;ordinador, i un cop inserit, usar la comanda:
-vcdxrip -p &amp;ndash;nofiles -C
-un cop ha acabat, ens crea un arxiu avseq01.</description>
+vcdxrip -p --nofiles -C un cop ha acabat, ens crea un arxiu avseq01.</description>
     </item>
     
   </channel>
