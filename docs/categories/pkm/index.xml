@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>PKM on Notes GNU</title>
+    <link>https://notesgnu.github.io/categories/pkm/</link>
+    <description>Recent content in PKM on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/pkm/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Editar o gestionar coneixement</title>
+      <link>https://notesgnu.github.io/post/2023-07-25gestionarconeixement/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2023-07-25gestionarconeixement/</guid>
+      <description>Editar o gestionar coneixement Sovint em trobo cercant i analitzant un bon editor per les notes que prenc. Això sempre em porta a provar noves eines, nous formats de text i a dedicar-hi molt de temps.
+Fent una mica la mirada endarrere, m’adono que el gran problema és el temps invertit i la manca de resultats. Hi ha la teoria de Pareto on la major part de les vegades el 20% de l’esforç genera el 80% dels resultats.</description>
+    </item>
+    
+  </channel>
+</rss>
