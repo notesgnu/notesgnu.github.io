@@ -3,12 +3,30 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://notesgnu.github.io/</loc>
-    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/</loc>
-    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://notesgnu.github.io/post/20230103160737/</loc>
+    <loc>https://notesgnu.github.io/tags/educaci%C3%B3/</loc>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/educaci%C3%B3/</loc>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/opendocument/</loc>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2024-04-24-articleword/</loc>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/</loc>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/tags/</loc>
+    <lastmod>2024-04-24T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2023-01-03exportarwordpress/</loc>
     <lastmod>2023-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/tags/hugo/</loc>
@@ -18,12 +36,6 @@
     <lastmod>2023-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/categories/markdown/</loc>
-    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/post/</loc>
-    <lastmod>2023-01-03T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/tags/</loc>
     <lastmod>2023-01-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/tags/fedora/</loc>
@@ -130,6 +142,12 @@
   </url><url>
     <loc>https://notesgnu.github.io/about/</loc>
     <lastmod>2019-02-28T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</loc>
+    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://notesgnu.github.io/categories/org-mode/</loc>
+    <lastmod>2016-10-16T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2016-05-15-que-es-markdown-usos-i-idees/</loc>
     <lastmod>2016-05-15T00:00:00+00:00</lastmod>
@@ -489,9 +507,6 @@
     <lastmod>2011-06-03T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</loc>
-    <lastmod>2011-06-01T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://notesgnu.github.io/categories/org-mode/</loc>
     <lastmod>2011-06-01T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://notesgnu.github.io/post/2011-05-15-turpial-a-lunity-i-en-catala/</loc>

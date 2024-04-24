@@ -11,7 +11,7 @@ enableemoji = true
 
 [params]
     author = "msaliko"
-    description = "2023 (CC) Sou lliures de copiar"
+    description = "2024 (CC) Sou lliures de copiar"
     google_search = true
     avatar = "msaliko.jpeg" #l'avatar va a la carpeta "static"
     menu_item_separator = " ● "

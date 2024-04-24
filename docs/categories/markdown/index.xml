@@ -9,10 +9,10 @@
     <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/markdown/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Exportar Wordpress a Markdown</title>
-      <link>https://notesgnu.github.io/post/20230103160737/</link>
+      <link>https://notesgnu.github.io/post/2023-01-03exportarwordpress/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://notesgnu.github.io/post/20230103160737/</guid>
+      <guid>https://notesgnu.github.io/post/2023-01-03exportarwordpress/</guid>
       <description>Hi ha diverses eines que es poden usar, entre elles hi ha wordpress-export-to-markdown.
 El primer que cal fer és instaŀlar-la.
 instaŀlar wordpress-export-to-markdown Si seguim les instruccions, podem fer:

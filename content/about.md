@@ -17,7 +17,7 @@ Ja porto des del 2004 posat seriosament, però sovint tot acaba en l’oblit o e
 Aquest blog a github neix aquest any 2016 com a continuació al que tinc a [WordPress](https://croniqueslinux.wordpress.com/). 
 
 
-En un principi era substituir-lo, però al final m'he decidit (de moment) per mantenir els dos. Tot i que **aquest any 2023** normalment escriure aquí, ja he migrat els articles, trobo que al WordPress cada cop es fa més difícil llegir, s'omple de "boira digital".
+En un principi era substituir-lo, però al final m'he decidit (de moment) per mantenir els dos. Tot i que **aquest any 2024** normalment escriure aquí, ja he migrat els articles, trobo que al WordPress cada cop es fa més difícil llegir, s'omple de "boira digital".
 
 Però aquest espai a `github pages` em resulta ideal i molt interessant. Tothom que vulgui pot baixar-se tots els meus articles directament del github amb un:
 

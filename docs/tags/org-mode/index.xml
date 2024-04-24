@@ -31,5 +31,17 @@ sudo gem install jekyll-org font: jekyll-org
 Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.</description>
     </item>
     
+    <item>
+      <title>Com escriure una presentació</title>
+      <link>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</guid>
+      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode
+ Podeu descarregar-vos la presentació i el codi en .org
+ 1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:
+ Org mode i Emacs i LaTeX (classe Beamer).  Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
+    </item>
+    
   </channel>
 </rss>

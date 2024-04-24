@@ -6,7 +6,16 @@
     <description>Recent content in Categories on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>educació</title>
+      <link>https://notesgnu.github.io/categories/educaci%C3%B3/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/educaci%C3%B3/</guid>
+      <description></description>
+    </item>
+    
     <item>
       <title>markdown</title>
       <link>https://notesgnu.github.io/categories/markdown/</link>
@@ -76,6 +85,15 @@
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       
       <guid>https://notesgnu.github.io/categories/blog/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>org-mode</title>
+      <link>https://notesgnu.github.io/categories/org-mode/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/categories/org-mode/</guid>
       <description></description>
     </item>
     
@@ -508,15 +526,6 @@
       <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
       
       <guid>https://notesgnu.github.io/categories/turpial/</guid>
-      <description></description>
-    </item>
-    
-    <item>
-      <title>org-mode</title>
-      <link>https://notesgnu.github.io/categories/org-mode/</link>
-      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/categories/org-mode/</guid>
       <description></description>
     </item>
     

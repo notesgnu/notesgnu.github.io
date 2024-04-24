@@ -6,13 +6,23 @@
     <description>Recent content on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Per què no usar WORD a l&#39;educació</title>
+      <link>https://notesgnu.github.io/post/2024-04-24-articleword/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2024-04-24-articleword/</guid>
+      <description>Per què no usar WORD a l&amp;rsquo;educació Article escrit el 2016 i no han canviat tant les coses, la diferencia ara és al núvol, però seguim depenent de les eines privatives!!! Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l&amp;rsquo;educació! A continuació deixò l&amp;rsquo;article tal com es va escriure:
+Per què NO hauríem de demanar als nostres alumnes que ens presentin els treballs en un document Word?</description>
+    </item>
+    
     <item>
       <title>Exportar Wordpress a Markdown</title>
-      <link>https://notesgnu.github.io/post/20230103160737/</link>
+      <link>https://notesgnu.github.io/post/2023-01-03exportarwordpress/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       
-      <guid>https://notesgnu.github.io/post/20230103160737/</guid>
+      <guid>https://notesgnu.github.io/post/2023-01-03exportarwordpress/</guid>
       <description>Hi ha diverses eines que es poden usar, entre elles hi ha wordpress-export-to-markdown.
 El primer que cal fer és instaŀlar-la.
 instaŀlar wordpress-export-to-markdown Si seguim les instruccions, podem fer:
@@ -161,6 +171,18 @@ Així que ara sóc de nou al blog de github però amb nova pàgina.</description
       <description>Aquest blog&amp;hellip; Les cròniques són aquelles històries explicades seguint una línia temporal… a l’edat mitja en teniem de famoses.
 Bé, i seguint la idea de la “chronica” vull fer un recull històric del meu aprenentage al món Gnu/Linux.
 Ja porto des del 2004 posat seriosament, però sovint tot acaba en l’oblit o en trossos de paper per casa… no crec que servisca de molt, però al menys serà divertit… com ho és aprendre d’este món Gnu/Linux.</description>
+    </item>
+    
+    <item>
+      <title>Com escriure una presentació</title>
+      <link>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      
+      <guid>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</guid>
+      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode
+ Podeu descarregar-vos la presentació i el codi en .org
+ 1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:
+ Org mode i Emacs i LaTeX (classe Beamer).  Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
     </item>
     
     <item>
