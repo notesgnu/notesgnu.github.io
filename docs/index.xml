@@ -6,8 +6,15 @@
     <description>Recent content on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Proves amb Gittyup. Una Eina Gràfica per a Git</title>
+      <link>https://notesgnu.github.io/post/2024-12-08-provesgittyup/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://notesgnu.github.io/post/2024-12-08-provesgittyup/</guid>
+      <description>Proves amb Gittyup: Una Eina Gràfica per a Git Avui he decidit fer proves amb una eina gràfica per gestionar repositoris de Git. Normalment, acostumo a treballar des de la terminal, però avui he volgut explorar una alternativa més visual.&#xA;Què és Gittyup? Gittyup https://github.com/Murmele/Gittyup és una interfície gràfica per a Git que facilita la gestió de repositoris. La seva senzillesa i intuïció la fan ideal tant per a usuaris novells com per a aquells que busquen una manera més visual de treballar amb Git.</description>
+    </item>
     <item>
       <title>Per què no usar WORD a l&#39;educació</title>
       <link>https://notesgnu.github.io/post/2024-04-24-articleword/</link>

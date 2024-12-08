@@ -6,8 +6,22 @@
     <description>Recent content in Tags on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <lastBuildDate>Sun, 08 Dec 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Git</title>
+      <link>https://notesgnu.github.io/tags/git/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://notesgnu.github.io/tags/git/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>Hugo</title>
+      <link>https://notesgnu.github.io/tags/hugo/</link>
+      <pubDate>Sun, 08 Dec 2024 00:00:00 +0000</pubDate>
+      <guid>https://notesgnu.github.io/tags/hugo/</guid>
+      <description></description>
+    </item>
     <item>
       <title>Educació</title>
       <link>https://notesgnu.github.io/tags/educaci%C3%B3/</link>
@@ -27,13 +41,6 @@
       <link>https://notesgnu.github.io/tags/markdown/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/tags/markdown/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Hugo</title>
-      <link>https://notesgnu.github.io/tags/hugo/</link>
-      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/tags/hugo/</guid>
       <description></description>
     </item>
     <item>
@@ -160,13 +167,6 @@
       <link>https://notesgnu.github.io/tags/comandes/</link>
       <pubDate>Tue, 26 Apr 2016 07:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/tags/comandes/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>Git</title>
-      <link>https://notesgnu.github.io/tags/git/</link>
-      <pubDate>Tue, 26 Apr 2016 07:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/tags/git/</guid>
       <description></description>
     </item>
     <item>
