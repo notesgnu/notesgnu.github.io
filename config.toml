@@ -76,7 +76,7 @@ series = "series"
 
 [[params.social]]
     url = "https://github.com/notesgnu"
-    name = "github"
+    name = "Github"
     icon = "github"
 
 [[params.social]]
@@ -86,7 +86,7 @@ series = "series"
 
 [[params.social]]
     url = "https://croniqueslinux.wordpress.com/"
-    name = "Wordpress"
+    name = "WordPress"
     icon = "file-text"
 
 [[params.social]]
