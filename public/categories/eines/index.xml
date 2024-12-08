@@ -1,60 +1,60 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Eines on Notes GNU</title>
-    <link>http://localhost:1313/categories/eines/</link>
-    <description>Recent content in Eines on Notes GNU</description>
+    <title>Eines on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/categories/eines/</link>
+    <description>Recent content in Eines on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 21 Jan 2014 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/eines/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/categories/eines/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wordpress des del telèfon</title>
-      <link>http://localhost:1313/post/2014-01-21-wordpress-des-del-telefon/</link>
+      <link>https://notesgnu.github.io/post/2014-01-21-wordpress-des-del-telefon/</link>
       <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2014-01-21-wordpress-des-del-telefon/</guid>
+      <guid>https://notesgnu.github.io/post/2014-01-21-wordpress-des-del-telefon/</guid>
       <description>Ja fa temps que no em resulta senzill tenir accès a internet des de l&amp;rsquo;ordinador. Així, que m&amp;rsquo;he instal-lat l&amp;rsquo;app d&amp;rsquo;Android per wordpress. Aquesta és la primera entrada que escric des del telèfon.&#xA;Cada dia resulta més senzill usar i connectar-se des dels telèfons intel.ligents (smartphones o &amp;rsquo;llestèfons&amp;rsquo;). Així que no m&amp;rsquo;he estat de provar l&amp;rsquo;app oficial del wordpress.&#xA;;-)</description>
     </item>
     <item>
       <title>extreure elements d&#39;un arxiu swf</title>
-      <link>http://localhost:1313/post/2013-02-01-extreure-elements-dun-arxiu-swf/</link>
+      <link>https://notesgnu.github.io/post/2013-02-01-extreure-elements-dun-arxiu-swf/</link>
       <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2013-02-01-extreure-elements-dun-arxiu-swf/</guid>
+      <guid>https://notesgnu.github.io/post/2013-02-01-extreure-elements-dun-arxiu-swf/</guid>
       <description>No m&amp;rsquo;agrada massa el flash ja que en no és un programari lliure, i no té massa bona implementació. Bé, la qüestió és que en un swf hi havia un audio que volia tenir per separat. També serveix per les imatges que surten, que pot ser volem recuperar-les d&amp;rsquo;un swf.&#xA;Un cop creat es fa difícil tornar a extreure el que s&amp;rsquo;ha incrustat&amp;hellip;&#xA;bé, doncs he trobat una eina que ho permet, està dins d&amp;rsquo;un conjunt d&amp;rsquo;eines anomenades SWFTOOLS.</description>
     </item>
     <item>
       <title>Un visor per PDF lleuger</title>
-      <link>http://localhost:1313/post/2012-08-05-19628_081013224757/</link>
+      <link>https://notesgnu.github.io/post/2012-08-05-19628_081013224757/</link>
       <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2012-08-05-19628_081013224757/</guid>
+      <guid>https://notesgnu.github.io/post/2012-08-05-19628_081013224757/</guid>
       <description>Moltes vegades em trobo amb PDF cada cop més pesats, i per passar de pàgina a pàgina, triga una mica, sobretot en els netbooks.&#xA;La idea és, per a què consumir recursos en l&amp;rsquo;eina, quan els podem aplicar tots a la feina?&#xA;Aquí entra en joc Apvlv&#xA;Té l&amp;rsquo;avantatge que es pot usar directament amb el teclat (com Vim o Emacs), i això facilita molt la navegació, en especial en un portàtil o quan vols anar ràpidament a un lloc del document.</description>
     </item>
     <item>
       <title>Usar Texmaker a la Linkat 4</title>
-      <link>http://localhost:1313/post/2011-07-19-usar-texmaker-a-la-linkat-4/</link>
+      <link>https://notesgnu.github.io/post/2011-07-19-usar-texmaker-a-la-linkat-4/</link>
       <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2011-07-19-usar-texmaker-a-la-linkat-4/</guid>
+      <guid>https://notesgnu.github.io/post/2011-07-19-usar-texmaker-a-la-linkat-4/</guid>
       <description>Normalment per escriure en Latex utilitzo emacs en el seu mode AUXtex. Però avui he volgut provar Texmaker en la Linkat 4. El principal problema és que als repositoris no està, però tot té solució, sense tocar repositoris, ni afegir cap dependència. És més, si volem podem usar el sistema que explicaré per portar-ho a un llapis USB de forma portable ;-)&#xA;aconseguir el programa per a 32 bits</description>
     </item>
     <item>
       <title>Abiword: Processador de textos lleuger</title>
-      <link>http://localhost:1313/post/2011-07-12-abiword-processador-de-textos-lleuger/</link>
+      <link>https://notesgnu.github.io/post/2011-07-12-abiword-processador-de-textos-lleuger/</link>
       <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2011-07-12-abiword-processador-de-textos-lleuger/</guid>
+      <guid>https://notesgnu.github.io/post/2011-07-12-abiword-processador-de-textos-lleuger/</guid>
       <description>Tal com diu a la viquipèdia, l&amp;rsquo;AbiWord és un programa processador de textos de programari lliure, multiplataforma amb llicència GPL. El tenim traduït al català gràcies al grup de traductors de Softcatalà.&#xA;Si teniu un ordinador amb pocs recursos, o només useu el writer del libreoffice (o Openoffice), llavors l&amp;rsquo;Abiword us pot anar força bé.&#xA;No té totes les característiques del writer però en té algunes força interessants:&#xA;pot obrir diferents tipus de documents En d&amp;rsquo;altres es capaç d&amp;rsquo;obrir PDF i després desar-ne el document en .</description>
     </item>
     <item>
       <title>Esborrar un DVD-RW o un CD-RW des de Terminal</title>
-      <link>http://localhost:1313/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</link>
+      <link>https://notesgnu.github.io/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</link>
       <pubDate>Sat, 04 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</guid>
+      <guid>https://notesgnu.github.io/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</guid>
       <description>Sempre he usat el K3B, brasero o d&amp;rsquo;altres entorns GUI per esborrar els meus regrabables. Però avui m&amp;rsquo;ha sorgit el problema que no hi havia manera d&amp;rsquo;esborrar-lo. Per sort els usuaris Gnu/Linux tenim la terminal que mai ens falla!&#xA;Així que he esborrat el DVD-RW amb dues senzilles comandes:&#xA;la primera comanda és per demuntar el CD o DVD, en el meu cas quan es munta ho fa a /dev/sr0, a vegades pot tenir un altre nom /dev/cdrom /dev/XX… umount /dev/sr0</description>
     </item>
     <item>
       <title>Traduint Turpial</title>
-      <link>http://localhost:1313/post/2011-03-09-traduint-turpial/</link>
+      <link>https://notesgnu.github.io/post/2011-03-09-traduint-turpial/</link>
       <pubDate>Wed, 09 Mar 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2011-03-09-traduint-turpial/</guid>
+      <guid>https://notesgnu.github.io/post/2011-03-09-traduint-turpial/</guid>
       <description>Avui, després de temps usant el programa Pino com a client de twitter i d&amp;rsquo;identi.ca, i cansat d&amp;rsquo;usar eines API per gestionar el twitter. Al final he decidit cercar-ne un altre. Per una banda, ja tenia el Gwibber però mai m&amp;rsquo;ha agradat, i sempre m&amp;rsquo;he liat una mica. Així que m&amp;rsquo;he decidit per Turpial. El problema és que em surt en anglès, així que explico com instal·lar-ho i deixar-ho en català:</description>
     </item>
   </channel>

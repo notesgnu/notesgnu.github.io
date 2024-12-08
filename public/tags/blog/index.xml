@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Blog on Notes GNU</title>
-    <link>http://localhost:1313/tags/blog/</link>
-    <description>Recent content in Blog on Notes GNU</description>
+    <title>Blog on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/tags/blog/</link>
+    <description>Recent content in Blog on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/blog/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/tags/blog/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nou blog!</title>
-      <link>http://localhost:1313/post/2020-05-20-nou-blog/</link>
+      <link>https://notesgnu.github.io/post/2020-05-20-nou-blog/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2020-05-20-nou-blog/</guid>
+      <guid>https://notesgnu.github.io/post/2020-05-20-nou-blog/</guid>
       <description>Després de temps sense escriure, avui m&amp;rsquo;he decidit poder escriure de nou al blog. Però m&amp;rsquo;ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!&#xA;Això ha fet que el canvi de temperatures faci despertar l&amp;rsquo;instint del gnu que portem dins i marxi a noves planures! ;-)&#xA;Així que ara sóc de nou al blog de github però amb nova pàgina.</description>
     </item>
   </channel>

@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Turpial on Notes GNU</title>
-    <link>http://localhost:1313/categories/turpial/</link>
-    <description>Recent content in Turpial on Notes GNU</description>
+    <title>Turpial on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/categories/turpial/</link>
+    <description>Recent content in Turpial on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 03 Jun 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/turpial/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/categories/turpial/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Turpial a la Linkat</title>
-      <link>http://localhost:1313/post/2011-06-03-turpial-a-la-linkat/</link>
+      <link>https://notesgnu.github.io/post/2011-06-03-turpial-a-la-linkat/</link>
       <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2011-06-03-turpial-a-la-linkat/</guid>
+      <guid>https://notesgnu.github.io/post/2011-06-03-turpial-a-la-linkat/</guid>
       <description>Divendres a la tarda, i amb ganes de llegir les piulades del dia, i com és de costum solc usar el mode d&amp;rsquo;Emacs per a Identi.ca i Turpial per a Twitter.&#xA;Com que fa uns dies que vaig instal·lar al meu vell Eeepc901, ara em calia posar-hi el Turpial.&#xA;Aquests passos serveixen tan per la Linkat com per a Opensuse 11.x.&#xA;obtenir Turpial El primer que cal és baixar el paquet tar.</description>
     </item>
     <item>
       <title>Turpial a l&#39;Unity i en català</title>
-      <link>http://localhost:1313/post/2011-05-15-turpial-a-lunity-i-en-catala/</link>
+      <link>https://notesgnu.github.io/post/2011-05-15-turpial-a-lunity-i-en-catala/</link>
       <pubDate>Sun, 15 May 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2011-05-15-turpial-a-lunity-i-en-catala/</guid>
+      <guid>https://notesgnu.github.io/post/2011-05-15-turpial-a-lunity-i-en-catala/</guid>
       <description>Ja fa un temps que vaig escriure sobre Turpial, i de com traduïr-lo. Per tenir la versió ja traduïda des dels repositoris a l&amp;rsquo;Ubuntu, només cal afegir el ppa&#xA;sudo add-apt-repository ppa:effie-jayx/turpial-devel&#xA;un cop afegit el repositori de desenvolupament, només cal instal·lar-lo&#xA;sudo apt-get update sudo apt-get install turpial&#xA;això ens instal·larà la versió 1.5rc1 i ja està en català.&#xA;La segona qüestió a resoldre és que aparegui a la barra superior de l&amp;rsquo;Unity.</description>
     </item>
   </channel>

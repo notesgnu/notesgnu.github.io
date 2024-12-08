@@ -1,53 +1,53 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Vim on Notes GNU</title>
-    <link>http://localhost:1313/categories/vim/</link>
-    <description>Recent content in Vim on Notes GNU</description>
+    <title>Vim on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/categories/vim/</link>
+    <description>Recent content in Vim on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/vim/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/categories/vim/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Publicar un article des de VIM 2</title>
-      <link>http://localhost:1313/post/2022-01-02-publicar-a-wordpress-vim-2/</link>
+      <link>https://notesgnu.github.io/post/2022-01-02-publicar-a-wordpress-vim-2/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2022-01-02-publicar-a-wordpress-vim-2/</guid>
+      <guid>https://notesgnu.github.io/post/2022-01-02-publicar-a-wordpress-vim-2/</guid>
       <description>Ja hem començat l’any 2022 i sempre venen ganes de començar projectes i aprendre coses noves.&#xA;Porto anys usant Emacs i aquest any tinc ganes d’apendre a usar Vim. Una de les coses que més m’agrada d’Emacs és el mode Orgmode. Entre d’altres coses, poder publicar a WordPress directament amb articles escrits org.&#xA;També vull usar de forma més habitual el llenguatge de marques Markdown. Així que m’ha vingut la necessitat de publicar a WordPress directament amb Vim</description>
     </item>
     <item>
       <title>Publicar un article des de VIM</title>
-      <link>http://localhost:1313/post/2022-01-01-publicar-a-wordpress-vim/</link>
+      <link>https://notesgnu.github.io/post/2022-01-01-publicar-a-wordpress-vim/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2022-01-01-publicar-a-wordpress-vim/</guid>
+      <guid>https://notesgnu.github.io/post/2022-01-01-publicar-a-wordpress-vim/</guid>
       <description>Avui faig una prova d’inici de VIM i publicar-ho a WordPress Aquest post només és per fer la prova! L’article l’he fet amb MD i vim. Quan tingui una estona posaré els passos de co…&#xA;Avui faig una prova d’inici de VIM i publicar-ho a WordPress&#xA;Aquest post només és per fer la prova!&#xA;L’article l’he fet amb MD i vim.&#xA;Quan tingui una estona posaré els passos de com ho he fet!</description>
     </item>
     <item>
       <title>comandes d’esborrar a VIM</title>
-      <link>http://localhost:1313/post/2010-06-04-comandes-desborrar-a-vim/</link>
+      <link>https://notesgnu.github.io/post/2010-06-04-comandes-desborrar-a-vim/</link>
       <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2010-06-04-comandes-desborrar-a-vim/</guid>
+      <guid>https://notesgnu.github.io/post/2010-06-04-comandes-desborrar-a-vim/</guid>
       <description>-comandes per esborrar x esborra el caracter que hi ha després del cursor X esborra el caracter que hi ha abans del cursor&#xA;d (delete): esborrar dd esborra tota la línia d0 esborra des del cursor fins al principi de la línia d$ esborra des del cursor fins al final de la línia dw esborra des del cursor fins al principi de la paraula següent tot el que s&amp;rsquo;esborra queda en el búfer, i es pot enganxar amb</description>
     </item>
     <item>
       <title>comandes d&#39;inserir a VIM</title>
-      <link>http://localhost:1313/post/2010-05-09-comandes-dinserir-a-vim/</link>
+      <link>https://notesgnu.github.io/post/2010-05-09-comandes-dinserir-a-vim/</link>
       <pubDate>Sun, 09 May 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2010-05-09-comandes-dinserir-a-vim/</guid>
+      <guid>https://notesgnu.github.io/post/2010-05-09-comandes-dinserir-a-vim/</guid>
       <description>-comandes d&amp;rsquo;inserir la tecla [ESC] permet tornar al mode de comandes i (insert) els caracters s&amp;rsquo;escriuen abans del cursor (no pot escriure text al final de la línia) a (append) els caracters s&amp;rsquo;escriuen darrera del cursor, si es pot escriure text al final de la línia o (open) obre una nova línia de treball a sota&#xA;en majúscules canvien: I mou el cursor al principi de la línia i comença a fer la comanda &amp;lsquo;i&amp;rsquo; A mou el cursor al final de la línia i comença a fer la comanda &amp;lsquo;i&amp;rsquo; O obre una nova línia de treball a sobre.</description>
     </item>
     <item>
       <title>comandes de desplaçament a VIM</title>
-      <link>http://localhost:1313/post/2010-05-09-comandes-de-desplacament-a-vim/</link>
+      <link>https://notesgnu.github.io/post/2010-05-09-comandes-de-desplacament-a-vim/</link>
       <pubDate>Sun, 09 May 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2010-05-09-comandes-de-desplacament-a-vim/</guid>
+      <guid>https://notesgnu.github.io/post/2010-05-09-comandes-de-desplacament-a-vim/</guid>
       <description>Vim disposa de comades per realitzar accions concretes: - comandes de desplaçament: h mou el cursor un caracter a l&amp;rsquo;esquerra l mou el cursor un caracter a la dreta j mou el cursor una línia cap a sota k mou el cursor una línia cap a dalt&#xA;0 mou el cursor al principi de la línia, al primer caracter $ mou el cursor al final de la línia, a l&amp;rsquo;últim caracter w (word) mou el cursor al primer caracter de la següent paraula b (back) mou el cursor al primer caracter de la paraula anterior e (end) mou el cursor a l&amp;rsquo;últim caracter de la paraula següent</description>
     </item>
     <item>
       <title>Vim un editor a tenir en compte</title>
-      <link>http://localhost:1313/post/2010-04-15-vim-un-editor-a-tenir-en-compte/</link>
+      <link>https://notesgnu.github.io/post/2010-04-15-vim-un-editor-a-tenir-en-compte/</link>
       <pubDate>Thu, 15 Apr 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2010-04-15-vim-un-editor-a-tenir-en-compte/</guid>
+      <guid>https://notesgnu.github.io/post/2010-04-15-vim-un-editor-a-tenir-en-compte/</guid>
       <description>&amp;ldquo;Vim és una versió millorada de l&amp;rsquo;editor de text vi, present en tots els sistemes UNIX. Braam Moolenaar va presentar la primera versió el 1991, i des d&amp;rsquo;aleshores ha experimentat moltes millores. La principal característica de Vim i Vi consisteix en què tenen diferents modes entre els que s&amp;rsquo;alterna per realitzar certes operacions, el que els diferència de la majoria d&amp;rsquo;editors que només tenen un mode en el que s&amp;rsquo;introdueixen les ordres mitjançant combinacions de tecles o interfícies gràfiques.</description>
     </item>
   </channel>

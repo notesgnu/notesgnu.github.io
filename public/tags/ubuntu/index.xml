@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ubuntu on Notes GNU</title>
-    <link>http://localhost:1313/tags/ubuntu/</link>
-    <description>Recent content in Ubuntu on Notes GNU</description>
+    <title>Ubuntu on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/tags/ubuntu/</link>
+    <description>Recent content in Ubuntu on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 Jan 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/tags/ubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Full Circle Magazine</title>
-      <link>http://localhost:1313/post/2010-01-20-full-circle-magazine/</link>
+      <link>https://notesgnu.github.io/post/2010-01-20-full-circle-magazine/</link>
       <pubDate>Wed, 20 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2010-01-20-full-circle-magazine/</guid>
+      <guid>https://notesgnu.github.io/post/2010-01-20-full-circle-magazine/</guid>
       <description>Revista Online força interessant, encarada al món linux, en especial UBUNTU. Considerada la revista oficial! http://fullcirclemagazine.org/ PEr desgràcia de moment surt en anglès, tot i que hi ha un grup reduït de traductors que ara comencen i estan intentant traduïr-la al català. Ànims! https://launchpad.net/~fullcircle-cat https://wiki.ubuntu.com/UbuntuMagazine/TranslateFullCircle/Catalan ;)</description>
     </item>
   </channel>

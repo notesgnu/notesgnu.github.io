@@ -1,39 +1,39 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Notes GNU</title>
-    <link>http://localhost:1313/categories/linux/</link>
-    <description>Recent content in Linux on Notes GNU</description>
+    <title>Linux on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/categories/linux/</link>
+    <description>Recent content in Linux on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 28 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/categories/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Control de volum gràfic a la Linkat Lleugera</title>
-      <link>http://localhost:1313/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</link>
+      <link>https://notesgnu.github.io/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</guid>
+      <guid>https://notesgnu.github.io/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</guid>
       <description>Estic molt content amb la Linkat lleugera.&#xA;Però l’altre dia em vaig trobar que es feia una mica complex per a una persona, que no ha usat mai linux, fer canvis del control de volum. Uns companys volien activar i desactivar el volum del micròfon… Quan fas clic a la icona del volum de la barra superior, et trobes un control en terminal:&#xA;Remenant una mica, i veient com altres usuaris d’entorns LXDE ho havien solucionat, ho he provat amb la Linkat Lleugera.</description>
     </item>
     <item>
       <title>Conèixer la targeta gràfica</title>
-      <link>http://localhost:1313/post/2015-12-06-coneixer-la-targeta-grafica/</link>
+      <link>https://notesgnu.github.io/post/2015-12-06-coneixer-la-targeta-grafica/</link>
       <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2015-12-06-coneixer-la-targeta-grafica/</guid>
+      <guid>https://notesgnu.github.io/post/2015-12-06-coneixer-la-targeta-grafica/</guid>
       <description>Des de que he instal·lat xUbuntu 15.04 al meu vell portàtil hp 550 que quan inicio per primera vegada el Youtube es penja la gràfica. Abans amb la versió 14.04 LTS no m&amp;rsquo;havia passat. Així que el primer que he revisat és la gràfica que tinc posada. Ací explico com saber la gràfica.&#xA;Anem a veure com puc saber la gràfica:&#xA;des de la terminal escrivim:&#xA;lspci | grep Graphics</description>
     </item>
     <item>
       <title>Enganyar quin és el nostre Sistema Operatiu</title>
-      <link>http://localhost:1313/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</link>
+      <link>https://notesgnu.github.io/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</guid>
+      <guid>https://notesgnu.github.io/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</guid>
       <description>Ja fa un temps que no podia usar un servei d&amp;rsquo;aprenentage de llengües a la xarxa, el livemocha!&#xA;Quan inicio aquest servei, la resposta que dóna és:&#xA;Així que tot resolt! Ja no puc usar aquest servei!&#xA;Així tracten alguns als usuaris de Gnu/Linux!!!!!!! :-(&#xA;Però no m&amp;rsquo;he quedat aquí!&#xA;Quan naveguem, la xarxa detecta el nostre navegador i sistema operatiu&amp;hellip;&#xA;i pensant una mica&amp;hellip;. podem enganyar la xarxa??? Doncs la resposta és SÍ!</description>
     </item>
     <item>
       <title>Espai de disc</title>
-      <link>http://localhost:1313/post/2013-10-22-espai-de-disc/</link>
+      <link>https://notesgnu.github.io/post/2013-10-22-espai-de-disc/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2013-10-22-espai-de-disc/</guid>
+      <guid>https://notesgnu.github.io/post/2013-10-22-espai-de-disc/</guid>
       <description>Hi ha moltes eines per saber l&amp;rsquo;espai del disc, tant en ús com l&amp;rsquo;espai lliure. Però moltes vegades no tenim accés a un entorn gràfic. Des de terminal tenim varies eines que ens permeten saber l&amp;rsquo;espai que tenim lliure i en ús. Dues de les dues més importants són du i df.&#xA;Per saber-ne més, només cal usar el propi manual:&#xA;man du&#xA;o&#xA;man df&#xA;Espai que tenim lliure i en ús La comanda df ens ajuda a saber l&amp;rsquo;espai lliure en el disc.</description>
     </item>
   </channel>

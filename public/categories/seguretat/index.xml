@@ -1,25 +1,25 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Seguretat on Notes GNU</title>
-    <link>http://localhost:1313/categories/seguretat/</link>
-    <description>Recent content in Seguretat on Notes GNU</description>
+    <title>Seguretat on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/categories/seguretat/</link>
+    <description>Recent content in Seguretat on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 28 May 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/seguretat/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/categories/seguretat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eina gràfica per calcular HASH</title>
-      <link>http://localhost:1313/post/2010-05-28-eina-grafica-per-calcular-hash/</link>
+      <link>https://notesgnu.github.io/post/2010-05-28-eina-grafica-per-calcular-hash/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2010-05-28-eina-grafica-per-calcular-hash/</guid>
+      <guid>https://notesgnu.github.io/post/2010-05-28-eina-grafica-per-calcular-hash/</guid>
       <description>Tot i que la terminal sempre va molt bé, també per la gent que té preferències pels entorns gràfics, tenim una eina anomenada gtkhash per generar les md5 i sha1. Es pot instal·lar des de synaptic, o des de la terminal.</description>
     </item>
     <item>
       <title>Generar MD5</title>
-      <link>http://localhost:1313/post/2010-05-28-generar-md5/</link>
+      <link>https://notesgnu.github.io/post/2010-05-28-generar-md5/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2010-05-28-generar-md5/</guid>
+      <guid>https://notesgnu.github.io/post/2010-05-28-generar-md5/</guid>
       <description>Per saber què és el MD5 (acrònim de Message-Digest Algorithm 5, Algoritme de Resum de Missatge 5) podem visitar la viquipedia.&#xA;per poder veure la suma només cal a la terminal escriure:&#xA;$ md5sum arxiu.xxx&#xA;això ens donarà com a resultat la suma i el nom d&amp;rsquo;arxiu: 8c980e11e07821fbae7e7359e9659xxx arxiu.xxx&#xA;si volem que ens ho desi en un document, podem:&#xA;$ md5sum arxiu.xxx &amp;gt; nomarxiu.txt&#xA;;)</description>
     </item>
   </channel>

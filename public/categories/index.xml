@@ -1,452 +1,452 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Categories on Notes GNU</title>
-    <link>http://localhost:1313/categories/</link>
-    <description>Recent content in Categories on Notes GNU</description>
+    <title>Categories on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/categories/</link>
+    <description>Recent content in Categories on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/categories/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Educació</title>
-      <link>http://localhost:1313/categories/educaci%C3%B3/</link>
+      <link>https://notesgnu.github.io/categories/educaci%C3%B3/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/educaci%C3%B3/</guid>
+      <guid>https://notesgnu.github.io/categories/educaci%C3%B3/</guid>
       <description></description>
     </item>
     <item>
       <title>PKM</title>
-      <link>http://localhost:1313/categories/pkm/</link>
+      <link>https://notesgnu.github.io/categories/pkm/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/pkm/</guid>
+      <guid>https://notesgnu.github.io/categories/pkm/</guid>
       <description></description>
     </item>
     <item>
       <title>Markdown</title>
-      <link>http://localhost:1313/categories/markdown/</link>
+      <link>https://notesgnu.github.io/categories/markdown/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/markdown/</guid>
+      <guid>https://notesgnu.github.io/categories/markdown/</guid>
       <description></description>
     </item>
     <item>
       <title>Org2blog</title>
-      <link>http://localhost:1313/categories/org2blog/</link>
+      <link>https://notesgnu.github.io/categories/org2blog/</link>
       <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/org2blog/</guid>
+      <guid>https://notesgnu.github.io/categories/org2blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Vim</title>
-      <link>http://localhost:1313/categories/vim/</link>
+      <link>https://notesgnu.github.io/categories/vim/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/vim/</guid>
+      <guid>https://notesgnu.github.io/categories/vim/</guid>
       <description></description>
     </item>
     <item>
       <title>Emacs</title>
-      <link>http://localhost:1313/categories/emacs/</link>
+      <link>https://notesgnu.github.io/categories/emacs/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/emacs/</guid>
+      <guid>https://notesgnu.github.io/categories/emacs/</guid>
       <description></description>
     </item>
     <item>
       <title>Hugo</title>
-      <link>http://localhost:1313/categories/hugo/</link>
+      <link>https://notesgnu.github.io/categories/hugo/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/hugo/</guid>
+      <guid>https://notesgnu.github.io/categories/hugo/</guid>
       <description></description>
     </item>
     <item>
       <title>Linkat</title>
-      <link>http://localhost:1313/categories/linkat/</link>
+      <link>https://notesgnu.github.io/categories/linkat/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/linkat/</guid>
+      <guid>https://notesgnu.github.io/categories/linkat/</guid>
       <description></description>
     </item>
     <item>
       <title>Ocr</title>
-      <link>http://localhost:1313/categories/ocr/</link>
+      <link>https://notesgnu.github.io/categories/ocr/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ocr/</guid>
+      <guid>https://notesgnu.github.io/categories/ocr/</guid>
       <description></description>
     </item>
     <item>
       <title>Blog</title>
-      <link>http://localhost:1313/categories/blog/</link>
+      <link>https://notesgnu.github.io/categories/blog/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/blog/</guid>
+      <guid>https://notesgnu.github.io/categories/blog/</guid>
       <description></description>
     </item>
     <item>
       <title>Org-Mode</title>
-      <link>http://localhost:1313/categories/org-mode/</link>
+      <link>https://notesgnu.github.io/categories/org-mode/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/org-mode/</guid>
+      <guid>https://notesgnu.github.io/categories/org-mode/</guid>
       <description></description>
     </item>
     <item>
       <title>Git</title>
-      <link>http://localhost:1313/categories/git/</link>
+      <link>https://notesgnu.github.io/categories/git/</link>
       <pubDate>Tue, 26 Apr 2016 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/git/</guid>
+      <guid>https://notesgnu.github.io/categories/git/</guid>
       <description></description>
     </item>
     <item>
       <title>Raspberry</title>
-      <link>http://localhost:1313/categories/raspberry/</link>
+      <link>https://notesgnu.github.io/categories/raspberry/</link>
       <pubDate>Sat, 20 Feb 2016 07:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/raspberry/</guid>
+      <guid>https://notesgnu.github.io/categories/raspberry/</guid>
       <description></description>
     </item>
     <item>
       <title>Neteja</title>
-      <link>http://localhost:1313/categories/neteja/</link>
+      <link>https://notesgnu.github.io/categories/neteja/</link>
       <pubDate>Mon, 08 Feb 2016 16:13:38 +0000</pubDate>
-      <guid>http://localhost:1313/categories/neteja/</guid>
+      <guid>https://notesgnu.github.io/categories/neteja/</guid>
       <description></description>
     </item>
     <item>
       <title>Linux</title>
-      <link>http://localhost:1313/categories/linux/</link>
+      <link>https://notesgnu.github.io/categories/linux/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/linux/</guid>
+      <guid>https://notesgnu.github.io/categories/linux/</guid>
       <description></description>
     </item>
     <item>
       <title>Lubuntu</title>
-      <link>http://localhost:1313/categories/lubuntu/</link>
+      <link>https://notesgnu.github.io/categories/lubuntu/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/lubuntu/</guid>
+      <guid>https://notesgnu.github.io/categories/lubuntu/</guid>
       <description></description>
     </item>
     <item>
       <title>Lxde</title>
-      <link>http://localhost:1313/categories/lxde/</link>
+      <link>https://notesgnu.github.io/categories/lxde/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/lxde/</guid>
+      <guid>https://notesgnu.github.io/categories/lxde/</guid>
       <description></description>
     </item>
     <item>
       <title>Editor</title>
-      <link>http://localhost:1313/categories/editor/</link>
+      <link>https://notesgnu.github.io/categories/editor/</link>
       <pubDate>Sat, 23 Jan 2016 16:13:38 +0000</pubDate>
-      <guid>http://localhost:1313/categories/editor/</guid>
+      <guid>https://notesgnu.github.io/categories/editor/</guid>
       <description></description>
     </item>
     <item>
       <title>Comandes</title>
-      <link>http://localhost:1313/categories/comandes/</link>
+      <link>https://notesgnu.github.io/categories/comandes/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/comandes/</guid>
+      <guid>https://notesgnu.github.io/categories/comandes/</guid>
       <description></description>
     </item>
     <item>
       <title>Terminal</title>
-      <link>http://localhost:1313/categories/terminal/</link>
+      <link>https://notesgnu.github.io/categories/terminal/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/terminal/</guid>
+      <guid>https://notesgnu.github.io/categories/terminal/</guid>
       <description></description>
     </item>
     <item>
       <title>Gnu</title>
-      <link>http://localhost:1313/categories/gnu/</link>
+      <link>https://notesgnu.github.io/categories/gnu/</link>
       <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/gnu/</guid>
+      <guid>https://notesgnu.github.io/categories/gnu/</guid>
       <description></description>
     </item>
     <item>
       <title>Maquinari</title>
-      <link>http://localhost:1313/categories/maquinari/</link>
+      <link>https://notesgnu.github.io/categories/maquinari/</link>
       <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/maquinari/</guid>
+      <guid>https://notesgnu.github.io/categories/maquinari/</guid>
       <description></description>
     </item>
     <item>
       <title>Scratch</title>
-      <link>http://localhost:1313/categories/scratch/</link>
+      <link>https://notesgnu.github.io/categories/scratch/</link>
       <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/scratch/</guid>
+      <guid>https://notesgnu.github.io/categories/scratch/</guid>
       <description></description>
     </item>
     <item>
       <title>Mencoder</title>
-      <link>http://localhost:1313/categories/mencoder/</link>
+      <link>https://notesgnu.github.io/categories/mencoder/</link>
       <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/mencoder/</guid>
+      <guid>https://notesgnu.github.io/categories/mencoder/</guid>
       <description></description>
     </item>
     <item>
       <title>Video</title>
-      <link>http://localhost:1313/categories/video/</link>
+      <link>https://notesgnu.github.io/categories/video/</link>
       <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/video/</guid>
+      <guid>https://notesgnu.github.io/categories/video/</guid>
       <description></description>
     </item>
     <item>
       <title>Multimedia</title>
-      <link>http://localhost:1313/categories/multimedia/</link>
+      <link>https://notesgnu.github.io/categories/multimedia/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/multimedia/</guid>
+      <guid>https://notesgnu.github.io/categories/multimedia/</guid>
       <description></description>
     </item>
     <item>
       <title>Jekyll</title>
-      <link>http://localhost:1313/categories/jekyll/</link>
+      <link>https://notesgnu.github.io/categories/jekyll/</link>
       <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/jekyll/</guid>
+      <guid>https://notesgnu.github.io/categories/jekyll/</guid>
       <description></description>
     </item>
     <item>
       <title>Online</title>
-      <link>http://localhost:1313/categories/online/</link>
+      <link>https://notesgnu.github.io/categories/online/</link>
       <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/online/</guid>
+      <guid>https://notesgnu.github.io/categories/online/</guid>
       <description></description>
     </item>
     <item>
       <title>Error</title>
-      <link>http://localhost:1313/categories/error/</link>
+      <link>https://notesgnu.github.io/categories/error/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/error/</guid>
+      <guid>https://notesgnu.github.io/categories/error/</guid>
       <description></description>
     </item>
     <item>
       <title>Hack</title>
-      <link>http://localhost:1313/categories/hack/</link>
+      <link>https://notesgnu.github.io/categories/hack/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/hack/</guid>
+      <guid>https://notesgnu.github.io/categories/hack/</guid>
       <description></description>
     </item>
     <item>
       <title>Inkscape</title>
-      <link>http://localhost:1313/categories/inkscape/</link>
+      <link>https://notesgnu.github.io/categories/inkscape/</link>
       <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/inkscape/</guid>
+      <guid>https://notesgnu.github.io/categories/inkscape/</guid>
       <description></description>
     </item>
     <item>
       <title>Exif</title>
-      <link>http://localhost:1313/categories/exif/</link>
+      <link>https://notesgnu.github.io/categories/exif/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/exif/</guid>
+      <guid>https://notesgnu.github.io/categories/exif/</guid>
       <description></description>
     </item>
     <item>
       <title>Imatges</title>
-      <link>http://localhost:1313/categories/imatges/</link>
+      <link>https://notesgnu.github.io/categories/imatges/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/imatges/</guid>
+      <guid>https://notesgnu.github.io/categories/imatges/</guid>
       <description></description>
     </item>
     <item>
       <title>Reparar</title>
-      <link>http://localhost:1313/categories/reparar/</link>
+      <link>https://notesgnu.github.io/categories/reparar/</link>
       <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/reparar/</guid>
+      <guid>https://notesgnu.github.io/categories/reparar/</guid>
       <description></description>
     </item>
     <item>
       <title>Convertir</title>
-      <link>http://localhost:1313/categories/convertir/</link>
+      <link>https://notesgnu.github.io/categories/convertir/</link>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/convertir/</guid>
+      <guid>https://notesgnu.github.io/categories/convertir/</guid>
       <description></description>
     </item>
     <item>
       <title>Media</title>
-      <link>http://localhost:1313/categories/media/</link>
+      <link>https://notesgnu.github.io/categories/media/</link>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/media/</guid>
+      <guid>https://notesgnu.github.io/categories/media/</guid>
       <description></description>
     </item>
     <item>
       <title>Android</title>
-      <link>http://localhost:1313/categories/android/</link>
+      <link>https://notesgnu.github.io/categories/android/</link>
       <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/android/</guid>
+      <guid>https://notesgnu.github.io/categories/android/</guid>
       <description></description>
     </item>
     <item>
       <title>Eines</title>
-      <link>http://localhost:1313/categories/eines/</link>
+      <link>https://notesgnu.github.io/categories/eines/</link>
       <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/eines/</guid>
+      <guid>https://notesgnu.github.io/categories/eines/</guid>
       <description></description>
     </item>
     <item>
       <title>Xarxa</title>
-      <link>http://localhost:1313/categories/xarxa/</link>
+      <link>https://notesgnu.github.io/categories/xarxa/</link>
       <pubDate>Mon, 11 Nov 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/xarxa/</guid>
+      <guid>https://notesgnu.github.io/categories/xarxa/</guid>
       <description></description>
     </item>
     <item>
       <title>Ubuntu</title>
-      <link>http://localhost:1313/categories/ubuntu/</link>
+      <link>https://notesgnu.github.io/categories/ubuntu/</link>
       <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ubuntu/</guid>
+      <guid>https://notesgnu.github.io/categories/ubuntu/</guid>
       <description></description>
     </item>
     <item>
       <title>Esperanto</title>
-      <link>http://localhost:1313/categories/esperanto/</link>
+      <link>https://notesgnu.github.io/categories/esperanto/</link>
       <pubDate>Sat, 15 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/esperanto/</guid>
+      <guid>https://notesgnu.github.io/categories/esperanto/</guid>
       <description></description>
     </item>
     <item>
       <title>Xfce</title>
-      <link>http://localhost:1313/categories/xfce/</link>
+      <link>https://notesgnu.github.io/categories/xfce/</link>
       <pubDate>Sat, 15 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/xfce/</guid>
+      <guid>https://notesgnu.github.io/categories/xfce/</guid>
       <description></description>
     </item>
     <item>
       <title>Debian</title>
-      <link>http://localhost:1313/categories/debian/</link>
+      <link>https://notesgnu.github.io/categories/debian/</link>
       <pubDate>Wed, 12 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/debian/</guid>
+      <guid>https://notesgnu.github.io/categories/debian/</guid>
       <description></description>
     </item>
     <item>
       <title>Audio</title>
-      <link>http://localhost:1313/categories/audio/</link>
+      <link>https://notesgnu.github.io/categories/audio/</link>
       <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/audio/</guid>
+      <guid>https://notesgnu.github.io/categories/audio/</guid>
       <description></description>
     </item>
     <item>
       <title>Latex</title>
-      <link>http://localhost:1313/categories/latex/</link>
+      <link>https://notesgnu.github.io/categories/latex/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/latex/</guid>
+      <guid>https://notesgnu.github.io/categories/latex/</guid>
       <description></description>
     </item>
     <item>
       <title>Lyx</title>
-      <link>http://localhost:1313/categories/lyx/</link>
+      <link>https://notesgnu.github.io/categories/lyx/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/lyx/</guid>
+      <guid>https://notesgnu.github.io/categories/lyx/</guid>
       <description></description>
     </item>
     <item>
       <title>Ofimatica</title>
-      <link>http://localhost:1313/categories/ofimatica/</link>
+      <link>https://notesgnu.github.io/categories/ofimatica/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ofimatica/</guid>
+      <guid>https://notesgnu.github.io/categories/ofimatica/</guid>
       <description></description>
     </item>
     <item>
       <title>Opensuse</title>
-      <link>http://localhost:1313/categories/opensuse/</link>
+      <link>https://notesgnu.github.io/categories/opensuse/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/opensuse/</guid>
+      <guid>https://notesgnu.github.io/categories/opensuse/</guid>
       <description></description>
     </item>
     <item>
       <title>Programari</title>
-      <link>http://localhost:1313/categories/programari/</link>
+      <link>https://notesgnu.github.io/categories/programari/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/programari/</guid>
+      <guid>https://notesgnu.github.io/categories/programari/</guid>
       <description></description>
     </item>
     <item>
       <title>Catala</title>
-      <link>http://localhost:1313/categories/catala/</link>
+      <link>https://notesgnu.github.io/categories/catala/</link>
       <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/catala/</guid>
+      <guid>https://notesgnu.github.io/categories/catala/</guid>
       <description></description>
     </item>
     <item>
       <title>Esteganografia</title>
-      <link>http://localhost:1313/categories/esteganografia/</link>
+      <link>https://notesgnu.github.io/categories/esteganografia/</link>
       <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/esteganografia/</guid>
+      <guid>https://notesgnu.github.io/categories/esteganografia/</guid>
       <description></description>
     </item>
     <item>
       <title>Utf-8</title>
-      <link>http://localhost:1313/categories/utf-8/</link>
+      <link>https://notesgnu.github.io/categories/utf-8/</link>
       <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/utf-8/</guid>
+      <guid>https://notesgnu.github.io/categories/utf-8/</guid>
       <description></description>
     </item>
     <item>
       <title>Ffmpeg</title>
-      <link>http://localhost:1313/categories/ffmpeg/</link>
+      <link>https://notesgnu.github.io/categories/ffmpeg/</link>
       <pubDate>Fri, 19 Oct 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ffmpeg/</guid>
+      <guid>https://notesgnu.github.io/categories/ffmpeg/</guid>
       <description></description>
     </item>
     <item>
       <title>Ogg</title>
-      <link>http://localhost:1313/categories/ogg/</link>
+      <link>https://notesgnu.github.io/categories/ogg/</link>
       <pubDate>Fri, 19 Oct 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ogg/</guid>
+      <guid>https://notesgnu.github.io/categories/ogg/</guid>
       <description></description>
     </item>
     <item>
       <title>Bash</title>
-      <link>http://localhost:1313/categories/bash/</link>
+      <link>https://notesgnu.github.io/categories/bash/</link>
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/bash/</guid>
+      <guid>https://notesgnu.github.io/categories/bash/</guid>
       <description></description>
     </item>
     <item>
       <title>Ssh</title>
-      <link>http://localhost:1313/categories/ssh/</link>
+      <link>https://notesgnu.github.io/categories/ssh/</link>
       <pubDate>Sun, 08 Jan 2012 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/ssh/</guid>
+      <guid>https://notesgnu.github.io/categories/ssh/</guid>
       <description></description>
     </item>
     <item>
       <title>Conky</title>
-      <link>http://localhost:1313/categories/conky/</link>
+      <link>https://notesgnu.github.io/categories/conky/</link>
       <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/conky/</guid>
+      <guid>https://notesgnu.github.io/categories/conky/</guid>
       <description></description>
     </item>
     <item>
       <title>Rsync</title>
-      <link>http://localhost:1313/categories/rsync/</link>
+      <link>https://notesgnu.github.io/categories/rsync/</link>
       <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/rsync/</guid>
+      <guid>https://notesgnu.github.io/categories/rsync/</guid>
       <description></description>
     </item>
     <item>
       <title>Turpial</title>
-      <link>http://localhost:1313/categories/turpial/</link>
+      <link>https://notesgnu.github.io/categories/turpial/</link>
       <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/turpial/</guid>
+      <guid>https://notesgnu.github.io/categories/turpial/</guid>
       <description></description>
     </item>
     <item>
       <title>Dropbox</title>
-      <link>http://localhost:1313/categories/dropbox/</link>
+      <link>https://notesgnu.github.io/categories/dropbox/</link>
       <pubDate>Thu, 12 May 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/dropbox/</guid>
+      <guid>https://notesgnu.github.io/categories/dropbox/</guid>
       <description></description>
     </item>
     <item>
       <title>Fedora</title>
-      <link>http://localhost:1313/categories/fedora/</link>
+      <link>https://notesgnu.github.io/categories/fedora/</link>
       <pubDate>Sat, 15 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/fedora/</guid>
+      <guid>https://notesgnu.github.io/categories/fedora/</guid>
       <description></description>
     </item>
     <item>
       <title>Distros</title>
-      <link>http://localhost:1313/categories/distros/</link>
+      <link>https://notesgnu.github.io/categories/distros/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/distros/</guid>
+      <guid>https://notesgnu.github.io/categories/distros/</guid>
       <description></description>
     </item>
     <item>
       <title>Seguretat</title>
-      <link>http://localhost:1313/categories/seguretat/</link>
+      <link>https://notesgnu.github.io/categories/seguretat/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/categories/seguretat/</guid>
+      <guid>https://notesgnu.github.io/categories/seguretat/</guid>
       <description></description>
     </item>
   </channel>

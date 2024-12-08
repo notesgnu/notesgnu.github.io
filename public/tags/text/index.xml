@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Text on Notes GNU</title>
-    <link>http://localhost:1313/tags/text/</link>
-    <description>Recent content in Text on Notes GNU</description>
+    <title>Text on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/tags/text/</link>
+    <description>Recent content in Text on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 15 May 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/text/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/tags/text/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Què és markdown, usos i idees</title>
-      <link>http://localhost:1313/post/2016-05-15-que-es-markdown-usos-i-idees/</link>
+      <link>https://notesgnu.github.io/post/2016-05-15-que-es-markdown-usos-i-idees/</link>
       <pubDate>Sun, 15 May 2016 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2016-05-15-que-es-markdown-usos-i-idees/</guid>
+      <guid>https://notesgnu.github.io/post/2016-05-15-que-es-markdown-usos-i-idees/</guid>
       <description>El passat dissabte 28 de maig de 2016 a l’Institut Eugeni d’Ors de l’Hospitalet de Llobregat va tenir lloc la XIa Jornada (PaperLess). Vaig aprofitar per fer una breu introducció a Markdown. Deixo aquí els enllaços i algunes notes del que vaig comentar.&#xA;MarkDown [M↓] és un llenguatge de marques lleuger (creat per John Gruber i Aaron Swartz). Busca aconseguir llegibilitat escrivint en text pla.&#xA;[M↓] s’està convertint en un estàndard per prendre notes en text pla, fer PDF, …i especialment per fer pàgines web ràpides (tipus github pages), per escriure en Wordpress, Tumblr, stackexchange, i moltes altres coses….</description>
     </item>
   </channel>

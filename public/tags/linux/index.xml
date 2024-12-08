@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Linux on Notes GNU</title>
-    <link>http://localhost:1313/tags/linux/</link>
-    <description>Recent content in Linux on Notes GNU</description>
+    <title>Linux on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/tags/linux/</link>
+    <description>Recent content in Linux on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/tags/linux/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/tags/linux/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Proves des de Fedora</title>
-      <link>http://localhost:1313/post/2022-12-04-proves-des-de-fedora/</link>
+      <link>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2022-12-04-proves-des-de-fedora/</guid>
+      <guid>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora/</guid>
       <description>Ja fa uns dies que va arribar a les meves mans una màquina vella, d’aquelles que ja no serveixen… en teoria. És un portàtil HP Probook 6560b, i he fet un munt de proves. El primer va ser ampliar la RAM de 2 a 6 gigues, sense cap problema!!!, aquí ja em vaig emocionar, i vaig tirar endavant amb un disc sòlid SSD de 120.&#xA;Aquí em va donar molts problemes… solució ha estat actualitzar la BIOS, usant els arxius per Windows, ja que amb Linux em baixava una BIOS molt antiga.</description>
     </item>
   </channel>

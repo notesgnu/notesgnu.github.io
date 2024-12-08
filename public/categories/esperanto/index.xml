@@ -1,18 +1,18 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Esperanto on Notes GNU</title>
-    <link>http://localhost:1313/categories/esperanto/</link>
-    <description>Recent content in Esperanto on Notes GNU</description>
+    <title>Esperanto on Notes d&#39;un GNU</title>
+    <link>https://notesgnu.github.io/categories/esperanto/</link>
+    <description>Recent content in Esperanto on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Jun 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="http://localhost:1313/categories/esperanto/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="https://notesgnu.github.io/categories/esperanto/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Esperanto en Xubuntu</title>
-      <link>http://localhost:1313/post/2013-06-15-esperanto-en-xubuntu/</link>
+      <link>https://notesgnu.github.io/post/2013-06-15-esperanto-en-xubuntu/</link>
       <pubDate>Sat, 15 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>http://localhost:1313/post/2013-06-15-esperanto-en-xubuntu/</guid>
+      <guid>https://notesgnu.github.io/post/2013-06-15-esperanto-en-xubuntu/</guid>
       <description>Ja fa un temps que estudio Esperanto i em calia poder escriure el &amp;ldquo;supersigno&amp;rdquo;, així que al portàtil on tinc instal·lat Xubuntu no trobava com configurar-ho. En Gnome és senzill, ho trobem en la configuració del teclat i en les opcions podem triar esperanto - supersigno en l&amp;rsquo;opció qwerty, és a dir, que amb la tecla [alt gr] i prement la lletra que porta supersigno, ens surt ĝ, ŝ, ŭ … En Lubuntu i entorns lxde es pot fer com ho explicava per fer accents en un teclat americà.</description>
     </item>
   </channel>
