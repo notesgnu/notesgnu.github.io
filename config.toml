@@ -8,36 +8,12 @@ enableInlineShortcodes = true
 footnoteReturnLinkContents = "^"
 enableemoji = true
 
-
 [params]
     author = "msaliko"
     description = "2024 (CC-BY-NC-SA) - Sou lliures de copiar"
     google_search = true
     avatar = "avatar.png" #l'avatar va a la carpeta "static"
     menu_item_separator = " ⋆ "
-
-[params.style]
-  darkestColor = "#242930"
-  darkColor = "#353b43"
-  lightColor = "#afbac4"
-  lightestColor = "#ffffff"
-  primaryColor = "#57cc8a"
-
-  # Default theme
-  #[params.style]
-  #  darkestColor = "#242930"
-  #  darkColor = "#353b43"
-  #  lightColor = "#afbac4"
-  #  lightestColor = "#ffffff"
-  #  primaryColor = "#57cc8a"
-
-  # Green theme
-  #[params.style]
-  #  darkestColor = "#315659"
-  #  darkColor = "#253031"
-  #  lightColor = "#96a879"
-  #  lightestColor = "#fff"
-  #  primaryColor = "#dad865"
 
 [[menu.main]]
     identifier = "home"
@@ -68,7 +44,8 @@ category = "categories"
 tag = "tags"
 series = "series"
 
-#Les icones n'hi ha de dos tipus les https://feathericons.com/ que només cal posar el nom i les https://simpleicons.org/ que cal posar brand-nom
+#Les icones n'hi ha les de https://feathericons.com/
+
 [[params.social]]
     url = "jnorbu8@gmail.com"
     name = "Correu"
@@ -93,3 +70,26 @@ series = "series"
     url = "https://bsky.app/profile/manelsales.bsky.social"
     name = "BlueSky"
     icon = "bold"
+
+[params.style]
+  darkestColor = "#242930"
+  darkColor = "#353b43"
+  lightColor = "#afbac4"
+  lightestColor = "#ffffff"
+  primaryColor = "#57cc8a"
+
+  # Default theme
+  #[params.style]
+  #  darkestColor = "#242930"
+  #  darkColor = "#353b43"
+  #  lightColor = "#afbac4"
+  #  lightestColor = "#ffffff"
+  #  primaryColor = "#57cc8a"
+
+  # Green theme
+  #[params.style]
+  #  darkestColor = "#315659"
+  #  darkColor = "#253031"
+  #  lightColor = "#96a879"
+  #  lightestColor = "#fff"
+  #  primaryColor = "#dad865"
