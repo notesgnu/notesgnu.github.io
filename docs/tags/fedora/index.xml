@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fedora on Notes d&#39;un GNU</title>
+    <title>Fedora on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/fedora/</link>
-    <description>Recent content in Fedora on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Fedora on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 04 Dec 2022 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/fedora/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora/</link>
       <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2022-12-04-proves-des-de-fedora/</guid>
-      <description>Ja fa uns dies que va arribar a les meves mans una màquina vella, d’aquelles que ja no serveixen… en teoria. És un portàtil HP Probook 6560b, i he fet un munt de proves. El primer va ser ampliar la RAM de 2 a 6 gigues, sense cap problema!!!, aquí ja em vaig emocionar, i vaig tirar endavant amb un disc sòlid SSD de 120.&#xA;Aquí em va donar molts problemes… solució ha estat actualitzar la BIOS, usant els arxius per Windows, ja que amb Linux em baixava una BIOS molt antiga.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.megaleechers.com/storage/Fedora-Icon.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ja fa uns dies que va arribar a les meves mans una màquina vella, d’aquelles que ja no serveixen… en teoria. És un portàtil &lt;a href=&#34;https://support.hp.com/es-es/product/hp-probook-6560b-notebook-pc/5045605&#34;&gt;HP Probook 6560b&lt;/a&gt;, i he fet un munt de proves. El primer va ser ampliar la RAM de 2 a 6 gigues, sense cap problema!!!, aquí ja em vaig emocionar, i vaig tirar endavant amb un disc sòlid SSD de 120.&lt;br&gt;&#xA;Aquí em va donar molts problemes… solució ha estat actualitzar la BIOS, usant els arxius per Windows, ja que amb Linux em baixava una BIOS molt antiga. Finalment he pogut iniciar des del SSD.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

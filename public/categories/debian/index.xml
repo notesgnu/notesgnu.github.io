@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Debian on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/debian/</link>
-    <description>Recent content in Debian on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Debian on Notes GNU</title>
+    <link>http://localhost:1313/categories/debian/</link>
+    <description>Recent content in Debian on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 12 Jun 2013 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/debian/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/debian/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Problemes amb els repositoris Debian Wheezy</title>
-      <link>https://notesgnu.github.io/post/2013-06-12-problemes-amb-els-repositoris-debian-wheezy/</link>
+      <link>http://localhost:1313/post/2013-06-12-problemes-amb-els-repositoris-debian-wheezy/</link>
       <pubDate>Wed, 12 Jun 2013 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2013-06-12-problemes-amb-els-repositoris-debian-wheezy/</guid>
-      <description>Porto uns dies que Debian Wheezy em donava problemes per actualitzar.&#xA;Resulta que en fer les actualitzacions em donava:&#xA;Release http://ftp.es.debian.org/debian/dists/testing/InRelease caducat (invàlid des de XdataX)&#xA;Així que he hagut de corregir les llistes del repositori, resulta que com havia actualitzat Whezzy, i havia passat de testing a definitiva, llavors, al no haver canviat els meus repositoris em donava l&amp;rsquo;error.&#xA;emacs /etc/apt/sources.list&#xA;La solució ha estat canviar on posa &amp;ldquo;testing&amp;rdquo; per &amp;ldquo;Whezzy&amp;rdquo;.</description>
+      <guid>http://localhost:1313/post/2013-06-12-problemes-amb-els-repositoris-debian-wheezy/</guid>
+      <description>&lt;p&gt;Porto uns dies que Debian Wheezy em donava problemes per actualitzar.&lt;/p&gt;&#xA;&lt;p&gt;Resulta que en fer les actualitzacions em donava:&lt;/p&gt;&#xA;&lt;p&gt;Release &lt;a href=&#34;http://ftp.es.debian.org/debian/dists/testing/InRelease&#34;&gt;http://ftp.es.debian.org/debian/dists/testing/InRelease&lt;/a&gt; caducat (invàlid des de XdataX)&lt;/p&gt;&#xA;&lt;p&gt;Així que he hagut de corregir les llistes del repositori, resulta que com havia actualitzat Whezzy, i havia passat de testing a definitiva, llavors, al no haver canviat els meus repositoris em donava l&amp;rsquo;error.&lt;/p&gt;&#xA;&lt;p&gt;emacs /etc/apt/sources.list&lt;/p&gt;&#xA;&lt;p&gt;La solució ha estat canviar on posa &amp;ldquo;testing&amp;rdquo; per &amp;ldquo;Whezzy&amp;rdquo;. Després de fer el &lt;strong&gt;update&lt;/strong&gt; i &lt;strong&gt;upgrade&lt;/strong&gt; tot solucionat!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

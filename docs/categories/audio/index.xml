@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Audio on Notes d&#39;un GNU</title>
+    <title>Audio on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/audio/</link>
-    <description>Recent content in Audio on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Audio on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 01 Feb 2013 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/audio/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://notesgnu.github.io/post/2013-02-01-extreure-elements-dun-arxiu-swf/</link>
       <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2013-02-01-extreure-elements-dun-arxiu-swf/</guid>
-      <description>No m&amp;rsquo;agrada massa el flash ja que en no és un programari lliure, i no té massa bona implementació. Bé, la qüestió és que en un swf hi havia un audio que volia tenir per separat. També serveix per les imatges que surten, que pot ser volem recuperar-les d&amp;rsquo;un swf.&#xA;Un cop creat es fa difícil tornar a extreure el que s&amp;rsquo;ha incrustat&amp;hellip;&#xA;bé, doncs he trobat una eina que ho permet, està dins d&amp;rsquo;un conjunt d&amp;rsquo;eines anomenades SWFTOOLS.</description>
+      <description>&lt;p&gt;No m&amp;rsquo;agrada massa el flash ja que en no és un programari lliure, i no té massa bona implementació. Bé, la qüestió és que en un &lt;a href=&#34;http://ca.wikipedia.org/wiki/SWF&#34; title=&#34;swf&#34;&gt;swf&lt;/a&gt; hi havia un audio que volia tenir per separat. També serveix per les imatges que surten, que pot ser volem recuperar-les d&amp;rsquo;un swf.&lt;/p&gt;&#xA;&lt;p&gt;Un cop creat es fa difícil tornar a extreure el que s&amp;rsquo;ha incrustat&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;bé, doncs he trobat una eina que ho permet, està dins d&amp;rsquo;un conjunt d&amp;rsquo;eines anomenades &lt;a href=&#34;http://www.swftools.org/about.html&#34; title=&#34;swftools&#34;&gt;SWFTOOLS&lt;/a&gt;. Estan sota llicència GPL, i ens permeten fer un bon munt de coses.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Convertir audio (APE&#43;CUE a OGG)</title>
       <link>https://notesgnu.github.io/post/2012-10-19-convertir-audio-apecue-a-ogg/</link>
       <pubDate>Fri, 19 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2012-10-19-convertir-audio-apecue-a-ogg/</guid>
-      <description>Ja fa molt de temps se&amp;rsquo;m va ocurrer usar http://www.monkeysaudio.com/ per fer còpies de seguretat dels meus discs de música. Aquest programa convertia el CD d&amp;rsquo;àudio en dos fitxers, un acabat en APE i un altre amb l&amp;rsquo;extenció CUE. Després d&amp;rsquo;uns quants anys me&amp;rsquo;ls he retrobat en un disc dur extern i, avui, he volgut passar-los a OGG. Així que mans a l&amp;rsquo;obra…&#xA;Primer que res, caldrà instal·lar alguns paquets, en el cas de debian jo he instal·lat els següents, que no tenia instal·lats:</description>
+      <description>&lt;p&gt;Ja fa molt de temps se&amp;rsquo;m va ocurrer usar &lt;a href=&#34;http://www.monkeysaudio.com/&#34;&gt;http://www.monkeysaudio.com/&lt;/a&gt; per fer còpies de seguretat dels meus discs de música. Aquest programa convertia el CD d&amp;rsquo;àudio en dos fitxers, un acabat en &lt;a href=&#34;http://es.wikipedia.org/wiki/Monkey%27s_Audio&#34;&gt;APE&lt;/a&gt; i un altre amb l&amp;rsquo;extenció &lt;a href=&#34;http://es.wikipedia.org/wiki/Cue_sheet&#34;&gt;CUE&lt;/a&gt;. Després d&amp;rsquo;uns quants anys me&amp;rsquo;ls he retrobat en un disc dur extern i, avui, he volgut passar-los a &lt;strong&gt;OGG&lt;/strong&gt;. Així que mans a l&amp;rsquo;obra…&lt;br&gt;&#xA;Primer que res, caldrà instal·lar alguns paquets, en el cas de &lt;strong&gt;debian&lt;/strong&gt; jo he instal·lat els següents, que no tenia instal·lats:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

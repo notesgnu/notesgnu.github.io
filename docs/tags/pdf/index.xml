@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Pdf on Notes d&#39;un GNU</title>
+    <title>Pdf on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/pdf/</link>
-    <description>Recent content in Pdf on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Pdf on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/pdf/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</guid>
-      <description>El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)&#xA;Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: pdfsanwich tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/&#xA;La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.</description>
+      <description>&lt;p&gt;El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)&lt;/p&gt;&#xA;&lt;p&gt;Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: &lt;strong&gt;pdfsanwich&lt;/strong&gt; tenim tota la informació a &lt;a href=&#34;http://www.tobias-elze.de/pdfsandwich/&#34;&gt;http://www.tobias-elze.de/pdfsandwich/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

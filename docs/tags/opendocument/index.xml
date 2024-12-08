@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opendocument on Notes d&#39;un GNU</title>
+    <title>Opendocument on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/opendocument/</link>
-    <description>Recent content in Opendocument on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Opendocument on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/opendocument/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://notesgnu.github.io/post/2024-04-24-articleword/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2024-04-24-articleword/</guid>
-      <description>Per què no usar WORD a l&amp;rsquo;educació Article escrit el 2016 i no han canviat tant les coses, la diferencia ara és al núvol, però seguim depenent de les eines privatives!!! Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l&amp;rsquo;educació! A continuació deixò l&amp;rsquo;article tal com es va escriure:&#xA;Per què NO hauríem de demanar als nostres alumnes que ens presentin els treballs en un document Word?</description>
+      <description>&lt;h1 id=&#34;per-què-no-usar-word-a-leducació&#34;&gt;Per què no usar WORD a l&amp;rsquo;educació&lt;/h1&gt;&#xA;&lt;p&gt;Article &lt;a href=&#34;http://xtec.cat/%7Emsales24/articles/articleword.html&#34;&gt;escrit el 2016 &lt;/a&gt;i no han canviat tant les coses, la diferencia ara és al núvol, però seguim depenent de les eines privatives!!!&#xA;Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l&amp;rsquo;educació!&#xA;A continuació deixò l&amp;rsquo;article tal com es va escriure:&lt;/p&gt;&#xA;&lt;h2 id=&#34;per-què-no-hauríem-de-demanar-als-nostres-alumnes-que-ens-presentin-els-treballs-en-un-document-word&#34;&gt;Per què &lt;strong&gt;NO&lt;/strong&gt; hauríem de demanar als nostres alumnes que ens presentin els treballs en un document Word?&lt;/h2&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;Quan demanem als nostres alumnes un format concret (p.e. Word) per lliurar-nos els treballs, els obliguem indirectament a adoptar les mateixes eines que nosaltres. Pot ser que indirectament estiguem fomentant la pirateria.&amp;rdquo; &amp;ldquo;Quan escollim una eina, escollim una filosofia. És per aquest motiu que les escoles hem d’optar pel programari lliure i els estàndards oberts.&amp;rdquo; &amp;ldquo;Quan treballem amb programari propietari ens pot passar que en el futur ens resulti impossible recuperar la informació. Cal garantir la preservació digital&amp;rdquo;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Editar o gestionar coneixement</title>
       <link>https://notesgnu.github.io/post/2023-07-25gestionarconeixement/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2023-07-25gestionarconeixement/</guid>
-      <description>Editar o gestionar coneixement Sovint em trobo cercant i analitzant un bon editor per les notes que prenc. Això sempre em porta a provar noves eines, nous formats de text i a dedicar-hi molt de temps.&#xA;Fent una mica la mirada endarrere, m’adono que el gran problema és el temps invertit i la manca de resultats. Hi ha la teoria de Pareto on la major part de les vegades el 20% de l’esforç genera el 80% dels resultats.</description>
+      <description>&lt;h1 id=&#34;editar-o-gestionar-coneixement&#34;&gt;Editar o gestionar coneixement&lt;/h1&gt;&#xA;&lt;p&gt;Sovint em trobo cercant i analitzant un bon editor per les notes que prenc. Això sempre em porta a provar noves eines, nous formats de text i a dedicar-hi molt de temps.&lt;/p&gt;&#xA;&lt;p&gt;Fent una mica la mirada endarrere, m’adono que el gran problema és el temps invertit i la manca de resultats. Hi ha la teoria de Pareto on la major part de les vegades el 20% de l’esforç genera el 80% dels resultats. Per això, cal fer una aturada i pensar-hi.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

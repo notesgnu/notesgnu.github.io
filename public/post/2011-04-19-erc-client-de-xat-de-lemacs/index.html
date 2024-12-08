@@ -1,37 +1,41 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <title>ERC: Client de Xat de l&#39;Emacs // Notes d&#39;un GNU</title>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>ERC: Client de Xat de l&#39;Emacs // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.123.7">
+    <meta name="generator" content="Hugo 0.139.3">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="https://notesgnu.github.io/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+    <link rel="stylesheet" href="http://localhost:1313/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
 
     
-    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="ERC: Client de Xat de l&#39;Emacs"/>
-<meta name="twitter:description" content="ERC és un mode de l&rsquo;emacs usat com a client d&rsquo;IRC completo para Emacs. El seu nom ja ho diu: E macs internet R elay C hat
-Per iniciar la sessió, només cal engegar l&rsquo;emacs i fer M-x erc
-Llavors s&rsquo;inicia un minibuffer i ens pregunta el nick, contrasenya, canal IRC… Com a curiositat, tenim que en comptes de entrar a ERC fem M-x irc ens entrarà directament a la xarxa IRC irc."/>
+    
+  <meta name="twitter:card" content="summary">
+  <meta name="twitter:title" content="ERC: Client de Xat de l&#39;Emacs">
+  <meta name="twitter:description" content="ERC és un mode de l’emacs usat com a client d’IRC completo para Emacs. El seu nom ja ho diu: E macs internet R elay C hat
+Per iniciar la sessió, només cal engegar l’emacs i fer M-x erc
+Llavors s’inicia un minibuffer i ens pregunta el nick, contrasenya, canal IRC… Com a curiositat, tenim que en comptes de entrar a ERC fem M-x irc ens entrarà directament a la xarxa IRC irc.freenode.net amb el compte predifinit que tenim a la sesió de la màquina. Hi ha diferents canals com ara #emacs,#gnu-es, #debian, #mediawiki, etc que podem triar fent:">
 
-    <meta property="og:title" content="ERC: Client de Xat de l&#39;Emacs" />
-<meta property="og:description" content="ERC és un mode de l&rsquo;emacs usat com a client d&rsquo;IRC completo para Emacs. El seu nom ja ho diu: E macs internet R elay C hat
-Per iniciar la sessió, només cal engegar l&rsquo;emacs i fer M-x erc
-Llavors s&rsquo;inicia un minibuffer i ens pregunta el nick, contrasenya, canal IRC… Com a curiositat, tenim que en comptes de entrar a ERC fem M-x irc ens entrarà directament a la xarxa IRC irc." />
-<meta property="og:type" content="article" />
-<meta property="og:url" content="https://notesgnu.github.io/post/2011-04-19-erc-client-de-xat-de-lemacs/" /><meta property="article:section" content="post" />
-<meta property="article:published_time" content="2011-04-19T00:00:00+00:00" />
-<meta property="article:modified_time" content="2011-04-19T00:00:00+00:00" />
-
+    <meta property="og:url" content="http://localhost:1313/post/2011-04-19-erc-client-de-xat-de-lemacs/">
+  <meta property="og:site_name" content="Notes GNU">
+  <meta property="og:title" content="ERC: Client de Xat de l&#39;Emacs">
+  <meta property="og:description" content="ERC és un mode de l’emacs usat com a client d’IRC completo para Emacs. El seu nom ja ho diu: E macs internet R elay C hat
+Per iniciar la sessió, només cal engegar l’emacs i fer M-x erc
+Llavors s’inicia un minibuffer i ens pregunta el nick, contrasenya, canal IRC… Com a curiositat, tenim que en comptes de entrar a ERC fem M-x irc ens entrarà directament a la xarxa IRC irc.freenode.net amb el compte predifinit que tenim a la sesió de la màquina. Hi ha diferents canals com ara #emacs,#gnu-es, #debian, #mediawiki, etc que podem triar fent:">
+  <meta property="og:locale" content="en">
+  <meta property="og:type" content="article">
+    <meta property="article:section" content="post">
+    <meta property="article:published_time" content="2011-04-19T00:00:00+00:00">
+    <meta property="article:modified_time" content="2011-04-19T00:00:00+00:00">
 
 
   </head>
   <body>
     <header class="app-header">
-      <a href="https://notesgnu.github.io/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
-      <h1>Notes d&#39;un GNU</h1>
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
+      <h1>Notes GNU</h1>
       <nav class="app-header-menu">
           <a class="app-header-menu-item" href="/">Inici</a>
              ⋆ 
@@ -115,42 +119,42 @@ Llavors s&rsquo;inicia un minibuffer i ens pregunta el nick, contrasenya, canal 
 <h3 id="ordres-per-usar-erc">Ordres per usar ERC</h3>
 <p>Hi ha moltes ordres, poso només algunes…</p>
 <table>
-<thead>
-<tr>
-<th>ordre</th>
-<th>explicació</th>
-</tr>
-</thead>
-<tbody>
-<tr>
-<td>/join #canal</td>
-<td>entra al canal #canal</td>
-</tr>
-<tr>
-<td>/msg <!-- raw HTML omitted --> <!-- raw HTML omitted --></td>
-<td>un missatge privat <!-- raw HTML omitted --> a <!-- raw HTML omitted --></td>
-</tr>
-<tr>
-<td>/help <!-- raw HTML omitted --></td>
-<td>Ajuda de l&rsquo;ordre <!-- raw HTML omitted --></td>
-</tr>
-<tr>
-<td>/part &lt;#channel&gt;</td>
-<td>surt del canal #canal</td>
-</tr>
-<tr>
-<td>/who &lt;#canal&gt;</td>
-<td>mostra els usuaris del #canal</td>
-</tr>
-<tr>
-<td>/quit [reason]</td>
-<td>surt de l&rsquo;IRC amb missatge de comiat</td>
-</tr>
-<tr>
-<td>/time</td>
-<td>ens indica el temps que portem al canal</td>
-</tr>
-</tbody>
+  <thead>
+      <tr>
+          <th>ordre</th>
+          <th>explicació</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>/join #canal</td>
+          <td>entra al canal #canal</td>
+      </tr>
+      <tr>
+          <td>/msg <!-- raw HTML omitted --> <!-- raw HTML omitted --></td>
+          <td>un missatge privat <!-- raw HTML omitted --> a <!-- raw HTML omitted --></td>
+      </tr>
+      <tr>
+          <td>/help <!-- raw HTML omitted --></td>
+          <td>Ajuda de l&rsquo;ordre <!-- raw HTML omitted --></td>
+      </tr>
+      <tr>
+          <td>/part &lt;#channel&gt;</td>
+          <td>surt del canal #canal</td>
+      </tr>
+      <tr>
+          <td>/who &lt;#canal&gt;</td>
+          <td>mostra els usuaris del #canal</td>
+      </tr>
+      <tr>
+          <td>/quit [reason]</td>
+          <td>surt de l&rsquo;IRC amb missatge de comiat</td>
+      </tr>
+      <tr>
+          <td>/time</td>
+          <td>ens indica el temps que portem al canal</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="més-informació">Més informació:</h3>
 <p><a href="http://www.blackhats.es/wordpress/?p=45">Usando ERC (Emacs internet Relay Chat) en Emacs para IRC</a> <a href="http://ovruni.wordpress.com/2011/03/30/erc-cliente-de-irc-para-gnu-emacs/">ERC : Cliente de IRC para GNU Emacs</a> <a href="http://www.javiervalcarce.eu/wiki/Emacs#ERC">http://www.javiervalcarce.eu/wiki/Emacs#ERC</a> <a href="http://www.emacswiki.org/emacs/ERC">http://www.emacswiki.org/emacs/ERC</a></p>

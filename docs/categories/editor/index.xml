@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Editor on Notes d&#39;un GNU</title>
+    <title>Editor on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/editor/</link>
-    <description>Recent content in Editor on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Editor on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 23 Jan 2016 16:13:38 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/editor/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2016-01-23-editor-utext/</link>
       <pubDate>Sat, 23 Jan 2016 16:13:38 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2016-01-23-editor-utext/</guid>
-      <description>És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura.&#xA;És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura. Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad, i n&amp;rsquo;hi ha en línia com StackEdit.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;http://croniqueslinux.github.io/images/utext.png&#34; alt=&#34;utext&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;És un editor senzill de &lt;a href=&#34;https://ca.wikipedia.org/wiki/Markdown&#34;&gt;markdown&lt;/a&gt;. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura.&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/md.png&#34; alt=&#34;md&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;És un editor senzill de &lt;a href=&#34;https://ca.wikipedia.org/wiki/Markdown&#34;&gt;markdown&lt;/a&gt;. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura.&#xA;Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad,  i n&amp;rsquo;hi ha en línia com &lt;a href=&#34;https://stackedit.io/editor&#34;&gt;StackEdit&lt;/a&gt;.&#xA;En el meu cas, normalment uso &lt;strong&gt;Emacs&lt;/strong&gt; amb el &lt;a href=&#34;http://jblevins.org/projects/markdown-mode/&#34;&gt;mode-markdown&lt;/a&gt;, però aquest cop m&amp;rsquo;he interessat per un que he trobat molt interessant, per la seva senzillesa &lt;strong&gt;uText&lt;/strong&gt;.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

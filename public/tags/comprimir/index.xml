@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Comprimir on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/tags/comprimir/</link>
-    <description>Recent content in Comprimir on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Comprimir on Notes GNU</title>
+    <link>http://localhost:1313/tags/comprimir/</link>
+    <description>Recent content in Comprimir on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 22 Aug 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/tags/comprimir/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/comprimir/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bzip2, comprimir arxius des de terminal</title>
-      <link>https://notesgnu.github.io/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</link>
+      <link>http://localhost:1313/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</guid>
-      <description>A la Viquipèdia podem trobar una definició del programa bzip2. http://ca.wikipedia.org/wiki/Bzip2 Per comprimir, primer que res obrim una terminal: $ bzip2 -v nomdel&amp;rsquo;arxiu per exemple $ bzip -v imatge.jpg&#xA;i ens quedarà comprimit en un arxiu anomenat imatge.jpg.bz2&#xA;més informació a: $ man bzip2</description>
+      <guid>http://localhost:1313/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</guid>
+      <description>&lt;p&gt;A la Viquipèdia podem trobar una definició del programa bzip2. &lt;a href=&#34;http://ca.wikipedia.org/wiki/Bzip2&#34;&gt;http://ca.wikipedia.org/wiki/Bzip2&lt;/a&gt; &lt;img src=&#34;images/Bzip2-logo.png&#34; alt=&#34;bzip2&#34; title=&#34;bzip2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Per comprimir, primer que res obrim una terminal: $ bzip2 -v nomdel&amp;rsquo;arxiu per exemple $ bzip -v imatge.jpg&lt;/p&gt;&#xA;&lt;p&gt;i ens quedarà comprimit en un arxiu anomenat imatge.jpg.bz2&lt;/p&gt;&#xA;&lt;p&gt;més informació a: $ man bzip2&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

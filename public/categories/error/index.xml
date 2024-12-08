@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Error on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/error/</link>
-    <description>Recent content in Error on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Error on Notes GNU</title>
+    <link>http://localhost:1313/categories/error/</link>
+    <description>Recent content in Error on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 12 Jan 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/error/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/error/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enganyar quin és el nostre Sistema Operatiu</title>
-      <link>https://notesgnu.github.io/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</link>
+      <link>http://localhost:1313/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</guid>
-      <description>Ja fa un temps que no podia usar un servei d&amp;rsquo;aprenentage de llengües a la xarxa, el livemocha!&#xA;Quan inicio aquest servei, la resposta que dóna és:&#xA;Així que tot resolt! Ja no puc usar aquest servei!&#xA;Així tracten alguns als usuaris de Gnu/Linux!!!!!!! :-(&#xA;Però no m&amp;rsquo;he quedat aquí!&#xA;Quan naveguem, la xarxa detecta el nostre navegador i sistema operatiu&amp;hellip;&#xA;i pensant una mica&amp;hellip;. podem enganyar la xarxa??? Doncs la resposta és SÍ!</description>
+      <guid>http://localhost:1313/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</guid>
+      <description>&lt;p&gt;Ja fa un temps que no podia usar un servei d&amp;rsquo;aprenentage de llengües a la xarxa, el &lt;a href=&#34;http://livemocha.com&#34;&gt;livemocha!&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Quan inicio aquest servei, la resposta que dóna és:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://croniqueslinux.files.wordpress.com/2015/01/seleccic3b3_005.png&#34;&gt;&lt;img src=&#34;https://croniqueslinux.files.wordpress.com/2015/01/seleccic3b3_005.png?w=300&#34; alt=&#34;Selecció_005&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Així que tot resolt! Ja no puc usar aquest servei!&lt;/p&gt;&#xA;&lt;p&gt;Així tracten alguns als usuaris de Gnu/Linux!!!!!!! :-(&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;Però no m&amp;rsquo;he quedat aquí!&lt;/p&gt;&#xA;&lt;p&gt;Quan naveguem, l&lt;a href=&#34;http://whatsmyos.com/&#34;&gt;a xarxa detecta el nostre navegador i sistema operatiu&lt;/a&gt;&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://croniqueslinux.files.wordpress.com/2015/01/seleccic3b3_001.png&#34;&gt;&lt;img src=&#34;https://croniqueslinux.files.wordpress.com/2015/01/seleccic3b3_001.png?w=300&#34; alt=&#34;Selecció_001&#34;&gt;&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;i pensant una mica&amp;hellip;. podem enganyar la xarxa??? Doncs la resposta és SÍ!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Problemes amb Inkscape</title>
-      <link>https://notesgnu.github.io/post/2014-09-14-problemes-amb-inkscape/</link>
+      <link>http://localhost:1313/post/2014-09-14-problemes-amb-inkscape/</link>
       <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2014-09-14-problemes-amb-inkscape/</guid>
-      <description>Porto dos dies buscant la solució a un problema que em tenia desesperat. Dibuixant amb Inkscape, i quan copiava i després enganxava, de sobte començaven a saltar errors!&#xA;Cannot list directory /home/usuari/.uniconvertor:[Errno 2] No such file or directory: &amp;lsquo;/home/usuari/.uniconvertor&amp;rsquo;&#xA;problemes amb Rellegint la pàgina Uniconverter fails on copying an svg selection he trobat la solució.&#xA;Sembla que és un error de programari… és a dir, un Bitxo o Cuca (Bug) :-D</description>
+      <guid>http://localhost:1313/post/2014-09-14-problemes-amb-inkscape/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/wpid-inksbug.png&#34; alt=&#34;inksbug.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Porto dos dies buscant la solució a un problema que em tenia desesperat. Dibuixant amb Inkscape, i quan copiava i després enganxava, de sobte començaven a saltar errors!&lt;/p&gt;&#xA;&lt;p&gt;Cannot list directory /home/usuari/.uniconvertor:[Errno 2] No such file or directory: &amp;lsquo;/home/usuari/.uniconvertor&amp;rsquo;&lt;/p&gt;&#xA;&lt;p&gt;problemes amb Rellegint la pàgina &lt;a href=&#34;https://bugs.launchpad.net/inkscape/%2Bbug/1152396&#34;&gt;Uniconverter fails on copying an svg selection&lt;/a&gt; he trobat la &lt;strong&gt;solució&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Sembla que és un error de programari… és a dir, un &lt;strong&gt;Bitxo&lt;/strong&gt; o &lt;strong&gt;Cuca&lt;/strong&gt; (Bug) :-D&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

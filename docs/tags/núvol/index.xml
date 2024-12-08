@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Núvol on Notes d&#39;un GNU</title>
+    <title>Núvol on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/n%C3%BAvol/</link>
-    <description>Recent content in Núvol on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Núvol on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Mon, 08 Feb 2016 16:13:38 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/n%C3%BAvol/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</link>
       <pubDate>Mon, 08 Feb 2016 16:13:38 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</guid>
-      <description>Ja fa uns dies que el Copy m&amp;rsquo;avisa que deixarà de tenir suport.&#xA;A la seva pàgina podem llegir:&#xA;Copy and CudaDrive services will be discontinued. We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.&#xA;És una llàstima, ja que fins ara m&amp;rsquo;ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.guidingtech.com/wp-content/uploads/Copy-Featured_4d470f76dc99e18ad75087b1b8410ea9.png&#34; alt=&#34;Copy&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ja fa uns dies que el &lt;strong&gt;Copy&lt;/strong&gt; m&amp;rsquo;avisa que deixarà de tenir suport.&lt;/p&gt;&#xA;&lt;p&gt;A la &lt;a href=&#34;https://www.copy.com&#34;&gt;seva pàgina&lt;/a&gt; podem llegir:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Copy and CudaDrive services will be discontinued.&#xA;We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;És una llàstima, ja que fins ara m&amp;rsquo;ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

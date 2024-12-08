@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lubuntu on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/tags/lubuntu/</link>
-    <description>Recent content in Lubuntu on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Lubuntu on Notes GNU</title>
+    <link>http://localhost:1313/tags/lubuntu/</link>
+    <description>Recent content in Lubuntu on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/tags/lubuntu/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/lubuntu/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linkatitzar Lubuntu 18.04</title>
-      <link>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</link>
+      <link>http://localhost:1313/post/2020-05-24-linkatitzar/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</guid>
-      <description>Avui he agafat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&amp;rsquo;he trobat amb un problema.&#xA;el problema Quan he intentat instal.lar el paquet linkat-repos_18.04-5_all.deb&#xA;m&amp;rsquo;ha donat el següent error:&#xA;El paquet gksu no està instal·lat. i si vull instal.lar-lo, em diu:&#xA;El paquet gksu no té versió disponible, però un altre paquet en fa referència.</description>
+      <guid>http://localhost:1313/post/2020-05-24-linkatitzar/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/lubuntulinkat.png&#34; alt=&#34;de Lubuntu a Linkat&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Avui he agafat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&amp;rsquo;he trobat amb un problema.&lt;/p&gt;&#xA;&lt;h2 id=&#34;el-problema&#34;&gt;el problema&lt;/h2&gt;&#xA;&lt;p&gt;Quan he intentat instal.lar el paquet &lt;strong&gt;linkat-repos_18.04-5_all.deb&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;m&amp;rsquo;ha donat el següent error:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;El paquet gksu no està instal·lat.&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;i si vull instal.lar-lo, em diu:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

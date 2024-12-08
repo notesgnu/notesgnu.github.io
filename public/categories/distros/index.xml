@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Distros on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/distros/</link>
-    <description>Recent content in Distros on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Distros on Notes GNU</title>
+    <link>http://localhost:1313/categories/distros/</link>
+    <description>Recent content in Distros on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 31 Oct 2010 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/distros/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/distros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fedorant</title>
-      <link>https://notesgnu.github.io/post/2010-10-31-fedorant/</link>
+      <link>http://localhost:1313/post/2010-10-31-fedorant/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-10-31-fedorant/</guid>
-      <description>Com deia un conegut fa un temps&amp;hellip; he vist la yum! Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!&#xA;I la veritat es que estic molt content ;)&#xA;Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi.</description>
+      <guid>http://localhost:1313/post/2010-10-31-fedorant/</guid>
+      <description>&lt;p&gt;Com deia un conegut fa un temps&amp;hellip; he vist la yum!&#xA;&lt;img src=&#34;https://www.megaleechers.com/storage/Fedora-Icon.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!&lt;/p&gt;&#xA;&lt;p&gt;I la veritat es que estic molt content ;)&lt;/p&gt;&#xA;&lt;p&gt;Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi. Però he perdut la por d&amp;rsquo;usar distros que no siguin basades en deb&amp;rsquo;s. A la feina segueixo usant la Linkat (Opensuse11.1) i va molt bé, però a casa fins ara sempre havia usat Ubuntu i Debian (i derivats com ara Trisquel - Que m&amp;rsquo;agrada molt, per la seva llibertat).&lt;/p&gt;</description>
     </item>
     <item>
       <title>Antix: distro lleugera en català</title>
-      <link>https://notesgnu.github.io/post/2010-06-24-antix-distro-lleugera-en-catala/</link>
+      <link>http://localhost:1313/post/2010-06-24-antix-distro-lleugera-en-catala/</link>
       <pubDate>Thu, 24 Jun 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-06-24-antix-distro-lleugera-en-catala/</guid>
-      <description>Sovint quan es busca alguna distro lleugera, per ordinadors vells, costa! i molt! a sobre si ho vols en català i actual, doncs encara més difícil. N&amp;rsquo;he provat varies i quasi sempre en anglès o espanyol&amp;hellip; així que al final me decidit provar Antix&amp;hellip;&#xA;Si en voleu saber més, a la pàgina oficial: Antix&#xA;&amp;#x1f44d;</description>
+      <guid>http://localhost:1313/post/2010-06-24-antix-distro-lleugera-en-catala/</guid>
+      <description>&lt;p&gt;Sovint quan es busca alguna distro lleugera, per ordinadors vells, costa! i molt! a sobre si ho vols en català i actual, doncs encara més difícil. N&amp;rsquo;he provat  varies i quasi sempre en anglès o espanyol&amp;hellip; així que al final me decidit provar Antix&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;Si en voleu saber més, a la pàgina oficial: &lt;a href=&#34;https://antixlinux.com/&#34;&gt;Antix&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&amp;#x1f44d;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Clonezilla: una gran distro per clonar!</title>
-      <link>https://notesgnu.github.io/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</link>
+      <link>http://localhost:1313/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</link>
       <pubDate>Sat, 06 Mar 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</guid>
-      <description>Clonezilla és una distribució Viva (CDLive) basada en Debian, tot i que hi ha una versió basada en Ubuntu. Una eina fantàstica per clonar, copiar i fer còpies de seguretat, semblant al Norton Ghost. Molt senzill d&amp;rsquo;usar i amb gran possibilitats!&#xA;pàgina de la distribució&#xA;http://www.clonezilla.org/&#xA;enllaços d&amp;rsquo;interès:&#xA;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Clonezilla</description>
+      <guid>http://localhost:1313/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://clonezilla.org/images/clonezilla_logo_small.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://clonezilla.org/&#34;&gt;Clonezilla&lt;/a&gt; és una distribució Viva (CDLive) basada en Debian, tot i que hi ha una versió basada en Ubuntu. Una eina fantàstica per clonar, copiar i fer còpies de seguretat, semblant al Norton Ghost. Molt senzill d&amp;rsquo;usar i amb gran possibilitats!&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;pàgina de la distribució&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.clonezilla.org/&#34;&gt;http://www.clonezilla.org/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&lt;strong&gt;enllaços d&amp;rsquo;interès:&lt;/strong&gt;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Clonezilla&#34;&gt;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Clonezilla&lt;/a&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Slitaz, lleugeresa linux!</title>
-      <link>https://notesgnu.github.io/post/2010-01-04-slitaz-lleugeresa-linux/</link>
+      <link>http://localhost:1313/post/2010-01-04-slitaz-lleugeresa-linux/</link>
       <pubDate>Mon, 04 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-01-04-slitaz-lleugeresa-linux/</guid>
-      <description>Fent un tast de una mini distro, però força interessant:&#xA;Slitaz, a la pàgina hi ha molta informació, però en castellà&amp;hellip; de moment en català no hi ha res!&#xA;Empra Lxde amb Openbox, entre d&amp;rsquo;altres coses, a més a més de SSH, SQLite, PHP&amp;hellip;&#xA;M&amp;rsquo;ha servit per reutilitzar un llàpis de memòria petitó i així tenir una distro &amp;ldquo;viva&amp;rdquo;. Ara aprofitaré un ordinador vellet a veure com va!&#xA;Molt recomanable!</description>
+      <guid>http://localhost:1313/post/2010-01-04-slitaz-lleugeresa-linux/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://www.slitaz.org/images/logo.png&#34; alt=&#34;slitaz&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Fent un tast de una mini distro, però força interessant:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.slitaz.org/es/index.html&#34;&gt;Slitaz&lt;/a&gt;, a la pàgina hi ha molta informació, però en castellà&amp;hellip; de moment en català no hi ha res!&lt;/p&gt;&#xA;&lt;p&gt;Empra Lxde amb Openbox, entre d&amp;rsquo;altres coses, a més a més de SSH, SQLite, PHP&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;M&amp;rsquo;ha servit per reutilitzar un llàpis de memòria petitó i així tenir una distro &amp;ldquo;viva&amp;rdquo;.  Ara aprofitaré un ordinador vellet a veure com va!&lt;/p&gt;&#xA;&lt;p&gt;Molt recomanable!&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

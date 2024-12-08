@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Ofimatica on Notes d&#39;un GNU</title>
+    <title>Ofimatica on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/ofimatica/</link>
-    <description>Recent content in Ofimatica on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Ofimatica on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Dec 2012 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/ofimatica/index.xml" rel="self" type="application/rss+xml" />
@@ -13,21 +13,21 @@
       <link>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
-      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
+      <description>&lt;p&gt;&lt;img src=&#34;images/wpid-lyx00.png&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-lyx00.png&#34;&gt;&lt;br&gt;&#xA;Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica &lt;a href=&#34;http://www.lyx.org/WebEs.Home&#34;&gt;LyX&lt;/a&gt;. És un programa pensat per realitzar documents usant la potència de &lt;a href=&#34;http://ca.wikipedia.org/wiki/LaTeX&#34;&gt;LateX&lt;/a&gt;. Tot i que m&amp;rsquo;agrada molt el mode per &lt;strong&gt;Emacs&lt;/strong&gt; anomenat &lt;a href=&#34;http://ca.wikipedia.org/wiki/AUCTEX&#34;&gt;AucTeX&lt;/a&gt;,volia provar LyX.&lt;br&gt;&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *&lt;a href=&#34;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Linkat_Edu_11.4&#34;&gt;Linkat Edu 11.4&lt;/a&gt;* és la 1.6.9&lt;br&gt;&#xA;&lt;img src=&#34;images/wpid-lyx01.png&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-lyx01.png&#34;&gt;&lt;br&gt;&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.&lt;br&gt;&#xA;Així que he decidit actualitzar la versió a la 2.0.5 i aprofitar totes les noves funcionalitats, i evitar el problema de versions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Un visor per PDF lleuger</title>
       <link>https://notesgnu.github.io/post/2012-08-05-19628_081013224757/</link>
       <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2012-08-05-19628_081013224757/</guid>
-      <description>Moltes vegades em trobo amb PDF cada cop més pesats, i per passar de pàgina a pàgina, triga una mica, sobretot en els netbooks.&#xA;La idea és, per a què consumir recursos en l&amp;rsquo;eina, quan els podem aplicar tots a la feina?&#xA;Aquí entra en joc Apvlv&#xA;Té l&amp;rsquo;avantatge que es pot usar directament amb el teclat (com Vim o Emacs), i això facilita molt la navegació, en especial en un portàtil o quan vols anar ràpidament a un lloc del document.</description>
+      <description>&lt;p&gt;Moltes vegades em trobo amb PDF cada cop més pesats, i per passar de pàgina a pàgina, triga una mica, sobretot en els netbooks.&lt;/p&gt;&#xA;&lt;p&gt;La idea és, per a què consumir recursos en l&amp;rsquo;eina, quan els podem aplicar tots a la feina?&lt;/p&gt;&#xA;&lt;p&gt;Aquí entra en joc &lt;a href=&#34;http://naihe2010.github.com/apvlv/&#34;&gt;Apvlv&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/19628_081013224757.jpg&#34; alt=&#34;19628_081013224757&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Té l&amp;rsquo;avantatge que es pot usar directament amb el teclat (com Vim o Emacs), i això facilita molt la navegació, en especial en un portàtil o quan vols anar ràpidament a un lloc del document.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Canviar Openoffice per Libreoffice</title>
       <link>https://notesgnu.github.io/post/2011-03-31-canviar-openoffice-per-libreoffice/</link>
       <pubDate>Thu, 31 Mar 2011 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2011-03-31-canviar-openoffice-per-libreoffice/</guid>
-      <description>Avui he decidit defugir de l&amp;rsquo;Openoffice i la política de la companyia oracle, ha estat una gran eina fins ara, però calia seguir fent el canvi. Així que he desinstal·lat l&amp;rsquo;openoffice i he instal·lat Libreoffice.&#xA;Ho he fet al portàtil on hi ha instal·lat un ubuntu.&#xA;A la ternimal he seguit aquests passos:&#xA;sudo apt-get purge &amp;ldquo;openoffice*.*&amp;rdquo;&#xA;sudo add-apt-repository ppa:libreoffice/ppa&#xA;sudo apt-get update&#xA;sudo apt-get install libreoffice libreoffice-gnome libreoffice-l10n-ca libreoffice-l10n-common libreoffice-help-ca language-support-writing-ca</description>
+      <description>&lt;p&gt;&lt;a href=&#34;http://www.libreoffice.org/assets/resized_screenshots_avoid/Screenshot-01.png&#34;&gt;&lt;img src=&#34;images/Screenshot-01.png&#34; alt=&#34;&#34;&gt;&lt;/a&gt; Avui he decidit defugir de l&amp;rsquo;Openoffice i la política de la companyia oracle, ha estat una gran eina fins ara, però calia seguir fent el canvi. Així que he desinstal·lat l&amp;rsquo;openoffice i he instal·lat &lt;a href=&#34;http://www.libreoffice.org/&#34;&gt;Libreoffice&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Ho he fet al portàtil on hi ha instal·lat un ubuntu.&lt;/p&gt;&#xA;&lt;p&gt;A la ternimal he seguit aquests passos:&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get purge &amp;ldquo;openoffice*.*&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;sudo add-apt-repository ppa:libreoffice/ppa&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get update&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get install libreoffice libreoffice-gnome&#xA;libreoffice-l10n-ca libreoffice-l10n-common&#xA;libreoffice-help-ca language-support-writing-ca&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

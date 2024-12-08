@@ -1,26 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Terminal on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/tags/terminal/</link>
-    <description>Recent content in Terminal on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Terminal on Notes GNU</title>
+    <link>http://localhost:1313/tags/terminal/</link>
+    <description>Recent content in Terminal on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 21 May 2020 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/tags/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Escanejar PDF i OCR</title>
-      <link>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</link>
+      <link>http://localhost:1313/post/2020-05-21-escanejat-de-pdf-amb-ocr/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</guid>
-      <description>El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)&#xA;Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: pdfsanwich tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/&#xA;La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.</description>
+      <guid>http://localhost:1313/post/2020-05-21-escanejat-de-pdf-amb-ocr/</guid>
+      <description>&lt;p&gt;El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)&lt;/p&gt;&#xA;&lt;p&gt;Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: &lt;strong&gt;pdfsanwich&lt;/strong&gt; tenim tota la informació a &lt;a href=&#34;http://www.tobias-elze.de/pdfsandwich/&#34;&gt;http://www.tobias-elze.de/pdfsandwich/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Bzip2, comprimir arxius des de terminal</title>
-      <link>https://notesgnu.github.io/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</link>
+      <link>http://localhost:1313/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</link>
       <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</guid>
-      <description>A la Viquipèdia podem trobar una definició del programa bzip2. http://ca.wikipedia.org/wiki/Bzip2 Per comprimir, primer que res obrim una terminal: $ bzip2 -v nomdel&amp;rsquo;arxiu per exemple $ bzip -v imatge.jpg&#xA;i ens quedarà comprimit en un arxiu anomenat imatge.jpg.bz2&#xA;més informació a: $ man bzip2</description>
+      <guid>http://localhost:1313/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</guid>
+      <description>&lt;p&gt;A la Viquipèdia podem trobar una definició del programa bzip2. &lt;a href=&#34;http://ca.wikipedia.org/wiki/Bzip2&#34;&gt;http://ca.wikipedia.org/wiki/Bzip2&lt;/a&gt; &lt;img src=&#34;images/Bzip2-logo.png&#34; alt=&#34;bzip2&#34; title=&#34;bzip2&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Per comprimir, primer que res obrim una terminal: $ bzip2 -v nomdel&amp;rsquo;arxiu per exemple $ bzip -v imatge.jpg&lt;/p&gt;&#xA;&lt;p&gt;i ens quedarà comprimit en un arxiu anomenat imatge.jpg.bz2&lt;/p&gt;&#xA;&lt;p&gt;més informació a: $ man bzip2&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

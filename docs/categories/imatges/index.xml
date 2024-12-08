@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Imatges on Notes d&#39;un GNU</title>
+    <title>Imatges on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/imatges/</link>
-    <description>Recent content in Imatges on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Imatges on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 16 Aug 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/imatges/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2014-08-16-exiftool/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2014-08-16-exiftool/</guid>
-      <description>Aquest estiu estic remenant les fotos de les diferents càmares i volia saber les metadades. Així que he trobat una eina interessant des de la terminal exiftool. La tinc instal·lada a Lubuntu 14.04 i va força bé.&#xA;Primer, cal instal·lar amb:&#xA;sudo apt-get install exiftool&#xA;Després tan fàcil com executar exiftool i la imatge:&#xA;exiftool imatge.png&#xA;Per exemple:&#xA;exiftool tux.png ExifTool Version Number : 9.46 File Name : tux.png Directory : .</description>
+      <description>&lt;p&gt;Aquest estiu estic remenant les fotos de les diferents càmares i volia saber les metadades. Així que he trobat una eina interessant des de la terminal &lt;strong&gt;exiftool&lt;/strong&gt;. La tinc instal·lada a &lt;em&gt;Lubuntu 14.04&lt;/em&gt; i va força bé.&lt;/p&gt;&#xA;&lt;p&gt;Primer, cal instal·lar amb:&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get install exiftool&lt;/p&gt;&#xA;&lt;p&gt;Després tan fàcil com executar &lt;strong&gt;exiftool&lt;/strong&gt; i la imatge:&lt;/p&gt;&#xA;&lt;p&gt;exiftool imatge.png&lt;/p&gt;&#xA;&lt;p&gt;Per exemple:&lt;/p&gt;&#xA;&lt;p&gt;exiftool tux.png&#xA;ExifTool Version Number         : 9.46&#xA;File Name                       : tux.png&#xA;Directory                       : .&#xA;File Size                       : 8.1 kB&#xA;File Modification Date/Time     : 2014:07:01 12:20:40+02:00&#xA;File Access Date/Time           : 2014:08:12 20:02:53+02:00&#xA;File Inode Change Date/Time     : 2014:07:01 12:20:47+02:00&#xA;File Permissions                : rw-rw-r&amp;ndash;&#xA;File Type                       : PNG&#xA;MIME Type                       : image/png&#xA;Image Width                     : 128&#xA;Image Height                    : 128&#xA;Bit Depth                       : 8&#xA;Color Type                      : RGB with Alpha&#xA;Compression                     : Deflate/Inflate&#xA;Filter                          : Adaptive&#xA;Interlace                       : Noninterlaced&#xA;Gamma                           : 2.2222&#xA;Image Size                      : 128x128&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

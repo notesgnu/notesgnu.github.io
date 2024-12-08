@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opensuse on Notes d&#39;un GNU</title>
+    <title>Opensuse on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/opensuse/</link>
-    <description>Recent content in Opensuse on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Opensuse on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 09 Jan 2010 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/opensuse/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2010-01-09-instalar-opensuse-en-xarxa/</link>
       <pubDate>Sat, 09 Jan 2010 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2010-01-09-instalar-opensuse-en-xarxa/</guid>
-      <description>Abans necessitarem la &amp;lsquo;iso&amp;rsquo;, que podem descarregar des de la seua pàgina : http://software.opensuse.org/112/en i triant l&amp;rsquo;última opció &amp;gt; network&#xA;Quan la tinguem la gravem a un CD o amb l&amp;rsquo;Unetbootin l&amp;rsquo;instal·lem a USB.&#xA;Arranquem l&amp;rsquo;ordinador i triem la llengua (F2), canviem la resolució de la pantalla si cal (F3), i l&amp;rsquo;opció xarxa (F4)&#xA;Triem HTTP, i ens demana xarxa i servidor&amp;hellip;&#xA;L&amp;rsquo;adreça completa és http://download.opensuse.org/distribution/11.2/repo/oss/ i d&amp;rsquo;aquí podem estreure que el:</description>
+      <description>&lt;p&gt;Abans necessitarem la &amp;lsquo;iso&amp;rsquo;, que podem descarregar des de la seua pàgina : &lt;a href=&#34;http://software.opensuse.org/112/en&#34;&gt;http://software.opensuse.org/112/en&lt;/a&gt; i triant l&amp;rsquo;última opció &amp;gt; network&lt;/p&gt;&#xA;&lt;p&gt;Quan la tinguem la gravem a un CD o amb l&amp;rsquo;Unetbootin l&amp;rsquo;instal·lem a USB.&lt;/p&gt;&#xA;&lt;p&gt;Arranquem l&amp;rsquo;ordinador i triem la llengua (F2), canviem la resolució de la pantalla si cal (F3),  i l&amp;rsquo;opció xarxa (F4)&lt;/p&gt;&#xA;&lt;p&gt;Triem HTTP, i ens demana xarxa i servidor&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;adreça completa és &lt;a href=&#34;http://download.opensuse.org/distribution/11.2/repo/oss/&#34;&gt;http://download.opensuse.org/distribution/11.2/repo/oss/&lt;/a&gt; i d&amp;rsquo;aquí podem estreure que el:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,40 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Fedora on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/fedora/</link>
-    <description>Recent content in Fedora on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Fedora on Notes GNU</title>
+    <link>http://localhost:1313/categories/fedora/</link>
+    <description>Recent content in Fedora on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 15 Jan 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/fedora/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/fedora/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Promblemes amb ffmpeg: libxvidcore.so.4</title>
-      <link>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</link>
+      <link>http://localhost:1313/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</link>
       <pubDate>Sat, 15 Jan 2011 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</guid>
-      <description>Porto uns dies amb problemes en treballar amb ffmpeg Exactament, Fedora14 em diu: $ ffmpeg: error while loading shared libraries: libxvidcore.so.4: cannot enable executable stack as shared object requires: Permission denied&#xA;La solució: $ su $ contrasenya&#xA;$ execstack -c /usr/lib/libxvidcore.so.4 ;)</description>
+      <guid>http://localhost:1313/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</guid>
+      <description>&lt;h3 id=&#34;porto-uns-dies-amb-problemes-en-treballar-amb-ffmpeg&#34;&gt;Porto uns dies amb problemes en treballar amb ffmpeg&lt;/h3&gt;&#xA;&lt;h3 id=&#34;imagesffmpegjpg-ff&#34;&gt;&lt;img src=&#34;images/ffmpeg.jpg&#34; alt=&#34;&#34; title=&#34;ff&#34;&gt;&lt;/h3&gt;&#xA;&lt;h3 id=&#34;exactament-fedora14-em-diu&#34;&gt;Exactament, Fedora14 em diu:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;$ ffmpeg: error while loading shared libraries: libxvidcore.so.4: cannot enable executable stack as shared object requires: Permission denied&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;h3 id=&#34;la-solució&#34;&gt;La solució:&lt;/h3&gt;&#xA;&lt;p&gt;&lt;strong&gt;$ su&lt;/strong&gt;&#xA;&lt;strong&gt;$ contrasenya&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;$ execstack -c /usr/lib/libxvidcore.so.4&#xA;;)&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codificació no vàlida</title>
-      <link>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</link>
+      <link>http://localhost:1313/post/2010-12-05-codificacio-no-valida/</link>
       <pubDate>Sun, 05 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</guid>
-      <description>Avui estava copiant uns documents antics d&amp;rsquo;un disc dur vell al meu ordinador. I me m&amp;rsquo;he trobat un munt de símbols ? i al final de l&amp;rsquo;extensió la expressió &amp;ldquo;codificació no vàlida&amp;rdquo;. Sempre que em passava això, el que feia era renombrar-ho, però aquesta vegada eren molts. Després de cercar molt, he trobat que això passa perquè la codificació que tenien era iso-8859-9, i el meu ordinador treballa amb utf8. La solució me l&amp;rsquo;ha donat la comanda CONVMV!</description>
+      <guid>http://localhost:1313/post/2010-12-05-codificacio-no-valida/</guid>
+      <description>&lt;p&gt;Avui estava copiant uns documents antics d&amp;rsquo;un disc dur vell al meu ordinador. I me m&amp;rsquo;he trobat un munt de símbols ? i al final de l&amp;rsquo;extensió la expressió &amp;ldquo;codificació no vàlida&amp;rdquo;. Sempre que em passava això, el que feia era renombrar-ho, però aquesta vegada eren molts. Després de cercar molt, he trobat que això passa perquè la codificació que tenien era iso-8859-9, i el meu ordinador treballa amb utf8. La solució me l&amp;rsquo;ha donat la comanda CONVMV!!!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Sincronitzar gnote amb dropbox</title>
-      <link>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</link>
+      <link>http://localhost:1313/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</link>
       <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</guid>
-      <description>Fins fa poc usava poc el Tomboy, o d&amp;rsquo;altres programes de notes com ara el GNOTE. Però fa poc vaig llegir un article de com sincronitzar-ho entre ordinadors a través del dropbox.&#xA;He seguit els passos que explicaven en &amp;ldquo;Usemos linux&amp;rdquo; http://ur1.ca/2e9r3, però NO m&amp;rsquo;ha funcionat&amp;hellip; el problema era que no em reconeixia ~/.gnote l&amp;rsquo;havia de canviar per ~/.local/share/gnote&#xA;Així que al final ho he fet d&amp;rsquo;aquesta manera:&#xA;Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</description>
+      <guid>http://localhost:1313/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</guid>
+      <description>&lt;p&gt;Fins fa poc usava poc el Tomboy, o d&amp;rsquo;altres programes de notes com ara el GNOTE. Però fa poc vaig llegir un article de com sincronitzar-ho entre ordinadors a través del dropbox.&lt;/p&gt;&#xA;&lt;p&gt;He seguit els passos que explicaven en &amp;ldquo;Usemos linux&amp;rdquo; &lt;a href=&#34;http://ur1.ca/2e9r3&#34;&gt;http://ur1.ca/2e9r3&lt;/a&gt;, però NO m&amp;rsquo;ha funcionat&amp;hellip; el problema era que no em reconeixia ~/.gnote l&amp;rsquo;havia de canviar per ~/.local/share/gnote&lt;/p&gt;&#xA;&lt;p&gt;Així que al final ho he fet d&amp;rsquo;aquesta manera:&lt;/p&gt;&#xA;&lt;p&gt;Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote&lt;/p&gt;</description>
     </item>
     <item>
       <title>Fedorant</title>
-      <link>https://notesgnu.github.io/post/2010-10-31-fedorant/</link>
+      <link>http://localhost:1313/post/2010-10-31-fedorant/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-10-31-fedorant/</guid>
-      <description>Com deia un conegut fa un temps&amp;hellip; he vist la yum! Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!&#xA;I la veritat es que estic molt content ;)&#xA;Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi.</description>
+      <guid>http://localhost:1313/post/2010-10-31-fedorant/</guid>
+      <description>&lt;p&gt;Com deia un conegut fa un temps&amp;hellip; he vist la yum!&#xA;&lt;img src=&#34;https://www.megaleechers.com/storage/Fedora-Icon.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!&lt;/p&gt;&#xA;&lt;p&gt;I la veritat es que estic molt content ;)&lt;/p&gt;&#xA;&lt;p&gt;Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi. Però he perdut la por d&amp;rsquo;usar distros que no siguin basades en deb&amp;rsquo;s. A la feina segueixo usant la Linkat (Opensuse11.1) i va molt bé, però a casa fins ara sempre havia usat Ubuntu i Debian (i derivats com ara Trisquel - Que m&amp;rsquo;agrada molt, per la seva llibertat).&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

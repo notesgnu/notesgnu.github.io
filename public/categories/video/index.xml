@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Video on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/video/</link>
-    <description>Recent content in Video on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Video on Notes GNU</title>
+    <link>http://localhost:1313/categories/video/</link>
+    <description>Recent content in Video on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 09 Jul 2015 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/video/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/video/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Girar un video</title>
-      <link>https://notesgnu.github.io/post/2015-07-09-girar-un-video/</link>
+      <link>http://localhost:1313/post/2015-07-09-girar-un-video/</link>
       <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2015-07-09-girar-un-video/</guid>
-      <description>Avui tenia una mica de temps, i remenant videos de fa uns mesos, m&amp;rsquo;he trobat amb un video gravat amb mòbil, i es veu girat a l&amp;rsquo;ordinador.&#xA;Així que remenant una mica, el mencoder novament em dóna un cop de mà. Escrivim a la terminal:&#xA;mencoder -vf rotate=1 -oac pcm -ovc lavc videosensegirar.mp4 -o videogirat.mp4&#xA;El que el fa girar és l&amp;rsquo;opció rotate=1 que el gira 90º a la dreta. Si volem en l&amp;rsquo;altra direcció ho canviem per rotate=2</description>
+      <guid>http://localhost:1313/post/2015-07-09-girar-un-video/</guid>
+      <description>&lt;p&gt;Avui tenia una mica de temps, i remenant videos de fa uns mesos, m&amp;rsquo;he trobat amb un video gravat amb mòbil, i es veu girat a l&amp;rsquo;ordinador.&lt;/p&gt;&#xA;&lt;p&gt;Així que remenant una mica, el &lt;strong&gt;mencoder&lt;/strong&gt; novament em dóna un cop de mà. Escrivim a la terminal:&lt;/p&gt;&#xA;&lt;p&gt;mencoder -vf rotate=1 -oac pcm -ovc lavc videosensegirar.mp4 -o videogirat.mp4&lt;/p&gt;&#xA;&lt;p&gt;El que el fa girar és l&amp;rsquo;opció &lt;strong&gt;rotate=1&lt;/strong&gt; que el gira 90º a la dreta. Si volem en l&amp;rsquo;altra direcció ho canviem per &lt;strong&gt;rotate=2&lt;/strong&gt;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Utf-8 on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/utf-8/</link>
-    <description>Recent content in Utf-8 on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Utf-8 on Notes GNU</title>
+    <link>http://localhost:1313/categories/utf-8/</link>
+    <description>Recent content in Utf-8 on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 20 Oct 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/utf-8/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/utf-8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Canviar codificació d&#39;un arxiu</title>
-      <link>https://notesgnu.github.io/post/2012-10-20-canviar-codificacio-dun-arxiu/</link>
+      <link>http://localhost:1313/post/2012-10-20-canviar-codificacio-dun-arxiu/</link>
       <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2012-10-20-canviar-codificacio-dun-arxiu/</guid>
-      <description>Avui m&amp;rsquo;ha passat que un arxiu vell (en text pla) i m&amp;rsquo;he trobat que en obrir-lo amb gedit o emacs m&amp;rsquo;he trobat que no es veia correctament. Així que he decidit convertir-lo a utf-8 a veure si es veia correctament. El primer que he fet és saber en quina codificació el tenia, i per fer-ho he usat la comanda file:&#xA;file arxiu.txt&#xA;I m&amp;rsquo;ha donat com a resposta: arxiu.txt: ISO-8859 text, with CRLF line terminators I ara a convertir-lo:</description>
+      <guid>http://localhost:1313/post/2012-10-20-canviar-codificacio-dun-arxiu/</guid>
+      <description>&lt;p&gt;Avui m&amp;rsquo;ha passat que un arxiu vell (en text pla) i m&amp;rsquo;he trobat que en obrir-lo amb &lt;strong&gt;gedit&lt;/strong&gt; o &lt;strong&gt;emacs&lt;/strong&gt; m&amp;rsquo;he trobat que no es veia correctament. Així que he decidit convertir-lo a utf-8 a veure si es veia correctament. El primer que he fet és saber en quina codificació el tenia, i per fer-ho he usat la comanda &lt;strong&gt;file&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;file arxiu.txt&lt;/p&gt;&#xA;&lt;p&gt;I m&amp;rsquo;ha donat com a resposta: &lt;code&gt;arxiu.txt: ISO-8859 text, with CRLF line terminators&lt;/code&gt; I ara a convertir-lo:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

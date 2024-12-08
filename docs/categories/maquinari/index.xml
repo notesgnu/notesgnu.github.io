@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Maquinari on Notes d&#39;un GNU</title>
+    <title>Maquinari on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/maquinari/</link>
-    <description>Recent content in Maquinari on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Maquinari on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sun, 06 Dec 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/maquinari/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2015-12-06-coneixer-la-targeta-grafica/</link>
       <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2015-12-06-coneixer-la-targeta-grafica/</guid>
-      <description>Des de que he instal·lat xUbuntu 15.04 al meu vell portàtil hp 550 que quan inicio per primera vegada el Youtube es penja la gràfica. Abans amb la versió 14.04 LTS no m&amp;rsquo;havia passat. Així que el primer que he revisat és la gràfica que tinc posada. Ací explico com saber la gràfica.&#xA;Anem a veure com puc saber la gràfica:&#xA;des de la terminal escrivim:&#xA;lspci | grep Graphics</description>
+      <description>&lt;p&gt;Des de que he instal·lat &lt;strong&gt;xUbuntu 15.04&lt;/strong&gt; al meu vell portàtil &lt;strong&gt;hp 550&lt;/strong&gt; que quan inicio per primera vegada el &lt;strong&gt;Youtube&lt;/strong&gt; es penja la gràfica. Abans amb la versió &lt;strong&gt;14.04 LTS&lt;/strong&gt; no m&amp;rsquo;havia passat. Així que el primer que he revisat és la gràfica que tinc posada. Ací explico com saber la gràfica.&lt;/p&gt;&#xA;&lt;p&gt;Anem a veure com puc saber la gràfica:&lt;/p&gt;&#xA;&lt;p&gt;des de la terminal escrivim:&lt;/p&gt;&#xA;&lt;p&gt;lspci | grep Graphics&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

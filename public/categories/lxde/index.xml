@@ -1,33 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Lxde on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/lxde/</link>
-    <description>Recent content in Lxde on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Lxde on Notes GNU</title>
+    <link>http://localhost:1313/categories/lxde/</link>
+    <description>Recent content in Lxde on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 28 Jan 2016 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/lxde/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/lxde/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Control de volum gràfic a la Linkat Lleugera</title>
-      <link>https://notesgnu.github.io/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</link>
+      <link>http://localhost:1313/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</link>
       <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</guid>
-      <description>Estic molt content amb la Linkat lleugera.&#xA;Però l’altre dia em vaig trobar que es feia una mica complex per a una persona, que no ha usat mai linux, fer canvis del control de volum. Uns companys volien activar i desactivar el volum del micròfon… Quan fas clic a la icona del volum de la barra superior, et trobes un control en terminal:&#xA;Remenant una mica, i veient com altres usuaris d’entorns LXDE ho havien solucionat, ho he provat amb la Linkat Lleugera.</description>
+      <guid>http://localhost:1313/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</guid>
+      <description>&lt;p&gt;Estic molt content amb la &lt;a href=&#34;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Linkat_lleugera&#34;&gt;Linkat lleugera&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Però l’altre dia em vaig trobar que es feia una mica complex per a una persona, que no ha usat mai linux, fer canvis del control de volum. Uns companys volien activar i desactivar el volum del micròfon… Quan fas clic a la icona del volum de la barra superior, et trobes un control en terminal:&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/audiolinkat01.png&#34; alt=&#34;audiolinkat01&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Remenant una mica, i veient com altres usuaris d’entorns &lt;strong&gt;LXDE&lt;/strong&gt; ho havien solucionat, ho he provat amb la &lt;em&gt;Linkat&lt;/em&gt; Lleugera. Suposo que serveix per a Lubuntu i d&amp;rsquo;altres. La solució ha estat instal·lar tres programes:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Accents amb un teclat americà</title>
-      <link>https://notesgnu.github.io/post/2012-12-25-accents-amb-un-teclat-america/</link>
+      <link>http://localhost:1313/post/2012-12-25-accents-amb-un-teclat-america/</link>
       <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2012-12-25-accents-amb-un-teclat-america/</guid>
-      <description>Ja fa uns anys que vaig anar de viatge a la Xina i em vaig comprar un EeePC 1000HE, del que estic molt content. Hi vaig instal·lar Ubuntu (gnome), i en la configuració del teclat vaig triar la &amp;ldquo;tecla compose&amp;rdquo;, és a dir, em permetia usar una de les tecles com a comodí per accentuar. Amb el temps m&amp;rsquo;he passat a Lubuntu en el notebook, en especial per optimitzar recursos de la màquina, i prioritzar les eines per sobre de l&amp;rsquo;aspecte.</description>
+      <guid>http://localhost:1313/post/2012-12-25-accents-amb-un-teclat-america/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/wpid-teclat.jpg&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-teclat.jpg&#34;&gt;&lt;br&gt;&#xA;Ja fa uns anys que vaig anar de viatge a la Xina i em vaig comprar un EeePC 1000HE, del que estic molt content. Hi vaig instal·lar Ubuntu (gnome), i en la configuració del teclat vaig triar la &amp;ldquo;tecla &lt;strong&gt;compose&lt;/strong&gt;&amp;rdquo;, és a dir, em permetia usar una de les tecles com a comodí per accentuar. Amb el temps m&amp;rsquo;he passat a &lt;strong&gt;Lubuntu&lt;/strong&gt; en el notebook, en especial per optimitzar recursos de la màquina, i prioritzar les eines per sobre de l&amp;rsquo;aspecte.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Iniciar Conky automàticament en Lubuntu</title>
-      <link>https://notesgnu.github.io/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</link>
+      <link>http://localhost:1313/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</link>
       <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</guid>
-      <description>Aquest cap de setmana he instal·lat a un netbook Point Of View (POV) la nova Lubuntu 11.10 ocelot oneiric. La veritat és que consumeix menys RAM, i va bastant lleugera. Va amb l&amp;rsquo;entorn d&amp;rsquo;escriptori lleuger LXDE.&#xA;Seguidament he instal·lat conky que és molt configurable i tenim molts exemples a la xarxa per donar-li l&amp;rsquo;aspecte que més ens agradi. Si no el tenim instal·lat, només cal:&#xA;sudo apt-get install conky-all&#xA;L&amp;rsquo;únic problema que he tingut és que no s&amp;rsquo;inciava de forma automàtica.</description>
+      <guid>http://localhost:1313/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</guid>
+      <description>&lt;p&gt;Aquest cap de setmana he instal·lat a un netbook &lt;strong&gt;Point Of View&lt;/strong&gt; (POV) la nova &lt;a href=&#34;https://wiki.ubuntu.com/Lubuntu&#34;&gt;Lubuntu&lt;/a&gt; 11.10 ocelot oneiric. La veritat és que consumeix menys RAM, i va bastant lleugera. Va amb l&amp;rsquo;entorn d&amp;rsquo;escriptori lleuger &lt;a href=&#34;http://lxde.org/es/lxde&#34;&gt;LXDE&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Seguidament he instal·lat &lt;a href=&#34;http://conky.sourceforge.net/&#34;&gt;conky&lt;/a&gt; que és molt configurable i tenim molts &lt;a href=&#34;http://desktopspotting.com/26/best-conky-configs-for-linux-desktop/&#34;&gt;exemples&lt;/a&gt; a la xarxa per donar-li l&amp;rsquo;aspecte que més ens agradi. Si no el tenim instal·lat, només cal:&lt;/p&gt;&#xA;&lt;p&gt;&lt;code&gt;sudo apt-get install conky-all&lt;/code&gt;&lt;/p&gt;&#xA;&lt;p&gt;L&amp;rsquo;únic problema que he tingut és que no s&amp;rsquo;inciava de forma automàtica. La solució ha estat editar /etc/xdg/lxsession/Lubuntu/autostart i afegir @conky. Jo ho he fet amb emacs:&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

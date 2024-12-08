@@ -1,19 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Rsync on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/rsync/</link>
-    <description>Recent content in Rsync on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Rsync on Notes GNU</title>
+    <link>http://localhost:1313/categories/rsync/</link>
+    <description>Recent content in Rsync on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Sat, 16 Jul 2011 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/rsync/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/rsync/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Rsync a un disc dur extern</title>
-      <link>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</link>
+      <link>http://localhost:1313/post/2011-07-16-rsync-a-un-disc-dur-extern/</link>
       <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</guid>
-      <description>rsync és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de Grsync.&#xA;rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí&#xA;Un exemple de la comanda:&#xA;rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/&#xA;Amb això farà una còpia de seguretat.&#xA;Per fer-ho via SAMBA amb ssh:&#xA;primer cal muntar el disc amb samba mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada</description>
+      <guid>http://localhost:1313/post/2011-07-16-rsync-a-un-disc-dur-extern/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/rsync.png&#34; alt=&#34;http://mindprod.com/image/iconcorp/rsync.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://es.wikipedia.org/wiki/Rsync&#34;&gt;rsync&lt;/a&gt; és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de &lt;a href=&#34;http://www.opbyte.it/grsync/&#34;&gt;Grsync&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí&lt;/p&gt;&#xA;&lt;p&gt;Un exemple de la comanda:&lt;/p&gt;&#xA;&lt;p&gt;rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/&lt;/p&gt;&#xA;&lt;p&gt;Amb això farà una còpia de seguretat.&lt;/p&gt;&#xA;&lt;p&gt;Per fer-ho via &lt;em&gt;SAMBA&lt;/em&gt; amb ssh:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;primer cal muntar el disc amb samba&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

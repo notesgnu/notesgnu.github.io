@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Esteganografia on Notes d&#39;un GNU</title>
+    <title>Esteganografia on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/esteganografia/</link>
-    <description>Recent content in Esteganografia on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <description>Recent content in Esteganografia on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Fri, 30 Nov 2012 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/esteganografia/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2012-11-30-mes-enlla-duna-imatge/</link>
       <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2012-11-30-mes-enlla-duna-imatge/</guid>
-      <description>He conegut fa poc un concepte que no coneixia: esteganografia. La idea és ocultar una informació dins d&amp;rsquo;una imatge.&#xA;Podem ocultar un text, o una altra imatge. Per poder dur a terme aquesta tècnica hi ha moltes eines, des de steghide o outgess. Les eines són molt completes i molt interessants. Però el que jo vull explicar aquí és com fer-ho des de la terminal, i d&amp;rsquo;una manera molt senzilla.</description>
+      <description>&lt;p&gt;He conegut fa poc un concepte que no coneixia: &lt;em&gt;esteganografia&lt;/em&gt;. La idea és ocultar una informació dins d&amp;rsquo;una imatge.&lt;br&gt;&#xA;Podem ocultar un text, o una altra imatge. Per poder dur a terme aquesta tècnica hi ha moltes eines, des de &lt;strong&gt;steghide&lt;/strong&gt; o &lt;strong&gt;outgess&lt;/strong&gt;. Les eines són molt completes i molt interessants. Però el que jo vull explicar aquí és com fer-ho des de la terminal, i d&amp;rsquo;una manera molt senzilla.&lt;br&gt;&#xA;Anem a fer un exemple.&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>

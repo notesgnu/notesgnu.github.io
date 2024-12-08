@@ -1,47 +1,47 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Opensuse on Notes d&#39;un GNU</title>
-    <link>https://notesgnu.github.io/categories/opensuse/</link>
-    <description>Recent content in Opensuse on Notes d&#39;un GNU</description>
-    <generator>Hugo -- gohugo.io</generator>
+    <title>Opensuse on Notes GNU</title>
+    <link>http://localhost:1313/categories/opensuse/</link>
+    <description>Recent content in Opensuse on Notes GNU</description>
+    <generator>Hugo</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Dec 2012 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://notesgnu.github.io/categories/opensuse/index.xml" rel="self" type="application/rss+xml" />
+    <atom:link href="http://localhost:1313/categories/opensuse/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nova versió de LyX a la Linkat</title>
-      <link>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
+      <link>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
-      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
+      <guid>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/wpid-lyx00.png&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-lyx00.png&#34;&gt;&lt;br&gt;&#xA;Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica &lt;a href=&#34;http://www.lyx.org/WebEs.Home&#34;&gt;LyX&lt;/a&gt;. És un programa pensat per realitzar documents usant la potència de &lt;a href=&#34;http://ca.wikipedia.org/wiki/LaTeX&#34;&gt;LateX&lt;/a&gt;. Tot i que m&amp;rsquo;agrada molt el mode per &lt;strong&gt;Emacs&lt;/strong&gt; anomenat &lt;a href=&#34;http://ca.wikipedia.org/wiki/AUCTEX&#34;&gt;AucTeX&lt;/a&gt;,volia provar LyX.&lt;br&gt;&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *&lt;a href=&#34;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Linkat_Edu_11.4&#34;&gt;Linkat Edu 11.4&lt;/a&gt;* és la 1.6.9&lt;br&gt;&#xA;&lt;img src=&#34;images/wpid-lyx01.png&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-lyx01.png&#34;&gt;&lt;br&gt;&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.&lt;br&gt;&#xA;Així que he decidit actualitzar la versió a la 2.0.5 i aprofitar totes les noves funcionalitats, i evitar el problema de versions.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Instal·lant org-mode a la Linkat</title>
-      <link>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</link>
+      <link>http://localhost:1313/post/2011-06-01-hola-mon-2/</link>
       <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</guid>
-      <description>Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.&#xA;Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)&#xA;Primer que res he instal·lat emacs a la Linkat La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:</description>
+      <guid>http://localhost:1313/post/2011-06-01-hola-mon-2/</guid>
+      <description>&lt;p&gt;Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.&lt;/p&gt;&#xA;&lt;p&gt;Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)&lt;/p&gt;&#xA;&lt;h3 id=&#34;primer-que-res-he-installat-emacs-a-la-linkat&#34;&gt;Primer que res he instal·lat emacs a la Linkat&lt;/h3&gt;&#xA;&lt;p&gt;La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:&lt;/p&gt;</description>
     </item>
     <item>
       <title>Codificació no vàlida</title>
-      <link>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</link>
+      <link>http://localhost:1313/post/2010-12-05-codificacio-no-valida/</link>
       <pubDate>Sun, 05 Dec 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</guid>
-      <description>Avui estava copiant uns documents antics d&amp;rsquo;un disc dur vell al meu ordinador. I me m&amp;rsquo;he trobat un munt de símbols ? i al final de l&amp;rsquo;extensió la expressió &amp;ldquo;codificació no vàlida&amp;rdquo;. Sempre que em passava això, el que feia era renombrar-ho, però aquesta vegada eren molts. Després de cercar molt, he trobat que això passa perquè la codificació que tenien era iso-8859-9, i el meu ordinador treballa amb utf8. La solució me l&amp;rsquo;ha donat la comanda CONVMV!</description>
+      <guid>http://localhost:1313/post/2010-12-05-codificacio-no-valida/</guid>
+      <description>&lt;p&gt;Avui estava copiant uns documents antics d&amp;rsquo;un disc dur vell al meu ordinador. I me m&amp;rsquo;he trobat un munt de símbols ? i al final de l&amp;rsquo;extensió la expressió &amp;ldquo;codificació no vàlida&amp;rdquo;. Sempre que em passava això, el que feia era renombrar-ho, però aquesta vegada eren molts. Després de cercar molt, he trobat que això passa perquè la codificació que tenien era iso-8859-9, i el meu ordinador treballa amb utf8. La solució me l&amp;rsquo;ha donat la comanda CONVMV!!!&lt;/p&gt;</description>
     </item>
     <item>
       <title>Dropbox, una alternativa als USB</title>
-      <link>https://notesgnu.github.io/post/2010-01-30-dropbox-una-alternativa-als-usb/</link>
+      <link>http://localhost:1313/post/2010-01-30-dropbox-una-alternativa-als-usb/</link>
       <pubDate>Sat, 30 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-01-30-dropbox-una-alternativa-als-usb/</guid>
-      <description>DropBox és un servei en &amp;ldquo;núvol&amp;rdquo; per compartir arxius i carpetes. Quan s&amp;rsquo;instal·la crea una carpeta local on tot el que posis va també sincronitzat a la web, i als altres ordinadors on ho tinguis instal·lat. A la pàgina web tens tot el que posis a la carpeta.&#xA;És multiplataforma, i el pots tenir en Linux, Mac i Windows&amp;hellip; i fins i tot al IPhone. Primer ens donem d&amp;rsquo;alta, i després anem a la pàgina de descàrrega&amp;hellip; i baixem el programa, un parell de clics i ja està!</description>
+      <guid>http://localhost:1313/post/2010-01-30-dropbox-una-alternativa-als-usb/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;https://play-lh.googleusercontent.com/b1-MIBjlMD9kvl0Okeglm9BL9ejRpOXMio303W0tiLb8Ul5WuVzBDoDKgGRcALOsCdw=w240-h480-rw&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;https://www.dropbox.com/&#34;&gt;DropBox&lt;/a&gt; és un servei en &amp;ldquo;núvol&amp;rdquo; per compartir arxius i carpetes. Quan s&amp;rsquo;instal·la crea una carpeta local on tot el que posis va també sincronitzat a la web, i als altres ordinadors on ho tinguis instal·lat. A la pàgina web tens tot el que posis a la carpeta.&lt;/p&gt;&#xA;&lt;p&gt;És multiplataforma, i el pots tenir en Linux, Mac i Windows&amp;hellip; i fins i tot al IPhone. Primer ens &lt;a href=&#34;https://www.dropbox.com/login?cont=http%3A//wiki.dropbox.com#register&#34;&gt;donem d&amp;rsquo;alta&lt;/a&gt;, i després anem a la pàgina de descàrrega&amp;hellip; i &lt;a href=&#34;https://www.dropbox.com/install&#34;&gt;baixem el programa&lt;/a&gt;, un parell de clics i ja està! Dropbox et dóna un compte de 2Gb gratuïts d&amp;rsquo;emmagatzematge, i es poden crear carpetes per compartir amb d&amp;rsquo;altres usuaris.&lt;/p&gt;</description>
     </item>
     <item>
       <title>Com instal·lar Opensuse &#34;text mode&#34;</title>
-      <link>https://notesgnu.github.io/post/2010-01-11-com-installar-opensuse-text-mode/</link>
+      <link>http://localhost:1313/post/2010-01-11-com-installar-opensuse-text-mode/</link>
       <pubDate>Mon, 11 Jan 2010 00:00:00 +0000</pubDate>
-      <guid>https://notesgnu.github.io/post/2010-01-11-com-installar-opensuse-text-mode/</guid>
-      <description>Habitualment fem les instal·lacions per defecte en format gràfic, però quan falla el monitor (com ha estat el meu cas) tenim una bona opció&amp;hellip; f3 (text mode)&#xA;Ens baixem la ISO (podem cremar-la o fer-ho amb el Virtualbox)&#xA;Inserim el cdlive i triem f2- la llengua, f3- &amp;ldquo;text mode&amp;rdquo;&#xA;S&amp;rsquo;inicia el livecd (hi ha en gnome, kde, xfce i he volgut provar-ho amb el &amp;lsquo;lxde&amp;rsquo;)&#xA;Un cop iniciat ens demana el login i el password&amp;hellip;</description>
+      <guid>http://localhost:1313/post/2010-01-11-com-installar-opensuse-text-mode/</guid>
+      <description>&lt;p&gt;&lt;img src=&#34;images/install-suse-tuxlink.png&#34; alt=&#34;opensuse install&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Habitualment fem les instal·lacions per defecte en format gràfic, però quan falla el monitor (com ha estat el meu cas) tenim una bona opció&amp;hellip; f3 (text mode)&lt;/p&gt;&#xA;&lt;p&gt;Ens baixem la &lt;a href=&#34;http://software.opensuse.org/112/en&#34;&gt;ISO&lt;/a&gt; (podem cremar-la o fer-ho amb el &lt;a href=&#34;http://www.virtualbox.org/wiki/Linux_Downloads&#34;&gt;Virtualbox&lt;/a&gt;)&lt;/p&gt;&#xA;&lt;p&gt;Inserim el cdlive i triem f2- la llengua, f3- &amp;ldquo;text mode&amp;rdquo;&lt;/p&gt;&#xA;&lt;p&gt;S&amp;rsquo;inicia el livecd (hi ha en gnome, kde, xfce i he volgut provar-ho amb el &amp;lsquo;&lt;a href=&#34;http://en.opensuse.org/LXDE&#34;&gt;lxde&lt;/a&gt;&amp;rsquo;)&lt;/p&gt;&#xA;&lt;p&gt;Un cop iniciat ens demana el login i el password&amp;hellip;&lt;/p&gt;</description>
     </item>
   </channel>
 </rss>
