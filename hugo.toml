@@ -1,5 +1,5 @@
 baseURL = "https://notesgnu.github.io/"
-title = "Notes GNU"
+title = "Notes d'un GNU"
 theme = "m10c"
 paginate = 9
 languageCode = "en"
