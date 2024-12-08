@@ -1,9 +1,9 @@
 ---
-layout: post
 title: "Proves amb Gittyup: Una Eina Gràfica per a Git"
 date: 2024-12-09
-categories: ["markdown"]
-tags: ["linux"]
+author: "Manel Sales"
+categories: ["github"]
+tags: ["github"]
 ---
 
 # Proves amb Gittyup: Una Eina Gràfica per a Git
