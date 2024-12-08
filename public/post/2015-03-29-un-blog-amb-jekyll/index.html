@@ -1,0 +1,176 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Un blog amb Jekyll // Notes GNU</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.123.7">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="msaliko" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://localhost:1313/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Un blog amb Jekyll"/>
+<meta name="twitter:description" content="Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant git i jekyll. Els motius són varis, però la idea d epoder escriure un bloc des d&rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.
+S&rsquo;usa per escriure el llenguatge de marques MarkDown i per defecte l&rsquo;extensió ."/>
+
+    <meta property="og:title" content="Un blog amb Jekyll" />
+<meta property="og:description" content="Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant git i jekyll. Els motius són varis, però la idea d epoder escriure un bloc des d&rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.
+S&rsquo;usa per escriure el llenguatge de marques MarkDown i per defecte l&rsquo;extensió ." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/2015-03-29-un-blog-amb-jekyll/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2015-03-29T00:00:00+00:00" />
+<meta property="article:modified_time" content="2015-03-29T00:00:00+00:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
+      <h1>Notes GNU</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Inici</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/about/">Sobre mi</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/tags/">Etiquetes</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/categories/">Categories</a>
+      </nav>
+      <p>2024 (CC) Sou lliures de copiar</p>
+      <div class="app-header-social">
+        
+          <a href="jnorbu8@gmail.com" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail">
+  <title>Correu</title>
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+          </a>
+        
+          <a href="https://github.com/notesgnu" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/manelsales" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://mastodont.cat/@msaliko" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-star">
+  <title>Mastodon</title>
+  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+          </a>
+        
+          <a href="https://croniqueslinux.wordpress.com/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-file-text">
+  <title>Wordpress</title>
+  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Un blog amb Jekyll</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Mar 29, 2015
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          3 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p><img src="images/logo-2x.png" alt=""></p>
+<p>Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant <strong>git</strong> i <strong>jekyll</strong>. Els motius són varis, però la idea d epoder escriure un bloc des d&rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.</p>
+<p>S&rsquo;usa per escriure el llenguatge de marques <strong><a href="http://daringfireball.net/projects/markdown/">MarkDown</a></strong> i per defecte l&rsquo;extensió .md, i <strong>Emacs</strong> compta amb markdown-mode que facilita la seva escriptura. Així que seguim amb <strong>EMACS</strong> :-)</p>
+<p>Anem a per feina…</p>
+<h2 id="installar-ho-tot">Instal·lar-ho tot!</h2>
+<p>Primer que res cal instal·lar <em>git, ruby i jekyll</em>:</p>
+<p>sudo apt-get install git ruby jekyll</p>
+<p>Compte! també cal tenir instal·lat l&rsquo;intèrpret de JavaScript (<em>nodejs</em>):</p>
+<p>sudo apt-get install nodejs</p>
+<h2 id="creem-pàgina-en-local">Creem pàgina en local</h2>
+<p>Ara, crearem l&rsquo;espai per treballar en local, podem crear un blog usant <strong>Jekyll</strong>:</p>
+<p>jekyll new jekyll-blog</p>
+<p>Però si volem crear una carpeta per sincronitzar amb <strong>git</strong>, ens cal que tingui el mateix nom d&rsquo;usuari de Github. Per fer això podem usar <strong>Jekyll</strong>:</p>
+<p>jekyll new nomusuari.github.io</p>
+<p>o també <strong>GIT</strong>:</p>
+<p>git init nomusuari.github.io</p>
+<h2 id="plantilles">Plantilles</h2>
+<p>Si volem podem trobar <a href="http://jekyllthemes.org/">plantilles</a> de <strong>Jekyll</strong>, i així podem usar-ne una que ens agradi, només caldrà descomprimir tot el contingut del <em>zip</em> dins de la nostra carpeta que hem creat abans.</p>
+<h2 id="iniciem-el-servidor-local">Iniciem el servidor local</h2>
+<p>Per poder navegar en el nostre blog i veure com va quedant, el podem executar amb:</p>
+<p>jekyll serve</p>
+<h2 id="configurem-git">Configurem GIT</h2>
+<p>Tot seguit ens cal configurar <strong>git</strong>, cal tenir un compte a Github:</p>
+<p>git config &ndash;global user.name &ldquo;nomusuari&rdquo;
+git config &ndash;global user.email &ldquo;identificadordelcorreu&rdquo;</p>
+<h2 id="sincronitzem-amb-github">Sincronitzem amb GITHUB</h2>
+<p>Un cop veiem que el blog està al nostre gust, ara podem clonar-lo a la xarxa usant el Git. Així podem sincronitzar el nostre bloc i penjar-lo a la xarxa, primer entrem a la carpeta:</p>
+<p>cd nomusuari.github.io</p>
+<p>I cada vegada que fem un <strong>push</strong> s&rsquo;actualitzarà.</p>
+<p>git add &ndash;all
+git commit -m &ldquo;Initial commit&rdquo;
+git push -u origin master</p>
+<p>Ens demanarà el nom d&rsquo;usuari i després la contrasenya…</p>
+<p>I amb tot això, ja ens ha de funcionar! ;-)</p>
+<h2 id="algunes-solucions">Algunes solucions!</h2>
+<p>En algun cas podem trobar algun problema amb el <strong>Ruby</strong>, he trobat possibles solucions com ara:</p>
+<p>sudo apt-get ruby-dev</p>
+<p>o</p>
+<p>sudo apt-get install ruby1.9.1-dev</p>
+<p>és a dir instal·lant el <strong>Ruby</strong> en desenvolupament, i concretament la versió 1.9.1</p>
+<p>Una altra cosa és poder instal·lar-lo com a <strong>gema de Ruby</strong>:</p>
+<p>sudo gem install Jekyll</p>
+<p>Un altre error que m&rsquo;ha sortit alguna vegada és la manca de la <strong>gema de Ruby (redcarpet)</strong>, això m&rsquo;ha passat en ubuntu 14.04 i derivades&hellip; vol dir que ens cal fer el que he comentat abans, i seguint els passos:</p>
+<p>sudo apt-get install ruby1.9.1-dev
+sudo gem install jekyll</p>
+<p>En el cas d&rsquo;<strong>Ubuntu-mate</strong> em donava un error amb els paquets <em>ruby*dev</em>, així que al final he vist una solució, instal·lar:</p>
+<p>sudo apt-get install ruby1.9.1-full</p>
+<p>Un altre error que m&rsquo;ha sortit instal·lant <strong>Jekyll</strong> a un altre netbook ha estat:</p>
+<p><em>/usr/lib/ruby/1.9.1/rubygems/custom_require.rb:36:in `require&rsquo;: iconv will be deprecated in the future, use String#encode instead</em>.</p>
+<p><strong>La solució</strong>:</p>
+<p>sudo apt-get install rubygems-integration</p>
+<h2 id="fonts">Fonts:</h2>
+<p><a href="http://raulavila.com/2015/01/como-hice-el-blog/">http://raulavila.com/2015/01/como-hice-el-blog/</a></p>
+<p><a href="http://efrenfuentes.net/creando-blog-con-github-jekyll-disqus/">http://efrenfuentes.net/creando-blog-con-github-jekyll-disqus/</a></p>
+<p><a href="http://jorgecasar.github.io/blog/como-crear-tu-blog-en-github-pages/">http://jorgecasar.github.io/blog/como-crear-tu-blog-en-github-pages/</a></p>
+<p><a href="http://blog.desdelinux.net/hacer-blog-jekyll/">http://blog.desdelinux.net/hacer-blog-jekyll/</a></p>
+<p><a href="http://www.hostdime.com.co/blog/como-crear-un-blog-con-jekyll-una-guia-para-principiantes/">http://www.hostdime.com.co/blog/como-crear-un-blog-con-jekyll-una-guia-para-principiantes/</a></p>
+<p><a href="http://onezetty.esy.es/gnu/como-hacer-un-blog-con-jekyll/">http://onezetty.esy.es/gnu/como-hacer-un-blog-con-jekyll/</a></p>
+<p><a href="https://pages.github.com/">https://pages.github.com/</a> <a href="http://rogerdudler.github.io/git-guide/index.es.html">http://rogerdudler.github.io/git-guide/index.es.html</a></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

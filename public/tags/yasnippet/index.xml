@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>yasnippet on Notes GNU</title>
-    <link>https://notesgnu.github.io/tags/yasnippet/</link>
-    <description>Recent content in yasnippet on Notes GNU</description>
+    <title>Yasnippet on Notes GNU</title>
+    <link>http://localhost:1313/tags/yasnippet/</link>
+    <description>Recent content in Yasnippet on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/yasnippet/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/yasnippet/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Com fer un snippet en Emacs</title>
-      <link>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</link>
+      <link>http://localhost:1313/post/2020-06-08-fer-plantilles/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</guid>
-      <description>Sovint piquem codi i volem guanyar temps usant una plantilla. Un pedaç de codi s&amp;rsquo;anomena snippet, i és això el que fem.
-Per fer això, tenim YASnippet. Per instaŀlar-ho, res més fàcil:
-M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.
-M-x yas-reload-all Seguidament, ja podem usar-lo. Cal tenir carregat el mode.
-M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu .</description>
+      <guid>http://localhost:1313/post/2020-06-08-fer-plantilles/</guid>
+      <description>Sovint piquem codi i volem guanyar temps usant una plantilla. Un pedaç de codi s&amp;rsquo;anomena snippet, i és això el que fem.&#xA;Per fer això, tenim YASnippet. Per instaŀlar-ho, res més fàcil:&#xA;M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.&#xA;M-x yas-reload-all Seguidament, ja podem usar-lo. Cal tenir carregat el mode.&#xA;M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu .</description>
     </item>
-    
   </channel>
 </rss>

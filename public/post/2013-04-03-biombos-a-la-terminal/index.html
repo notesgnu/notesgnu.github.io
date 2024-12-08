@@ -1,0 +1,137 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Biombos a la terminal // Notes GNU</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.123.7">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="msaliko" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://localhost:1313/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Biombos a la terminal"/>
+<meta name="twitter:description" content="Ja fa dies que no escrivia res, he estat fent moltes coses, i llegint la revista Linux Magazine número 91 he trobat l&rsquo;eina anomenada Byobu. Una eina molt interessant per treballar amb la terminal. Ja havia comentat Screen i també Tmux, i ara podriem dir que anem a trobar una evolució d&rsquo;aquestes dues. Byōbu és una paraula japonesa que significa Biombo (Byō- parar &#43; bu - vent), i serveix per fer separacions, crear i desfer espais ràpidament."/>
+
+    <meta property="og:title" content="Biombos a la terminal" />
+<meta property="og:description" content="Ja fa dies que no escrivia res, he estat fent moltes coses, i llegint la revista Linux Magazine número 91 he trobat l&rsquo;eina anomenada Byobu. Una eina molt interessant per treballar amb la terminal. Ja havia comentat Screen i també Tmux, i ara podriem dir que anem a trobar una evolució d&rsquo;aquestes dues. Byōbu és una paraula japonesa que significa Biombo (Byō- parar &#43; bu - vent), i serveix per fer separacions, crear i desfer espais ràpidament." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/2013-04-03-biombos-a-la-terminal/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2013-04-03T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-04-03T00:00:00+00:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
+      <h1>Notes GNU</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Inici</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/about/">Sobre mi</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/tags/">Etiquetes</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/categories/">Categories</a>
+      </nav>
+      <p>2024 (CC) Sou lliures de copiar</p>
+      <div class="app-header-social">
+        
+          <a href="jnorbu8@gmail.com" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail">
+  <title>Correu</title>
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+          </a>
+        
+          <a href="https://github.com/notesgnu" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/manelsales" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://mastodont.cat/@msaliko" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-star">
+  <title>Mastodon</title>
+  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+          </a>
+        
+          <a href="https://croniqueslinux.wordpress.com/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-file-text">
+  <title>Wordpress</title>
+  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Biombos a la terminal</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 3, 2013
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Ja fa dies que no escrivia res, he estat fent moltes coses, i llegint la revista <a href="http://www.linux-magazine.es/issue/91">Linux Magazine</a> número 91 he trobat l&rsquo;eina anomenada <a href="http://byobu.co/">Byobu</a>. Una eina molt interessant per treballar amb la terminal. Ja havia comentat <a href="http://croniqueslinux.wordpress.com/2011/12/05/screen-una-eina-mes-per-la-terminal/">Screen</a> i també <a href="http://croniqueslinux.wordpress.com/2012/03/18/tmux-per-veure-la-terminal-duna-altra-manera/">Tmux</a>, i ara podriem dir que anem a trobar una evolució d&rsquo;aquestes dues. Byōbu és una paraula japonesa que significa Biombo (Byō- parar + bu - vent), i serveix per fer separacions, crear i desfer espais ràpidament. Doncs així mateix treballa Byobu en la terminal, deixant tenir varies finestres, i la pantalla dividida. A més a més, permet deixar funcionant la Shell en tancar la terminal, i continuar treballant més tard. També permet executar una terminal remotament via ssh i continuar la feina des del client. I també és capaç de treballar dues persones alhora, en la mateixa finestra de byobu, des de dos ordinadors separats i conectats via ssh. A més a més, a la barra inferior ens informa de la distribució, l&rsquo;ús del cpu, de ram, hora, data, i d&rsquo;altres informacions interessants, com per exemple quan surt un número amb ! vol dir que tenim un nombre concret d&rsquo;actualitzacions.</p>
+<p><img src="images/byobu-top-right.png" alt="http://byobu.co/img/byobu-top-right.png"></p>
+<h3 id="installació">instal·lació</h3>
+<p>Per instal·lar res més senzill que: Arch</p>
+<p>pacman -Sy byobu</p>
+<p>Debian, Mint, Ubuntu</p>
+<p>apt-get install byobu</p>
+<p>Fedora</p>
+<p>yum install byobu</p>
+<p>Gentoo</p>
+<p>emerge byobu</p>
+<p>En el cas de <strong>Linkat</strong> m&rsquo;he baixat de la pàgina <a href="https://launchpad.net/byobu/+download">https://launchpad.net/byobu/+download</a> el <a href="https://launchpad.net/byobu/trunk/5.35/+download/byobu_5.35.orig.tar.gz">tar.gz</a> i després l&rsquo;he descomprimit i compilat</p>
+<p>tar -xzvf byobu_5.35.orig.tar.gz
+cd byobu-5.35/
+./configure
+make
+make install</p>
+<p>I ja el tenim funcionant!</p>
+<h3 id="ús">ús</h3>
+<p>Les tecles bàsiques són: F2 - crear una nova pestanya en la terminal. F3 - moure&rsquo;s a la pestanya anterior. F4 - moure&rsquo;s a la pestanya posterior. F5 - refresca l&rsquo;estat. F6 - sortir, deixant funcionant Byobu en el fons, i quan tornem a executar Byobu a la terminal, el tenim com l&rsquo;haviem deixat. F7 - mostra l&rsquo;historial. F8 - reanomena la pestanya de la terminal. F9 - configurar el Byobu.</p>
+<p>Shift + F2 - divideix la terminal horitzontalment Ctrl + F2 - divideix la terminal en vertical Shift + F3 - moure&rsquo;s a la pestanya anterior entre divisions. Shift + F4 - moure&rsquo;s a la pestanya posterior entre divisions. Shift + F5 - canvia entre les línies d&rsquo;estat. Ctrl + F5 - Reconnecta ssh/gpg/dbus Ctrl + Shift + F5 - canvia el color de la barra inferior. Ctrl + F6 - surt de la partició. Shift + F1 - mostra l&rsquo;ajuda de Byobu.</p>
+<p>Nota: escrivint <strong>exit</strong> sortim de la pestanya A veure que us sembla ;-)</p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

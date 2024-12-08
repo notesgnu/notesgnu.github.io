@@ -1,565 +1,320 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>terminal on Notes GNU</title>
+    <title>Terminal on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/terminal/</link>
-    <description>Recent content in terminal on Notes GNU</description>
+    <description>Recent content in Terminal on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 13 Jan 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/terminal/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 13 Jan 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/terminal/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Bad Character &#39;�&#39;</title>
       <link>https://notesgnu.github.io/post/2016-01-13-bad-character-/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2016-01-13-bad-character-/</guid>
-      <description>Un arxiu que he llegit des de terminal m&amp;rsquo;ha donat un error de lectura:
-&amp;gt; bad character &amp;lsquo;�&amp;rsquo;
-Mirant la codificació de l&amp;rsquo;arxiu amb la comanda file, he vist que no té la codificació per a UNIX, així que a canviar-ho. Primer cal instal·lar dos2unix:
-sudo apt-get install dos2unix
-i després a convertir-ho:
-dos2unix -n arxiu.txt arxiu2.txt
-i problema resolt!
-;-)</description>
+      <description>Un arxiu que he llegit des de terminal m&amp;rsquo;ha donat un error de lectura:&#xA;&amp;gt; bad character &amp;lsquo;�&amp;rsquo;&#xA;Mirant la codificació de l&amp;rsquo;arxiu amb la comanda file, he vist que no té la codificació per a UNIX, així que a canviar-ho. Primer cal instal·lar dos2unix:&#xA;sudo apt-get install dos2unix&#xA;i després a convertir-ho:&#xA;dos2unix -n arxiu.txt arxiu2.txt&#xA;i problema resolt!&#xA;;-)</description>
     </item>
-    
     <item>
       <title>Conèixer la targeta gràfica</title>
       <link>https://notesgnu.github.io/post/2015-12-06-coneixer-la-targeta-grafica/</link>
       <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2015-12-06-coneixer-la-targeta-grafica/</guid>
-      <description>Des de que he instal·lat xUbuntu 15.04 al meu vell portàtil hp 550 que quan inicio per primera vegada el Youtube es penja la gràfica. Abans amb la versió 14.04 LTS no m&amp;rsquo;havia passat. Així que el primer que he revisat és la gràfica que tinc posada. Ací explico com saber la gràfica.
-Anem a veure com puc saber la gràfica:
-des de la terminal escrivim:
-lspci | grep Graphics</description>
+      <description>Des de que he instal·lat xUbuntu 15.04 al meu vell portàtil hp 550 que quan inicio per primera vegada el Youtube es penja la gràfica. Abans amb la versió 14.04 LTS no m&amp;rsquo;havia passat. Així que el primer que he revisat és la gràfica que tinc posada. Ací explico com saber la gràfica.&#xA;Anem a veure com puc saber la gràfica:&#xA;des de la terminal escrivim:&#xA;lspci | grep Graphics</description>
     </item>
-    
     <item>
       <title>Girar un video</title>
       <link>https://notesgnu.github.io/post/2015-07-09-girar-un-video/</link>
       <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2015-07-09-girar-un-video/</guid>
-      <description>Avui tenia una mica de temps, i remenant videos de fa uns mesos, m&amp;rsquo;he trobat amb un video gravat amb mòbil, i es veu girat a l&amp;rsquo;ordinador.
-Així que remenant una mica, el mencoder novament em dóna un cop de mà. Escrivim a la terminal:
-mencoder -vf rotate=1 -oac pcm -ovc lavc videosensegirar.mp4 -o videogirat.mp4
-El que el fa girar és l&amp;rsquo;opció rotate=1 que el gira 90º a la dreta. Si volem en l&amp;rsquo;altra direcció ho canviem per rotate=2</description>
+      <description>Avui tenia una mica de temps, i remenant videos de fa uns mesos, m&amp;rsquo;he trobat amb un video gravat amb mòbil, i es veu girat a l&amp;rsquo;ordinador.&#xA;Així que remenant una mica, el mencoder novament em dóna un cop de mà. Escrivim a la terminal:&#xA;mencoder -vf rotate=1 -oac pcm -ovc lavc videosensegirar.mp4 -o videogirat.mp4&#xA;El que el fa girar és l&amp;rsquo;opció rotate=1 que el gira 90º a la dreta. Si volem en l&amp;rsquo;altra direcció ho canviem per rotate=2</description>
     </item>
-    
     <item>
       <title>Exiftool</title>
       <link>https://notesgnu.github.io/post/2014-08-16-exiftool/</link>
       <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2014-08-16-exiftool/</guid>
-      <description>Aquest estiu estic remenant les fotos de les diferents càmares i volia saber les metadades. Així que he trobat una eina interessant des de la terminal exiftool. La tinc instal·lada a Lubuntu 14.04 i va força bé.
-Primer, cal instal·lar amb:
-sudo apt-get install exiftool
-Després tan fàcil com executar exiftool i la imatge:
-exiftool imatge.png
-Per exemple:
-exiftool tux.png ExifTool Version Number : 9.46 File Name : tux.png Directory : .</description>
+      <description>Aquest estiu estic remenant les fotos de les diferents càmares i volia saber les metadades. Així que he trobat una eina interessant des de la terminal exiftool. La tinc instal·lada a Lubuntu 14.04 i va força bé.&#xA;Primer, cal instal·lar amb:&#xA;sudo apt-get install exiftool&#xA;Després tan fàcil com executar exiftool i la imatge:&#xA;exiftool imatge.png&#xA;Per exemple:&#xA;exiftool tux.png ExifTool Version Number : 9.46 File Name : tux.png Directory : .</description>
     </item>
-    
     <item>
       <title>Recuperar CDs i DVDs</title>
       <link>https://notesgnu.github.io/post/2014-04-07-recuperar-cds-i-dvds/</link>
       <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2014-04-07-recuperar-cds-i-dvds/</guid>
-      <description>Amb el temps m&amp;rsquo;he trobat que molts CDs que he gravat, deixen de funcionar, i sovint sembla que les dades i música desada ja no es pot recuperar.
-Hi ha moltes eines pensades per fer-ho, tan GUI com CLI, fins i tot tenim distribucions fetes especialment per tasques d&amp;rsquo;aquest tipus.
-En aquest cas usaré GNU ddrescue una comanda que permet recuperar dades. Així podem crear imatges de cds, dvds, usbs i discos durs des d&amp;rsquo;on recuperar-ne.</description>
+      <description>Amb el temps m&amp;rsquo;he trobat que molts CDs que he gravat, deixen de funcionar, i sovint sembla que les dades i música desada ja no es pot recuperar.&#xA;Hi ha moltes eines pensades per fer-ho, tan GUI com CLI, fins i tot tenim distribucions fetes especialment per tasques d&amp;rsquo;aquest tipus.&#xA;En aquest cas usaré GNU ddrescue una comanda que permet recuperar dades. Així podem crear imatges de cds, dvds, usbs i discos durs des d&amp;rsquo;on recuperar-ne.</description>
     </item>
-    
     <item>
       <title>Convertir un vcd a mpg</title>
       <link>https://notesgnu.github.io/post/2014-01-27-convertir-un-vcd-a-mpg/</link>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2014-01-27-convertir-un-vcd-a-mpg/</guid>
-      <description>Fa un temps que tenic algunes pel·lícules en format VCD. Amb el temps, ocupen molt d&amp;rsquo;espai, i els CDs físics solen deteriorar-se. Així que he decidit desar-los en format de video MPG. Per fer això podem usar la comanda vcdxrip. Res més senzill que inserir el VCD al lector de l&amp;rsquo;ordinador, i un cop inserit, usar la comanda:
-vcdxrip -p --nofiles -C un cop ha acabat, ens crea un arxiu avseq01.</description>
+      <description>Fa un temps que tenic algunes pel·lícules en format VCD. Amb el temps, ocupen molt d&amp;rsquo;espai, i els CDs físics solen deteriorar-se. Així que he decidit desar-los en format de video MPG. Per fer això podem usar la comanda vcdxrip. Res més senzill que inserir el VCD al lector de l&amp;rsquo;ordinador, i un cop inserit, usar la comanda:&#xA;vcdxrip -p --nofiles -C un cop ha acabat, ens crea un arxiu avseq01.</description>
     </item>
-    
     <item>
       <title>Espai de disc</title>
       <link>https://notesgnu.github.io/post/2013-10-22-espai-de-disc/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2013-10-22-espai-de-disc/</guid>
-      <description>Hi ha moltes eines per saber l&amp;rsquo;espai del disc, tant en ús com l&amp;rsquo;espai lliure. Però moltes vegades no tenim accés a un entorn gràfic. Des de terminal tenim varies eines que ens permeten saber l&amp;rsquo;espai que tenim lliure i en ús. Dues de les dues més importants són du i df.
-Per saber-ne més, només cal usar el propi manual:
-man du
-o
-man df
-Espai que tenim lliure i en ús La comanda df ens ajuda a saber l&amp;rsquo;espai lliure en el disc.</description>
+      <description>Hi ha moltes eines per saber l&amp;rsquo;espai del disc, tant en ús com l&amp;rsquo;espai lliure. Però moltes vegades no tenim accés a un entorn gràfic. Des de terminal tenim varies eines que ens permeten saber l&amp;rsquo;espai que tenim lliure i en ús. Dues de les dues més importants són du i df.&#xA;Per saber-ne més, només cal usar el propi manual:&#xA;man du&#xA;o&#xA;man df&#xA;Espai que tenim lliure i en ús La comanda df ens ajuda a saber l&amp;rsquo;espai lliure en el disc.</description>
     </item>
-    
     <item>
       <title>Música des de la Terminal amb VLC</title>
       <link>https://notesgnu.github.io/post/2013-08-17-musica-des-de-la-terminal-amb-vlc/</link>
       <pubDate>Sat, 17 Aug 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2013-08-17-musica-des-de-la-terminal-amb-vlc/</guid>
       <description>Sovint uso programes per escoltar música des de programes visuals, són bonics, estètics, senzills de controlar, a un clic de ratolí. Però moltes vegades tinc la sensació que només vull escoltar música, sense fer cap cosa més enllà que el fet d&amp;rsquo;acompanyar la feina que faig. Així que trobo l&amp;rsquo;opció d&amp;rsquo;escoltrar la música des de la terminal, alliberem ús de RAM i que ens centrem realment en la feina que estem fent.</description>
     </item>
-    
     <item>
       <title>Solucionar discs amb FSCK</title>
       <link>https://notesgnu.github.io/post/2013-04-27-solucionar-discs-amb-fsck/</link>
       <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2013-04-27-solucionar-discs-amb-fsck/</guid>
       <description>Moltes vegades m&amp;rsquo;he trobat amb discs externs que no s&amp;rsquo;obren o que de sobte l&amp;rsquo;ordinador es queixa que s&amp;rsquo;ha de fer manualment el xequeig. Sovint passa per extreure-les sense desmuntar, o per altres causes, apagat iniesperat de la màquina,… Així que podem perdre la infromació del disc o no podem accedir-hi. L&amp;rsquo;eina a usar és fsck (file system consistency check) que serveix per solucionar les inconsistències del sistema d&amp;rsquo;arxius i si en troba pot corregir-les.</description>
     </item>
-    
     <item>
       <title>Solucionar discs FAT i NTFS</title>
       <link>https://notesgnu.github.io/post/2013-04-27-solucionar-discs-fat-i-ntfs/</link>
       <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2013-04-27-solucionar-discs-fat-i-ntfs/</guid>
-      <description>Ja he comentat l&amp;rsquo;ús del FSCK i ara volia comentar com fer-ho amb disc de tipus FAT.
-Com a eina imprescindible hi ha testdisk que permet molts sistemes de fitxers, i realment es pot considerar la navalla suïssa!, gràficament tenim gparted i disks (Palimpsest Disk). Però una eina senzilla i molt semblant a fsck és dosfsck. Primer que res cal tenir instal·lat el paquet dosfstools:
-sudo apt-get install dosfstools
-FAT: Per poder dur-ho a terme, el primer és llistar les particions i discs, es pot fer de moltes maneres, la que faig anar és:</description>
+      <description>Ja he comentat l&amp;rsquo;ús del FSCK i ara volia comentar com fer-ho amb disc de tipus FAT.&#xA;Com a eina imprescindible hi ha testdisk que permet molts sistemes de fitxers, i realment es pot considerar la navalla suïssa!, gràficament tenim gparted i disks (Palimpsest Disk). Però una eina senzilla i molt semblant a fsck és dosfsck. Primer que res cal tenir instal·lat el paquet dosfstools:&#xA;sudo apt-get install dosfstools&#xA;FAT: Per poder dur-ho a terme, el primer és llistar les particions i discs, es pot fer de moltes maneres, la que faig anar és:</description>
     </item>
-    
     <item>
       <title>Biombos a la terminal</title>
       <link>https://notesgnu.github.io/post/2013-04-03-biombos-a-la-terminal/</link>
       <pubDate>Wed, 03 Apr 2013 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2013-04-03-biombos-a-la-terminal/</guid>
       <description>Ja fa dies que no escrivia res, he estat fent moltes coses, i llegint la revista Linux Magazine número 91 he trobat l&amp;rsquo;eina anomenada Byobu. Una eina molt interessant per treballar amb la terminal. Ja havia comentat Screen i també Tmux, i ara podriem dir que anem a trobar una evolució d&amp;rsquo;aquestes dues. Byōbu és una paraula japonesa que significa Biombo (Byō- parar + bu - vent), i serveix per fer separacions, crear i desfer espais ràpidament.</description>
     </item>
-    
     <item>
       <title>Canviar codificació d&#39;un arxiu</title>
       <link>https://notesgnu.github.io/post/2012-10-20-canviar-codificacio-dun-arxiu/</link>
       <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2012-10-20-canviar-codificacio-dun-arxiu/</guid>
-      <description>Avui m&amp;rsquo;ha passat que un arxiu vell (en text pla) i m&amp;rsquo;he trobat que en obrir-lo amb gedit o emacs m&amp;rsquo;he trobat que no es veia correctament. Així que he decidit convertir-lo a utf-8 a veure si es veia correctament. El primer que he fet és saber en quina codificació el tenia, i per fer-ho he usat la comanda file:
-file arxiu.txt
-I m&amp;rsquo;ha donat com a resposta: arxiu.txt: ISO-8859 text, with CRLF line terminators I ara a convertir-lo:</description>
+      <description>Avui m&amp;rsquo;ha passat que un arxiu vell (en text pla) i m&amp;rsquo;he trobat que en obrir-lo amb gedit o emacs m&amp;rsquo;he trobat que no es veia correctament. Així que he decidit convertir-lo a utf-8 a veure si es veia correctament. El primer que he fet és saber en quina codificació el tenia, i per fer-ho he usat la comanda file:&#xA;file arxiu.txt&#xA;I m&amp;rsquo;ha donat com a resposta: arxiu.txt: ISO-8859 text, with CRLF line terminators I ara a convertir-lo:</description>
     </item>
-    
     <item>
       <title>Unir videos des de terminal</title>
       <link>https://notesgnu.github.io/post/2012-09-21-unir-videos-des-de-terminal/</link>
       <pubDate>Fri, 21 Sep 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2012-09-21-unir-videos-des-de-terminal/</guid>
-      <description>Sovint acabo amb molts videos de la càmera, i no és qüestió de tenir un munt de bocins solts. Així que els podem unir en un de sol. Utilitzant la eina mencoder, des de la terminal podem unir dos o més videos en un de sol.
-Obrint una terminal:
-mencoder -oac copy -ovc copy -idx -o videofinal.avi part1.avi part2.avi :
-o també podem:
-mencoder -oac copy -ovc copy -idx -o videofinal.</description>
+      <description>Sovint acabo amb molts videos de la càmera, i no és qüestió de tenir un munt de bocins solts. Així que els podem unir en un de sol. Utilitzant la eina mencoder, des de la terminal podem unir dos o més videos en un de sol.&#xA;Obrint una terminal:&#xA;mencoder -oac copy -ovc copy -idx -o videofinal.avi part1.avi part2.avi :&#xA;o també podem:&#xA;mencoder -oac copy -ovc copy -idx -o videofinal.</description>
     </item>
-    
     <item>
       <title>tmux, per veure la terminal d&#39;una altra manera</title>
       <link>https://notesgnu.github.io/post/2012-03-18-tmux-per-veure-la-terminal-duna-altra-manera/</link>
       <pubDate>Sun, 18 Mar 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2012-03-18-tmux-per-veure-la-terminal-duna-altra-manera/</guid>
-      <description>Ja fa uns dies vaig parlar de l&amp;rsquo;eina screen, avui vull parlar de tmux. tmux és una terminal multiplexer que permet moltes coses. Una d&amp;rsquo;elles és tenir varies finestres a la vegada en la mateixa terminal. També permet deixar una sessió funcionant, tancar la terminal, però continuar funcionant.
-Algunes de les dreceres de teclat per al seu ús:
-C-b c &amp;gt; crea una finestra nova
-C-b % &amp;gt; divideix la finestra en vertical</description>
+      <description>Ja fa uns dies vaig parlar de l&amp;rsquo;eina screen, avui vull parlar de tmux. tmux és una terminal multiplexer que permet moltes coses. Una d&amp;rsquo;elles és tenir varies finestres a la vegada en la mateixa terminal. També permet deixar una sessió funcionant, tancar la terminal, però continuar funcionant.&#xA;Algunes de les dreceres de teclat per al seu ús:&#xA;C-b c &amp;gt; crea una finestra nova&#xA;C-b % &amp;gt; divideix la finestra en vertical</description>
     </item>
-    
     <item>
       <title>Trobant duplicats!</title>
       <link>https://notesgnu.github.io/post/2012-01-11-trobant-duplicats/</link>
       <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2012-01-11-trobant-duplicats/</guid>
       <description>He de confesar que sofreixo una mica el síndrome de diògenes &amp;ldquo;digital&amp;rdquo;, és a dir, sovint emmagatzemo molts arxius, i moltes vegades trobo que ja els tenia. Això m&amp;rsquo;ha fet que tingue més vegades de les desitjades el mateix document, en diferents carpetes o amb noms diferents. Hi ha una eina gràfica que va força bé anomenada fslint. Però per poder a prendre, acostumo a intentar fer-ho des de la terminal.</description>
     </item>
-    
     <item>
       <title>Midnight Commander i SSH</title>
       <link>https://notesgnu.github.io/post/2012-01-08-midnight-commander-i-ssh/</link>
       <pubDate>Sun, 08 Jan 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2012-01-08-midnight-commander-i-ssh/</guid>
-      <description>Volia fer una entrada sobre l&amp;rsquo;ús del MC o Midnight Comander, ja fa uns dies que l&amp;rsquo;estic usant i avui he descobert un ús força interessant. Comparteixo el video que he vist el seu ús amb SSH
-[youtube http://www.youtube.com/watch?v=q6Ct7L4oZFE&amp;amp;w=480&amp;amp;h=360]</description>
+      <description>Volia fer una entrada sobre l&amp;rsquo;ús del MC o Midnight Comander, ja fa uns dies que l&amp;rsquo;estic usant i avui he descobert un ús força interessant. Comparteixo el video que he vist el seu ús amb SSH&#xA;[youtube http://www.youtube.com/watch?v=q6Ct7L4oZFE&amp;amp;w=480&amp;amp;h=360]</description>
     </item>
-    
     <item>
       <title>Screen: una eina més per la terminal</title>
       <link>https://notesgnu.github.io/post/2011-12-05-screen-una-eina-mes-per-la-terminal/</link>
       <pubDate>Mon, 05 Dec 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-12-05-screen-una-eina-mes-per-la-terminal/</guid>
-      <description>Fa uns dies que he descobert screen una eina molt útil per treure molt de suc del treball en la terminal. Sovint fem diferents tasques des de la terminal, i screen ens pot permetre fer més senzill el control i execució de les comandes. És a dir, tenir moltes sessions de treminal funcionant a la vegada en la mateixa terminal.
-Una de les caracterísiques que trobo força interessants és que podem tancar la terminal i queda el pocrés persistent.</description>
+      <description>Fa uns dies que he descobert screen una eina molt útil per treure molt de suc del treball en la terminal. Sovint fem diferents tasques des de la terminal, i screen ens pot permetre fer més senzill el control i execució de les comandes. És a dir, tenir moltes sessions de treminal funcionant a la vegada en la mateixa terminal.&#xA;Una de les caracterísiques que trobo força interessants és que podem tancar la terminal i queda el pocrés persistent.</description>
     </item>
-    
     <item>
       <title>Rsync a un disc dur extern</title>
       <link>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</link>
       <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-07-16-rsync-a-un-disc-dur-extern/</guid>
-      <description>rsync és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de Grsync.
-rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí
-Un exemple de la comanda:
-rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/
-Amb això farà una còpia de seguretat.
-Per fer-ho via SAMBA amb ssh:
- primer cal muntar el disc amb samba  mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada</description>
+      <description>rsync és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de Grsync.&#xA;rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí&#xA;Un exemple de la comanda:&#xA;rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/&#xA;Amb això farà una còpia de seguretat.&#xA;Per fer-ho via SAMBA amb ssh:&#xA;primer cal muntar el disc amb samba mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada</description>
     </item>
-    
     <item>
       <title>Conèixer informació del sistema</title>
       <link>https://notesgnu.github.io/post/2011-07-07-coneixer-informacio-del-sistema/</link>
       <pubDate>Thu, 07 Jul 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-07-07-coneixer-informacio-del-sistema/</guid>
-      <description>Avui em calia saber el model del cpu de l&amp;rsquo;ordinador, per això he usat a la terminal la següent comada:
-$ cat /proc/cpuinfo | grep &amp;ldquo;model name&amp;rdquo;
-Si volem tota la informació podem:
-$ cat /proc/cpuinfo
-Si volem saber una en concret, només cap modificar el grep amb la dada que volem:
-$ cat /proc/cpuinfo | grep &amp;ldquo;flags&amp;rdquo;
-Com a nota interessant tenim que Si al resultat surt lm, llavors 64 bit, i si surt Protected Mode, és de 32 bits.</description>
+      <description>Avui em calia saber el model del cpu de l&amp;rsquo;ordinador, per això he usat a la terminal la següent comada:&#xA;$ cat /proc/cpuinfo | grep &amp;ldquo;model name&amp;rdquo;&#xA;Si volem tota la informació podem:&#xA;$ cat /proc/cpuinfo&#xA;Si volem saber una en concret, només cap modificar el grep amb la dada que volem:&#xA;$ cat /proc/cpuinfo | grep &amp;ldquo;flags&amp;rdquo;&#xA;Com a nota interessant tenim que Si al resultat surt lm, llavors 64 bit, i si surt Protected Mode, és de 32 bits.</description>
     </item>
-    
     <item>
       <title>Esborrar un DVD-RW o un CD-RW des de Terminal</title>
       <link>https://notesgnu.github.io/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</link>
       <pubDate>Sat, 04 Jun 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</guid>
-      <description>Sempre he usat el K3B, brasero o d&amp;rsquo;altres entorns GUI per esborrar els meus regrabables. Però avui m&amp;rsquo;ha sorgit el problema que no hi havia manera d&amp;rsquo;esborrar-lo. Per sort els usuaris Gnu/Linux tenim la terminal que mai ens falla!
-Així que he esborrat el DVD-RW amb dues senzilles comandes:
- la primera comanda és per demuntar el CD o DVD, en el meu cas quan es munta ho fa a /dev/sr0, a vegades pot tenir un altre nom /dev/cdrom /dev/XX…  umount /dev/sr0</description>
+      <description>Sempre he usat el K3B, brasero o d&amp;rsquo;altres entorns GUI per esborrar els meus regrabables. Però avui m&amp;rsquo;ha sorgit el problema que no hi havia manera d&amp;rsquo;esborrar-lo. Per sort els usuaris Gnu/Linux tenim la terminal que mai ens falla!&#xA;Així que he esborrat el DVD-RW amb dues senzilles comandes:&#xA;la primera comanda és per demuntar el CD o DVD, en el meu cas quan es munta ho fa a /dev/sr0, a vegades pot tenir un altre nom /dev/cdrom /dev/XX… umount /dev/sr0</description>
     </item>
-    
     <item>
       <title>Terminator</title>
       <link>https://notesgnu.github.io/post/2011-04-16-terminator/</link>
       <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-04-16-terminator/</guid>
-      <description>Porto temps usant la terminal, i últimament l&amp;rsquo;uso molt per gestionar altres ordinadors via ssh. I m&amp;rsquo;interessa veure com va tot.
-Així, que m&amp;rsquo;ha vingut un flaix, i m&amp;rsquo;he recordat de terminator.
-És un programa escrit en python, que permet finestres múltiples, i molt addient per moltes tasques alhora.
-Com a característiques es pot dir que:  Organitzar terminals en una graella Pestanyes Arrossegar i deixar anar les terminals per reordenar Mètodes abreujats de teclat:  ctrl-shift-n &amp;gt; següent ctrl-shift-p &amp;gt; anterior ctrl-shift-w &amp;gt; tancar la terminal ctrl-shift-q la finestra actual …   Desar diversos dissenys i perfils …  Per instal·lar  ubuntu:  sudo apt-get install terminator</description>
+      <description>Porto temps usant la terminal, i últimament l&amp;rsquo;uso molt per gestionar altres ordinadors via ssh. I m&amp;rsquo;interessa veure com va tot.&#xA;Així, que m&amp;rsquo;ha vingut un flaix, i m&amp;rsquo;he recordat de terminator.&#xA;És un programa escrit en python, que permet finestres múltiples, i molt addient per moltes tasques alhora.&#xA;Com a característiques es pot dir que: Organitzar terminals en una graella Pestanyes Arrossegar i deixar anar les terminals per reordenar Mètodes abreujats de teclat: ctrl-shift-n &amp;gt; següent ctrl-shift-p &amp;gt; anterior ctrl-shift-w &amp;gt; tancar la terminal ctrl-shift-q la finestra actual … Desar diversos dissenys i perfils … Per instal·lar ubuntu: sudo apt-get install terminator</description>
     </item>
-    
     <item>
       <title>Problemes amb ssh</title>
       <link>https://notesgnu.github.io/post/2011-04-10-problemes-amb-ssh/</link>
       <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-04-10-problemes-amb-ssh/</guid>
-      <description>Algunes vegades m&amp;rsquo;he trobat amb aquest problema, i avui he decidit veure com ho soluciono. M&amp;rsquo;agrada treballar amb ssh, tot i que ja havia tingut algun problema, avui m&amp;rsquo;he trobat de nou amb el problema següent:
-port 22: Connection timed out
-i amb
-port 22: Connection refused
-Això m&amp;rsquo;ha passat perquè a l&amp;rsquo;ordinador que vull accedir té bloquejat el port 22. Certament, usant el programa nmap m&amp;rsquo;he trobat amb la següent resposta:</description>
+      <description>Algunes vegades m&amp;rsquo;he trobat amb aquest problema, i avui he decidit veure com ho soluciono. M&amp;rsquo;agrada treballar amb ssh, tot i que ja havia tingut algun problema, avui m&amp;rsquo;he trobat de nou amb el problema següent:&#xA;port 22: Connection timed out&#xA;i amb&#xA;port 22: Connection refused&#xA;Això m&amp;rsquo;ha passat perquè a l&amp;rsquo;ordinador que vull accedir té bloquejat el port 22. Certament, usant el programa nmap m&amp;rsquo;he trobat amb la següent resposta:</description>
     </item>
-    
     <item>
       <title>Promblemes amb ffmpeg: libxvidcore.so.4</title>
       <link>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</link>
       <pubDate>Sat, 15 Jan 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</guid>
-      <description>Porto uns dies amb problemes en treballar amb ffmpeg  Exactament, Fedora14 em diu: $ ffmpeg: error while loading shared libraries: libxvidcore.so.4: cannot enable executable stack as shared object requires: Permission denied
-La solució: $ su $ contrasenya
-$ execstack -c /usr/lib/libxvidcore.so.4 ;)</description>
+      <description>Porto uns dies amb problemes en treballar amb ffmpeg Exactament, Fedora14 em diu: $ ffmpeg: error while loading shared libraries: libxvidcore.so.4: cannot enable executable stack as shared object requires: Permission denied&#xA;La solució: $ su $ contrasenya&#xA;$ execstack -c /usr/lib/libxvidcore.so.4 ;)</description>
     </item>
-    
     <item>
       <title>Codificació no vàlida</title>
       <link>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</link>
       <pubDate>Sun, 05 Dec 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-12-05-codificacio-no-valida/</guid>
       <description>Avui estava copiant uns documents antics d&amp;rsquo;un disc dur vell al meu ordinador. I me m&amp;rsquo;he trobat un munt de símbols ? i al final de l&amp;rsquo;extensió la expressió &amp;ldquo;codificació no vàlida&amp;rdquo;. Sempre que em passava això, el que feia era renombrar-ho, però aquesta vegada eren molts. Després de cercar molt, he trobat que això passa perquè la codificació que tenien era iso-8859-9, i el meu ordinador treballa amb utf8. La solució me l&amp;rsquo;ha donat la comanda CONVMV!</description>
     </item>
-    
     <item>
       <title>Cercar una carpeta des de la terminal</title>
       <link>https://notesgnu.github.io/post/2010-11-21-cercar-una-carpeta-des-de-la-terminal/</link>
       <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-11-21-cercar-una-carpeta-des-de-la-terminal/</guid>
-      <description>Usem la comanda FIND
-$ find /on/busquem/ -type d -name NOMqueBusquem
-si volem que ens reporti un document on surtin els resultats&amp;hellip;
-$ find /on/busquem/ -type d -name NOMqueBusquem &amp;gt; trobats.txt</description>
+      <description>Usem la comanda FIND&#xA;$ find /on/busquem/ -type d -name NOMqueBusquem&#xA;si volem que ens reporti un document on surtin els resultats&amp;hellip;&#xA;$ find /on/busquem/ -type d -name NOMqueBusquem &amp;gt; trobats.txt</description>
     </item>
-    
     <item>
       <title>Sincronitzar gnote amb dropbox</title>
       <link>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</link>
       <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</guid>
-      <description>Fins fa poc usava poc el Tomboy, o d&amp;rsquo;altres programes de notes com ara el GNOTE. Però fa poc vaig llegir un article de com sincronitzar-ho entre ordinadors a través del dropbox.
-He seguit els passos que explicaven en &amp;ldquo;Usemos linux&amp;rdquo; http://ur1.ca/2e9r3, però NO m&amp;rsquo;ha funcionat&amp;hellip; el problema era que no em reconeixia ~/.gnote l&amp;rsquo;havia de canviar per ~/.local/share/gnote
-Així que al final ho he fet d&amp;rsquo;aquesta manera:
-Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</description>
+      <description>Fins fa poc usava poc el Tomboy, o d&amp;rsquo;altres programes de notes com ara el GNOTE. Però fa poc vaig llegir un article de com sincronitzar-ho entre ordinadors a través del dropbox.&#xA;He seguit els passos que explicaven en &amp;ldquo;Usemos linux&amp;rdquo; http://ur1.ca/2e9r3, però NO m&amp;rsquo;ha funcionat&amp;hellip; el problema era que no em reconeixia ~/.gnote l&amp;rsquo;havia de canviar per ~/.local/share/gnote&#xA;Així que al final ho he fet d&amp;rsquo;aquesta manera:&#xA;Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</description>
     </item>
-    
     <item>
       <title>WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!</title>
       <link>https://notesgnu.github.io/post/2010-11-14-warning-remote-host-identification-has-changed/</link>
       <pubDate>Sun, 14 Nov 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-11-14-warning-remote-host-identification-has-changed/</guid>
-      <description>Avui després d&amp;rsquo;actualitzar el servidor, m&amp;rsquo;he trobat amb un problema! resulta que tota la feina que intentava fer a través de SSH no funcionava!
-@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@
-Què podia fer?
-llegint per internet, he trobat la idea en systemadmin.es així que he esborrat el fitxer on es desen els fingerprints i a començar de nou!
-$ sudo rm /home/user/.ssh/known_hosts
-i ja ha funcionat perfectament!</description>
+      <description>Avui després d&amp;rsquo;actualitzar el servidor, m&amp;rsquo;he trobat amb un problema! resulta que tota la feina que intentava fer a través de SSH no funcionava!&#xA;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#xA;Què podia fer?&#xA;llegint per internet, he trobat la idea en systemadmin.es així que he esborrat el fitxer on es desen els fingerprints i a començar de nou!&#xA;$ sudo rm /home/user/.ssh/known_hosts&#xA;i ja ha funcionat perfectament!</description>
     </item>
-    
     <item>
       <title>Generar MD5</title>
       <link>https://notesgnu.github.io/post/2010-05-28-generar-md5/</link>
       <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-05-28-generar-md5/</guid>
-      <description>Per saber què és el MD5 (acrònim de Message-Digest Algorithm 5, Algoritme de Resum de Missatge 5) podem visitar la viquipedia.
-per poder veure la suma només cal a la terminal escriure:
-$ md5sum arxiu.xxx
-això ens donarà com a resultat la suma i el nom d&amp;rsquo;arxiu: 8c980e11e07821fbae7e7359e9659xxx arxiu.xxx
-si volem que ens ho desi en un document, podem:
-$ md5sum arxiu.xxx &amp;gt; nomarxiu.txt
-;)</description>
+      <description>Per saber què és el MD5 (acrònim de Message-Digest Algorithm 5, Algoritme de Resum de Missatge 5) podem visitar la viquipedia.&#xA;per poder veure la suma només cal a la terminal escriure:&#xA;$ md5sum arxiu.xxx&#xA;això ens donarà com a resultat la suma i el nom d&amp;rsquo;arxiu: 8c980e11e07821fbae7e7359e9659xxx arxiu.xxx&#xA;si volem que ens ho desi en un document, podem:&#xA;$ md5sum arxiu.xxx &amp;gt; nomarxiu.txt&#xA;;)</description>
     </item>
-    
     <item>
       <title>Eliminar Kernels vells</title>
       <link>https://notesgnu.github.io/post/2010-04-19-eliminar-kernels-vells/</link>
       <pubDate>Mon, 19 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-04-19-eliminar-kernels-vells/</guid>
-      <description>Per esborrar kernells vells, que es van acumulant a l&amp;rsquo;Ubuntu i al seu grub, sempre podem fer el següent:
- saber les versions que tenim a l&amp;rsquo;ordinador amb:  sudo dpkg -l | grep linux-image  eliminar les versions velles amb:  sudo apt-get remove --purge elkernelvell per elimnar-ho canviem &amp;lsquo;elkernelvell&amp;rsquo; per linux-image-2.6.31-14-generic
-i ja ho tenim!
-⭐</description>
+      <description>Per esborrar kernells vells, que es van acumulant a l&amp;rsquo;Ubuntu i al seu grub, sempre podem fer el següent:&#xA;saber les versions que tenim a l&amp;rsquo;ordinador amb: sudo dpkg -l | grep linux-image eliminar les versions velles amb: sudo apt-get remove --purge elkernelvell per elimnar-ho canviem &amp;rsquo;elkernelvell&amp;rsquo; per linux-image-2.6.31-14-generic&#xA;i ja ho tenim!&#xA;&amp;#x2b50;</description>
     </item>
-    
     <item>
       <title>Accés a una carpeta compartida amb NFS</title>
       <link>https://notesgnu.github.io/post/2010-04-02-acces-a-una-carpeta-compartida-amb-nfs/</link>
       <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-04-02-acces-a-una-carpeta-compartida-amb-nfs/</guid>
-      <description>Si volem accedir a una carpeta compartida a través del protocol NFS, necessitem primer instal·lar els paquets portmap i nfs-common, a través de la terminal:
-sudo apt-get install portmap nfs-common sudo /etc/init.d/portmap restart Ara només ens cal montar la carpeta a l&amp;rsquo;ordinador client. Per fer-ho ens cal crear una carpeta on ens muntarà la carpeta del servidor.
-$ sudo mkdir /mnt/carpeta-servidor
-Finalment només ens cal montar-ho amb la següent ordre:</description>
+      <description>Si volem accedir a una carpeta compartida a través del protocol NFS, necessitem primer instal·lar els paquets portmap i nfs-common, a través de la terminal:&#xA;sudo apt-get install portmap nfs-common sudo /etc/init.d/portmap restart Ara només ens cal montar la carpeta a l&amp;rsquo;ordinador client. Per fer-ho ens cal crear una carpeta on ens muntarà la carpeta del servidor.&#xA;$ sudo mkdir /mnt/carpeta-servidor&#xA;Finalment només ens cal montar-ho amb la següent ordre:</description>
     </item>
-    
     <item>
       <title>Iniciar el servidor NFS</title>
       <link>https://notesgnu.github.io/post/2010-04-01-iniciar-el-servidor-nfs/</link>
       <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-04-01-iniciar-el-servidor-nfs/</guid>
-      <description>Per poder iniciar el servidor NFS, necessita que s&amp;rsquo;inici el portmap:
-$ sudo /etc/init.d/portmap start
-Ara només cal iniciar el servei NFS:
-$ sudo /etc/init.d/nfs-kernel-server restart
-Si del volem aturar:
-_$ sudo /etc/init.d/nfs-kernel-server stop_ ;)</description>
+      <description>Per poder iniciar el servidor NFS, necessita que s&amp;rsquo;inici el portmap:&#xA;$ sudo /etc/init.d/portmap start&#xA;Ara només cal iniciar el servei NFS:&#xA;$ sudo /etc/init.d/nfs-kernel-server restart&#xA;Si del volem aturar:&#xA;_$ sudo /etc/init.d/nfs-kernel-server stop_ ;)</description>
     </item>
-    
     <item>
       <title>Configurar el servidor NFS</title>
       <link>https://notesgnu.github.io/post/2010-03-31-configurar-el-servidor-nfs/</link>
       <pubDate>Wed, 31 Mar 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-03-31-configurar-el-servidor-nfs/</guid>
-      <description>Per poder configurar un servidor NFS hem d&amp;rsquo;editar l&amp;rsquo;arxiu /etc/exports
-Aquí podrem decidir quina carpeta volem compartir, si té permisos de lectura o lectura i escriptura; i també des de quin ordinador es permet l&amp;rsquo;accés (una sóla IP o tot un rang).
-Cal recordar que els permisos que donem estan supeditats als del propi sistema, i són sempre els més restrictius els que prevaleixen!
-Per exemple, si volem compartir el /home el que farem és editar /etc/exports a la terminal:</description>
+      <description>Per poder configurar un servidor NFS hem d&amp;rsquo;editar l&amp;rsquo;arxiu /etc/exports&#xA;Aquí podrem decidir quina carpeta volem compartir, si té permisos de lectura o lectura i escriptura; i també des de quin ordinador es permet l&amp;rsquo;accés (una sóla IP o tot un rang).&#xA;Cal recordar que els permisos que donem estan supeditats als del propi sistema, i són sempre els més restrictius els que prevaleixen!&#xA;Per exemple, si volem compartir el /home el que farem és editar /etc/exports a la terminal:</description>
     </item>
-    
     <item>
       <title>NFS: sistema d&#39;arxius en xarxa</title>
       <link>https://notesgnu.github.io/post/2010-03-30-nfs-sistema-darxius-en-xarxa/</link>
       <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-03-30-nfs-sistema-darxius-en-xarxa/</guid>
-      <description>NFS ve de les sigles Network File System, és un protocol per compartir a través de la xarxa carpetes i arxius.
-Fou creat en 1983 pels laboratoris de Sun Microsystems i ha acabat essent l&amp;rsquo;opció pròpia de GNU/Linux.
-Per instal·lar-ho només cal a la terminal la següent ordre (Ubuntu i Debian):
-$ sudo apt-get install nfs-common nfs-kernel-server</description>
+      <description>NFS ve de les sigles Network File System, és un protocol per compartir a través de la xarxa carpetes i arxius.&#xA;Fou creat en 1983 pels laboratoris de Sun Microsystems i ha acabat essent l&amp;rsquo;opció pròpia de GNU/Linux.&#xA;Per instal·lar-ho només cal a la terminal la següent ordre (Ubuntu i Debian):&#xA;$ sudo apt-get install nfs-common nfs-kernel-server</description>
     </item>
-    
     <item>
       <title>Instal·lar  APACHE</title>
       <link>https://notesgnu.github.io/post/2010-03-08-installar-apache/</link>
       <pubDate>Mon, 08 Mar 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-03-08-installar-apache/</guid>
-      <description>Apache (viquipèdia): Apache HTTP Server és un servidor HTTP (de pàgines web) de codi obert multiplataforma desenvolupat per Apache Software Foundation.
-&amp;hellip;.
-Per instal·lar-lo només cal escriure l&amp;rsquo;ordre següent a la terminal:
-$ sudo apt-get install apache2
-i per configurar-ho només cal editar:
-/etc/apache2/apache2.conf
-(recorda de fer una còpia de seguretat de la configuració inicial)
-per aturar el servei o per iniciar-ho tenim l&amp;rsquo;ordre:
-# etc/init.d/apache2 restart
-# etc/init.d/apache2 stop</description>
+      <description>Apache (viquipèdia): Apache HTTP Server és un servidor HTTP (de pàgines web) de codi obert multiplataforma desenvolupat per Apache Software Foundation.&#xA;&amp;hellip;.&#xA;Per instal·lar-lo només cal escriure l&amp;rsquo;ordre següent a la terminal:&#xA;$ sudo apt-get install apache2&#xA;i per configurar-ho només cal editar:&#xA;/etc/apache2/apache2.conf&#xA;(recorda de fer una còpia de seguretat de la configuració inicial)&#xA;per aturar el servei o per iniciar-ho tenim l&amp;rsquo;ordre:&#xA;# etc/init.d/apache2 restart&#xA;# etc/init.d/apache2 stop</description>
     </item>
-    
     <item>
       <title>una web local</title>
       <link>https://notesgnu.github.io/post/2010-03-08-una-web-local/</link>
       <pubDate>Mon, 08 Mar 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-03-08-una-web-local/</guid>
-      <description>primer que res instal·lar apache2:
-$ sudo apt-get install apache2
-editar el /etc/hosts
-# gedit /etc/hosts afegint a la ip local el nom de la web desitjada:
-exemple-&amp;gt; 127.0.0.1 www.inici.cat
-exemple2&amp;gt; 192.168.0.240 www.inici.cat
-ara només cal editar apache:
-# gedit /etc/apache2/apache2.conf
-afegint al final:
-ServerName www.inici.cat
-A partir d&amp;rsquo;ara quan qualsevol ordenador de la xarxa local que en el navegador posi www.inici.cat podrà veure la pàgina que tenim al servidor i navegar de forma local.</description>
+      <description>primer que res instal·lar apache2:&#xA;$ sudo apt-get install apache2&#xA;editar el /etc/hosts&#xA;# gedit /etc/hosts afegint a la ip local el nom de la web desitjada:&#xA;exemple-&amp;gt; 127.0.0.1 www.inici.cat&#xA;exemple2&amp;gt; 192.168.0.240 www.inici.cat&#xA;ara només cal editar apache:&#xA;# gedit /etc/apache2/apache2.conf&#xA;afegint al final:&#xA;ServerName www.inici.cat&#xA;A partir d&amp;rsquo;ara quan qualsevol ordenador de la xarxa local que en el navegador posi www.inici.cat podrà veure la pàgina que tenim al servidor i navegar de forma local.</description>
     </item>
-    
     <item>
       <title>Instal·lar Servidor DHCP</title>
       <link>https://notesgnu.github.io/post/2010-02-22-installar-servidor-dhcp/</link>
       <pubDate>Mon, 22 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-02-22-installar-servidor-dhcp/</guid>
-      <description>La viquipèdia ho defineix:
-DHCP (sigla en anglès de Dynamic Host Configuration Protocol) és un protocol de xarxa que permet als nodes d&amp;rsquo;una xarxa IP obtenir els seus paràmetres de configuració automàticament. Es tracta d&amp;rsquo;un protocol de tipus client/servidor en el que generalment un servidor posseeix una llista d&amp;rsquo;adreces IP dinàmiques i les va assignant als clients a mesura que aquestes van estant lliures, sabent en tot moment qui ha estat en possessió d&amp;rsquo;aquella IP, quant temps l&amp;rsquo;ha tinguda o a qui se li ha assignat després.</description>
+      <description>La viquipèdia ho defineix:&#xA;DHCP (sigla en anglès de Dynamic Host Configuration Protocol) és un protocol de xarxa que permet als nodes d&amp;rsquo;una xarxa IP obtenir els seus paràmetres de configuració automàticament. Es tracta d&amp;rsquo;un protocol de tipus client/servidor en el que generalment un servidor posseeix una llista d&amp;rsquo;adreces IP dinàmiques i les va assignant als clients a mesura que aquestes van estant lliures, sabent en tot moment qui ha estat en possessió d&amp;rsquo;aquella IP, quant temps l&amp;rsquo;ha tinguda o a qui se li ha assignat després.</description>
     </item>
-    
     <item>
       <title>Ordres de gestió d&#39;usuaris: Crear Usuaris</title>
       <link>https://notesgnu.github.io/post/2010-02-21-ordres-de-gestio-dusuaris-crear-usuaris/</link>
       <pubDate>Sun, 21 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-02-21-ordres-de-gestio-dusuaris-crear-usuaris/</guid>
-      <description>Quan volem crear, modificar, gestionar i eliminar usuaris tenim una série d&amp;rsquo;ordres que podem fer-ne ús, només cal recordar que ho hem de fer com a root. Així des de qualsevol distro haurem d&amp;rsquo;entrar com a root (ex: su) o usant $sudo&amp;hellip;. en debian i derivats:
-crear usuaris: # useradd [opcions] nom-d&amp;rsquo;usuari
-Opcions que podem usar:
--g nomdelgrup [grup principal de l&amp;rsquo;usuari]
--d /home/nomusuari [carpeta que volem asignar a l&amp;rsquo;usuari] si no hi ha la carpeta li podem afegir -m seguidament perquè la cree.</description>
+      <description>Quan volem crear, modificar, gestionar i eliminar usuaris tenim una série d&amp;rsquo;ordres que podem fer-ne ús, només cal recordar que ho hem de fer com a root. Així des de qualsevol distro haurem d&amp;rsquo;entrar com a root (ex: su) o usant $sudo&amp;hellip;. en debian i derivats:&#xA;crear usuaris: # useradd [opcions] nom-d&amp;rsquo;usuari&#xA;Opcions que podem usar:&#xA;-g nomdelgrup [grup principal de l&amp;rsquo;usuari]&#xA;-d /home/nomusuari [carpeta que volem asignar a l&amp;rsquo;usuari] si no hi ha la carpeta li podem afegir -m seguidament perquè la cree.</description>
     </item>
-    
     <item>
       <title>Crear i esborrar carpetes</title>
       <link>https://notesgnu.github.io/post/2010-02-20-crear-i-esborrar-carpetes/</link>
       <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-02-20-crear-i-esborrar-carpetes/</guid>
-      <description>Ordres senzilles per crear i esborrar carpetes, per fer-ho des de la terminal&amp;hellip;
-CREAR UNA CARPETA
-$mkdir nomdelacarpeta
-ESBORRAR UNA CARPETA
-$rmdir nomdelacarpeta</description>
+      <description>Ordres senzilles per crear i esborrar carpetes, per fer-ho des de la terminal&amp;hellip;&#xA;CREAR UNA CARPETA&#xA;$mkdir nomdelacarpeta&#xA;ESBORRAR UNA CARPETA&#xA;$rmdir nomdelacarpeta</description>
     </item>
-    
     <item>
       <title>Saber els procesos...</title>
       <link>https://notesgnu.github.io/post/2010-02-20-saber-els-procesos/</link>
       <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-02-20-saber-els-procesos/</guid>
-      <description>Un procés és una aplicació que s&amp;rsquo;està executant en un moment determinat. Sovint volem saber quins procesos s&amp;rsquo;estan executant ara mateix&amp;hellip; res més senzill que escriure l&amp;rsquo;ordre a la terminal:
-$ps aux
-i ens farà una llista de tots els procesos, on podrem veure els PID, els usuaris que els han executat, etc.
-Però si el que volem és veure en temps real, llavors escrivim a la terminal:
-$top</description>
+      <description>Un procés és una aplicació que s&amp;rsquo;està executant en un moment determinat. Sovint volem saber quins procesos s&amp;rsquo;estan executant ara mateix&amp;hellip; res més senzill que escriure l&amp;rsquo;ordre a la terminal:&#xA;$ps aux&#xA;i ens farà una llista de tots els procesos, on podrem veure els PID, els usuaris que els han executat, etc.&#xA;Però si el que volem és veure en temps real, llavors escrivim a la terminal:&#xA;$top</description>
     </item>
-    
     <item>
       <title>Calendari des de la Terminal</title>
       <link>https://notesgnu.github.io/post/2010-02-15-calendari-des-de-la-terminal/</link>
       <pubDate>Mon, 15 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-02-15-calendari-des-de-la-terminal/</guid>
-      <description>Si volem saber ràpidament una data concreta des de la terminal
-només cal escriure:
-$ cal 2 2010 febrer 2010 dl dt dc dj dv ds dg 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28
-$cal &amp;ldquo;el mes&amp;rdquo; + &amp;ldquo;any&amp;rdquo; en números!</description>
+      <description>Si volem saber ràpidament una data concreta des de la terminal&#xA;només cal escriure:&#xA;$ cal 2 2010 febrer 2010 dl dt dc dj dv ds dg 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28&#xA;$cal &amp;ldquo;el mes&amp;rdquo; + &amp;ldquo;any&amp;rdquo; en números!</description>
     </item>
-    
     <item>
       <title>Esborrar disc regravable!</title>
       <link>https://notesgnu.github.io/post/2010-02-12-esborrar-disc-regravable/</link>
       <pubDate>Fri, 12 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-02-12-esborrar-disc-regravable/</guid>
-      <description>Primer que res hem de llistar els lectors gravadors que tenim $ wodim &amp;ndash;devices
-(opció $ wodim &amp;ndash;scanbus_)_
-wodim: Overview of accessible drives (2 found) : &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- 0 dev=&#39;/dev/scd0&#39; rwrw&amp;ndash; : &amp;lsquo;SONY&amp;rsquo; &amp;lsquo;DVD RW DW-G120A&amp;rsquo; 1 dev=&#39;/dev/scd1&#39; rwrw&amp;ndash; : &amp;lsquo;LITE-ON&amp;rsquo; &amp;lsquo;DVD SOHD-16P9S&amp;rsquo; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- $ cdrecord dev=/dev/cdrom blank=fast
-opció $ cdrecord dev=/dev/scd0 blank=all</description>
+      <description>Primer que res hem de llistar els lectors gravadors que tenim $ wodim &amp;ndash;devices&#xA;(opció $ wodim &amp;ndash;scanbus_)_&#xA;wodim: Overview of accessible drives (2 found) : &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- 0 dev=&amp;rsquo;/dev/scd0&amp;rsquo; rwrw&amp;ndash; : &amp;lsquo;SONY&amp;rsquo; &amp;lsquo;DVD RW DW-G120A&amp;rsquo; 1 dev=&amp;rsquo;/dev/scd1&amp;rsquo; rwrw&amp;ndash; : &amp;lsquo;LITE-ON&amp;rsquo; &amp;lsquo;DVD SOHD-16P9S&amp;rsquo; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- $ cdrecord dev=/dev/cdrom blank=fast&#xA;opció $ cdrecord dev=/dev/scd0 blank=all</description>
     </item>
-    
     <item>
       <title>Fent poesia amb la Terminal</title>
       <link>https://notesgnu.github.io/post/2010-02-07-fent-poesia-amb-la-terminal/</link>
       <pubDate>Sun, 07 Feb 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-02-07-fent-poesia-amb-la-terminal/</guid>
-      <description>Sovint busquem vocabulari que rimi per fer poesies o cançons…
-En Gnu/Linux tenim una opció molt curiosa….
-
-al terminal escrivim
-$grep “çó$” /usr/share/dict/catalan
-On aprofitem el diccionari intern de correcció del sistema (si voleu en castellà, heu de substituir catalan per spanish), i després del grep afegim “acabamen que busquem$“
-A mí m’ha donat aquest resultat…
-Argençó Eriçó Ponçó arçó balançó………….
-font on he trobat el truc: “poesia en linux”</description>
+      <description>Sovint busquem vocabulari que rimi per fer poesies o cançons…&#xA;En Gnu/Linux tenim una opció molt curiosa….&#xA;al terminal escrivim&#xA;$grep “çó$” /usr/share/dict/catalan&#xA;On aprofitem el diccionari intern de correcció del sistema (si voleu en castellà, heu de substituir catalan per spanish), i després del grep afegim “acabamen que busquem$“&#xA;A mí m’ha donat aquest resultat…&#xA;Argençó Eriçó Ponçó arçó balançó………….&#xA;font on he trobat el truc: “poesia en linux”</description>
     </item>
-    
     <item>
       <title>Xequeig d&#39;un disc amb Terminal</title>
       <link>https://notesgnu.github.io/post/2010-01-12-xequeig-dun-disc-amb-terminal/</link>
       <pubDate>Tue, 12 Jan 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-01-12-xequeig-dun-disc-amb-terminal/</guid>
-      <description>Primer necessitem saber en quin &amp;ldquo;dev&amp;rdquo; ho tenim muntat, per això emprem la comanda:
-$mount
-ens fa una llista de tot el que hi ha muntat, i ens fixem en els /dev&amp;hellip;.
-si és el &amp;ldquo;sdb1&amp;rdquo; (/dev/sdb1), i ara el desmuntem amb:
-$umount /dev/sdb1
-i finalment el xequeig amb la comanda &amp;ldquo;fsck&amp;rdquo;:
-#fsck /dev/sdb1
-;)
-per saber-ne més:
-manual en anglès</description>
+      <description>Primer necessitem saber en quin &amp;ldquo;dev&amp;rdquo; ho tenim muntat, per això emprem la comanda:&#xA;$mount&#xA;ens fa una llista de tot el que hi ha muntat, i ens fixem en els /dev&amp;hellip;.&#xA;si és el &amp;ldquo;sdb1&amp;rdquo; (/dev/sdb1), i ara el desmuntem amb:&#xA;$umount /dev/sdb1&#xA;i finalment el xequeig amb la comanda &amp;ldquo;fsck&amp;rdquo;:&#xA;#fsck /dev/sdb1&#xA;;)&#xA;per saber-ne més:&#xA;manual en anglès</description>
     </item>
-    
     <item>
       <title>Donar permisos a un directori en Terminal</title>
       <link>https://notesgnu.github.io/post/2010-01-07-donar-permisos-a-un-directori-en-terminal/</link>
       <pubDate>Thu, 07 Jan 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-01-07-donar-permisos-a-un-directori-en-terminal/</guid>
-      <description>A mesura que avancem en el món Gnu/Linux ens anem endinsant en l&amp;rsquo;ús de la Terminal&amp;hellip;
-Per donar permisos nomes cal entrar a la terminal i escriure com a root:
-sudo chmod 777 /lloc/on/és/la\_carpeta o arxiu ex:
-sudo chmod 777 /home/linux/imatges així es donarà tots els permisos a la carpeta imatges de l&amp;rsquo;usuari &amp;lsquo;linux&amp;rsquo;.
-també podem fer-ho amb:
-sudo chmod **-Rf** 777 /home/linux/imatges on -R mana que ho faci recursivament a tot el que hi conté i f fa que no es visualitzen els possibles errors.</description>
+      <description>A mesura que avancem en el món Gnu/Linux ens anem endinsant en l&amp;rsquo;ús de la Terminal&amp;hellip;&#xA;Per donar permisos nomes cal entrar a la terminal i escriure com a root:&#xA;sudo chmod 777 /lloc/on/és/la\_carpeta o arxiu ex:&#xA;sudo chmod 777 /home/linux/imatges així es donarà tots els permisos a la carpeta imatges de l&amp;rsquo;usuari &amp;rsquo;linux&#39;.&#xA;també podem fer-ho amb:&#xA;sudo chmod **-Rf** 777 /home/linux/imatges on -R mana que ho faci recursivament a tot el que hi conté i f fa que no es visualitzen els possibles errors.</description>
     </item>
-    
   </channel>
 </rss>

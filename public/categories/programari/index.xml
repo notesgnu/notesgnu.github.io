@@ -1,0 +1,110 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Programari on Notes GNU</title>
+    <link>http://localhost:1313/categories/programari/</link>
+    <description>Recent content in Programari on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 27 Dec 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/programari/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Nova versió de LyX a la Linkat</title>
+      <link>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
+      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
+    </item>
+    <item>
+      <title>Midnight Commander i SSH</title>
+      <link>http://localhost:1313/post/2012-01-08-midnight-commander-i-ssh/</link>
+      <pubDate>Sun, 08 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-01-08-midnight-commander-i-ssh/</guid>
+      <description>Volia fer una entrada sobre l&amp;rsquo;ús del MC o Midnight Comander, ja fa uns dies que l&amp;rsquo;estic usant i avui he descobert un ús força interessant. Comparteixo el video que he vist el seu ús amb SSH&#xA;[youtube http://www.youtube.com/watch?v=q6Ct7L4oZFE&amp;amp;w=480&amp;amp;h=360]</description>
+    </item>
+    <item>
+      <title>Ibus i problemes amb Unity</title>
+      <link>http://localhost:1313/post/2011-12-17-ibus-i-problemes-amb-unity/</link>
+      <pubDate>Sat, 17 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-12-17-ibus-i-problemes-amb-unity/</guid>
+      <description>Porto uns dies al netbook usant Ubuntu 11.10 amb Unity, i m&amp;rsquo;havia desaparegut l&amp;rsquo;IBUS que uso per escriure en Xinès. No hi havia manera que funcionés. Finalment he trobar la solució: 1, instal·lem dconf-editor: sudo apt-get install dconf 2, executem dconf-editor&#xA;3, i anem a &amp;hellip; Un cop aquí, cal afegir &amp;lsquo;Ibus&amp;rsquo; i fem RETORN. Ara ja ho tenim funcionant!</description>
+    </item>
+    <item>
+      <title>Abiword: Processador de textos lleuger</title>
+      <link>http://localhost:1313/post/2011-07-12-abiword-processador-de-textos-lleuger/</link>
+      <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-07-12-abiword-processador-de-textos-lleuger/</guid>
+      <description>Tal com diu a la viquipèdia, l&amp;rsquo;AbiWord és un programa processador de textos de programari lliure, multiplataforma amb llicència GPL. El tenim traduït al català gràcies al grup de traductors de Softcatalà.&#xA;Si teniu un ordinador amb pocs recursos, o només useu el writer del libreoffice (o Openoffice), llavors l&amp;rsquo;Abiword us pot anar força bé.&#xA;No té totes les característiques del writer però en té algunes força interessants:&#xA;pot obrir diferents tipus de documents En d&amp;rsquo;altres es capaç d&amp;rsquo;obrir PDF i després desar-ne el document en .</description>
+    </item>
+    <item>
+      <title>Sincronitzar gnote amb dropbox</title>
+      <link>http://localhost:1313/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</link>
+      <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</guid>
+      <description>Fins fa poc usava poc el Tomboy, o d&amp;rsquo;altres programes de notes com ara el GNOTE. Però fa poc vaig llegir un article de com sincronitzar-ho entre ordinadors a través del dropbox.&#xA;He seguit els passos que explicaven en &amp;ldquo;Usemos linux&amp;rdquo; http://ur1.ca/2e9r3, però NO m&amp;rsquo;ha funcionat&amp;hellip; el problema era que no em reconeixia ~/.gnote l&amp;rsquo;havia de canviar per ~/.local/share/gnote&#xA;Així que al final ho he fet d&amp;rsquo;aquesta manera:&#xA;Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</description>
+    </item>
+    <item>
+      <title>Instal·lar  APACHE</title>
+      <link>http://localhost:1313/post/2010-03-08-installar-apache/</link>
+      <pubDate>Mon, 08 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-08-installar-apache/</guid>
+      <description>Apache (viquipèdia): Apache HTTP Server és un servidor HTTP (de pàgines web) de codi obert multiplataforma desenvolupat per Apache Software Foundation.&#xA;&amp;hellip;.&#xA;Per instal·lar-lo només cal escriure l&amp;rsquo;ordre següent a la terminal:&#xA;$ sudo apt-get install apache2&#xA;i per configurar-ho només cal editar:&#xA;/etc/apache2/apache2.conf&#xA;(recorda de fer una còpia de seguretat de la configuració inicial)&#xA;per aturar el servei o per iniciar-ho tenim l&amp;rsquo;ordre:&#xA;# etc/init.d/apache2 restart&#xA;# etc/init.d/apache2 stop</description>
+    </item>
+    <item>
+      <title>una web local</title>
+      <link>http://localhost:1313/post/2010-03-08-una-web-local/</link>
+      <pubDate>Mon, 08 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-08-una-web-local/</guid>
+      <description>primer que res instal·lar apache2:&#xA;$ sudo apt-get install apache2&#xA;editar el /etc/hosts&#xA;# gedit /etc/hosts afegint a la ip local el nom de la web desitjada:&#xA;exemple-&amp;gt; 127.0.0.1 www.inici.cat&#xA;exemple2&amp;gt; 192.168.0.240 www.inici.cat&#xA;ara només cal editar apache:&#xA;# gedit /etc/apache2/apache2.conf&#xA;afegint al final:&#xA;ServerName www.inici.cat&#xA;A partir d&amp;rsquo;ara quan qualsevol ordenador de la xarxa local que en el navegador posi www.inici.cat podrà veure la pàgina que tenim al servidor i navegar de forma local.</description>
+    </item>
+    <item>
+      <title>Netejar Ubuntu</title>
+      <link>http://localhost:1313/post/2010-02-19-netejar-ubuntu/</link>
+      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-19-netejar-ubuntu/</guid>
+      <description>Volent netejar una mica el sistema m&amp;rsquo;he trobat amb el programeta BleachBit&#xA;Molt visual i molt senzill de fer anar!</description>
+    </item>
+    <item>
+      <title>Trobar duplicats a l&#39;ordinador</title>
+      <link>http://localhost:1313/post/2010-02-17-trobar-duplicats-a-lordinador/</link>
+      <pubDate>Wed, 17 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-17-trobar-duplicats-a-lordinador/</guid>
+      <description>Sovint em passa que em baixo arxius varies vegades, i al final em trobo el disc dur ple de brossa, i a sobre, moltes vegades he fet còpies en discos externs. Al final ho tinc un munt de vegades&amp;hellip;.&#xA;Tenim un programa anomenat FSLINT que ens ajuda a trobar els duplicats!!!&#xA;A la guia d&amp;rsquo;ubuntu en trobem un mini manual.</description>
+    </item>
+    <item>
+      <title>Afegir motors de recerca al Firefox</title>
+      <link>http://localhost:1313/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</link>
+      <pubDate>Mon, 15 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</guid>
+      <description>Buscant com afegir al cercador lateral del firefox m&amp;rsquo;he trobat amb la pàgina de softcatlà.&#xA;&amp;ldquo;Els motors de cerca permeten fer cerques a diferents llocs web d&amp;rsquo;una forma fàcil i ràpida utilitzant la barra de cerques del FirefoxSeaMonkey. o la barra lateral del&#xA;Podeu també trobar motors de cerca en altres idiomes a la pàgina del projecte Mycroft o a addons.mozilla.org.&amp;rdquo;&#xA;On hi ha una llista llarga de motors per afegir!</description>
+    </item>
+    <item>
+      <title>Eliminar el soroll amb audacity</title>
+      <link>http://localhost:1313/post/2010-02-15-eliminar-el-soroll-amb-audacity/</link>
+      <pubDate>Mon, 15 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-15-eliminar-el-soroll-amb-audacity/</guid>
+      <description>Sovint faig gravacions de so de formacions o cursos, i el resultat que em dóna la gravadora no és prou bo. Així que amb l&amp;rsquo;audacity puc editar una mica el resultat.&#xA;1 . Seleccionar un fragment on no es parli, anem a &amp;lsquo;Efecte&amp;rsquo; i triem &amp;lsquo;Treu soroll&amp;rsquo; 2. En el &amp;lsquo;Pas 1&amp;rsquo; fem click a &amp;lsquo;Obtenció del perfil de soroll&amp;rsquo;. 3. Ara ho triem tot amb &amp;lsquo;ctrl+A&amp;rsquo;, i anem a &amp;lsquo;Efecte&amp;rsquo; i triem &amp;lsquo;Treu soroll&amp;rsquo; 4.</description>
+    </item>
+    <item>
+      <title>F-Spot</title>
+      <link>http://localhost:1313/post/2010-02-10-f-spot/</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-10-f-spot/</guid>
+      <description>Fins ara havia usat Picasa, però hi havia alguna cosa que no acabava de fer-me feliç&amp;hellip; que no és programari lliure, i que limita a només al producte de google.&#xA;Així que primer vaig traure el Picasa!&#xA;$ sudo dpkg &amp;ndash;purge picassa $ sudo apt-get autoremove&#xA;Ara ja tenim eliminat Picasa i tot ben net!&#xA;Seguidament anem a instalar F-spot &amp;hellip;&#xA;$ sudo aptitude install f-spot&#xA;F-Spot ens ofereix funcions semblants a Picasa, estant als propis repositoris (d&amp;rsquo;Ubuntu)&amp;hellip; i, a més a més, permet pujar a altres web de fotografies.</description>
+    </item>
+    <item>
+      <title>Dropbox, una alternativa als USB</title>
+      <link>http://localhost:1313/post/2010-01-30-dropbox-una-alternativa-als-usb/</link>
+      <pubDate>Sat, 30 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-30-dropbox-una-alternativa-als-usb/</guid>
+      <description>DropBox és un servei en &amp;ldquo;núvol&amp;rdquo; per compartir arxius i carpetes. Quan s&amp;rsquo;instal·la crea una carpeta local on tot el que posis va també sincronitzat a la web, i als altres ordinadors on ho tinguis instal·lat. A la pàgina web tens tot el que posis a la carpeta.&#xA;És multiplataforma, i el pots tenir en Linux, Mac i Windows&amp;hellip; i fins i tot al IPhone. Primer ens donem d&amp;rsquo;alta, i després anem a la pàgina de descàrrega&amp;hellip; i baixem el programa, un parell de clics i ja està!</description>
+    </item>
+    <item>
+      <title>Blogtk i wordpress!</title>
+      <link>http://localhost:1313/post/2010-01-13-blogtk-i-wordpress/</link>
+      <pubDate>Wed, 13 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-13-blogtk-i-wordpress/</guid>
+      <description>A vegades hi ha maneres de facilitar la vida, i el programa blogtk ajuda a penjar entrades al &amp;ldquo;Wordpress&amp;rdquo; de manera ràpida al Blog. Ara mateix la versió 1.1, instal·lable la 1.2 i la 2.0 des de el launchpad. Instal·lable des dels repositoris. $sudo apt-get install blogtk Quan l&amp;rsquo;obres et demana un compte: Server URL: http://elnom.delteu.bloc/xmlrpc.php (exemple: http://croniqueslinux.wordpress.com) nom d&amp;rsquo;usuari: el teu nom d&amp;rsquo;usuari contrasenya: la teua Un cop ho tens, ho deses i &amp;ldquo;d&amp;rsquo;acord&amp;rdquo;.</description>
+    </item>
+  </channel>
+</rss>

@@ -1,59 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>distros on Notes GNU</title>
+    <title>Distros on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/distros/</link>
-    <description>Recent content in distros on Notes GNU</description>
+    <description>Recent content in Distros on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 31 Oct 2010 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/distros/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 31 Oct 2010 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/distros/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Fedorant</title>
       <link>https://notesgnu.github.io/post/2010-10-31-fedorant/</link>
       <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-10-31-fedorant/</guid>
-      <description>Com deia un conegut fa un temps&amp;hellip; he vist la yum! Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!
-I la veritat es que estic molt content ;)
-Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi.</description>
+      <description>Com deia un conegut fa un temps&amp;hellip; he vist la yum! Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!&#xA;I la veritat es que estic molt content ;)&#xA;Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi.</description>
     </item>
-    
     <item>
       <title>Antix: distro lleugera en català</title>
       <link>https://notesgnu.github.io/post/2010-06-24-antix-distro-lleugera-en-catala/</link>
       <pubDate>Thu, 24 Jun 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-06-24-antix-distro-lleugera-en-catala/</guid>
-      <description>Sovint quan es busca alguna distro lleugera, per ordinadors vells, costa! i molt! a sobre si ho vols en català i actual, doncs encara més difícil. N&amp;rsquo;he provat varies i quasi sempre en anglès o espanyol&amp;hellip; així que al final me decidit provar Antix&amp;hellip;
-Si en voleu saber més, a la pàgina oficial: Antix
-👍</description>
+      <description>Sovint quan es busca alguna distro lleugera, per ordinadors vells, costa! i molt! a sobre si ho vols en català i actual, doncs encara més difícil. N&amp;rsquo;he provat varies i quasi sempre en anglès o espanyol&amp;hellip; així que al final me decidit provar Antix&amp;hellip;&#xA;Si en voleu saber més, a la pàgina oficial: Antix&#xA;&amp;#x1f44d;</description>
     </item>
-    
     <item>
       <title>Clonezilla: una gran distro per clonar!</title>
       <link>https://notesgnu.github.io/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</link>
       <pubDate>Sat, 06 Mar 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</guid>
-      <description>Clonezilla és una distribució Viva (CDLive) basada en Debian, tot i que hi ha una versió basada en Ubuntu. Una eina fantàstica per clonar, copiar i fer còpies de seguretat, semblant al Norton Ghost. Molt senzill d&amp;rsquo;usar i amb gran possibilitats!
-pàgina de la distribució
-http://www.clonezilla.org/
-enllaços d&amp;rsquo;interès:
-http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Clonezilla</description>
+      <description>Clonezilla és una distribució Viva (CDLive) basada en Debian, tot i que hi ha una versió basada en Ubuntu. Una eina fantàstica per clonar, copiar i fer còpies de seguretat, semblant al Norton Ghost. Molt senzill d&amp;rsquo;usar i amb gran possibilitats!&#xA;pàgina de la distribució&#xA;http://www.clonezilla.org/&#xA;enllaços d&amp;rsquo;interès:&#xA;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Clonezilla</description>
     </item>
-    
     <item>
       <title>Slitaz, lleugeresa linux!</title>
       <link>https://notesgnu.github.io/post/2010-01-04-slitaz-lleugeresa-linux/</link>
       <pubDate>Mon, 04 Jan 2010 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2010-01-04-slitaz-lleugeresa-linux/</guid>
-      <description>Fent un tast de una mini distro, però força interessant:
-Slitaz, a la pàgina hi ha molta informació, però en castellà&amp;hellip; de moment en català no hi ha res!
-Empra Lxde amb Openbox, entre d&amp;rsquo;altres coses, a més a més de SSH, SQLite, PHP&amp;hellip;
-M&amp;rsquo;ha servit per reutilitzar un llàpis de memòria petitó i així tenir una distro &amp;ldquo;viva&amp;rdquo;. Ara aprofitaré un ordinador vellet a veure com va!
-Molt recomanable!</description>
+      <description>Fent un tast de una mini distro, però força interessant:&#xA;Slitaz, a la pàgina hi ha molta informació, però en castellà&amp;hellip; de moment en català no hi ha res!&#xA;Empra Lxde amb Openbox, entre d&amp;rsquo;altres coses, a més a més de SSH, SQLite, PHP&amp;hellip;&#xA;M&amp;rsquo;ha servit per reutilitzar un llàpis de memòria petitó i així tenir una distro &amp;ldquo;viva&amp;rdquo;. Ara aprofitaré un ordinador vellet a veure com va!&#xA;Molt recomanable!</description>
     </item>
-    
   </channel>
 </rss>

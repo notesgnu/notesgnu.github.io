@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Online on Notes GNU</title>
+    <link>http://localhost:1313/categories/online/</link>
+    <description>Recent content in Online on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 17 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/online/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Em falla org2blog 2a part</title>
+      <link>http://localhost:1313/post/2015-01-17-em-falla-org2blog-2a-part/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-01-17-em-falla-org2blog-2a-part/</guid>
+      <description>Segueix sense anar-me l&amp;rsquo;Org2blog :-(&#xA;Ara ja no em va. Ho he provat des de l&amp;rsquo;Emacs 24 (GNU Emacs 24.3.1), i també des del Emacs 23. No he trobat encara la solució! No sé si és un problema de l&amp;rsquo;org2blog o de les seves dependències. Ara, amb tot actualitzat em falla dient:&#xA;Contacting host: croniqueslinux.wordpress.com:80&#xA;xml-rpc-request: Error during request: 301&#xA;:-O&#xA;Així que ho he provat per https en la configuració, en comptes de http, i sembla que sí va, però no publica, es penja amb un problema (Variable binding depth exceeds max-specpdl-size)</description>
+    </item>
+    <item>
+      <title>Wordpress des del telèfon</title>
+      <link>http://localhost:1313/post/2014-01-21-wordpress-des-del-telefon/</link>
+      <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-01-21-wordpress-des-del-telefon/</guid>
+      <description>Ja fa temps que no em resulta senzill tenir accès a internet des de l&amp;rsquo;ordinador. Així, que m&amp;rsquo;he instal-lat l&amp;rsquo;app d&amp;rsquo;Android per wordpress. Aquesta és la primera entrada que escric des del telèfon.&#xA;Cada dia resulta més senzill usar i connectar-se des dels telèfons intel.ligents (smartphones o &amp;rsquo;llestèfons&amp;rsquo;). Així que no m&amp;rsquo;he estat de provar l&amp;rsquo;app oficial del wordpress.&#xA;;-)</description>
+    </item>
+    <item>
+      <title>Dia Mundial dels documents lliures</title>
+      <link>http://localhost:1313/post/2010-03-31-dia-mundial-dels-documents-lliures/</link>
+      <pubDate>Wed, 31 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-31-dia-mundial-dels-documents-lliures/</guid>
+      <description>Avui 31 de març és el diu mundial dels documents lliures!&#xA;Siguem lliures! Usem ODF!&#xA;font: Ubuntu-Life</description>
+    </item>
+    <item>
+      <title>Afegir motors de recerca al Firefox</title>
+      <link>http://localhost:1313/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</link>
+      <pubDate>Mon, 15 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</guid>
+      <description>Buscant com afegir al cercador lateral del firefox m&amp;rsquo;he trobat amb la pàgina de softcatlà.&#xA;&amp;ldquo;Els motors de cerca permeten fer cerques a diferents llocs web d&amp;rsquo;una forma fàcil i ràpida utilitzant la barra de cerques del FirefoxSeaMonkey. o la barra lateral del&#xA;Podeu també trobar motors de cerca en altres idiomes a la pàgina del projecte Mycroft o a addons.mozilla.org.&amp;rdquo;&#xA;On hi ha una llista llarga de motors per afegir!</description>
+    </item>
+    <item>
+      <title>Full Circle Magazine</title>
+      <link>http://localhost:1313/post/2010-01-20-full-circle-magazine/</link>
+      <pubDate>Wed, 20 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-20-full-circle-magazine/</guid>
+      <description>Revista Online força interessant, encarada al món linux, en especial UBUNTU. Considerada la revista oficial! http://fullcirclemagazine.org/ PEr desgràcia de moment surt en anglès, tot i que hi ha un grup reduït de traductors que ara comencen i estan intentant traduïr-la al català. Ànims! https://launchpad.net/~fullcircle-cat https://wiki.ubuntu.com/UbuntuMagazine/TranslateFullCircle/Catalan ;)</description>
+    </item>
+    <item>
+      <title>Marcadors online</title>
+      <link>http://localhost:1313/post/2010-01-09-marcadors-online/</link>
+      <pubDate>Sat, 09 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-09-marcadors-online/</guid>
+      <description>Fins ara sempre he desat les meues adreces d&amp;rsquo;interès a l&amp;rsquo;ordinador emprant el navegador, però quan canviava d&amp;rsquo;ordinador (al portàtil) em trobava que havia de desar-los, fer còpies, etc&amp;hellip;. així que d&amp;rsquo;un temps cap aquí he començat a fer-ho amb el bookmarks del Goole . Però al final he decidit buscar-ne un d&amp;rsquo;alternatiu, i m&amp;rsquo;he trobat amb:&#xA;1 - del.icio.us (delicious) molt comentat a la xarxa, amb molts marcadors compartits (però de la companyia yahoo, t&amp;rsquo;has de donar d&amp;rsquo;alta amb yahoo) i en anglès.</description>
+    </item>
+  </channel>
+</rss>

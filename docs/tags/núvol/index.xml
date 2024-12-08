@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>núvol on Notes GNU</title>
+    <title>Núvol on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/n%C3%BAvol/</link>
-    <description>Recent content in núvol on Notes GNU</description>
+    <description>Recent content in Núvol on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Feb 2016 16:13:38 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/n%C3%BAvol/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 08 Feb 2016 16:13:38 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/tags/n%C3%BAvol/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Eliminar el compte de Copy</title>
       <link>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</link>
       <pubDate>Mon, 08 Feb 2016 16:13:38 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</guid>
-      <description>Ja fa uns dies que el Copy m&amp;rsquo;avisa que deixarà de tenir suport.
-A la seva pàgina podem llegir:
- Copy and CudaDrive services will be discontinued. We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.
- És una llàstima, ja que fins ara m&amp;rsquo;ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.</description>
+      <description>Ja fa uns dies que el Copy m&amp;rsquo;avisa que deixarà de tenir suport.&#xA;A la seva pàgina podem llegir:&#xA;Copy and CudaDrive services will be discontinued. We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.&#xA;És una llàstima, ja que fins ara m&amp;rsquo;ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.</description>
     </item>
-    
   </channel>
 </rss>

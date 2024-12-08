@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>scratch on Notes GNU</title>
+    <title>Scratch on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/scratch/</link>
-    <description>Recent content in scratch on Notes GNU</description>
+    <description>Recent content in Scratch on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Nov 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/scratch/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Nov 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/scratch/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Scratch 2 a la Linkat Lleugera</title>
       <link>https://notesgnu.github.io/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</link>
       <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</guid>
-      <description>Scratch és un entorn de programació educatiu fet al MIT, i que en el món educatiu ens permet treballar el pensmanet computacional. El tenim per programar en línia a https://scratch.mit.edu , tot i això, a mi m&amp;rsquo;agrada poder treballar offline. Per fer-ho he seguit les instruccions de la seva pàgina https://scratch.mit.edu/scratch2download/
-Axí que quan he intentat instal·lar-ho a la Linkat lleugera, però m&amp;rsquo;ha donat problemes, on em demana que instal·li el gnome keyring… que ja em consta com a instal·lat.</description>
+      <description>Scratch és un entorn de programació educatiu fet al MIT, i que en el món educatiu ens permet treballar el pensmanet computacional. El tenim per programar en línia a https://scratch.mit.edu , tot i això, a mi m&amp;rsquo;agrada poder treballar offline. Per fer-ho he seguit les instruccions de la seva pàgina https://scratch.mit.edu/scratch2download/&#xA;Axí que quan he intentat instal·lar-ho a la Linkat lleugera, però m&amp;rsquo;ha donat problemes, on em demana que instal·li el gnome keyring… que ja em consta com a instal·lat.</description>
     </item>
-    
   </channel>
 </rss>

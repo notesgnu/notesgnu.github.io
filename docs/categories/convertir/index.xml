@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>convertir on Notes GNU</title>
+    <title>Convertir on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/convertir/</link>
-    <description>Recent content in convertir on Notes GNU</description>
+    <description>Recent content in Convertir on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 27 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/convertir/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 27 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/convertir/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Convertir un vcd a mpg</title>
       <link>https://notesgnu.github.io/post/2014-01-27-convertir-un-vcd-a-mpg/</link>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2014-01-27-convertir-un-vcd-a-mpg/</guid>
-      <description>Fa un temps que tenic algunes pel·lícules en format VCD. Amb el temps, ocupen molt d&amp;rsquo;espai, i els CDs físics solen deteriorar-se. Així que he decidit desar-los en format de video MPG. Per fer això podem usar la comanda vcdxrip. Res més senzill que inserir el VCD al lector de l&amp;rsquo;ordinador, i un cop inserit, usar la comanda:
-vcdxrip -p --nofiles -C un cop ha acabat, ens crea un arxiu avseq01.</description>
+      <description>Fa un temps que tenic algunes pel·lícules en format VCD. Amb el temps, ocupen molt d&amp;rsquo;espai, i els CDs físics solen deteriorar-se. Així que he decidit desar-los en format de video MPG. Per fer això podem usar la comanda vcdxrip. Res més senzill que inserir el VCD al lector de l&amp;rsquo;ordinador, i un cop inserit, usar la comanda:&#xA;vcdxrip -p --nofiles -C un cop ha acabat, ens crea un arxiu avseq01.</description>
     </item>
-    
   </channel>
 </rss>

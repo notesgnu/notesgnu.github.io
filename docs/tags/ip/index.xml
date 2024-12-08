@@ -1,23 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>ip on Notes GNU</title>
+    <title>Ip on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/ip/</link>
-    <description>Recent content in ip on Notes GNU</description>
+    <description>Recent content in Ip on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sat, 20 Feb 2016 07:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/ip/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 20 Feb 2016 07:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/tags/ip/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Canviar la IP de la Raspberry</title>
       <link>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</link>
       <pubDate>Sat, 20 Feb 2016 07:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</guid>
-      <description>Tinc una Raspberry Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per ssh. Explico els passos que he seguit.
-Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l&amp;rsquo;antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.
-sudo cp /etc/network/interfaces interfaces.old  Després anem editar el fitxer on es desa la configuració de xarxa:
-sudo nano -w /etc/network/interfaces  Dins de l&amp;rsquo;arxiu cal editar-ho:</description>
+      <description>Tinc una Raspberry Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per ssh. Explico els passos que he seguit.&#xA;Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l&amp;rsquo;antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.&#xA;sudo cp /etc/network/interfaces interfaces.old Després anem editar el fitxer on es desa la configuració de xarxa:&#xA;sudo nano -w /etc/network/interfaces Dins de l&amp;rsquo;arxiu cal editar-ho:</description>
     </item>
-    
   </channel>
 </rss>

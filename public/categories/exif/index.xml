@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Exif on Notes GNU</title>
+    <link>http://localhost:1313/categories/exif/</link>
+    <description>Recent content in Exif on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sat, 16 Aug 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/exif/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Exiftool</title>
+      <link>http://localhost:1313/post/2014-08-16-exiftool/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-08-16-exiftool/</guid>
+      <description>Aquest estiu estic remenant les fotos de les diferents càmares i volia saber les metadades. Així que he trobat una eina interessant des de la terminal exiftool. La tinc instal·lada a Lubuntu 14.04 i va força bé.&#xA;Primer, cal instal·lar amb:&#xA;sudo apt-get install exiftool&#xA;Després tan fàcil com executar exiftool i la imatge:&#xA;exiftool imatge.png&#xA;Per exemple:&#xA;exiftool tux.png ExifTool Version Number : 9.46 File Name : tux.png Directory : .</description>
+    </item>
+  </channel>
+</rss>

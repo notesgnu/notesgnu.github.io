@@ -1,24 +1,40 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>emacs on Notes GNU</title>
-    <link>https://notesgnu.github.io/tags/emacs/</link>
-    <description>Recent content in emacs on Notes GNU</description>
+    <title>Emacs on Notes GNU</title>
+    <link>http://localhost:1313/tags/emacs/</link>
+    <description>Recent content in Emacs on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sat, 29 May 2021 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/emacs/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Escrivint al Wordpress des de l&#39;EMACS</title>
+      <link>http://localhost:1313/post/2021-05-29-escrivint-al-wordpress-des-de-lemacs/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2021-05-29-escrivint-al-wordpress-des-de-lemacs/</guid>
+      <description>Per poder publicar des d&amp;rsquo;Emacs a un blog hi ha diverses maneres. Tot i això, en el meu cas, ja fa temps que uso org2blog. Des dels primers inicis a ara, ha tingut diversos canvis, i la veritat és que em funciona molt bé.&#xA;Passo a compartir com ho faig.&#xA;instal·lació Primer que res, cal quenir-ho instal·lat. Per fer-ho, només cal seguir les instruccions de la seva pàgina.&#xA;Dins del nostre .</description>
+    </item>
+    <item>
+      <title>Hola, torno a Wordpress</title>
+      <link>http://localhost:1313/post/2021-05-29-hola-torno-a-wordpress/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2021-05-29-hola-torno-a-wordpress/</guid>
+      <description>Després de temps provant diferents opcions, al final he decidit tornar a Wordpress. Senzill, per la facilitat d&amp;rsquo;accedir des de diferents dispositius, i alhora poder publicar des d&amp;rsquo;Emacs.&#xA;En Emacs tenim Org2Blog que funciona perfectament per aquest menester, i ens permet tenir desat l&amp;rsquo;article, que més tard podem exportar a altres formats.&#xA;Quan tingui una estona faré un breu manual de com publicar un article com aquest des d&amp;rsquo;Emacs.&#xA;;-)</description>
+    </item>
     <item>
       <title>Com fer un snippet en Emacs</title>
-      <link>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</link>
+      <link>http://localhost:1313/post/2020-06-08-fer-plantilles/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</guid>
-      <description>Sovint piquem codi i volem guanyar temps usant una plantilla. Un pedaç de codi s&amp;rsquo;anomena snippet, i és això el que fem.
-Per fer això, tenim YASnippet. Per instaŀlar-ho, res més fàcil:
-M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.
-M-x yas-reload-all Seguidament, ja podem usar-lo. Cal tenir carregat el mode.
-M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu .</description>
+      <guid>http://localhost:1313/post/2020-06-08-fer-plantilles/</guid>
+      <description>Sovint piquem codi i volem guanyar temps usant una plantilla. Un pedaç de codi s&amp;rsquo;anomena snippet, i és això el que fem.&#xA;Per fer això, tenim YASnippet. Per instaŀlar-ho, res més fàcil:&#xA;M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.&#xA;M-x yas-reload-all Seguidament, ja podem usar-lo. Cal tenir carregat el mode.&#xA;M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu .</description>
     </item>
-    
+    <item>
+      <title>Com escriure una presentació</title>
+      <link>http://localhost:1313/post/2016-10-16-comescriurepresentacio/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2016-10-16-comescriurepresentacio/</guid>
+      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode&#xA;Podeu descarregar-vos la presentació i el codi en .org&#xA;1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:&#xA;Org mode i Emacs i LaTeX (classe Beamer). Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
+    </item>
   </channel>
 </rss>

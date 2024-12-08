@@ -1,34 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>org-mode on Notes GNU</title>
+    <title>Org-Mode on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/org-mode/</link>
-    <description>Recent content in org-mode on Notes GNU</description>
+    <description>Recent content in Org-Mode on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 16 Oct 2016 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/org-mode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 16 Oct 2016 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/org-mode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Com escriure una presentació</title>
       <link>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</guid>
-      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode
- Podeu descarregar-vos la presentació i el codi en .org
- 1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:
- Org mode i Emacs i LaTeX (classe Beamer).  Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
+      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode&#xA;Podeu descarregar-vos la presentació i el codi en .org&#xA;1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:&#xA;Org mode i Emacs i LaTeX (classe Beamer). Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
     </item>
-    
     <item>
       <title>Instal·lant org-mode a la Linkat</title>
       <link>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</link>
       <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</guid>
-      <description>Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.
-Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)
-Primer que res he instal·lat emacs a la Linkat La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:</description>
+      <description>Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.&#xA;Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)&#xA;Primer que res he instal·lat emacs a la Linkat La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:</description>
     </item>
-    
   </channel>
 </rss>

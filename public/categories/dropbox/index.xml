@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Dropbox on Notes GNU</title>
+    <link>http://localhost:1313/categories/dropbox/</link>
+    <description>Recent content in Dropbox on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Thu, 12 May 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/dropbox/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Dropbox a l&#39;Unity</title>
+      <link>http://localhost:1313/post/2011-05-12-dropbox-a-lunity/</link>
+      <pubDate>Thu, 12 May 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-05-12-dropbox-a-lunity/</guid>
+      <description>Fa temps que uso Dropbox, però amb l&amp;rsquo;actualització de l&amp;rsquo;Ubuntu del portàtil m&amp;rsquo;he trobat que no apareix la icona del Dropbox a la barra superior. Per fer això només cal fer el següent, a la terminal escrivim: $ gsettings get com.canonical.Unity.Panel systray-whitelist i ens retorna el que té predeterminat a la barra… [&#39;JavaEmbeddedFrame&#39;, &#39;Mumble&#39;, &#39;Wine&#39;, &#39;Skype&#39;, &#39;hp-systray&#39;, &#39;scp-dbus-service&#39;]&#xA;Jo no uso ni wine ni Skype, així que els esborro, si cal els podeu deixar… Per afegir dropbox, només cal modificar la barra escrivint a la terminal: $ gsettings set com.</description>
+    </item>
+  </channel>
+</rss>

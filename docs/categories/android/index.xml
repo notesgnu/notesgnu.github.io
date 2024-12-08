@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>android on Notes GNU</title>
+    <title>Android on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/android/</link>
-    <description>Recent content in android on Notes GNU</description>
+    <description>Recent content in Android on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Tue, 21 Jan 2014 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Tue, 21 Jan 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/android/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Wordpress des del telèfon</title>
       <link>https://notesgnu.github.io/post/2014-01-21-wordpress-des-del-telefon/</link>
       <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2014-01-21-wordpress-des-del-telefon/</guid>
-      <description>Ja fa temps que no em resulta senzill tenir accès a internet des de l&amp;rsquo;ordinador. Així, que m&amp;rsquo;he instal-lat l&amp;rsquo;app d&amp;rsquo;Android per wordpress. Aquesta és la primera entrada que escric des del telèfon.
-Cada dia resulta més senzill usar i connectar-se des dels telèfons intel.ligents (smartphones o &amp;lsquo;llestèfons&amp;rsquo;). Així que no m&amp;rsquo;he estat de provar l&amp;rsquo;app oficial del wordpress.
-;-)</description>
+      <description>Ja fa temps que no em resulta senzill tenir accès a internet des de l&amp;rsquo;ordinador. Així, que m&amp;rsquo;he instal-lat l&amp;rsquo;app d&amp;rsquo;Android per wordpress. Aquesta és la primera entrada que escric des del telèfon.&#xA;Cada dia resulta més senzill usar i connectar-se des dels telèfons intel.ligents (smartphones o &amp;rsquo;llestèfons&amp;rsquo;). Així que no m&amp;rsquo;he estat de provar l&amp;rsquo;app oficial del wordpress.&#xA;;-)</description>
     </item>
-    
   </channel>
 </rss>

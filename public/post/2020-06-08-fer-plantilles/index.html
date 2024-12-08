@@ -1,18 +1,17 @@
 <!doctype html>
 <html lang="en">
-  <head>
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
     <title>Com fer un snippet en Emacs // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.91.2" />
+    <meta name="generator" content="Hugo 0.123.7">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
-    <link rel="stylesheet" href="https://notesgnu.github.io/css/main.min.88e7083eff65effb7485b6e6f38d10afbec25093a6fac42d734ce9024d3defbd.css" />
+    <link rel="stylesheet" href="http://localhost:1313/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
 
     
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Com fer un snippet en Emacs"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Com fer un snippet en Emacs"/>
 <meta name="twitter:description" content="Sovint piquem codi i volem guanyar temps usant una plantilla. Un pedaç de codi s&rsquo;anomena snippet, i és això el que fem.
 Per fer això, tenim YASnippet. Per instaŀlar-ho, res més fàcil:
 M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.
@@ -26,7 +25,7 @@ M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho vo
 M-x yas-reload-all Seguidament, ja podem usar-lo. Cal tenir carregat el mode.
 M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu ." />
 <meta property="og:type" content="article" />
-<meta property="og:url" content="https://notesgnu.github.io/post/2020-06-08-fer-plantilles/" /><meta property="article:section" content="post" />
+<meta property="og:url" content="http://localhost:1313/post/2020-06-08-fer-plantilles/" /><meta property="article:section" content="post" />
 <meta property="article:published_time" content="2020-06-08T00:00:00+00:00" />
 <meta property="article:modified_time" content="2020-06-08T00:00:00+00:00" />
 
@@ -35,26 +34,26 @@ M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament
   </head>
   <body>
     <header class="app-header">
-      <a href="https://notesgnu.github.io/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
       <h1>Notes GNU</h1>
       <nav class="app-header-menu">
-          <a class="app-header-menu-item" href="/about/">Sobre</a>
-            |
-          
-          <a class="app-header-menu-item" href="/categories/">Categs</a>
-            |
-          
           <a class="app-header-menu-item" href="/">Inici</a>
-            |
+             | 
           
-          <a class="app-header-menu-item" href="/tags/">Tags</a>
+          <a class="app-header-menu-item" href="/about/">Sobre mi</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/tags/">Etiquetes</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/categories/">Categories</a>
       </nav>
-      <p>Sou lliures de copiar</p>
+      <p>2024 (CC) Sou lliures de copiar</p>
       <div class="app-header-social">
         
           <a href="jnorbu8@gmail.com" target="_blank" rel="noreferrer noopener">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail">
-  <title>envelope</title>
+  <title>Correu</title>
   <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
 </svg>
           </a>
@@ -68,21 +67,21 @@ M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament
         
           <a href="https://twitter.com/manelsales" target="_blank" rel="noreferrer noopener">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
-  <title>twitter</title>
+  <title>Twitter</title>
   <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
 </svg>
           </a>
         
-          <a href="https://mastodon.social/@misaliko" target="_blank" rel="noreferrer noopener">
+          <a href="https://mastodont.cat/@msaliko" target="_blank" rel="noreferrer noopener">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-star">
-  <title>mastodon</title>
+  <title>Mastodon</title>
   <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
 </svg>
           </a>
         
           <a href="https://croniqueslinux.wordpress.com/" target="_blank" rel="noreferrer noopener">
             <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-file-text">
-  <title>wordpress</title>
+  <title>Wordpress</title>
   <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
 </svg>
           </a>
@@ -114,8 +113,8 @@ M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament
   <title>tag</title>
   <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
 </svg>
-              <a class="tag" href="https://notesgnu.github.io/tags/emacs/">emacs</a>
-              <a class="tag" href="https://notesgnu.github.io/tags/yasnippet/">yasnippet</a>
+              <a class="tag" href="http://localhost:1313/tags/emacs/">Emacs</a>
+              <a class="tag" href="http://localhost:1313/tags/yasnippet/">Yasnippet</a>
         </div>
       </div>
     </header>
@@ -123,25 +122,25 @@ M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament
       <p>Sovint piquem codi i volem guanyar temps usant una plantilla.
 Un pedaç de codi s&rsquo;anomena <strong>snippet</strong>, i és això el que fem.</p>
 <p>Per fer això, tenim <code>YASnippet</code>. Per instaŀlar-ho, res més fàcil:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">M-x package-install yasnippet
-</code></pre></div><p>Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">M-x yas-reload-all
-</code></pre></div><p>Seguidament, ja podem usar-lo. Cal tenir carregat el mode.</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">M-x yas-minor-mode
-</code></pre></div><p>El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu <code>.emacs</code>:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">(require &#39;yasnippet)
-(yas-global-mode 1)
-</code></pre></div><p>Per crear la primera plantilla, s&rsquo;ha de fer:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">C-c &amp; C-n
-</code></pre></div><p>el contingut ha de ser:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text"># name: nom que volem
-# key: paraulaclau
-# --
-codi que volem
-</code></pre></div><p>La part de dalt és la capçalera que defineix l&rsquo;snippet, i amb la clau (key) el nom per cridar-lo.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>M-x package-install yasnippet
+</span></span></code></pre></div><p>Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>M-x yas-reload-all
+</span></span></code></pre></div><p>Seguidament, ja podem usar-lo. Cal tenir carregat el mode.</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>M-x yas-minor-mode
+</span></span></code></pre></div><p>El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu <code>.emacs</code>:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>(require &#39;yasnippet)
+</span></span><span style="display:flex;"><span>(yas-global-mode 1)
+</span></span></code></pre></div><p>Per crear la primera plantilla, s&rsquo;ha de fer:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>C-c &amp; C-n
+</span></span></code></pre></div><p>el contingut ha de ser:</p>
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span># name: nom que volem
+</span></span><span style="display:flex;"><span># key: paraulaclau
+</span></span><span style="display:flex;"><span># --
+</span></span><span style="display:flex;"><span>codi que volem
+</span></span></code></pre></div><p>La part de dalt és la capçalera que defineix l&rsquo;snippet, i amb la clau (key) el nom per cridar-lo.</p>
 <p>Per inserir el que volem:</p>
-<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4"><code class="language-text" data-lang="text">C-c &amp; C-s
-</code></pre></div><p>També ho podem fer encara més senzill, si recordem la paraula clau, podeu escriure-la i inmeditament <code>TAB</code> i ens sortirà el codi directament.
+<div class="highlight"><pre tabindex="0" style="color:#f8f8f2;background-color:#272822;-moz-tab-size:4;-o-tab-size:4;tab-size:4;"><code class="language-text" data-lang="text"><span style="display:flex;"><span>C-c &amp; C-s
+</span></span></code></pre></div><p>També ho podem fer encara més senzill, si recordem la paraula clau, podeu escriure-la i inmeditament <code>TAB</code> i ens sortirà el codi directament.
 Per això és molt important usar paraules claus que no ens porti a equivocar-nos.</p>
 <p>fonts:</p>
 <ul>

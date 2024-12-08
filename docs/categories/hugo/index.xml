@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>hugo on Notes GNU</title>
+    <title>Hugo on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/hugo/</link>
-    <description>Recent content in hugo on Notes GNU</description>
+    <description>Recent content in Hugo on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/hugo/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Com fer un blog amb Hugo</title>
       <link>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</guid>
-      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.
-Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.
-He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
+      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.&#xA;Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.&#xA;He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
     </item>
-    
   </channel>
 </rss>

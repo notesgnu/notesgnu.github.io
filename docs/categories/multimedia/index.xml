@@ -1,22 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>multimedia on Notes GNU</title>
+    <title>Multimedia on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/multimedia/</link>
-    <description>Recent content in multimedia on Notes GNU</description>
+    <description>Recent content in Multimedia on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Fri, 17 Apr 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/multimedia/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Fri, 17 Apr 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/multimedia/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Veure DVDs en Linkat (14.04) i Ubuntu (derivades)</title>
       <link>https://notesgnu.github.io/post/2015-04-17-veure-dvds-en-linkat-14-04-i-ubuntu-derivades/</link>
       <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2015-04-17-veure-dvds-en-linkat-14-04-i-ubuntu-derivades/</guid>
-      <description>Ja porten uns dies que dues persones m&amp;rsquo;han preguntat el motiu pel qual no es veuen els DVDs en la Linkat 14.04, que és una derivada d&amp;rsquo;Ubuntu.
-Així que només cal anar a la pàgina oficial d&amp;rsquo;Ubuntu on parla dels Formats Restringits, allí ens aconsella instal·lar els paquets libdvdcss2 que en la LinkatEdu 14.04 és libdvdread4. En la pàgina de la Linkat també ho tenim ben documentat!
-Per això anem a la terminal i escrivim:</description>
+      <description>Ja porten uns dies que dues persones m&amp;rsquo;han preguntat el motiu pel qual no es veuen els DVDs en la Linkat 14.04, que és una derivada d&amp;rsquo;Ubuntu.&#xA;Així que només cal anar a la pàgina oficial d&amp;rsquo;Ubuntu on parla dels Formats Restringits, allí ens aconsella instal·lar els paquets libdvdcss2 que en la LinkatEdu 14.04 és libdvdread4. En la pàgina de la Linkat també ho tenim ben documentat!&#xA;Per això anem a la terminal i escrivim:</description>
     </item>
-    
   </channel>
 </rss>

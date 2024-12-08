@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Inkscape on Notes GNU</title>
+    <link>http://localhost:1313/categories/inkscape/</link>
+    <description>Recent content in Inkscape on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Sun, 14 Sep 2014 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/inkscape/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Problemes amb Inkscape</title>
+      <link>http://localhost:1313/post/2014-09-14-problemes-amb-inkscape/</link>
+      <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-09-14-problemes-amb-inkscape/</guid>
+      <description>Porto dos dies buscant la solució a un problema que em tenia desesperat. Dibuixant amb Inkscape, i quan copiava i després enganxava, de sobte començaven a saltar errors!&#xA;Cannot list directory /home/usuari/.uniconvertor:[Errno 2] No such file or directory: &amp;lsquo;/home/usuari/.uniconvertor&amp;rsquo;&#xA;problemes amb Rellegint la pàgina Uniconverter fails on copying an svg selection he trobat la solució.&#xA;Sembla que és un error de programari… és a dir, un Bitxo o Cuca (Bug) :-D</description>
+    </item>
+  </channel>
+</rss>

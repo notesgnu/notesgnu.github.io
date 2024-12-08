@@ -1,33 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>latex on Notes GNU</title>
+    <title>Latex on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/latex/</link>
-    <description>Recent content in latex on Notes GNU</description>
+    <description>Recent content in Latex on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 27 Dec 2012 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/latex/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 27 Dec 2012 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/latex/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Nova versió de LyX a la Linkat</title>
       <link>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
-      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.
-El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9
-I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
+      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
     </item>
-    
     <item>
       <title>Usar Texmaker a la Linkat 4</title>
       <link>https://notesgnu.github.io/post/2011-07-19-usar-texmaker-a-la-linkat-4/</link>
       <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2011-07-19-usar-texmaker-a-la-linkat-4/</guid>
-      <description>Normalment per escriure en Latex utilitzo emacs en el seu mode AUXtex. Però avui he volgut provar Texmaker en la Linkat 4. El principal problema és que als repositoris no està, però tot té solució, sense tocar repositoris, ni afegir cap dependència. És més, si volem podem usar el sistema que explicaré per portar-ho a un llapis USB de forma portable ;-)
-aconseguir el programa per a 32 bits
-wget http://www.</description>
+      <description>Normalment per escriure en Latex utilitzo emacs en el seu mode AUXtex. Però avui he volgut provar Texmaker en la Linkat 4. El principal problema és que als repositoris no està, però tot té solució, sense tocar repositoris, ni afegir cap dependència. És més, si volem podem usar el sistema que explicaré per portar-ho a un llapis USB de forma portable ;-)&#xA;aconseguir el programa per a 32 bits</description>
     </item>
-    
   </channel>
 </rss>

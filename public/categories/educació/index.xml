@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Educació on Notes GNU</title>
+    <link>http://localhost:1313/categories/educaci%C3%B3/</link>
+    <description>Recent content in Educació on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/educaci%C3%B3/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Per què no usar WORD a l&#39;educació</title>
+      <link>http://localhost:1313/post/2024-04-24-articleword/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024-04-24-articleword/</guid>
+      <description>Per què no usar WORD a l&amp;rsquo;educació Article escrit el 2016 i no han canviat tant les coses, la diferencia ara és al núvol, però seguim depenent de les eines privatives!!! Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l&amp;rsquo;educació! A continuació deixò l&amp;rsquo;article tal com es va escriure:&#xA;Per què NO hauríem de demanar als nostres alumnes que ens presentin els treballs en un document Word?</description>
+    </item>
+  </channel>
+</rss>

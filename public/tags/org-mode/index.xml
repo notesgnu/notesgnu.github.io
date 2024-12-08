@@ -1,35 +1,33 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>org-mode on Notes GNU</title>
-    <link>https://notesgnu.github.io/tags/org-mode/</link>
-    <description>Recent content in org-mode on Notes GNU</description>
+    <title>Org-Mode on Notes GNU</title>
+    <link>http://localhost:1313/tags/org-mode/</link>
+    <description>Recent content in Org-Mode on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/org-mode/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/tags/org-mode/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Com fer un blog amb Hugo</title>
-      <link>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</link>
+      <link>http://localhost:1313/post/2020-06-01-blog-amb-hugo/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</guid>
-      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.
-Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.
-He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
+      <guid>http://localhost:1313/post/2020-06-01-blog-amb-hugo/</guid>
+      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.&#xA;Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.&#xA;He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
     </item>
-    
     <item>
       <title>Publicar amb Jekyll i Org-mode</title>
-      <link>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</link>
+      <link>http://localhost:1313/post/2020-05-31-prova-amb-org/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</guid>
-      <description>Finalment he descobert una manera d&amp;rsquo;usar el meu estimat emacs i el seu mode orgmode
-Res més senzill que afegir al _config.yaml el següent codi:
-plugins: [jekyll-org] Per instaŀlar en local les gemes:
-sudo gem install jekyll-org font: jekyll-org
-Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.</description>
+      <guid>http://localhost:1313/post/2020-05-31-prova-amb-org/</guid>
+      <description>Finalment he descobert una manera d&amp;rsquo;usar el meu estimat emacs i el seu mode orgmode&#xA;Res més senzill que afegir al _config.yaml el següent codi:&#xA;plugins: [jekyll-org] Per instaŀlar en local les gemes:&#xA;sudo gem install jekyll-org font: jekyll-org&#xA;Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.</description>
     </item>
-    
+    <item>
+      <title>Com escriure una presentació</title>
+      <link>http://localhost:1313/post/2016-10-16-comescriurepresentacio/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2016-10-16-comescriurepresentacio/</guid>
+      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode&#xA;Podeu descarregar-vos la presentació i el codi en .org&#xA;1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:&#xA;Org mode i Emacs i LaTeX (classe Beamer). Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
+    </item>
   </channel>
 </rss>

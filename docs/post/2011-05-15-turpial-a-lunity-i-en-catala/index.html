@@ -4,15 +4,14 @@
     <title>Turpial a l&#39;Unity i en català // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.123.7">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
     <link rel="stylesheet" href="https://notesgnu.github.io/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
 
     
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Turpial a l&#39;Unity i en català"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Turpial a l&#39;Unity i en català"/>
 <meta name="twitter:description" content="Ja fa un temps que vaig escriure sobre Turpial, i de com traduïr-lo. Per tenir la versió ja traduïda des dels repositoris a l&rsquo;Ubuntu, només cal afegir el ppa
 sudo add-apt-repository ppa:effie-jayx/turpial-devel
 un cop afegit el repositori de desenvolupament, només cal instal·lar-lo
@@ -37,17 +36,17 @@ La segona qüestió a resoldre és que aparegui a la barra superior de l&rsquo;U
   </head>
   <body>
     <header class="app-header">
-      <a href="https://notesgnu.github.io/"><img class="app-header-avatar" src="/msaliko.jpeg" alt="msaliko" /></a>
+      <a href="https://notesgnu.github.io/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
       <h1>Notes GNU</h1>
       <nav class="app-header-menu">
           <a class="app-header-menu-item" href="/">Inici</a>
-             ● 
+             | 
           
           <a class="app-header-menu-item" href="/about/">Sobre mi</a>
-             ● 
+             | 
           
           <a class="app-header-menu-item" href="/tags/">Etiquetes</a>
-             ● 
+             | 
           
           <a class="app-header-menu-item" href="/categories/">Categories</a>
       </nav>
@@ -125,7 +124,7 @@ sudo apt-get install turpial</p>
 <p>gsettings get com.canonical.Unity.Panel systray-whitelist</p>
 <p>i ens retorna el que té predeterminat a la barra… <code>['JavaEmbeddedFrame', 'Mumble', 'Wine', 'Skype', 'hp-systray', 'scp-dbus-service']</code></p>
 <p>Jo no uso ni wine ni Skype, així que els esborro, si cal els podeu deixar… Per afegir el Turpial només cal modificar la barra escrivint a la terminal:</p>
-<p>gsettings set com.canonical.Unity.Panel systray-whitelist &ldquo;[&lsquo;JavaEmbeddedFrame&rsquo;, &lsquo;Mumble&rsquo;, <strong>&lsquo;turpial&rsquo;</strong>, &lsquo;scp-dbus-service&rsquo;]&rdquo;</p>
+<p>gsettings set com.canonical.Unity.Panel systray-whitelist &ldquo;[&lsquo;JavaEmbeddedFrame&rsquo;, &lsquo;Mumble&rsquo;, <strong>&rsquo;turpial&rsquo;</strong>, &lsquo;scp-dbus-service&rsquo;]&rdquo;</p>
 <p>En la pàgina <a href="http://www.omgubuntu.co.uk/2011/03/how-to-hide-or-show-app-tray-applets-in-ubuntu-11-04/">omgubuntu.co.uk</a> ens ensenya altres opcions ;)</p>
 
     </div>

@@ -1,31 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>opendocument on Notes GNU</title>
+    <title>Opendocument on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/opendocument/</link>
-    <description>Recent content in opendocument on Notes GNU</description>
+    <description>Recent content in Opendocument on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/tags/opendocument/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/tags/opendocument/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Per què no usar WORD a l&#39;educació</title>
       <link>https://notesgnu.github.io/post/2024-04-24-articleword/</link>
       <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2024-04-24-articleword/</guid>
-      <description>Per què no usar WORD a l&amp;rsquo;educació Article escrit el 2016 i no han canviat tant les coses, la diferencia ara és al núvol, però seguim depenent de les eines privatives!!! Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l&amp;rsquo;educació! A continuació deixò l&amp;rsquo;article tal com es va escriure:
-Per què NO hauríem de demanar als nostres alumnes que ens presentin els treballs en un document Word?</description>
+      <description>Per què no usar WORD a l&amp;rsquo;educació Article escrit el 2016 i no han canviat tant les coses, la diferencia ara és al núvol, però seguim depenent de les eines privatives!!! Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l&amp;rsquo;educació! A continuació deixò l&amp;rsquo;article tal com es va escriure:&#xA;Per què NO hauríem de demanar als nostres alumnes que ens presentin els treballs en un document Word?</description>
     </item>
-    
     <item>
       <title>Editar o gestionar coneixement</title>
       <link>https://notesgnu.github.io/post/2023-07-25gestionarconeixement/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2023-07-25gestionarconeixement/</guid>
-      <description>Editar o gestionar coneixement Sovint em trobo cercant i analitzant un bon editor per les notes que prenc. Això sempre em porta a provar noves eines, nous formats de text i a dedicar-hi molt de temps.
-Fent una mica la mirada endarrere, m’adono que el gran problema és el temps invertit i la manca de resultats. Hi ha la teoria de Pareto on la major part de les vegades el 20% de l’esforç genera el 80% dels resultats.</description>
+      <description>Editar o gestionar coneixement Sovint em trobo cercant i analitzant un bon editor per les notes que prenc. Això sempre em porta a provar noves eines, nous formats de text i a dedicar-hi molt de temps.&#xA;Fent una mica la mirada endarrere, m’adono que el gran problema és el temps invertit i la manca de resultats. Hi ha la teoria de Pareto on la major part de les vegades el 20% de l’esforç genera el 80% dels resultats.</description>
     </item>
-    
   </channel>
 </rss>

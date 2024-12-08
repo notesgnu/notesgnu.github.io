@@ -2,152 +2,1040 @@
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>Notes GNU</title>
-    <link>https://notesgnu.github.io/</link>
+    <link>http://localhost:1313/</link>
     <description>Recent content on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 08 Jun 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Per què no usar WORD a l&#39;educació</title>
+      <link>http://localhost:1313/post/2024-04-24-articleword/</link>
+      <pubDate>Wed, 24 Apr 2024 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2024-04-24-articleword/</guid>
+      <description>Per què no usar WORD a l&amp;rsquo;educació Article escrit el 2016 i no han canviat tant les coses, la diferencia ara és al núvol, però seguim depenent de les eines privatives!!! Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l&amp;rsquo;educació! A continuació deixò l&amp;rsquo;article tal com es va escriure:&#xA;Per què NO hauríem de demanar als nostres alumnes que ens presentin els treballs en un document Word?</description>
+    </item>
+    <item>
+      <title>Editar o gestionar coneixement</title>
+      <link>http://localhost:1313/post/2023-07-25gestionarconeixement/</link>
+      <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-07-25gestionarconeixement/</guid>
+      <description>Editar o gestionar coneixement Sovint em trobo cercant i analitzant un bon editor per les notes que prenc. Això sempre em porta a provar noves eines, nous formats de text i a dedicar-hi molt de temps.&#xA;Fent una mica la mirada endarrere, m’adono que el gran problema és el temps invertit i la manca de resultats. Hi ha la teoria de Pareto on la major part de les vegades el 20% de l’esforç genera el 80% dels resultats.</description>
+    </item>
+    <item>
+      <title>Exportar Wordpress a Markdown</title>
+      <link>http://localhost:1313/post/2023-01-03exportarwordpress/</link>
+      <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2023-01-03exportarwordpress/</guid>
+      <description>Hi ha diverses eines que es poden usar, entre elles hi ha wordpress-export-to-markdown.&#xA;El primer que cal fer és instaŀlar-la.&#xA;instaŀlar wordpress-export-to-markdown Si seguim les instruccions, podem fer:&#xA;npx wordpress-export-to-markdown Ens instaŀlar-rà els paquest necessari i ja la tindrem.&#xA;Baixar còpia de seguretat del Wordpress A continuació, baixem l&amp;rsquo;aplicació tot el contingut del Wordpress a Markdown. La trobem&#xA;Allí, exportem:&#xA;Els meus llocs → eines → exporta triem:&#xA;Export content → Exporta-ho tot Un cop baixat, tenim un arxiu comprimit en zip i a dins un document en xml.</description>
+    </item>
+    <item>
+      <title>Proves des de Fedora</title>
+      <link>http://localhost:1313/post/2022-12-04-proves-des-de-fedora/</link>
+      <pubDate>Sun, 04 Dec 2022 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-12-04-proves-des-de-fedora/</guid>
+      <description>Ja fa uns dies que va arribar a les meves mans una màquina vella, d’aquelles que ja no serveixen… en teoria. És un portàtil HP Probook 6560b, i he fet un munt de proves. El primer va ser ampliar la RAM de 2 a 6 gigues, sense cap problema!!!, aquí ja em vaig emocionar, i vaig tirar endavant amb un disc sòlid SSD de 120.&#xA;Aquí em va donar molts problemes… solució ha estat actualitzar la BIOS, usant els arxius per Windows, ja que amb Linux em baixava una BIOS molt antiga.</description>
+    </item>
+    <item>
+      <title>Escrivint al Wordpress des de l&#39;EMACS</title>
+      <link>http://localhost:1313/post/2021-05-29-escrivint-al-wordpress-des-de-lemacs/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2021-05-29-escrivint-al-wordpress-des-de-lemacs/</guid>
+      <description>Per poder publicar des d&amp;rsquo;Emacs a un blog hi ha diverses maneres. Tot i això, en el meu cas, ja fa temps que uso org2blog. Des dels primers inicis a ara, ha tingut diversos canvis, i la veritat és que em funciona molt bé.&#xA;Passo a compartir com ho faig.&#xA;instal·lació Primer que res, cal quenir-ho instal·lat. Per fer-ho, només cal seguir les instruccions de la seva pàgina.&#xA;Dins del nostre .</description>
+    </item>
+    <item>
+      <title>Hola, torno a Wordpress</title>
+      <link>http://localhost:1313/post/2021-05-29-hola-torno-a-wordpress/</link>
+      <pubDate>Sat, 29 May 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2021-05-29-hola-torno-a-wordpress/</guid>
+      <description>Després de temps provant diferents opcions, al final he decidit tornar a Wordpress. Senzill, per la facilitat d&amp;rsquo;accedir des de diferents dispositius, i alhora poder publicar des d&amp;rsquo;Emacs.&#xA;En Emacs tenim Org2Blog que funciona perfectament per aquest menester, i ens permet tenir desat l&amp;rsquo;article, que més tard podem exportar a altres formats.&#xA;Quan tingui una estona faré un breu manual de com publicar un article com aquest des d&amp;rsquo;Emacs.&#xA;;-)</description>
+    </item>
+    <item>
+      <title>Publicar un article des de VIM 2</title>
+      <link>http://localhost:1313/post/2022-01-02-publicar-a-wordpress-vim-2/</link>
+      <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-01-02-publicar-a-wordpress-vim-2/</guid>
+      <description>Ja hem començat l’any 2022 i sempre venen ganes de començar projectes i aprendre coses noves.&#xA;Porto anys usant Emacs i aquest any tinc ganes d’apendre a usar Vim. Una de les coses que més m’agrada d’Emacs és el mode Orgmode. Entre d’altres coses, poder publicar a WordPress directament amb articles escrits org.&#xA;També vull usar de forma més habitual el llenguatge de marques Markdown. Així que m’ha vingut la necessitat de publicar a WordPress directament amb Vim</description>
+    </item>
+    <item>
+      <title>Publicar un article des de VIM</title>
+      <link>http://localhost:1313/post/2022-01-01-publicar-a-wordpress-vim/</link>
+      <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2022-01-01-publicar-a-wordpress-vim/</guid>
+      <description>Avui faig una prova d’inici de VIM i publicar-ho a WordPress Aquest post només és per fer la prova! L’article l’he fet amb MD i vim. Quan tingui una estona posaré els passos de co…&#xA;Avui faig una prova d’inici de VIM i publicar-ho a WordPress&#xA;Aquest post només és per fer la prova!&#xA;L’article l’he fet amb MD i vim.&#xA;Quan tingui una estona posaré els passos de com ho he fet!</description>
+    </item>
     <item>
       <title>Com fer un snippet en Emacs</title>
-      <link>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</link>
+      <link>http://localhost:1313/post/2020-06-08-fer-plantilles/</link>
       <pubDate>Mon, 08 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-06-08-fer-plantilles/</guid>
-      <description>Sovint piquem codi i volem guanyar temps usant una plantilla. Un pedaç de codi s&amp;rsquo;anomena snippet, i és això el que fem.
-Per fer això, tenim YASnippet. Per instaŀlar-ho, res més fàcil:
-M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.
-M-x yas-reload-all Seguidament, ja podem usar-lo. Cal tenir carregat el mode.
-M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu .</description>
+      <guid>http://localhost:1313/post/2020-06-08-fer-plantilles/</guid>
+      <description>Sovint piquem codi i volem guanyar temps usant una plantilla. Un pedaç de codi s&amp;rsquo;anomena snippet, i és això el que fem.&#xA;Per fer això, tenim YASnippet. Per instaŀlar-ho, res més fàcil:&#xA;M-x package-install yasnippet Per actualitzar-lo sense inciar emacs, si no ho volem fer, funcionarà en inciar.&#xA;M-x yas-reload-all Seguidament, ja podem usar-lo. Cal tenir carregat el mode.&#xA;M-x yas-minor-mode El podem carregar sempre que vulguem o fer-ho automàticament afegint el codi al teu .</description>
     </item>
-    
     <item>
       <title>Com fer un blog amb Hugo</title>
-      <link>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</link>
+      <link>http://localhost:1313/post/2020-06-01-blog-amb-hugo/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</guid>
-      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.
-Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.
-He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
+      <guid>http://localhost:1313/post/2020-06-01-blog-amb-hugo/</guid>
+      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.&#xA;Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.&#xA;He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
     </item>
-    
     <item>
       <title>Publicar amb Jekyll i Org-mode</title>
-      <link>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</link>
+      <link>http://localhost:1313/post/2020-05-31-prova-amb-org/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</guid>
-      <description>Finalment he descobert una manera d&amp;rsquo;usar el meu estimat emacs i el seu mode orgmode
-Res més senzill que afegir al _config.yaml el següent codi:
-plugins: [jekyll-org] Per instaŀlar en local les gemes:
-sudo gem install jekyll-org font: jekyll-org
-Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.</description>
+      <guid>http://localhost:1313/post/2020-05-31-prova-amb-org/</guid>
+      <description>Finalment he descobert una manera d&amp;rsquo;usar el meu estimat emacs i el seu mode orgmode&#xA;Res més senzill que afegir al _config.yaml el següent codi:&#xA;plugins: [jekyll-org] Per instaŀlar en local les gemes:&#xA;sudo gem install jekyll-org font: jekyll-org&#xA;Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.</description>
     </item>
-    
     <item>
       <title>Linkatitzar Lubuntu 18.04</title>
-      <link>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</link>
+      <link>http://localhost:1313/post/2020-05-24-linkatitzar/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</guid>
-      <description>Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&amp;rsquo;he trobat amb un problema.
-el problema Quan he intentat instal.lar el paquet linkat-repos_18.04-5_all.deb
-m&amp;rsquo;ha donat el següent error:
-El paquet gksu no està instal·lat. i si vull instal.lar-lo, em diu:
-El paquet gksu no té versió disponible, però un altre paquet en fa referència.</description>
+      <guid>http://localhost:1313/post/2020-05-24-linkatitzar/</guid>
+      <description>Avui he agafat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&amp;rsquo;he trobat amb un problema.&#xA;el problema Quan he intentat instal.lar el paquet linkat-repos_18.04-5_all.deb&#xA;m&amp;rsquo;ha donat el següent error:&#xA;El paquet gksu no està instal·lat. i si vull instal.lar-lo, em diu:&#xA;El paquet gksu no té versió disponible, però un altre paquet en fa referència.</description>
     </item>
-    
     <item>
       <title>Escanejar PDF i OCR</title>
-      <link>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</link>
+      <link>http://localhost:1313/post/2020-05-21-escanejat-de-pdf-amb-ocr/</link>
       <pubDate>Thu, 21 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-05-21-escanejat-de-pdf-amb-ocr/</guid>
-      <description>El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)
-Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: pdfsanwich tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/
-La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.</description>
+      <guid>http://localhost:1313/post/2020-05-21-escanejat-de-pdf-amb-ocr/</guid>
+      <description>El primer post des de fa temps és per escriure sobre entrepans i PDFs. ;-)&#xA;Sovint em passa que tinc molts PDFs escanejats de documents, i els voldria tenir a text. Remenant una mica, ja fa uns dies, vaig trobar una eina molt interessant: pdfsanwich tenim tota la informació a http://www.tobias-elze.de/pdfsandwich/&#xA;La part interessant, és que pot agafar un PDF i llegir-lo a través del tesseract i definint la llengua, podem escanejar la imatge del PDF i incrustrar-hi a dins el text usant OCR.</description>
     </item>
-    
     <item>
       <title>Nou blog!</title>
-      <link>https://notesgnu.github.io/post/2020-05-20-nou-blog/</link>
+      <link>http://localhost:1313/post/2020-05-20-nou-blog/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-05-20-nou-blog/</guid>
-      <description>Després de temps sense escriure, avui m&amp;rsquo;he decidit poder escriure de nou al blog. Però m&amp;rsquo;ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!
-Això ha fet que el canvi de temperatures faci despertar l&amp;rsquo;instint del gnu que portem dins i marxi a noves planures! ;-)
-Així que ara sóc de nou al blog de github però amb nova pàgina.</description>
+      <guid>http://localhost:1313/post/2020-05-20-nou-blog/</guid>
+      <description>Després de temps sense escriure, avui m&amp;rsquo;he decidit poder escriure de nou al blog. Però m&amp;rsquo;ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!&#xA;Això ha fet que el canvi de temperatures faci despertar l&amp;rsquo;instint del gnu que portem dins i marxi a noves planures! ;-)&#xA;Així que ara sóc de nou al blog de github però amb nova pàgina.</description>
     </item>
-    
     <item>
       <title>Sobre mi</title>
-      <link>https://notesgnu.github.io/about/</link>
+      <link>http://localhost:1313/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/about/</guid>
-      <description>Aquest blog&amp;hellip; Les cròniques són aquelles històries explicades seguint una línia temporal… a l’edat mitja en teniem de famoses.
-Bé, i seguint la idea de la “chronica” vull fer un recull històric del meu aprenentage al món Gnu/Linux.
-Ja porto des del 2004 posat seriosament, però sovint tot acaba en l’oblit o en trossos de paper per casa… no crec que servisca de molt, però al menys serà divertit… com ho és aprendre d’este món Gnu/Linux.</description>
+      <guid>http://localhost:1313/about/</guid>
+      <description>Aquest blog&amp;hellip; Les cròniques són aquelles històries explicades seguint una línia temporal… a l’edat mitja en teniem de famoses.&#xA;Bé, i seguint la idea de la “chronica” vull fer un recull històric del meu aprenentage al món Gnu/Linux.&#xA;Ja porto des del 2004 posat seriosament, però sovint tot acaba en l’oblit o en trossos de paper per casa… no crec que servisca de molt, però al menys serà divertit… com ho és aprendre d’este món Gnu/Linux.</description>
     </item>
-    
+    <item>
+      <title>Com escriure una presentació</title>
+      <link>http://localhost:1313/post/2016-10-16-comescriurepresentacio/</link>
+      <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2016-10-16-comescriurepresentacio/</guid>
+      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode&#xA;Podeu descarregar-vos la presentació i el codi en .org&#xA;1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:&#xA;Org mode i Emacs i LaTeX (classe Beamer). Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
+    </item>
     <item>
       <title>Què és markdown, usos i idees</title>
-      <link>https://notesgnu.github.io/post/2016-05-26-markdownlinkat/</link>
-      <pubDate>Thu, 26 May 2016 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2016-05-26-markdownlinkat/</guid>
-      <description>El passat dissabte 28 de maig de 2016 a l&#39;Institut Eugeni d&amp;rsquo;Ors de l&amp;rsquo;Hospitalet de Llobregat va tenir lloc la XIa Jornada (PaperLess). Vaig aprofitar per fer una breu introducció a Markdown. Deixo aquí els enllaços i algunes notes del que vaig comentar.
-MarkDown [M↓] és un llenguatge de marques lleuger (creat per John Gruber i Aaron Swartz). Busca aconseguir llegibilitat escrivint en text pla.
-[M↓] s&amp;rsquo;està convertint en un estàndard per prendre notes en text pla, fer PDF, &amp;hellip;i especialment per fer pàgines web ràpides (tipus github pages), per escriure en Wordpress, Tumblr, stackexchange, i moltes altres coses&amp;hellip;.</description>
+      <link>http://localhost:1313/post/2016-05-15-que-es-markdown-usos-i-idees/</link>
+      <pubDate>Sun, 15 May 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2016-05-15-que-es-markdown-usos-i-idees/</guid>
+      <description>El passat dissabte 28 de maig de 2016 a l’Institut Eugeni d’Ors de l’Hospitalet de Llobregat va tenir lloc la XIa Jornada (PaperLess). Vaig aprofitar per fer una breu introducció a Markdown. Deixo aquí els enllaços i algunes notes del que vaig comentar.&#xA;MarkDown [M↓] és un llenguatge de marques lleuger (creat per John Gruber i Aaron Swartz). Busca aconseguir llegibilitat escrivint en text pla.&#xA;[M↓] s’està convertint en un estàndard per prendre notes en text pla, fer PDF, …i especialment per fer pàgines web ràpides (tipus github pages), per escriure en Wordpress, Tumblr, stackexchange, i moltes altres coses….</description>
     </item>
-    
     <item>
       <title>GIT dóna Error en user.mail</title>
-      <link>https://notesgnu.github.io/post/2016-04-26-errorgitemail/</link>
+      <link>http://localhost:1313/post/2016-04-26-errorgitemail/</link>
       <pubDate>Tue, 26 Apr 2016 07:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2016-04-26-errorgitemail/</guid>
-      <description>Avui m&amp;rsquo;he trobat que quan he intentat fer un
-git commit -m &amp;quot;nou article&amp;quot;  M&amp;rsquo;ha donat el següent error:
- git: fatal unable to auto-detect email address (got &amp;ldquo;some wrong email&amp;rdquo;)
- Em demana que configuri:
- git config --global user.mail &amp;ldquo;you@example.com&amp;rdquo;
- Estic usant la Linkat lleugera (lUbuntu 14.04) i sembla que és un error en configurar user.mail que li falta una e. Si no vull que canviï tota la configuració del git no cal posar --global.</description>
+      <guid>http://localhost:1313/post/2016-04-26-errorgitemail/</guid>
+      <description>Avui m&amp;rsquo;he trobat que quan he intentat fer un&#xA;git commit -m &amp;quot;nou article&amp;quot; M&amp;rsquo;ha donat el següent error:&#xA;git: fatal unable to auto-detect email address (got &amp;ldquo;some wrong email&amp;rdquo;)&#xA;Em demana que configuri:&#xA;git config --global user.mail &amp;ldquo;you@example.com&amp;rdquo;&#xA;Estic usant la Linkat lleugera (lUbuntu 14.04) i sembla que és un error en configurar user.mail que li falta una e. Si no vull que canviï tota la configuració del git no cal posar --global.</description>
     </item>
-    
     <item>
       <title>Canviar la IP de la Raspberry</title>
-      <link>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</link>
+      <link>http://localhost:1313/post/2016-02-20-canviar-ip-raspberry/</link>
       <pubDate>Sat, 20 Feb 2016 07:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</guid>
-      <description>Tinc una Raspberry Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per ssh. Explico els passos que he seguit.
-Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l&amp;rsquo;antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.
-sudo cp /etc/network/interfaces interfaces.old  Després anem editar el fitxer on es desa la configuració de xarxa:
-sudo nano -w /etc/network/interfaces  Dins de l&amp;rsquo;arxiu cal editar-ho:</description>
+      <guid>http://localhost:1313/post/2016-02-20-canviar-ip-raspberry/</guid>
+      <description>Tinc una Raspberry Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per ssh. Explico els passos que he seguit.&#xA;Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l&amp;rsquo;antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.&#xA;sudo cp /etc/network/interfaces interfaces.old Després anem editar el fitxer on es desa la configuració de xarxa:&#xA;sudo nano -w /etc/network/interfaces Dins de l&amp;rsquo;arxiu cal editar-ho:</description>
     </item>
-    
     <item>
       <title>Eliminar el compte de Copy</title>
-      <link>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</link>
+      <link>http://localhost:1313/post/2016-02-08-eliminar-copy/</link>
       <pubDate>Mon, 08 Feb 2016 16:13:38 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2016-02-08-eliminar-copy/</guid>
-      <description>Ja fa uns dies que el Copy m&amp;rsquo;avisa que deixarà de tenir suport.
-A la seva pàgina podem llegir:
- Copy and CudaDrive services will be discontinued. We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.
- És una llàstima, ja que fins ara m&amp;rsquo;ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.</description>
+      <guid>http://localhost:1313/post/2016-02-08-eliminar-copy/</guid>
+      <description>Ja fa uns dies que el Copy m&amp;rsquo;avisa que deixarà de tenir suport.&#xA;A la seva pàgina podem llegir:&#xA;Copy and CudaDrive services will be discontinued. We are announcing today that the Copy and CudaDrive services will be discontinued on May 1, 2016.&#xA;És una llàstima, ja que fins ara m&amp;rsquo;ha anat molt bé. Però el món digital ens obliga a estar preparats per a canvis, així que ara toca deixar-lo.</description>
     </item>
-    
+    <item>
+      <title>Començo a migrar...</title>
+      <link>http://localhost:1313/post/2016-01-31-comenco-a-migrar/</link>
+      <pubDate>Sun, 31 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2016-01-31-comenco-a-migrar/</guid>
+      <description>Ja fa un temps que Wordpress comença a fer-se massa gran!&#xA;Qui digui que no hi ha canvis climàtics, pot ser és que no és un pingüí! Ja fa temps que massa calor per a un pingüí petit, i com tots els animals, toca migrar&amp;hellip; No oblidem les grans manades de nyus migrant pel Serengeti ;-)&#xA;On? molt senzill, a un lloc on faci menys calor i sigui més senzilla la vida del pingüí.</description>
+    </item>
+    <item>
+      <title>Control de volum gràfic a la Linkat Lleugera</title>
+      <link>http://localhost:1313/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</guid>
+      <description>Estic molt content amb la Linkat lleugera.&#xA;Però l’altre dia em vaig trobar que es feia una mica complex per a una persona, que no ha usat mai linux, fer canvis del control de volum. Uns companys volien activar i desactivar el volum del micròfon… Quan fas clic a la icona del volum de la barra superior, et trobes un control en terminal:&#xA;Remenant una mica, i veient com altres usuaris d’entorns LXDE ho havien solucionat, ho he provat amb la Linkat Lleugera.</description>
+    </item>
     <item>
       <title>Editor uText</title>
-      <link>https://notesgnu.github.io/post/2016-01-23-editor-utext/</link>
+      <link>http://localhost:1313/post/2016-01-23-editor-utext/</link>
       <pubDate>Sat, 23 Jan 2016 16:13:38 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2016-01-23-editor-utext/</guid>
-      <description>És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura.
-És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura. Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad, i n&amp;rsquo;hi ha en línia com StackEdit.</description>
+      <guid>http://localhost:1313/post/2016-01-23-editor-utext/</guid>
+      <description>És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura.&#xA;És un editor senzill de markdown. Aquest llenguatge el va crear John Gruber fugint del llenguatge de marques html, i facilitar l&amp;rsquo;edició amb la lectura i escriptura. Podem trobar molts editors com ara ReTex, Retext, MdCharm, UberWriter, Springseed, Remarkable, CuteMarkEd, Haroopad, i n&amp;rsquo;hi ha en línia com StackEdit.</description>
     </item>
-    
+    <item>
+      <title>Bad Character &#39;�&#39;</title>
+      <link>http://localhost:1313/post/2016-01-13-bad-character-/</link>
+      <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2016-01-13-bad-character-/</guid>
+      <description>Un arxiu que he llegit des de terminal m&amp;rsquo;ha donat un error de lectura:&#xA;&amp;gt; bad character &amp;lsquo;�&amp;rsquo;&#xA;Mirant la codificació de l&amp;rsquo;arxiu amb la comanda file, he vist que no té la codificació per a UNIX, així que a canviar-ho. Primer cal instal·lar dos2unix:&#xA;sudo apt-get install dos2unix&#xA;i després a convertir-ho:&#xA;dos2unix -n arxiu.txt arxiu2.txt&#xA;i problema resolt!&#xA;;-)</description>
+    </item>
+    <item>
+      <title>Desactivar acceleració gràfic al Chrome</title>
+      <link>http://localhost:1313/post/2015-12-30-desactivar-acceleracio-grafic-al-chrome/</link>
+      <pubDate>Wed, 30 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-12-30-desactivar-acceleracio-grafic-al-chrome/</guid>
+      <description>Ja fa uns dies que tinc problemes amb el Youtube. Quan inicio un video en el HP550, als poc segons es penja, se sent de fons, però no es veu res.&#xA;He provat moltes coses, actualitzacions, i demés. Resulta que tinc un Lubuntu 14.04.3 instal·lat, i llegint als fòrums sembla que en la última actualització han hagut canvis i ací hi ha el problema, que ara no suporta bé l&amp;rsquo;acceleració GPU &amp;hellip; M&amp;rsquo;he adonat que el problema passa funcionant el Youtube en el Chrome, però amb el Mozilla Firefox, funciona!</description>
+    </item>
+    <item>
+      <title>Conèixer la targeta gràfica</title>
+      <link>http://localhost:1313/post/2015-12-06-coneixer-la-targeta-grafica/</link>
+      <pubDate>Sun, 06 Dec 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-12-06-coneixer-la-targeta-grafica/</guid>
+      <description>Des de que he instal·lat xUbuntu 15.04 al meu vell portàtil hp 550 que quan inicio per primera vegada el Youtube es penja la gràfica. Abans amb la versió 14.04 LTS no m&amp;rsquo;havia passat. Així que el primer que he revisat és la gràfica que tinc posada. Ací explico com saber la gràfica.&#xA;Anem a veure com puc saber la gràfica:&#xA;des de la terminal escrivim:&#xA;lspci | grep Graphics</description>
+    </item>
+    <item>
+      <title>Scratch 2 a la Linkat Lleugera</title>
+      <link>http://localhost:1313/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</link>
+      <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</guid>
+      <description>Scratch és un entorn de programació educatiu fet al MIT, i que en el món educatiu ens permet treballar el pensmanet computacional. El tenim per programar en línia a https://scratch.mit.edu , tot i això, a mi m&amp;rsquo;agrada poder treballar offline. Per fer-ho he seguit les instruccions de la seva pàgina https://scratch.mit.edu/scratch2download/&#xA;Axí que quan he intentat instal·lar-ho a la Linkat lleugera, però m&amp;rsquo;ha donat problemes, on em demana que instal·li el gnome keyring… que ja em consta com a instal·lat.</description>
+    </item>
+    <item>
+      <title>Llançadora a la Linkat lleugera</title>
+      <link>http://localhost:1313/post/2015-10-12-llancadora-a-la-linkat-lleugera/</link>
+      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-10-12-llancadora-a-la-linkat-lleugera/</guid>
+      <description>Ja fa temps que uso Lubuntu com a distribució per defecte. Ara que ha sortit la nova Linkat Lleugera, he migrat de la meva Lubuntu a una Linkat. A més a més, a la meva aula hi ha quatre ordinadors de sobretaula que ara també van amb la nova Linkat lleugera! Ha estat la solució que feia temps que esperava. Per desgràcia a les escoles no sempre tenim la última tecnologia, i aquest mes de setembre quan vaig començar el curs, tenia a la nova aula quatre ordinadors amb Windows XP.</description>
+    </item>
+    <item>
+      <title>Girar un video</title>
+      <link>http://localhost:1313/post/2015-07-09-girar-un-video/</link>
+      <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-07-09-girar-un-video/</guid>
+      <description>Avui tenia una mica de temps, i remenant videos de fa uns mesos, m&amp;rsquo;he trobat amb un video gravat amb mòbil, i es veu girat a l&amp;rsquo;ordinador.&#xA;Així que remenant una mica, el mencoder novament em dóna un cop de mà. Escrivim a la terminal:&#xA;mencoder -vf rotate=1 -oac pcm -ovc lavc videosensegirar.mp4 -o videogirat.mp4&#xA;El que el fa girar és l&amp;rsquo;opció rotate=1 que el gira 90º a la dreta. Si volem en l&amp;rsquo;altra direcció ho canviem per rotate=2</description>
+    </item>
+    <item>
+      <title>Veure DVDs en Linkat (14.04) i Ubuntu (derivades)</title>
+      <link>http://localhost:1313/post/2015-04-17-veure-dvds-en-linkat-14-04-i-ubuntu-derivades/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-04-17-veure-dvds-en-linkat-14-04-i-ubuntu-derivades/</guid>
+      <description>Ja porten uns dies que dues persones m&amp;rsquo;han preguntat el motiu pel qual no es veuen els DVDs en la Linkat 14.04, que és una derivada d&amp;rsquo;Ubuntu.&#xA;Així que només cal anar a la pàgina oficial d&amp;rsquo;Ubuntu on parla dels Formats Restringits, allí ens aconsella instal·lar els paquets libdvdcss2 que en la LinkatEdu 14.04 és libdvdread4. En la pàgina de la Linkat també ho tenim ben documentat!&#xA;Per això anem a la terminal i escrivim:</description>
+    </item>
+    <item>
+      <title>Un blog amb Jekyll</title>
+      <link>http://localhost:1313/post/2015-03-29-un-blog-amb-jekyll/</link>
+      <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-03-29-un-blog-amb-jekyll/</guid>
+      <description>Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant git i jekyll. Els motius són varis, però la idea d epoder escriure un bloc des d&amp;rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.&#xA;S&amp;rsquo;usa per escriure el llenguatge de marques MarkDown i per defecte l&amp;rsquo;extensió .</description>
+    </item>
+    <item>
+      <title>Em falla org2blog 3a part [Solucionat]</title>
+      <link>http://localhost:1313/post/2015-01-21-hello-world/</link>
+      <pubDate>Wed, 21 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-01-21-hello-world/</guid>
+      <description>Be, de moment solucionat! Ja estic publicant des de l’Org2blog :-) Resulta que ara han canviat el Wordpress, i l&amp;rsquo;org2blog ja no connecta correctament per http, ara cal canviar per https!&#xA;Abans era:&#xA;Contacting host: croniqueslinux.wordpress.com:80 xml-rpc-request: Error during request: 301&#xA;i ara ja respon:&#xA;Contacting host: croniqueslinux.wordpress.com:443 Logged in&#xA;Perfecte!&#xA;He de dir que la resposta final la he trobat gracies a la comunitat d&amp;rsquo;org2blog :-)&#xA;Nota: el problema m&amp;rsquo;ha fet usar Blogilo, i trobo una molt bona eina!</description>
+    </item>
+    <item>
+      <title>Em falla org2blog 2a part</title>
+      <link>http://localhost:1313/post/2015-01-17-em-falla-org2blog-2a-part/</link>
+      <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-01-17-em-falla-org2blog-2a-part/</guid>
+      <description>Segueix sense anar-me l&amp;rsquo;Org2blog :-(&#xA;Ara ja no em va. Ho he provat des de l&amp;rsquo;Emacs 24 (GNU Emacs 24.3.1), i també des del Emacs 23. No he trobat encara la solució! No sé si és un problema de l&amp;rsquo;org2blog o de les seves dependències. Ara, amb tot actualitzat em falla dient:&#xA;Contacting host: croniqueslinux.wordpress.com:80&#xA;xml-rpc-request: Error during request: 301&#xA;:-O&#xA;Així que ho he provat per https en la configuració, en comptes de http, i sembla que sí va, però no publica, es penja amb un problema (Variable binding depth exceeds max-specpdl-size)</description>
+    </item>
+    <item>
+      <title>Enganyar quin és el nostre Sistema Operatiu</title>
+      <link>http://localhost:1313/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</link>
+      <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</guid>
+      <description>Ja fa un temps que no podia usar un servei d&amp;rsquo;aprenentage de llengües a la xarxa, el livemocha!&#xA;Quan inicio aquest servei, la resposta que dóna és:&#xA;Així que tot resolt! Ja no puc usar aquest servei!&#xA;Així tracten alguns als usuaris de Gnu/Linux!!!!!!! :-(&#xA;Però no m&amp;rsquo;he quedat aquí!&#xA;Quan naveguem, la xarxa detecta el nostre navegador i sistema operatiu&amp;hellip;&#xA;i pensant una mica&amp;hellip;. podem enganyar la xarxa??? Doncs la resposta és SÍ!</description>
+    </item>
+    <item>
+      <title>Problemes amb Inkscape</title>
+      <link>http://localhost:1313/post/2014-09-14-problemes-amb-inkscape/</link>
+      <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-09-14-problemes-amb-inkscape/</guid>
+      <description>Porto dos dies buscant la solució a un problema que em tenia desesperat. Dibuixant amb Inkscape, i quan copiava i després enganxava, de sobte començaven a saltar errors!&#xA;Cannot list directory /home/usuari/.uniconvertor:[Errno 2] No such file or directory: &amp;lsquo;/home/usuari/.uniconvertor&amp;rsquo;&#xA;problemes amb Rellegint la pàgina Uniconverter fails on copying an svg selection he trobat la solució.&#xA;Sembla que és un error de programari… és a dir, un Bitxo o Cuca (Bug) :-D</description>
+    </item>
+    <item>
+      <title>Exiftool</title>
+      <link>http://localhost:1313/post/2014-08-16-exiftool/</link>
+      <pubDate>Sat, 16 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-08-16-exiftool/</guid>
+      <description>Aquest estiu estic remenant les fotos de les diferents càmares i volia saber les metadades. Així que he trobat una eina interessant des de la terminal exiftool. La tinc instal·lada a Lubuntu 14.04 i va força bé.&#xA;Primer, cal instal·lar amb:&#xA;sudo apt-get install exiftool&#xA;Després tan fàcil com executar exiftool i la imatge:&#xA;exiftool imatge.png&#xA;Per exemple:&#xA;exiftool tux.png ExifTool Version Number : 9.46 File Name : tux.png Directory : .</description>
+    </item>
+    <item>
+      <title>Em falla org2blog</title>
+      <link>http://localhost:1313/post/2014-08-12-em-falla-org2blog/</link>
+      <pubDate>Tue, 12 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-08-12-em-falla-org2blog/</guid>
+      <description>Fins aquests dies Org2blog anava :-(&#xA;No sé que passa, però algunes vegades em va i d&amp;rsquo;altres falla, i molt, o em penja un bon munt d&amp;rsquo;esborranys, així que em toca emigrar de moment!&#xA;Els errors que em salta són del tipus: Making completion list&amp;hellip; [2 times] Contacting host: croniqueslinux.wordpress.com:80 [2 times] progn: Why? url-http-response-status is nil Contacting host: croniqueslinux.wordpress.com:80 [3 times] progn: Why? url-http-response-status is nil&#xA;i així es queda.</description>
+    </item>
+    <item>
+      <title>Colors a Emacs</title>
+      <link>http://localhost:1313/post/2014-08-11-colors-a-emacs-3/</link>
+      <pubDate>Mon, 11 Aug 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-08-11-colors-a-emacs-3/</guid>
+      <description>Després d&amp;rsquo;un temps treballant amb Emacs van venint ganes de donar-li un aspecte més personal, és a dir, un toc de color!&#xA;Hi ha varies maneres de fer-ho. Per una part tenim l&amp;rsquo;opció de configuració del propi Emacs:&#xA;M-x customize-face&#xA;On podrem triar els colors de fons, tipus de lletra, colors varis i un gran etc. I ens queda desat.&#xA;A mi m&amp;rsquo;agrada fer-ho directament al meu .emacs.&#xA;Així que he escrit només un canvi de color de fons (background) i de lletra (foreground):</description>
+    </item>
+    <item>
+      <title>Error systemd-udevd</title>
+      <link>http://localhost:1313/post/2014-05-15-error-systemd-udevd/</link>
+      <pubDate>Thu, 15 May 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-05-15-error-systemd-udevd/</guid>
+      <description>Després d&amp;rsquo;actualitzar el eeepc 1000he a la nova Lubuntu 14.04 en el moment del boot ha començat a donar un munt d&amp;rsquo;errors tipus&#xA;systemd-udevd[xxxx]: failed to execute &amp;lsquo;/usr/lib/udev/socket:@/org/freedesktop/hal/udev_event&amp;rsquo; : No such file or directory&#xA;Buscant una mica he trobat la solució:&#xA;eliminar &amp;ldquo;hal&amp;rdquo;&#xA;així que:&#xA;sudo apt-get remove hal&#xA;i ara tot solucionat!</description>
+    </item>
+    <item>
+      <title>Recuperar CDs i DVDs</title>
+      <link>http://localhost:1313/post/2014-04-07-recuperar-cds-i-dvds/</link>
+      <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-04-07-recuperar-cds-i-dvds/</guid>
+      <description>Amb el temps m&amp;rsquo;he trobat que molts CDs que he gravat, deixen de funcionar, i sovint sembla que les dades i música desada ja no es pot recuperar.&#xA;Hi ha moltes eines pensades per fer-ho, tan GUI com CLI, fins i tot tenim distribucions fetes especialment per tasques d&amp;rsquo;aquest tipus.&#xA;En aquest cas usaré GNU ddrescue una comanda que permet recuperar dades. Així podem crear imatges de cds, dvds, usbs i discos durs des d&amp;rsquo;on recuperar-ne.</description>
+    </item>
+    <item>
+      <title>Convertir un vcd a mpg</title>
+      <link>http://localhost:1313/post/2014-01-27-convertir-un-vcd-a-mpg/</link>
+      <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-01-27-convertir-un-vcd-a-mpg/</guid>
+      <description>Fa un temps que tenic algunes pel·lícules en format VCD. Amb el temps, ocupen molt d&amp;rsquo;espai, i els CDs físics solen deteriorar-se. Així que he decidit desar-los en format de video MPG. Per fer això podem usar la comanda vcdxrip. Res més senzill que inserir el VCD al lector de l&amp;rsquo;ordinador, i un cop inserit, usar la comanda:&#xA;vcdxrip -p --nofiles -C un cop ha acabat, ens crea un arxiu avseq01.</description>
+    </item>
+    <item>
+      <title>Wordpress des del telèfon</title>
+      <link>http://localhost:1313/post/2014-01-21-wordpress-des-del-telefon/</link>
+      <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2014-01-21-wordpress-des-del-telefon/</guid>
+      <description>Ja fa temps que no em resulta senzill tenir accès a internet des de l&amp;rsquo;ordinador. Així, que m&amp;rsquo;he instal-lat l&amp;rsquo;app d&amp;rsquo;Android per wordpress. Aquesta és la primera entrada que escric des del telèfon.&#xA;Cada dia resulta més senzill usar i connectar-se des dels telèfons intel.ligents (smartphones o &amp;rsquo;llestèfons&amp;rsquo;). Així que no m&amp;rsquo;he estat de provar l&amp;rsquo;app oficial del wordpress.&#xA;;-)</description>
+    </item>
+    <item>
+      <title>La Viquipèdia sense connexió a Internet</title>
+      <link>http://localhost:1313/post/2013-11-11-la-viquipedia-sense-connexio-a-internet/</link>
+      <pubDate>Mon, 11 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-11-11-la-viquipedia-sense-connexio-a-internet/</guid>
+      <description>Sovint tinc poca connexió a Internet, en especial quan viatjo o sóc fora de casa. A vegades m&amp;rsquo;interessa fer alguna consulta a la Viquipèdia i no puc.&#xA;Hi ha vàries opcions&amp;hellip; una d&amp;rsquo;elles és la Cdpèdia, força interessant i que podeu baixar-vos la ISO des de http://python.org.ar/Proyectos/CDPedia&#xA;Una altra opció, molt interessant és Kiwix: Permet abaixar-te la wikipedia, pots triar qualsevol idioma i executar-la fins i tot per xarxa. D&amp;rsquo;aquesta manera podem tenir un servidor amb kiwix i la resta de la cas té accés a la viquipèdia.</description>
+    </item>
+    <item>
+      <title>Espai de disc</title>
+      <link>http://localhost:1313/post/2013-10-22-espai-de-disc/</link>
+      <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-10-22-espai-de-disc/</guid>
+      <description>Hi ha moltes eines per saber l&amp;rsquo;espai del disc, tant en ús com l&amp;rsquo;espai lliure. Però moltes vegades no tenim accés a un entorn gràfic. Des de terminal tenim varies eines que ens permeten saber l&amp;rsquo;espai que tenim lliure i en ús. Dues de les dues més importants són du i df.&#xA;Per saber-ne més, només cal usar el propi manual:&#xA;man du&#xA;o&#xA;man df&#xA;Espai que tenim lliure i en ús La comanda df ens ajuda a saber l&amp;rsquo;espai lliure en el disc.</description>
+    </item>
+    <item>
+      <title>Música des de la Terminal amb VLC</title>
+      <link>http://localhost:1313/post/2013-08-17-musica-des-de-la-terminal-amb-vlc/</link>
+      <pubDate>Sat, 17 Aug 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-08-17-musica-des-de-la-terminal-amb-vlc/</guid>
+      <description>Sovint uso programes per escoltar música des de programes visuals, són bonics, estètics, senzills de controlar, a un clic de ratolí. Però moltes vegades tinc la sensació que només vull escoltar música, sense fer cap cosa més enllà que el fet d&amp;rsquo;acompanyar la feina que faig. Així que trobo l&amp;rsquo;opció d&amp;rsquo;escoltrar la música des de la terminal, alliberem ús de RAM i que ens centrem realment en la feina que estem fent.</description>
+    </item>
+    <item>
+      <title>Afegir una llançadora a l&#39;escriptori en Linkatedu 12.04</title>
+      <link>http://localhost:1313/post/2013-06-20-afegir-una-llancadora-a-lescriptori-en-linkatedu-12-04/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-06-20-afegir-una-llancadora-a-lescriptori-en-linkatedu-12-04/</guid>
+      <description>Des de que la Linkat ha passat a tenir com a base Ubuntu, ens trobem que algunes coses es fan una mica diferent.&#xA;Si volem afegir una llançadora a l&amp;rsquo;escriptori, abans es feia botó dret del ratolí sobre l&amp;rsquo;escriptori i creavem la &amp;ldquo;llançadora&amp;rdquo;, però ara no funciona.&#xA;Per poder fer-ho, podem fer en un terminal (crtl+alt+t), una vegada s&amp;rsquo;ha obert la terminal, escrivim:&#xA;gnome-desktop-item-edit ~/Escriptori &amp;ndash;create-new&#xA;I fem els mateixos passos que ja feiem abans!</description>
+    </item>
+    <item>
+      <title>Esperanto en Xubuntu</title>
+      <link>http://localhost:1313/post/2013-06-15-esperanto-en-xubuntu/</link>
+      <pubDate>Sat, 15 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-06-15-esperanto-en-xubuntu/</guid>
+      <description>Ja fa un temps que estudio Esperanto i em calia poder escriure el &amp;ldquo;supersigno&amp;rdquo;, així que al portàtil on tinc instal·lat Xubuntu no trobava com configurar-ho. En Gnome és senzill, ho trobem en la configuració del teclat i en les opcions podem triar esperanto - supersigno en l&amp;rsquo;opció qwerty, és a dir, que amb la tecla [alt gr] i prement la lletra que porta supersigno, ens surt ĝ, ŝ, ŭ … En Lubuntu i entorns lxde es pot fer com ho explicava per fer accents en un teclat americà.</description>
+    </item>
+    <item>
+      <title>Problemes amb els repositoris Debian Wheezy</title>
+      <link>http://localhost:1313/post/2013-06-12-problemes-amb-els-repositoris-debian-wheezy/</link>
+      <pubDate>Wed, 12 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-06-12-problemes-amb-els-repositoris-debian-wheezy/</guid>
+      <description>Porto uns dies que Debian Wheezy em donava problemes per actualitzar.&#xA;Resulta que en fer les actualitzacions em donava:&#xA;Release http://ftp.es.debian.org/debian/dists/testing/InRelease caducat (invàlid des de XdataX)&#xA;Així que he hagut de corregir les llistes del repositori, resulta que com havia actualitzat Whezzy, i havia passat de testing a definitiva, llavors, al no haver canviat els meus repositoris em donava l&amp;rsquo;error.&#xA;emacs /etc/apt/sources.list&#xA;La solució ha estat canviar on posa &amp;ldquo;testing&amp;rdquo; per &amp;ldquo;Whezzy&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Solucionar discs amb FSCK</title>
+      <link>http://localhost:1313/post/2013-04-27-solucionar-discs-amb-fsck/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-04-27-solucionar-discs-amb-fsck/</guid>
+      <description>Moltes vegades m&amp;rsquo;he trobat amb discs externs que no s&amp;rsquo;obren o que de sobte l&amp;rsquo;ordinador es queixa que s&amp;rsquo;ha de fer manualment el xequeig. Sovint passa per extreure-les sense desmuntar, o per altres causes, apagat iniesperat de la màquina,… Així que podem perdre la infromació del disc o no podem accedir-hi. L&amp;rsquo;eina a usar és fsck (file system consistency check) que serveix per solucionar les inconsistències del sistema d&amp;rsquo;arxius i si en troba pot corregir-les.</description>
+    </item>
+    <item>
+      <title>Solucionar discs FAT i NTFS</title>
+      <link>http://localhost:1313/post/2013-04-27-solucionar-discs-fat-i-ntfs/</link>
+      <pubDate>Sat, 27 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-04-27-solucionar-discs-fat-i-ntfs/</guid>
+      <description>Ja he comentat l&amp;rsquo;ús del FSCK i ara volia comentar com fer-ho amb disc de tipus FAT.&#xA;Com a eina imprescindible hi ha testdisk que permet molts sistemes de fitxers, i realment es pot considerar la navalla suïssa!, gràficament tenim gparted i disks (Palimpsest Disk). Però una eina senzilla i molt semblant a fsck és dosfsck. Primer que res cal tenir instal·lat el paquet dosfstools:&#xA;sudo apt-get install dosfstools&#xA;FAT: Per poder dur-ho a terme, el primer és llistar les particions i discs, es pot fer de moltes maneres, la que faig anar és:</description>
+    </item>
+    <item>
+      <title>Emacs24 a la Linkat</title>
+      <link>http://localhost:1313/post/2013-04-08-emacs24-a-la-linkat/</link>
+      <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-04-08-emacs24-a-la-linkat/</guid>
+      <description>Després d&amp;rsquo;uns dies usant Emacs24 he passat a fer la instal·lació a la Linkat 11.4. No la tenim al repositori, així que per poder fer-ho la descarregarem directament de la pàgina oficial i ho compilarem. Un dels avantatges un cop instal·lat, és que des de la versió 24 podem gaudir dels repositoris propis, i així poder ampliar-lo amb nous modes, i mantenir-ho actualitzat.&#xA;Així que, el primer que caldrà és descarregar la última versió:</description>
+    </item>
+    <item>
+      <title>Instal·lar modes en Emacs 24</title>
+      <link>http://localhost:1313/post/2013-04-05-installar-modes-en-emacs-24/</link>
+      <pubDate>Fri, 05 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-04-05-installar-modes-en-emacs-24/</guid>
+      <description>Ja fa un temps que Emacs va passar a la versió 24, i des del juny del 2012 que en podem gaudir de noves funcionalitats. Fins ara havia estat usant la versió anterior. Però avui m&amp;rsquo;he dedicat a provar la versió 24, exactament 24.3 que tenim des del passat 11 de març de 2013. I una de les coses que he començat a fer és editar un document en Latex. Així que refent el document m&amp;rsquo;he trobat que no compilava.</description>
+    </item>
+    <item>
+      <title>Biombos a la terminal</title>
+      <link>http://localhost:1313/post/2013-04-03-biombos-a-la-terminal/</link>
+      <pubDate>Wed, 03 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-04-03-biombos-a-la-terminal/</guid>
+      <description>Ja fa dies que no escrivia res, he estat fent moltes coses, i llegint la revista Linux Magazine número 91 he trobat l&amp;rsquo;eina anomenada Byobu. Una eina molt interessant per treballar amb la terminal. Ja havia comentat Screen i també Tmux, i ara podriem dir que anem a trobar una evolució d&amp;rsquo;aquestes dues. Byōbu és una paraula japonesa que significa Biombo (Byō- parar + bu - vent), i serveix per fer separacions, crear i desfer espais ràpidament.</description>
+    </item>
+    <item>
+      <title>extreure elements d&#39;un arxiu swf</title>
+      <link>http://localhost:1313/post/2013-02-01-extreure-elements-dun-arxiu-swf/</link>
+      <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-02-01-extreure-elements-dun-arxiu-swf/</guid>
+      <description>No m&amp;rsquo;agrada massa el flash ja que en no és un programari lliure, i no té massa bona implementació. Bé, la qüestió és que en un swf hi havia un audio que volia tenir per separat. També serveix per les imatges que surten, que pot ser volem recuperar-les d&amp;rsquo;un swf.&#xA;Un cop creat es fa difícil tornar a extreure el que s&amp;rsquo;ha incrustat&amp;hellip;&#xA;bé, doncs he trobat una eina que ho permet, està dins d&amp;rsquo;un conjunt d&amp;rsquo;eines anomenades SWFTOOLS.</description>
+    </item>
+    <item>
+      <title>Nova versió de LyX a la Linkat</title>
+      <link>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
+      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
+    </item>
+    <item>
+      <title>Accents amb un teclat americà</title>
+      <link>http://localhost:1313/post/2012-12-25-accents-amb-un-teclat-america/</link>
+      <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-12-25-accents-amb-un-teclat-america/</guid>
+      <description>Ja fa uns anys que vaig anar de viatge a la Xina i em vaig comprar un EeePC 1000HE, del que estic molt content. Hi vaig instal·lar Ubuntu (gnome), i en la configuració del teclat vaig triar la &amp;ldquo;tecla compose&amp;rdquo;, és a dir, em permetia usar una de les tecles com a comodí per accentuar. Amb el temps m&amp;rsquo;he passat a Lubuntu en el notebook, en especial per optimitzar recursos de la màquina, i prioritzar les eines per sobre de l&amp;rsquo;aspecte.</description>
+    </item>
+    <item>
+      <title>Més enllà d&#39;una imatge</title>
+      <link>http://localhost:1313/post/2012-11-30-mes-enlla-duna-imatge/</link>
+      <pubDate>Fri, 30 Nov 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-11-30-mes-enlla-duna-imatge/</guid>
+      <description>He conegut fa poc un concepte que no coneixia: esteganografia. La idea és ocultar una informació dins d&amp;rsquo;una imatge.&#xA;Podem ocultar un text, o una altra imatge. Per poder dur a terme aquesta tècnica hi ha moltes eines, des de steghide o outgess. Les eines són molt completes i molt interessants. Però el que jo vull explicar aquí és com fer-ho des de la terminal, i d&amp;rsquo;una manera molt senzilla.</description>
+    </item>
+    <item>
+      <title>Canviar codificació d&#39;un arxiu</title>
+      <link>http://localhost:1313/post/2012-10-20-canviar-codificacio-dun-arxiu/</link>
+      <pubDate>Sat, 20 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-10-20-canviar-codificacio-dun-arxiu/</guid>
+      <description>Avui m&amp;rsquo;ha passat que un arxiu vell (en text pla) i m&amp;rsquo;he trobat que en obrir-lo amb gedit o emacs m&amp;rsquo;he trobat que no es veia correctament. Així que he decidit convertir-lo a utf-8 a veure si es veia correctament. El primer que he fet és saber en quina codificació el tenia, i per fer-ho he usat la comanda file:&#xA;file arxiu.txt&#xA;I m&amp;rsquo;ha donat com a resposta: arxiu.txt: ISO-8859 text, with CRLF line terminators I ara a convertir-lo:</description>
+    </item>
+    <item>
+      <title>Convertir audio (APE&#43;CUE a OGG)</title>
+      <link>http://localhost:1313/post/2012-10-19-convertir-audio-apecue-a-ogg/</link>
+      <pubDate>Fri, 19 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-10-19-convertir-audio-apecue-a-ogg/</guid>
+      <description>Ja fa molt de temps se&amp;rsquo;m va ocurrer usar http://www.monkeysaudio.com/ per fer còpies de seguretat dels meus discs de música. Aquest programa convertia el CD d&amp;rsquo;àudio en dos fitxers, un acabat en APE i un altre amb l&amp;rsquo;extenció CUE. Després d&amp;rsquo;uns quants anys me&amp;rsquo;ls he retrobat en un disc dur extern i, avui, he volgut passar-los a OGG. Així que mans a l&amp;rsquo;obra…&#xA;Primer que res, caldrà instal·lar alguns paquets, en el cas de debian jo he instal·lat els següents, que no tenia instal·lats:</description>
+    </item>
+    <item>
+      <title>instal·lar un paquet experimental a Debian</title>
+      <link>http://localhost:1313/post/2012-10-16-installar-un-paquet-experimental-a-debian/</link>
+      <pubDate>Tue, 16 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-10-16-installar-un-paquet-experimental-a-debian/</guid>
+      <description>Avui per un problema amb el network-manager he decidit instal·lar un paquet des del repositori experimental al portàtil on tinc instal·lat Debian (Testing). El primer que he vist és que hi havia la nova versió del network-manager 9.6 i amb alguns problemes corregits. Sempre quan instal·lem un paquet des del repositori experimental cal tenir present que no són segurs del tot, ja que des de Debian no n&amp;rsquo;asseguren el correcte funcionament.</description>
+    </item>
+    <item>
+      <title>Canviar el noms de fitxers amb &lt;b&gt;rename&lt;/b&gt;</title>
+      <link>http://localhost:1313/post/2012-10-06-canviar-el-noms-de-fitxers-amb-rename/</link>
+      <pubDate>Sat, 06 Oct 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-10-06-canviar-el-noms-de-fitxers-amb-rename/</guid>
+      <description>Algunes vegades necessito canviar el nom d&amp;rsquo;un fitxer o d&amp;rsquo;una carpeta, res més senzill que usant l&amp;rsquo;entorn gràfic i fent clic amb el botó dret sobre el fitxer (ho faig així amb el nautilus, o el pcmanfm, o el dolphin) o directament amb el fitxer eleccionat i prement [F2].&#xA;Però quan vull canviar molt fitxers de nom o d&amp;rsquo;extensió, llavors es fa molt lent. Hi ha eines gràfiques per fer-ho com gprename, krename o pyrenamer, però jo voldria compartir la que uso jo, des de terminal, la comanda rename.</description>
+    </item>
+    <item>
+      <title>Unir videos des de terminal</title>
+      <link>http://localhost:1313/post/2012-09-21-unir-videos-des-de-terminal/</link>
+      <pubDate>Fri, 21 Sep 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-09-21-unir-videos-des-de-terminal/</guid>
+      <description>Sovint acabo amb molts videos de la càmera, i no és qüestió de tenir un munt de bocins solts. Així que els podem unir en un de sol. Utilitzant la eina mencoder, des de la terminal podem unir dos o més videos en un de sol.&#xA;Obrint una terminal:&#xA;mencoder -oac copy -ovc copy -idx -o videofinal.avi part1.avi part2.avi :&#xA;o també podem:&#xA;mencoder -oac copy -ovc copy -idx -o videofinal.</description>
+    </item>
+    <item>
+      <title>Un visor per PDF lleuger</title>
+      <link>http://localhost:1313/post/2012-08-05-19628_081013224757/</link>
+      <pubDate>Sun, 05 Aug 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-08-05-19628_081013224757/</guid>
+      <description>Moltes vegades em trobo amb PDF cada cop més pesats, i per passar de pàgina a pàgina, triga una mica, sobretot en els netbooks.&#xA;La idea és, per a què consumir recursos en l&amp;rsquo;eina, quan els podem aplicar tots a la feina?&#xA;Aquí entra en joc Apvlv&#xA;Té l&amp;rsquo;avantatge que es pot usar directament amb el teclat (com Vim o Emacs), i això facilita molt la navegació, en especial en un portàtil o quan vols anar ràpidament a un lloc del document.</description>
+    </item>
+    <item>
+      <title>Nou Emacs 24.1</title>
+      <link>http://localhost:1313/post/2012-06-10-nou-emacs-24-1/</link>
+      <pubDate>Sun, 10 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-06-10-nou-emacs-24-1/</guid>
+      <description>Els que som usuaris d&amp;rsquo;Emacs, podem estar contents amb la nova versió d&amp;rsquo;Emacs. El dia 10 de juny de 2012 ha sortit la nova versió. A la pàgina oficial tenim algunes de les noves característiques:&#xA;Un sistema de paquets per instal·lar més funcionalitats (M-x list-packages). Possibilitat per escriure bidireccionalment, molt útil per a escriure en llengües com l&amp;rsquo;àrab i l&amp;rsquo;hebreu. Es pot customitzar l&amp;rsquo;aspecte amb temes (M-x customize-themes). Suport per a GnuTLS, GTK+ 3, ImageMagick, SELinux, i Libxml2.</description>
+    </item>
+    <item>
+      <title>Instal·lar l&#39;última versió de Libreoffice en Debian</title>
+      <link>http://localhost:1313/post/2012-06-04-installar-lultima-versio-de-libreoffice-en-debian/</link>
+      <pubDate>Mon, 04 Jun 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-06-04-installar-lultima-versio-de-libreoffice-en-debian/</guid>
+      <description>Últimament estic tenint algun problema amb el Debian Testing (amb gnome-shell) i el LibreOffice 3.4.x així que cercant per internet he llegit que més gent ha tingut problemes, i amb la nova versió s&amp;rsquo;ha corregit molts dels problemes.&#xA;Així, que no m&amp;rsquo;he pogut esperar, en especial per l&amp;rsquo;angoixa que produeix la constant congelació del gnome-shell, on només puc moure el ratolí. Molts diuen que es pot solucionar amb Alt+F2 i escriure r (per fer un restart del gnome-shell), però moltes vegades tampoc funciona.</description>
+    </item>
+    <item>
+      <title>Recompte de caracters amb EMACS</title>
+      <link>http://localhost:1313/post/2012-05-22-recompte-de-caracters-amb-emacs/</link>
+      <pubDate>Tue, 22 May 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-05-22-recompte-de-caracters-amb-emacs/</guid>
+      <description>Últimament utilitzo emacs per a escriure treballs, notes, documents i un bon munt de textos. Feia dies que buscava la manera de recomptar els caracters amb emacs, sovint ens va marcant la línia on ens trobem, però no ens indica els caracters. La solució és triar el text i fer M-=, si volem recomptar tot el text, llavors la seqüència seria C-x h i després M-=.&#xA;;-)</description>
+    </item>
+    <item>
+      <title>tmux, per veure la terminal d&#39;una altra manera</title>
+      <link>http://localhost:1313/post/2012-03-18-tmux-per-veure-la-terminal-duna-altra-manera/</link>
+      <pubDate>Sun, 18 Mar 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-03-18-tmux-per-veure-la-terminal-duna-altra-manera/</guid>
+      <description>Ja fa uns dies vaig parlar de l&amp;rsquo;eina screen, avui vull parlar de tmux. tmux és una terminal multiplexer que permet moltes coses. Una d&amp;rsquo;elles és tenir varies finestres a la vegada en la mateixa terminal. També permet deixar una sessió funcionant, tancar la terminal, però continuar funcionant.&#xA;Algunes de les dreceres de teclat per al seu ús:&#xA;C-b c &amp;gt; crea una finestra nova&#xA;C-b % &amp;gt; divideix la finestra en vertical</description>
+    </item>
+    <item>
+      <title>Trobant duplicats!</title>
+      <link>http://localhost:1313/post/2012-01-11-trobant-duplicats/</link>
+      <pubDate>Wed, 11 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-01-11-trobant-duplicats/</guid>
+      <description>He de confesar que sofreixo una mica el síndrome de diògenes &amp;ldquo;digital&amp;rdquo;, és a dir, sovint emmagatzemo molts arxius, i moltes vegades trobo que ja els tenia. Això m&amp;rsquo;ha fet que tingue més vegades de les desitjades el mateix document, en diferents carpetes o amb noms diferents. Hi ha una eina gràfica que va força bé anomenada fslint. Però per poder a prendre, acostumo a intentar fer-ho des de la terminal.</description>
+    </item>
+    <item>
+      <title>Midnight Commander i SSH</title>
+      <link>http://localhost:1313/post/2012-01-08-midnight-commander-i-ssh/</link>
+      <pubDate>Sun, 08 Jan 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-01-08-midnight-commander-i-ssh/</guid>
+      <description>Volia fer una entrada sobre l&amp;rsquo;ús del MC o Midnight Comander, ja fa uns dies que l&amp;rsquo;estic usant i avui he descobert un ús força interessant. Comparteixo el video que he vist el seu ús amb SSH&#xA;[youtube http://www.youtube.com/watch?v=q6Ct7L4oZFE&amp;amp;w=480&amp;amp;h=360]</description>
+    </item>
+    <item>
+      <title>Ibus i problemes amb Unity</title>
+      <link>http://localhost:1313/post/2011-12-17-ibus-i-problemes-amb-unity/</link>
+      <pubDate>Sat, 17 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-12-17-ibus-i-problemes-amb-unity/</guid>
+      <description>Porto uns dies al netbook usant Ubuntu 11.10 amb Unity, i m&amp;rsquo;havia desaparegut l&amp;rsquo;IBUS que uso per escriure en Xinès. No hi havia manera que funcionés. Finalment he trobar la solució: 1, instal·lem dconf-editor: sudo apt-get install dconf 2, executem dconf-editor&#xA;3, i anem a &amp;hellip; Un cop aquí, cal afegir &amp;lsquo;Ibus&amp;rsquo; i fem RETORN. Ara ja ho tenim funcionant!</description>
+    </item>
+    <item>
+      <title>Screen: una eina més per la terminal</title>
+      <link>http://localhost:1313/post/2011-12-05-screen-una-eina-mes-per-la-terminal/</link>
+      <pubDate>Mon, 05 Dec 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-12-05-screen-una-eina-mes-per-la-terminal/</guid>
+      <description>Fa uns dies que he descobert screen una eina molt útil per treure molt de suc del treball en la terminal. Sovint fem diferents tasques des de la terminal, i screen ens pot permetre fer més senzill el control i execució de les comandes. És a dir, tenir moltes sessions de treminal funcionant a la vegada en la mateixa terminal.&#xA;Una de les caracterísiques que trobo força interessants és que podem tancar la terminal i queda el pocrés persistent.</description>
+    </item>
+    <item>
+      <title>Iniciar Conky automàticament en Lubuntu</title>
+      <link>http://localhost:1313/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</link>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</guid>
+      <description>Aquest cap de setmana he instal·lat a un netbook Point Of View (POV) la nova Lubuntu 11.10 ocelot oneiric. La veritat és que consumeix menys RAM, i va bastant lleugera. Va amb l&amp;rsquo;entorn d&amp;rsquo;escriptori lleuger LXDE.&#xA;Seguidament he instal·lat conky que és molt configurable i tenim molts exemples a la xarxa per donar-li l&amp;rsquo;aspecte que més ens agradi. Si no el tenim instal·lat, només cal:&#xA;sudo apt-get install conky-all&#xA;L&amp;rsquo;únic problema que he tingut és que no s&amp;rsquo;inciava de forma automàtica.</description>
+    </item>
+    <item>
+      <title>Escriure símbols i diacrítics en Emacs</title>
+      <link>http://localhost:1313/post/2011-09-10-escriure-simbols-i-diacritics-en-emacs/</link>
+      <pubDate>Sat, 10 Sep 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-09-10-escriure-simbols-i-diacritics-en-emacs/</guid>
+      <description>Sóc usuari novell d´Emacs, i cada cop m&amp;rsquo;agrada més. Quan vaig estar a la Xina em vaig comprar un netbook (Asus Eeepc) i només té teclat americà. El primer que vaig fer va ser posar-li Gnu/Linux (Ubuntu) i configurar-li la possibilitat del &amp;ldquo;compose&amp;rdquo;, així puc escriure usant la tecla que he predifinit (Alt-right) per poder composar lletres. En el cas d´Emacs no m&amp;rsquo;anava la tecla compose, així que la ç o les lletres accentuades eren una mica complicades d&amp;rsquo;escriure en català amb el preuat Emacs.</description>
+    </item>
+    <item>
+      <title>Corrector de català mentre escrivim a l&#39;Emacs</title>
+      <link>http://localhost:1313/post/2011-07-24-corrector-de-catala-mentre-escrivim-a-lemacs/</link>
+      <pubDate>Sun, 24 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-07-24-corrector-de-catala-mentre-escrivim-a-lemacs/</guid>
+      <description>Des de que uso Emacs que m&amp;rsquo;han anat sorgint dubtes, problemes i solucions referents a l&amp;rsquo;ús del català. El primer problema que vaig tenir era que no era capaç d&amp;rsquo;escriure en accents fins que ho vaig solucionar. La segona cosa era com fer anar un corrector en català, i també ho vaig trobar.&#xA;Ara resulta que m&amp;rsquo;he trobat que volia usar el corrector al &amp;ldquo;vol&amp;rdquo;, és a dir, com en altres programes que es va posant en roig les paraules mal escrites.</description>
+    </item>
+    <item>
+      <title>Usar Texmaker a la Linkat 4</title>
+      <link>http://localhost:1313/post/2011-07-19-usar-texmaker-a-la-linkat-4/</link>
+      <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-07-19-usar-texmaker-a-la-linkat-4/</guid>
+      <description>Normalment per escriure en Latex utilitzo emacs en el seu mode AUXtex. Però avui he volgut provar Texmaker en la Linkat 4. El principal problema és que als repositoris no està, però tot té solució, sense tocar repositoris, ni afegir cap dependència. És més, si volem podem usar el sistema que explicaré per portar-ho a un llapis USB de forma portable ;-)&#xA;aconseguir el programa per a 32 bits</description>
+    </item>
+    <item>
+      <title>Rsync a un disc dur extern</title>
+      <link>http://localhost:1313/post/2011-07-16-rsync-a-un-disc-dur-extern/</link>
+      <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-07-16-rsync-a-un-disc-dur-extern/</guid>
+      <description>rsync és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de Grsync.&#xA;rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí&#xA;Un exemple de la comanda:&#xA;rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/&#xA;Amb això farà una còpia de seguretat.&#xA;Per fer-ho via SAMBA amb ssh:&#xA;primer cal muntar el disc amb samba mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada</description>
+    </item>
+    <item>
+      <title>Abiword: Processador de textos lleuger</title>
+      <link>http://localhost:1313/post/2011-07-12-abiword-processador-de-textos-lleuger/</link>
+      <pubDate>Tue, 12 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-07-12-abiword-processador-de-textos-lleuger/</guid>
+      <description>Tal com diu a la viquipèdia, l&amp;rsquo;AbiWord és un programa processador de textos de programari lliure, multiplataforma amb llicència GPL. El tenim traduït al català gràcies al grup de traductors de Softcatalà.&#xA;Si teniu un ordinador amb pocs recursos, o només useu el writer del libreoffice (o Openoffice), llavors l&amp;rsquo;Abiword us pot anar força bé.&#xA;No té totes les característiques del writer però en té algunes força interessants:&#xA;pot obrir diferents tipus de documents En d&amp;rsquo;altres es capaç d&amp;rsquo;obrir PDF i després desar-ne el document en .</description>
+    </item>
+    <item>
+      <title>Conèixer informació del sistema</title>
+      <link>http://localhost:1313/post/2011-07-07-coneixer-informacio-del-sistema/</link>
+      <pubDate>Thu, 07 Jul 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-07-07-coneixer-informacio-del-sistema/</guid>
+      <description>Avui em calia saber el model del cpu de l&amp;rsquo;ordinador, per això he usat a la terminal la següent comada:&#xA;$ cat /proc/cpuinfo | grep &amp;ldquo;model name&amp;rdquo;&#xA;Si volem tota la informació podem:&#xA;$ cat /proc/cpuinfo&#xA;Si volem saber una en concret, només cap modificar el grep amb la dada que volem:&#xA;$ cat /proc/cpuinfo | grep &amp;ldquo;flags&amp;rdquo;&#xA;Com a nota interessant tenim que Si al resultat surt lm, llavors 64 bit, i si surt Protected Mode, és de 32 bits.</description>
+    </item>
+    <item>
+      <title>Esborrar un DVD-RW o un CD-RW des de Terminal</title>
+      <link>http://localhost:1313/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</link>
+      <pubDate>Sat, 04 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-06-04-esborrar-un-dvd-rw-o-un-cd-rw-des-de-terminal/</guid>
+      <description>Sempre he usat el K3B, brasero o d&amp;rsquo;altres entorns GUI per esborrar els meus regrabables. Però avui m&amp;rsquo;ha sorgit el problema que no hi havia manera d&amp;rsquo;esborrar-lo. Per sort els usuaris Gnu/Linux tenim la terminal que mai ens falla!&#xA;Així que he esborrat el DVD-RW amb dues senzilles comandes:&#xA;la primera comanda és per demuntar el CD o DVD, en el meu cas quan es munta ho fa a /dev/sr0, a vegades pot tenir un altre nom /dev/cdrom /dev/XX… umount /dev/sr0</description>
+    </item>
+    <item>
+      <title>Turpial a la Linkat</title>
+      <link>http://localhost:1313/post/2011-06-03-turpial-a-la-linkat/</link>
+      <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-06-03-turpial-a-la-linkat/</guid>
+      <description>Divendres a la tarda, i amb ganes de llegir les piulades del dia, i com és de costum solc usar el mode d&amp;rsquo;Emacs per a Identi.ca i Turpial per a Twitter.&#xA;Com que fa uns dies que vaig instal·lar al meu vell Eeepc901, ara em calia posar-hi el Turpial.&#xA;Aquests passos serveixen tan per la Linkat com per a Opensuse 11.x.&#xA;obtenir Turpial El primer que cal és baixar el paquet tar.</description>
+    </item>
+    <item>
+      <title>Instal·lant org-mode a la Linkat</title>
+      <link>http://localhost:1313/post/2011-06-01-hola-mon-2/</link>
+      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-06-01-hola-mon-2/</guid>
+      <description>Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.&#xA;Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)&#xA;Primer que res he instal·lat emacs a la Linkat La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:</description>
+    </item>
+    <item>
+      <title>Turpial a l&#39;Unity i en català</title>
+      <link>http://localhost:1313/post/2011-05-15-turpial-a-lunity-i-en-catala/</link>
+      <pubDate>Sun, 15 May 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-05-15-turpial-a-lunity-i-en-catala/</guid>
+      <description>Ja fa un temps que vaig escriure sobre Turpial, i de com traduïr-lo. Per tenir la versió ja traduïda des dels repositoris a l&amp;rsquo;Ubuntu, només cal afegir el ppa&#xA;sudo add-apt-repository ppa:effie-jayx/turpial-devel&#xA;un cop afegit el repositori de desenvolupament, només cal instal·lar-lo&#xA;sudo apt-get update sudo apt-get install turpial&#xA;això ens instal·larà la versió 1.5rc1 i ja està en català.&#xA;La segona qüestió a resoldre és que aparegui a la barra superior de l&amp;rsquo;Unity.</description>
+    </item>
+    <item>
+      <title>Dropbox a l&#39;Unity</title>
+      <link>http://localhost:1313/post/2011-05-12-dropbox-a-lunity/</link>
+      <pubDate>Thu, 12 May 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-05-12-dropbox-a-lunity/</guid>
+      <description>Fa temps que uso Dropbox, però amb l&amp;rsquo;actualització de l&amp;rsquo;Ubuntu del portàtil m&amp;rsquo;he trobat que no apareix la icona del Dropbox a la barra superior. Per fer això només cal fer el següent, a la terminal escrivim: $ gsettings get com.canonical.Unity.Panel systray-whitelist i ens retorna el que té predeterminat a la barra… [&#39;JavaEmbeddedFrame&#39;, &#39;Mumble&#39;, &#39;Wine&#39;, &#39;Skype&#39;, &#39;hp-systray&#39;, &#39;scp-dbus-service&#39;]&#xA;Jo no uso ni wine ni Skype, així que els esborro, si cal els podeu deixar… Per afegir dropbox, només cal modificar la barra escrivint a la terminal: $ gsettings set com.</description>
+    </item>
+    <item>
+      <title>ERC: Client de Xat de l&#39;Emacs</title>
+      <link>http://localhost:1313/post/2011-04-19-erc-client-de-xat-de-lemacs/</link>
+      <pubDate>Tue, 19 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-04-19-erc-client-de-xat-de-lemacs/</guid>
+      <description>ERC és un mode de l&amp;rsquo;emacs usat com a client d&amp;rsquo;IRC completo para Emacs. El seu nom ja ho diu: E macs internet R elay C hat&#xA;Per iniciar la sessió, només cal engegar l&amp;rsquo;emacs i fer M-x erc&#xA;Llavors s&amp;rsquo;inicia un minibuffer i ens pregunta el nick, contrasenya, canal IRC… Com a curiositat, tenim que en comptes de entrar a ERC fem M-x irc ens entrarà directament a la xarxa IRC irc.</description>
+    </item>
+    <item>
+      <title>Ajust de línia en EMACS</title>
+      <link>http://localhost:1313/post/2011-04-18-ajust-de-linia-en-emacs/</link>
+      <pubDate>Mon, 18 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-04-18-ajust-de-linia-en-emacs/</guid>
+      <description>Quan inicies l&amp;rsquo;emacs amb la configuració per defecte, sempre surten les línies sense estar ajustades. És a dir, que a mesura que vas escrivint i arribes al marge dret la línia continua sense baixar a sota. Això pot resultar útil alguns cops, però quan escrius un text a mi em resulta molest, ja que no puc llegir el que he escrit.&#xA;Hi ha la solució d&amp;rsquo;anar a Options-&amp;gt; Line wrapping in this buffer -&amp;gt; wrap at window edge i així ho tenim de forma temporal.</description>
+    </item>
+    <item>
+      <title>Terminator</title>
+      <link>http://localhost:1313/post/2011-04-16-terminator/</link>
+      <pubDate>Sat, 16 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-04-16-terminator/</guid>
+      <description>Porto temps usant la terminal, i últimament l&amp;rsquo;uso molt per gestionar altres ordinadors via ssh. I m&amp;rsquo;interessa veure com va tot.&#xA;Així, que m&amp;rsquo;ha vingut un flaix, i m&amp;rsquo;he recordat de terminator.&#xA;És un programa escrit en python, que permet finestres múltiples, i molt addient per moltes tasques alhora.&#xA;Com a característiques es pot dir que: Organitzar terminals en una graella Pestanyes Arrossegar i deixar anar les terminals per reordenar Mètodes abreujats de teclat: ctrl-shift-n &amp;gt; següent ctrl-shift-p &amp;gt; anterior ctrl-shift-w &amp;gt; tancar la terminal ctrl-shift-q la finestra actual … Desar diversos dissenys i perfils … Per instal·lar ubuntu: sudo apt-get install terminator</description>
+    </item>
+    <item>
+      <title>Problemes amb ssh</title>
+      <link>http://localhost:1313/post/2011-04-10-problemes-amb-ssh/</link>
+      <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-04-10-problemes-amb-ssh/</guid>
+      <description>Algunes vegades m&amp;rsquo;he trobat amb aquest problema, i avui he decidit veure com ho soluciono. M&amp;rsquo;agrada treballar amb ssh, tot i que ja havia tingut algun problema, avui m&amp;rsquo;he trobat de nou amb el problema següent:&#xA;port 22: Connection timed out&#xA;i amb&#xA;port 22: Connection refused&#xA;Això m&amp;rsquo;ha passat perquè a l&amp;rsquo;ordinador que vull accedir té bloquejat el port 22. Certament, usant el programa nmap m&amp;rsquo;he trobat amb la següent resposta:</description>
+    </item>
+    <item>
+      <title>La nova Linkat ja és aquí!</title>
+      <link>http://localhost:1313/post/2011-04-04-la-nova-linkat-ja-es-aqui/</link>
+      <pubDate>Mon, 04 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-04-04-la-nova-linkat-ja-es-aqui/</guid>
+      <description>Els companys de la Linkat han tret la nova Linkat, la 4! Basada en l&amp;rsquo;Opensuse 11.2, i amb un gran ventall de novetats que la fan molt especial. Com a docent que treballo amb la Linkat a l&amp;rsquo;escola, vull agraïr la feina que fan els que hi són al darrera!&#xA;Si en voleu saber més, a la pàgina oficial.</description>
+    </item>
+    <item>
+      <title>Canviar Openoffice per Libreoffice</title>
+      <link>http://localhost:1313/post/2011-03-31-canviar-openoffice-per-libreoffice/</link>
+      <pubDate>Thu, 31 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-03-31-canviar-openoffice-per-libreoffice/</guid>
+      <description>Avui he decidit defugir de l&amp;rsquo;Openoffice i la política de la companyia oracle, ha estat una gran eina fins ara, però calia seguir fent el canvi. Així que he desinstal·lat l&amp;rsquo;openoffice i he instal·lat Libreoffice.&#xA;Ho he fet al portàtil on hi ha instal·lat un ubuntu.&#xA;A la ternimal he seguit aquests passos:&#xA;sudo apt-get purge &amp;ldquo;openoffice*.*&amp;rdquo;&#xA;sudo add-apt-repository ppa:libreoffice/ppa&#xA;sudo apt-get update&#xA;sudo apt-get install libreoffice libreoffice-gnome libreoffice-l10n-ca libreoffice-l10n-common libreoffice-help-ca language-support-writing-ca</description>
+    </item>
+    <item>
+      <title>Traduint Turpial</title>
+      <link>http://localhost:1313/post/2011-03-09-traduint-turpial/</link>
+      <pubDate>Wed, 09 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-03-09-traduint-turpial/</guid>
+      <description>Avui, després de temps usant el programa Pino com a client de twitter i d&amp;rsquo;identi.ca, i cansat d&amp;rsquo;usar eines API per gestionar el twitter. Al final he decidit cercar-ne un altre. Per una banda, ja tenia el Gwibber però mai m&amp;rsquo;ha agradat, i sempre m&amp;rsquo;he liat una mica. Així que m&amp;rsquo;he decidit per Turpial. El problema és que em surt en anglès, així que explico com instal·lar-ho i deixar-ho en català:</description>
+    </item>
+    <item>
+      <title>Apunts d&#39;EMACS, part II</title>
+      <link>http://localhost:1313/post/2011-03-07-apunts-demacs-part-ii/</link>
+      <pubDate>Mon, 07 Mar 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-03-07-apunts-demacs-part-ii/</guid>
+      <description>Avui vull apuntar quatre notes més sobre dreceres de teclat i comandes bàsiques per a l&amp;rsquo;Emacs. Ja vaig fer la primera part, on vaig apuntar com iniciar.&#xA;obrir un arxiu Per obrir un arxiu, només cal C-x C-f i escriure el nom de l&amp;rsquo;arxiu que tenim o que volem iniciar. Si el tenim a la carpeta de l&amp;rsquo;usuari, s&amp;rsquo;obrirà; i si no el tenim a la carpeta, en crearà un nou a la carpeta de l&amp;rsquo;usuari.</description>
+    </item>
+    <item>
+      <title>Corrector catala per Emacs</title>
+      <link>http://localhost:1313/post/2011-02-24-corrector-catala-per-emacs/</link>
+      <pubDate>Thu, 24 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-02-24-corrector-catala-per-emacs/</guid>
+      <description>Avui estava escrivint un text en Català i m&amp;rsquo;he trobat que tenia faltes d&amp;rsquo;ortografia. El motiu ha estat que estava usant un teclat americà i no em posava els accents.&#xA;La solució:&#xA;instal·lar el paquet de llengua catalana…&#xA;$ sudo apt-get install aspell-ca&#xA;i ara dins de l&amp;rsquo;emacs, quan tenim el text acabat podem activar-ho amb:&#xA;M-x ispell-buffer&#xA;quan acabem fem C-g per sortir…&#xA;perfecte! :)</description>
+    </item>
+    <item>
+      <title>Accents a l&#39;Emacs</title>
+      <link>http://localhost:1313/post/2011-02-20-accents-a-lemacs/</link>
+      <pubDate>Sun, 20 Feb 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-02-20-accents-a-lemacs/</guid>
+      <description>Des de que he començat a usar Emacs, m&amp;rsquo;he trobat amb la dificultat d&amp;rsquo;escriure els accents. Al principi, si feia anar l&amp;rsquo;emacs des de consola amb: $ emacs -nw anava perfecte, però no era la solució!!! Al final, després de provar un munt de coses, he trobat que la culpa és que tinc instal·lat l&amp;rsquo;IBUS per escriure en xinès, i pel que sigui la codificació no acaba d&amp;rsquo;anar. La solució des de terminal era en mode gràfic: $ XMODIFIERS=@im=none emacs però no era qüestió d&amp;rsquo;anar obrint terminals per executar l&amp;rsquo;emacs per escriure amb accents.</description>
+    </item>
+    <item>
+      <title>Fer una entrada al wordpress amb Emacs</title>
+      <link>http://localhost:1313/post/2011-01-26-fer-una-entrada-al-wordpress-amb-emacs/</link>
+      <pubDate>Wed, 26 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-01-26-fer-una-entrada-al-wordpress-amb-emacs/</guid>
+      <description>Després de provar-ho uns dies, i d&amp;rsquo;insistir-hi, al final me n&amp;rsquo;he sortit! Es poden publicar els blocs amb l&amp;rsquo;emacs, per poder-ho fer he triat: emacs, wordpress i el mode de l&amp;rsquo;emacs conegut com org2blog!&#xA;Primer quue res, cal tenir instal·lat l&amp;rsquo;emacs. Per instal·lar l&amp;rsquo;org2blog ho podem fer seguint els passos de la pàgina&#xA;https://github.com/punchagan/org2blog&#xA;Si volem baixar el paquet directament del git, podem fer-ho instal·lant-lo. Per exemple, si tenim una distro basada en paquest deb:</description>
+    </item>
+    <item>
+      <title>Hola món des de l&#39;Emacs</title>
+      <link>http://localhost:1313/post/2011-01-24-hola-mon/</link>
+      <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-01-24-hola-mon/</guid>
+      <description>Primera nota al bloc usant org-mode i org2blog amb l&amp;rsquo;emacs XD&#xA;https://github.com/punchagan/org2blog</description>
+    </item>
+    <item>
+      <title>Org-mode</title>
+      <link>http://localhost:1313/post/2011-01-24-org-mode/</link>
+      <pubDate>Mon, 24 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-01-24-org-mode/</guid>
+      <description>Des de començament d&amp;rsquo;any 2011 que m&amp;rsquo;he iniciat en org-mode. Una eina fantàstica que té com editor l&amp;rsquo;emacs.&#xA;Hi ha moltes pàgines on s&amp;rsquo;explica el seu ús. Majoritàriament són en anglès, com la oficial o l&amp;rsquo;explicació escrita a http://doc.norang.ca/org-mode.html&#xA;En castellà hi ha una pàgina amb molta informació: http://gnu.manticore.es/manual-org-emacs&#xA;Té moltes possibilitats:&#xA;- editar i organitzar feines&#xA;- escriure pàgines web&#xA;- escriure i editar blocs&#xA;-etc&amp;hellip;&#xA;;)</description>
+    </item>
+    <item>
+      <title>Promblemes amb ffmpeg: libxvidcore.so.4</title>
+      <link>http://localhost:1313/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</link>
+      <pubDate>Sat, 15 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-01-15-promblemes-amb-ffmpeg-libxvidcore-so-4/</guid>
+      <description>Porto uns dies amb problemes en treballar amb ffmpeg Exactament, Fedora14 em diu: $ ffmpeg: error while loading shared libraries: libxvidcore.so.4: cannot enable executable stack as shared object requires: Permission denied&#xA;La solució: $ su $ contrasenya&#xA;$ execstack -c /usr/lib/libxvidcore.so.4 ;)</description>
+    </item>
+    <item>
+      <title>Conectar-se a Identi-ca amb Emacs</title>
+      <link>http://localhost:1313/post/2011-01-08-conectar-se-a-identi-ca-amb-emacs/</link>
+      <pubDate>Sat, 08 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-01-08-conectar-se-a-identi-ca-amb-emacs/</guid>
+      <description>Després de portar dies buscant com usar un client d&amp;rsquo;Identica, al final m&amp;rsquo;he decidit per usar EMACS.&#xA;El primer que he fet ha estat descarregar identica.el des de la seva pàgina.&#xA;Un cop l&amp;rsquo;he descomprimit, ho he copiat dins de la carpeta /home/user/.emacs.d/&#xA;$ tar xvzf identica-mode.tar.gz $ cd identica-mode/&#xA;$ cp identica-mode.el /home/~user/.emacs.d/&#xA;Després he hagut de crear / modificar el fitxer .emacs de configuració d&amp;rsquo;EMACS.&#xA;$ emacs .emacs</description>
+    </item>
+    <item>
+      <title>Donant color a l&#39;Emacs</title>
+      <link>http://localhost:1313/post/2011-01-06-donant-color-a-lemacs/</link>
+      <pubDate>Thu, 06 Jan 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-01-06-donant-color-a-lemacs/</guid>
+      <description>Avui he decidit donar-li una mica de color a l&amp;rsquo;Emacs&amp;hellip; per això he instal·lat el paquet emacs-goodies-el que conté el color-theme.&#xA;A la pàgina del color-theme tenim tenim els pasos a seguir per fer-ho.&#xA;El primer que he fet ha estat instal·lar el paquet:&#xA;$ sudo apt-get install emacs-goodies-el&#xA;Després he executat l&amp;rsquo;emacs, i amb M-x color-theme-select he triat el color que més m&amp;rsquo;ha agradat!&#xA;Si volem deixar predifinit el tema de color desitjat, llavors he d&amp;rsquo;escriure o editar el ~/.</description>
+    </item>
+    <item>
+      <title>Feliç Any GNoU 2011</title>
+      <link>http://localhost:1313/post/2010-12-31-felic-any-gnou-2011/</link>
+      <pubDate>Fri, 31 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-12-31-felic-any-gnou-2011/</guid>
+      <description>Aquestes festes nadalenques m&amp;rsquo;han servit per fer una reflexió respecte al programari i l&amp;rsquo;ordinador. Suposo que és una evolució natural.&#xA;Des que en 2004 vaig començar a usar Gnu/Linux fins ara, he anat passant per reflexions del programari que uso.&#xA;Vaig començar en 1990 amb un Sinclair ZX Spectrum, després a un intel 8086 amb pantalla Hercules i MS-Dos (quins record :P). Després vaig passar per Windows (des del 3.1) i a la Universitat amb OSX&amp;hellip; I he estat un temps compaginat l&amp;rsquo;ús del BSD i Gnu/linux.</description>
+    </item>
+    <item>
+      <title>Codificació no vàlida</title>
+      <link>http://localhost:1313/post/2010-12-05-codificacio-no-valida/</link>
+      <pubDate>Sun, 05 Dec 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-12-05-codificacio-no-valida/</guid>
+      <description>Avui estava copiant uns documents antics d&amp;rsquo;un disc dur vell al meu ordinador. I me m&amp;rsquo;he trobat un munt de símbols ? i al final de l&amp;rsquo;extensió la expressió &amp;ldquo;codificació no vàlida&amp;rdquo;. Sempre que em passava això, el que feia era renombrar-ho, però aquesta vegada eren molts. Després de cercar molt, he trobat que això passa perquè la codificació que tenien era iso-8859-9, i el meu ordinador treballa amb utf8. La solució me l&amp;rsquo;ha donat la comanda CONVMV!</description>
+    </item>
+    <item>
+      <title>Cercar una carpeta des de la terminal</title>
+      <link>http://localhost:1313/post/2010-11-21-cercar-una-carpeta-des-de-la-terminal/</link>
+      <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-11-21-cercar-una-carpeta-des-de-la-terminal/</guid>
+      <description>Usem la comanda FIND&#xA;$ find /on/busquem/ -type d -name NOMqueBusquem&#xA;si volem que ens reporti un document on surtin els resultats&amp;hellip;&#xA;$ find /on/busquem/ -type d -name NOMqueBusquem &amp;gt; trobats.txt</description>
+    </item>
+    <item>
+      <title>Sincronitzar gnote amb dropbox</title>
+      <link>http://localhost:1313/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</link>
+      <pubDate>Sun, 21 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-11-21-sincronitzar-gnote-amb-dropbox/</guid>
+      <description>Fins fa poc usava poc el Tomboy, o d&amp;rsquo;altres programes de notes com ara el GNOTE. Però fa poc vaig llegir un article de com sincronitzar-ho entre ordinadors a través del dropbox.&#xA;He seguit els passos que explicaven en &amp;ldquo;Usemos linux&amp;rdquo; http://ur1.ca/2e9r3, però NO m&amp;rsquo;ha funcionat&amp;hellip; el problema era que no em reconeixia ~/.gnote l&amp;rsquo;havia de canviar per ~/.local/share/gnote&#xA;Així que al final ho he fet d&amp;rsquo;aquesta manera:&#xA;Crear una carpeta Gnote dins de la carpeta Dropbox, $ mkdir ~/Dropbox/gnote</description>
+    </item>
+    <item>
+      <title>WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED!</title>
+      <link>http://localhost:1313/post/2010-11-14-warning-remote-host-identification-has-changed/</link>
+      <pubDate>Sun, 14 Nov 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-11-14-warning-remote-host-identification-has-changed/</guid>
+      <description>Avui després d&amp;rsquo;actualitzar el servidor, m&amp;rsquo;he trobat amb un problema! resulta que tota la feina que intentava fer a través de SSH no funcionava!&#xA;@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@ @ WARNING: REMOTE HOST IDENTIFICATION HAS CHANGED! @ @@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@@&#xA;Què podia fer?&#xA;llegint per internet, he trobat la idea en systemadmin.es així que he esborrat el fitxer on es desen els fingerprints i a començar de nou!&#xA;$ sudo rm /home/user/.ssh/known_hosts&#xA;i ja ha funcionat perfectament!</description>
+    </item>
+    <item>
+      <title>Fedorant</title>
+      <link>http://localhost:1313/post/2010-10-31-fedorant/</link>
+      <pubDate>Sun, 31 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-10-31-fedorant/</guid>
+      <description>Com deia un conegut fa un temps&amp;hellip; he vist la yum! Ara ja fa un temps que vaig decidir canviar la distro del servidor de casa&amp;hellip; motius, potser les ganes de veure com anava fedora13!&#xA;I la veritat es que estic molt content ;)&#xA;Els canvis no han estat massa remarcables pel que fa els programes, ja que l&amp;rsquo;emacs, el firefox, l&amp;rsquo;openoffice, i un gran etc&amp;hellip; no he notat cap canvi.</description>
+    </item>
+    <item>
+      <title>Les Fonts tipogràfiques</title>
+      <link>http://localhost:1313/post/2010-10-16-les-fonts-tipografiques/</link>
+      <pubDate>Sat, 16 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-10-16-les-fonts-tipografiques/</guid>
+      <description>Ja fa uns mesosque he començat a vigilar una mica més el que utilitzo. Fins ara usava les coses sense pensar, i una d&amp;rsquo;aquestes coses eren les fonts. Semblava que tenir-ne moltes, i de qualitat era bo. Pensava que les fonts les usava en els meus documents, pensant en el resultat final, sense tenir en compte les llicències.&#xA;Sóc usuari de GNU/Linux, i com a tal, al principi em trobava amb la dificultat de veure correctament les fonts de windows.</description>
+    </item>
+    <item>
+      <title>Apunts d&#39;EMACS, part I</title>
+      <link>http://localhost:1313/post/2010-10-12-apunts-demacs-part-i/</link>
+      <pubDate>Tue, 12 Oct 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-10-12-apunts-demacs-part-i/</guid>
+      <description>PER OBTRENIR INFORMACIÓ $ info emacs si vull obtenir informació (per exemple), des de l&amp;rsquo;info executar la comanda &amp;ldquo;m deletion&amp;rdquo;, i amb la barra espaiadora es desplaça pel document, per sortir, escriure q.&#xA;CONVENCIONS Tecla CTRL=Control=CCTRL+x = en emacs C-x Tecla META=Alt o Meta=M, també es pot usar la tecla ESC sense mantenir-la premuda.Alt-f = en emacs M-f INICIAR EMACS Per començar a escriure amb emacs només cal iniciar amb la paraula a la terminal $ emacs si volem treballar sense entorn gràfic $ emacs -nw si volem la configuració inicial afegim -q $ emacs -nw -q si volem crear un arxiu nou o midificar-ne un ho hem d&amp;rsquo;acompanyar amb el nom.</description>
+    </item>
+    <item>
+      <title>Començant amb Emacs</title>
+      <link>http://localhost:1313/post/2010-09-29-comencant-amb-emacs/</link>
+      <pubDate>Wed, 29 Sep 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-09-29-comencant-amb-emacs/</guid>
+      <description>Aquesta setmana he començat amb aquest editor. La primera vegada que el vaig inicar ja em va fer endarrera, i vaig optar pel Vim. Després em vaig trobar que Vim (Vi) el tenia instal·lat en mltes distribucions, i fins i tot, per editar els crontab ja ve per defecte. El primer editor i el que acostumo a emprar per escriure és el gedit, però no ve per defecte en terminal, llavors passava al nano.</description>
+    </item>
+    <item>
+      <title>Bzip2, comprimir arxius des de terminal</title>
+      <link>http://localhost:1313/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</link>
+      <pubDate>Sun, 22 Aug 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-08-22-bzip2-comprimir-arxius-des-de-terminal/</guid>
+      <description>A la Viquipèdia podem trobar una definició del programa bzip2. http://ca.wikipedia.org/wiki/Bzip2 Per comprimir, primer que res obrim una terminal: $ bzip2 -v nomdel&amp;rsquo;arxiu per exemple $ bzip -v imatge.jpg&#xA;i ens quedarà comprimit en un arxiu anomenat imatge.jpg.bz2&#xA;més informació a: $ man bzip2</description>
+    </item>
+    <item>
+      <title>Antix: distro lleugera en català</title>
+      <link>http://localhost:1313/post/2010-06-24-antix-distro-lleugera-en-catala/</link>
+      <pubDate>Thu, 24 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-06-24-antix-distro-lleugera-en-catala/</guid>
+      <description>Sovint quan es busca alguna distro lleugera, per ordinadors vells, costa! i molt! a sobre si ho vols en català i actual, doncs encara més difícil. N&amp;rsquo;he provat varies i quasi sempre en anglès o espanyol&amp;hellip; així que al final me decidit provar Antix&amp;hellip;&#xA;Si en voleu saber més, a la pàgina oficial: Antix&#xA;&amp;#x1f44d;</description>
+    </item>
+    <item>
+      <title>comandes d’esborrar a VIM</title>
+      <link>http://localhost:1313/post/2010-06-04-comandes-desborrar-a-vim/</link>
+      <pubDate>Fri, 04 Jun 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-06-04-comandes-desborrar-a-vim/</guid>
+      <description>-comandes per esborrar x esborra el caracter que hi ha després del cursor X esborra el caracter que hi ha abans del cursor&#xA;d (delete): esborrar dd esborra tota la línia d0 esborra des del cursor fins al principi de la línia d$ esborra des del cursor fins al final de la línia dw esborra des del cursor fins al principi de la paraula següent tot el que s&amp;rsquo;esborra queda en el búfer, i es pot enganxar amb</description>
+    </item>
+    <item>
+      <title>Eina gràfica per calcular HASH</title>
+      <link>http://localhost:1313/post/2010-05-28-eina-grafica-per-calcular-hash/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-05-28-eina-grafica-per-calcular-hash/</guid>
+      <description>Tot i que la terminal sempre va molt bé, també per la gent que té preferències pels entorns gràfics, tenim una eina anomenada gtkhash per generar les md5 i sha1. Es pot instal·lar des de synaptic, o des de la terminal.</description>
+    </item>
+    <item>
+      <title>Generar MD5</title>
+      <link>http://localhost:1313/post/2010-05-28-generar-md5/</link>
+      <pubDate>Fri, 28 May 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-05-28-generar-md5/</guid>
+      <description>Per saber què és el MD5 (acrònim de Message-Digest Algorithm 5, Algoritme de Resum de Missatge 5) podem visitar la viquipedia.&#xA;per poder veure la suma només cal a la terminal escriure:&#xA;$ md5sum arxiu.xxx&#xA;això ens donarà com a resultat la suma i el nom d&amp;rsquo;arxiu: 8c980e11e07821fbae7e7359e9659xxx arxiu.xxx&#xA;si volem que ens ho desi en un document, podem:&#xA;$ md5sum arxiu.xxx &amp;gt; nomarxiu.txt&#xA;;)</description>
+    </item>
+    <item>
+      <title>comandes d&#39;inserir a VIM</title>
+      <link>http://localhost:1313/post/2010-05-09-comandes-dinserir-a-vim/</link>
+      <pubDate>Sun, 09 May 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-05-09-comandes-dinserir-a-vim/</guid>
+      <description>-comandes d&amp;rsquo;inserir la tecla [ESC] permet tornar al mode de comandes i (insert) els caracters s&amp;rsquo;escriuen abans del cursor (no pot escriure text al final de la línia) a (append) els caracters s&amp;rsquo;escriuen darrera del cursor, si es pot escriure text al final de la línia o (open) obre una nova línia de treball a sota&#xA;en majúscules canvien: I mou el cursor al principi de la línia i comença a fer la comanda &amp;lsquo;i&amp;rsquo; A mou el cursor al final de la línia i comença a fer la comanda &amp;lsquo;i&amp;rsquo; O obre una nova línia de treball a sobre.</description>
+    </item>
+    <item>
+      <title>comandes de desplaçament a VIM</title>
+      <link>http://localhost:1313/post/2010-05-09-comandes-de-desplacament-a-vim/</link>
+      <pubDate>Sun, 09 May 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-05-09-comandes-de-desplacament-a-vim/</guid>
+      <description>Vim disposa de comades per realitzar accions concretes: - comandes de desplaçament: h mou el cursor un caracter a l&amp;rsquo;esquerra l mou el cursor un caracter a la dreta j mou el cursor una línia cap a sota k mou el cursor una línia cap a dalt&#xA;0 mou el cursor al principi de la línia, al primer caracter $ mou el cursor al final de la línia, a l&amp;rsquo;últim caracter w (word) mou el cursor al primer caracter de la següent paraula b (back) mou el cursor al primer caracter de la paraula anterior e (end) mou el cursor a l&amp;rsquo;últim caracter de la paraula següent</description>
+    </item>
+    <item>
+      <title>Eliminar Kernels vells</title>
+      <link>http://localhost:1313/post/2010-04-19-eliminar-kernels-vells/</link>
+      <pubDate>Mon, 19 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-04-19-eliminar-kernels-vells/</guid>
+      <description>Per esborrar kernells vells, que es van acumulant a l&amp;rsquo;Ubuntu i al seu grub, sempre podem fer el següent:&#xA;saber les versions que tenim a l&amp;rsquo;ordinador amb: sudo dpkg -l | grep linux-image eliminar les versions velles amb: sudo apt-get remove --purge elkernelvell per elimnar-ho canviem &amp;rsquo;elkernelvell&amp;rsquo; per linux-image-2.6.31-14-generic&#xA;i ja ho tenim!&#xA;&amp;#x2b50;</description>
+    </item>
+    <item>
+      <title>Vim un editor a tenir en compte</title>
+      <link>http://localhost:1313/post/2010-04-15-vim-un-editor-a-tenir-en-compte/</link>
+      <pubDate>Thu, 15 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-04-15-vim-un-editor-a-tenir-en-compte/</guid>
+      <description>&amp;ldquo;Vim és una versió millorada de l&amp;rsquo;editor de text vi, present en tots els sistemes UNIX. Braam Moolenaar va presentar la primera versió el 1991, i des d&amp;rsquo;aleshores ha experimentat moltes millores. La principal característica de Vim i Vi consisteix en què tenen diferents modes entre els que s&amp;rsquo;alterna per realitzar certes operacions, el que els diferència de la majoria d&amp;rsquo;editors que només tenen un mode en el que s&amp;rsquo;introdueixen les ordres mitjançant combinacions de tecles o interfícies gràfiques.</description>
+    </item>
+    <item>
+      <title>Accés a una carpeta compartida amb NFS</title>
+      <link>http://localhost:1313/post/2010-04-02-acces-a-una-carpeta-compartida-amb-nfs/</link>
+      <pubDate>Fri, 02 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-04-02-acces-a-una-carpeta-compartida-amb-nfs/</guid>
+      <description>Si volem accedir a una carpeta compartida a través del protocol NFS, necessitem primer instal·lar els paquets portmap i nfs-common, a través de la terminal:&#xA;sudo apt-get install portmap nfs-common sudo /etc/init.d/portmap restart Ara només ens cal montar la carpeta a l&amp;rsquo;ordinador client. Per fer-ho ens cal crear una carpeta on ens muntarà la carpeta del servidor.&#xA;$ sudo mkdir /mnt/carpeta-servidor&#xA;Finalment només ens cal montar-ho amb la següent ordre:</description>
+    </item>
+    <item>
+      <title>Iniciar el servidor NFS</title>
+      <link>http://localhost:1313/post/2010-04-01-iniciar-el-servidor-nfs/</link>
+      <pubDate>Thu, 01 Apr 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-04-01-iniciar-el-servidor-nfs/</guid>
+      <description>Per poder iniciar el servidor NFS, necessita que s&amp;rsquo;inici el portmap:&#xA;$ sudo /etc/init.d/portmap start&#xA;Ara només cal iniciar el servei NFS:&#xA;$ sudo /etc/init.d/nfs-kernel-server restart&#xA;Si del volem aturar:&#xA;_$ sudo /etc/init.d/nfs-kernel-server stop_ ;)</description>
+    </item>
+    <item>
+      <title>Configurar el servidor NFS</title>
+      <link>http://localhost:1313/post/2010-03-31-configurar-el-servidor-nfs/</link>
+      <pubDate>Wed, 31 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-31-configurar-el-servidor-nfs/</guid>
+      <description>Per poder configurar un servidor NFS hem d&amp;rsquo;editar l&amp;rsquo;arxiu /etc/exports&#xA;Aquí podrem decidir quina carpeta volem compartir, si té permisos de lectura o lectura i escriptura; i també des de quin ordinador es permet l&amp;rsquo;accés (una sóla IP o tot un rang).&#xA;Cal recordar que els permisos que donem estan supeditats als del propi sistema, i són sempre els més restrictius els que prevaleixen!&#xA;Per exemple, si volem compartir el /home el que farem és editar /etc/exports a la terminal:</description>
+    </item>
+    <item>
+      <title>Dia Mundial dels documents lliures</title>
+      <link>http://localhost:1313/post/2010-03-31-dia-mundial-dels-documents-lliures/</link>
+      <pubDate>Wed, 31 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-31-dia-mundial-dels-documents-lliures/</guid>
+      <description>Avui 31 de març és el diu mundial dels documents lliures!&#xA;Siguem lliures! Usem ODF!&#xA;font: Ubuntu-Life</description>
+    </item>
+    <item>
+      <title>NFS: sistema d&#39;arxius en xarxa</title>
+      <link>http://localhost:1313/post/2010-03-30-nfs-sistema-darxius-en-xarxa/</link>
+      <pubDate>Tue, 30 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-30-nfs-sistema-darxius-en-xarxa/</guid>
+      <description>NFS ve de les sigles Network File System, és un protocol per compartir a través de la xarxa carpetes i arxius.&#xA;Fou creat en 1983 pels laboratoris de Sun Microsystems i ha acabat essent l&amp;rsquo;opció pròpia de GNU/Linux.&#xA;Per instal·lar-ho només cal a la terminal la següent ordre (Ubuntu i Debian):&#xA;$ sudo apt-get install nfs-common nfs-kernel-server</description>
+    </item>
+    <item>
+      <title>Instal·lar  APACHE</title>
+      <link>http://localhost:1313/post/2010-03-08-installar-apache/</link>
+      <pubDate>Mon, 08 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-08-installar-apache/</guid>
+      <description>Apache (viquipèdia): Apache HTTP Server és un servidor HTTP (de pàgines web) de codi obert multiplataforma desenvolupat per Apache Software Foundation.&#xA;&amp;hellip;.&#xA;Per instal·lar-lo només cal escriure l&amp;rsquo;ordre següent a la terminal:&#xA;$ sudo apt-get install apache2&#xA;i per configurar-ho només cal editar:&#xA;/etc/apache2/apache2.conf&#xA;(recorda de fer una còpia de seguretat de la configuració inicial)&#xA;per aturar el servei o per iniciar-ho tenim l&amp;rsquo;ordre:&#xA;# etc/init.d/apache2 restart&#xA;# etc/init.d/apache2 stop</description>
+    </item>
+    <item>
+      <title>una web local</title>
+      <link>http://localhost:1313/post/2010-03-08-una-web-local/</link>
+      <pubDate>Mon, 08 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-08-una-web-local/</guid>
+      <description>primer que res instal·lar apache2:&#xA;$ sudo apt-get install apache2&#xA;editar el /etc/hosts&#xA;# gedit /etc/hosts afegint a la ip local el nom de la web desitjada:&#xA;exemple-&amp;gt; 127.0.0.1 www.inici.cat&#xA;exemple2&amp;gt; 192.168.0.240 www.inici.cat&#xA;ara només cal editar apache:&#xA;# gedit /etc/apache2/apache2.conf&#xA;afegint al final:&#xA;ServerName www.inici.cat&#xA;A partir d&amp;rsquo;ara quan qualsevol ordenador de la xarxa local que en el navegador posi www.inici.cat podrà veure la pàgina que tenim al servidor i navegar de forma local.</description>
+    </item>
+    <item>
+      <title>Clonezilla: una gran distro per clonar!</title>
+      <link>http://localhost:1313/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</link>
+      <pubDate>Sat, 06 Mar 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-03-06-clonezilla-una-gran-distro-per-clonar/</guid>
+      <description>Clonezilla és una distribució Viva (CDLive) basada en Debian, tot i que hi ha una versió basada en Ubuntu. Una eina fantàstica per clonar, copiar i fer còpies de seguretat, semblant al Norton Ghost. Molt senzill d&amp;rsquo;usar i amb gran possibilitats!&#xA;pàgina de la distribució&#xA;http://www.clonezilla.org/&#xA;enllaços d&amp;rsquo;interès:&#xA;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Clonezilla</description>
+    </item>
+    <item>
+      <title>Instal·lar Servidor DHCP</title>
+      <link>http://localhost:1313/post/2010-02-22-installar-servidor-dhcp/</link>
+      <pubDate>Mon, 22 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-22-installar-servidor-dhcp/</guid>
+      <description>La viquipèdia ho defineix:&#xA;DHCP (sigla en anglès de Dynamic Host Configuration Protocol) és un protocol de xarxa que permet als nodes d&amp;rsquo;una xarxa IP obtenir els seus paràmetres de configuració automàticament. Es tracta d&amp;rsquo;un protocol de tipus client/servidor en el que generalment un servidor posseeix una llista d&amp;rsquo;adreces IP dinàmiques i les va assignant als clients a mesura que aquestes van estant lliures, sabent en tot moment qui ha estat en possessió d&amp;rsquo;aquella IP, quant temps l&amp;rsquo;ha tinguda o a qui se li ha assignat després.</description>
+    </item>
+    <item>
+      <title>Ordres de gestió d&#39;usuaris: Crear Usuaris</title>
+      <link>http://localhost:1313/post/2010-02-21-ordres-de-gestio-dusuaris-crear-usuaris/</link>
+      <pubDate>Sun, 21 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-21-ordres-de-gestio-dusuaris-crear-usuaris/</guid>
+      <description>Quan volem crear, modificar, gestionar i eliminar usuaris tenim una série d&amp;rsquo;ordres que podem fer-ne ús, només cal recordar que ho hem de fer com a root. Així des de qualsevol distro haurem d&amp;rsquo;entrar com a root (ex: su) o usant $sudo&amp;hellip;. en debian i derivats:&#xA;crear usuaris: # useradd [opcions] nom-d&amp;rsquo;usuari&#xA;Opcions que podem usar:&#xA;-g nomdelgrup [grup principal de l&amp;rsquo;usuari]&#xA;-d /home/nomusuari [carpeta que volem asignar a l&amp;rsquo;usuari] si no hi ha la carpeta li podem afegir -m seguidament perquè la cree.</description>
+    </item>
+    <item>
+      <title>Crear i esborrar carpetes</title>
+      <link>http://localhost:1313/post/2010-02-20-crear-i-esborrar-carpetes/</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-20-crear-i-esborrar-carpetes/</guid>
+      <description>Ordres senzilles per crear i esborrar carpetes, per fer-ho des de la terminal&amp;hellip;&#xA;CREAR UNA CARPETA&#xA;$mkdir nomdelacarpeta&#xA;ESBORRAR UNA CARPETA&#xA;$rmdir nomdelacarpeta</description>
+    </item>
+    <item>
+      <title>Saber els procesos...</title>
+      <link>http://localhost:1313/post/2010-02-20-saber-els-procesos/</link>
+      <pubDate>Sat, 20 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-20-saber-els-procesos/</guid>
+      <description>Un procés és una aplicació que s&amp;rsquo;està executant en un moment determinat. Sovint volem saber quins procesos s&amp;rsquo;estan executant ara mateix&amp;hellip; res més senzill que escriure l&amp;rsquo;ordre a la terminal:&#xA;$ps aux&#xA;i ens farà una llista de tots els procesos, on podrem veure els PID, els usuaris que els han executat, etc.&#xA;Però si el que volem és veure en temps real, llavors escrivim a la terminal:&#xA;$top</description>
+    </item>
+    <item>
+      <title>Netejar Ubuntu</title>
+      <link>http://localhost:1313/post/2010-02-19-netejar-ubuntu/</link>
+      <pubDate>Fri, 19 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-19-netejar-ubuntu/</guid>
+      <description>Volent netejar una mica el sistema m&amp;rsquo;he trobat amb el programeta BleachBit&#xA;Molt visual i molt senzill de fer anar!</description>
+    </item>
+    <item>
+      <title>Trobar duplicats a l&#39;ordinador</title>
+      <link>http://localhost:1313/post/2010-02-17-trobar-duplicats-a-lordinador/</link>
+      <pubDate>Wed, 17 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-17-trobar-duplicats-a-lordinador/</guid>
+      <description>Sovint em passa que em baixo arxius varies vegades, i al final em trobo el disc dur ple de brossa, i a sobre, moltes vegades he fet còpies en discos externs. Al final ho tinc un munt de vegades&amp;hellip;.&#xA;Tenim un programa anomenat FSLINT que ens ajuda a trobar els duplicats!!!&#xA;A la guia d&amp;rsquo;ubuntu en trobem un mini manual.</description>
+    </item>
+    <item>
+      <title>Afegir motors de recerca al Firefox</title>
+      <link>http://localhost:1313/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</link>
+      <pubDate>Mon, 15 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</guid>
+      <description>Buscant com afegir al cercador lateral del firefox m&amp;rsquo;he trobat amb la pàgina de softcatlà.&#xA;&amp;ldquo;Els motors de cerca permeten fer cerques a diferents llocs web d&amp;rsquo;una forma fàcil i ràpida utilitzant la barra de cerques del FirefoxSeaMonkey. o la barra lateral del&#xA;Podeu també trobar motors de cerca en altres idiomes a la pàgina del projecte Mycroft o a addons.mozilla.org.&amp;rdquo;&#xA;On hi ha una llista llarga de motors per afegir!</description>
+    </item>
+    <item>
+      <title>Calendari des de la Terminal</title>
+      <link>http://localhost:1313/post/2010-02-15-calendari-des-de-la-terminal/</link>
+      <pubDate>Mon, 15 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-15-calendari-des-de-la-terminal/</guid>
+      <description>Si volem saber ràpidament una data concreta des de la terminal&#xA;només cal escriure:&#xA;$ cal 2 2010 febrer 2010 dl dt dc dj dv ds dg 1 2 3 4 5 6 7 8 9 10 11 12 13 14 15 16 17 18 19 20 21 22 23 24 25 26 27 28&#xA;$cal &amp;ldquo;el mes&amp;rdquo; + &amp;ldquo;any&amp;rdquo; en números!</description>
+    </item>
+    <item>
+      <title>Eliminar el soroll amb audacity</title>
+      <link>http://localhost:1313/post/2010-02-15-eliminar-el-soroll-amb-audacity/</link>
+      <pubDate>Mon, 15 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-15-eliminar-el-soroll-amb-audacity/</guid>
+      <description>Sovint faig gravacions de so de formacions o cursos, i el resultat que em dóna la gravadora no és prou bo. Així que amb l&amp;rsquo;audacity puc editar una mica el resultat.&#xA;1 . Seleccionar un fragment on no es parli, anem a &amp;lsquo;Efecte&amp;rsquo; i triem &amp;lsquo;Treu soroll&amp;rsquo; 2. En el &amp;lsquo;Pas 1&amp;rsquo; fem click a &amp;lsquo;Obtenció del perfil de soroll&amp;rsquo;. 3. Ara ho triem tot amb &amp;lsquo;ctrl+A&amp;rsquo;, i anem a &amp;lsquo;Efecte&amp;rsquo; i triem &amp;lsquo;Treu soroll&amp;rsquo; 4.</description>
+    </item>
+    <item>
+      <title>Esborrar disc regravable!</title>
+      <link>http://localhost:1313/post/2010-02-12-esborrar-disc-regravable/</link>
+      <pubDate>Fri, 12 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-12-esborrar-disc-regravable/</guid>
+      <description>Primer que res hem de llistar els lectors gravadors que tenim $ wodim &amp;ndash;devices&#xA;(opció $ wodim &amp;ndash;scanbus_)_&#xA;wodim: Overview of accessible drives (2 found) : &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- 0 dev=&amp;rsquo;/dev/scd0&amp;rsquo; rwrw&amp;ndash; : &amp;lsquo;SONY&amp;rsquo; &amp;lsquo;DVD RW DW-G120A&amp;rsquo; 1 dev=&amp;rsquo;/dev/scd1&amp;rsquo; rwrw&amp;ndash; : &amp;lsquo;LITE-ON&amp;rsquo; &amp;lsquo;DVD SOHD-16P9S&amp;rsquo; &amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;&amp;mdash;- $ cdrecord dev=/dev/cdrom blank=fast&#xA;opció $ cdrecord dev=/dev/scd0 blank=all</description>
+    </item>
+    <item>
+      <title>F-Spot</title>
+      <link>http://localhost:1313/post/2010-02-10-f-spot/</link>
+      <pubDate>Wed, 10 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-10-f-spot/</guid>
+      <description>Fins ara havia usat Picasa, però hi havia alguna cosa que no acabava de fer-me feliç&amp;hellip; que no és programari lliure, i que limita a només al producte de google.&#xA;Així que primer vaig traure el Picasa!&#xA;$ sudo dpkg &amp;ndash;purge picassa $ sudo apt-get autoremove&#xA;Ara ja tenim eliminat Picasa i tot ben net!&#xA;Seguidament anem a instalar F-spot &amp;hellip;&#xA;$ sudo aptitude install f-spot&#xA;F-Spot ens ofereix funcions semblants a Picasa, estant als propis repositoris (d&amp;rsquo;Ubuntu)&amp;hellip; i, a més a més, permet pujar a altres web de fotografies.</description>
+    </item>
+    <item>
+      <title>Fent poesia amb la Terminal</title>
+      <link>http://localhost:1313/post/2010-02-07-fent-poesia-amb-la-terminal/</link>
+      <pubDate>Sun, 07 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-07-fent-poesia-amb-la-terminal/</guid>
+      <description>Sovint busquem vocabulari que rimi per fer poesies o cançons…&#xA;En Gnu/Linux tenim una opció molt curiosa….&#xA;al terminal escrivim&#xA;$grep “çó$” /usr/share/dict/catalan&#xA;On aprofitem el diccionari intern de correcció del sistema (si voleu en castellà, heu de substituir catalan per spanish), i després del grep afegim “acabamen que busquem$“&#xA;A mí m’ha donat aquest resultat…&#xA;Argençó Eriçó Ponçó arçó balançó………….&#xA;font on he trobat el truc: “poesia en linux”</description>
+    </item>
+    <item>
+      <title>Aplicacions!!!</title>
+      <link>http://localhost:1313/post/2010-02-05-aplicacions/</link>
+      <pubDate>Fri, 05 Feb 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-02-05-aplicacions/</guid>
+      <description>Busqueu programari a linux!?&#xA;He trobat aquesta pàgina on ens informa de programes a Linux&amp;hellip;&#xA;http://linuxappfinder.com/all&#xA;Una altra adreça força interessant és Alternatives to&amp;hellip; on podem trobar programari tant linux, online, com d&amp;rsquo;altres SO&#xA;http://alternativeto.net/</description>
+    </item>
+    <item>
+      <title>Dropbox, una alternativa als USB</title>
+      <link>http://localhost:1313/post/2010-01-30-dropbox-una-alternativa-als-usb/</link>
+      <pubDate>Sat, 30 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-30-dropbox-una-alternativa-als-usb/</guid>
+      <description>DropBox és un servei en &amp;ldquo;núvol&amp;rdquo; per compartir arxius i carpetes. Quan s&amp;rsquo;instal·la crea una carpeta local on tot el que posis va també sincronitzat a la web, i als altres ordinadors on ho tinguis instal·lat. A la pàgina web tens tot el que posis a la carpeta.&#xA;És multiplataforma, i el pots tenir en Linux, Mac i Windows&amp;hellip; i fins i tot al IPhone. Primer ens donem d&amp;rsquo;alta, i després anem a la pàgina de descàrrega&amp;hellip; i baixem el programa, un parell de clics i ja està!</description>
+    </item>
+    <item>
+      <title>Full Circle Magazine</title>
+      <link>http://localhost:1313/post/2010-01-20-full-circle-magazine/</link>
+      <pubDate>Wed, 20 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-20-full-circle-magazine/</guid>
+      <description>Revista Online força interessant, encarada al món linux, en especial UBUNTU. Considerada la revista oficial! http://fullcirclemagazine.org/ PEr desgràcia de moment surt en anglès, tot i que hi ha un grup reduït de traductors que ara comencen i estan intentant traduïr-la al català. Ànims! https://launchpad.net/~fullcircle-cat https://wiki.ubuntu.com/UbuntuMagazine/TranslateFullCircle/Catalan ;)</description>
+    </item>
+    <item>
+      <title>Blogtk i wordpress!</title>
+      <link>http://localhost:1313/post/2010-01-13-blogtk-i-wordpress/</link>
+      <pubDate>Wed, 13 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-13-blogtk-i-wordpress/</guid>
+      <description>A vegades hi ha maneres de facilitar la vida, i el programa blogtk ajuda a penjar entrades al &amp;ldquo;Wordpress&amp;rdquo; de manera ràpida al Blog. Ara mateix la versió 1.1, instal·lable la 1.2 i la 2.0 des de el launchpad. Instal·lable des dels repositoris. $sudo apt-get install blogtk Quan l&amp;rsquo;obres et demana un compte: Server URL: http://elnom.delteu.bloc/xmlrpc.php (exemple: http://croniqueslinux.wordpress.com) nom d&amp;rsquo;usuari: el teu nom d&amp;rsquo;usuari contrasenya: la teua Un cop ho tens, ho deses i &amp;ldquo;d&amp;rsquo;acord&amp;rdquo;.</description>
+    </item>
+    <item>
+      <title>Xequeig d&#39;un disc amb Terminal</title>
+      <link>http://localhost:1313/post/2010-01-12-xequeig-dun-disc-amb-terminal/</link>
+      <pubDate>Tue, 12 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-12-xequeig-dun-disc-amb-terminal/</guid>
+      <description>Primer necessitem saber en quin &amp;ldquo;dev&amp;rdquo; ho tenim muntat, per això emprem la comanda:&#xA;$mount&#xA;ens fa una llista de tot el que hi ha muntat, i ens fixem en els /dev&amp;hellip;.&#xA;si és el &amp;ldquo;sdb1&amp;rdquo; (/dev/sdb1), i ara el desmuntem amb:&#xA;$umount /dev/sdb1&#xA;i finalment el xequeig amb la comanda &amp;ldquo;fsck&amp;rdquo;:&#xA;#fsck /dev/sdb1&#xA;;)&#xA;per saber-ne més:&#xA;manual en anglès</description>
+    </item>
+    <item>
+      <title>Com instal·lar Opensuse &#34;text mode&#34;</title>
+      <link>http://localhost:1313/post/2010-01-11-com-installar-opensuse-text-mode/</link>
+      <pubDate>Mon, 11 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-11-com-installar-opensuse-text-mode/</guid>
+      <description>Habitualment fem les instal·lacions per defecte en format gràfic, però quan falla el monitor (com ha estat el meu cas) tenim una bona opció&amp;hellip; f3 (text mode)&#xA;Ens baixem la ISO (podem cremar-la o fer-ho amb el Virtualbox)&#xA;Inserim el cdlive i triem f2- la llengua, f3- &amp;ldquo;text mode&amp;rdquo;&#xA;S&amp;rsquo;inicia el livecd (hi ha en gnome, kde, xfce i he volgut provar-ho amb el &amp;lsquo;lxde&amp;rsquo;)&#xA;Un cop iniciat ens demana el login i el password&amp;hellip;</description>
+    </item>
+    <item>
+      <title>Instalar Opensuse en xarxa</title>
+      <link>http://localhost:1313/post/2010-01-09-instalar-opensuse-en-xarxa/</link>
+      <pubDate>Sat, 09 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-09-instalar-opensuse-en-xarxa/</guid>
+      <description>Abans necessitarem la &amp;lsquo;iso&amp;rsquo;, que podem descarregar des de la seua pàgina : http://software.opensuse.org/112/en i triant l&amp;rsquo;última opció &amp;gt; network&#xA;Quan la tinguem la gravem a un CD o amb l&amp;rsquo;Unetbootin l&amp;rsquo;instal·lem a USB.&#xA;Arranquem l&amp;rsquo;ordinador i triem la llengua (F2), canviem la resolució de la pantalla si cal (F3), i l&amp;rsquo;opció xarxa (F4)&#xA;Triem HTTP, i ens demana xarxa i servidor&amp;hellip;&#xA;L&amp;rsquo;adreça completa és http://download.opensuse.org/distribution/11.2/repo/oss/ i d&amp;rsquo;aquí podem estreure que el:</description>
+    </item>
+    <item>
+      <title>Marcadors online</title>
+      <link>http://localhost:1313/post/2010-01-09-marcadors-online/</link>
+      <pubDate>Sat, 09 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-09-marcadors-online/</guid>
+      <description>Fins ara sempre he desat les meues adreces d&amp;rsquo;interès a l&amp;rsquo;ordinador emprant el navegador, però quan canviava d&amp;rsquo;ordinador (al portàtil) em trobava que havia de desar-los, fer còpies, etc&amp;hellip;. així que d&amp;rsquo;un temps cap aquí he començat a fer-ho amb el bookmarks del Goole . Però al final he decidit buscar-ne un d&amp;rsquo;alternatiu, i m&amp;rsquo;he trobat amb:&#xA;1 - del.icio.us (delicious) molt comentat a la xarxa, amb molts marcadors compartits (però de la companyia yahoo, t&amp;rsquo;has de donar d&amp;rsquo;alta amb yahoo) i en anglès.</description>
+    </item>
+    <item>
+      <title>Donar permisos a un directori en Terminal</title>
+      <link>http://localhost:1313/post/2010-01-07-donar-permisos-a-un-directori-en-terminal/</link>
+      <pubDate>Thu, 07 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-07-donar-permisos-a-un-directori-en-terminal/</guid>
+      <description>A mesura que avancem en el món Gnu/Linux ens anem endinsant en l&amp;rsquo;ús de la Terminal&amp;hellip;&#xA;Per donar permisos nomes cal entrar a la terminal i escriure com a root:&#xA;sudo chmod 777 /lloc/on/és/la\_carpeta o arxiu ex:&#xA;sudo chmod 777 /home/linux/imatges així es donarà tots els permisos a la carpeta imatges de l&amp;rsquo;usuari &amp;rsquo;linux&#39;.&#xA;també podem fer-ho amb:&#xA;sudo chmod **-Rf** 777 /home/linux/imatges on -R mana que ho faci recursivament a tot el que hi conté i f fa que no es visualitzen els possibles errors.</description>
+    </item>
+    <item>
+      <title>Slitaz, lleugeresa linux!</title>
+      <link>http://localhost:1313/post/2010-01-04-slitaz-lleugeresa-linux/</link>
+      <pubDate>Mon, 04 Jan 2010 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2010-01-04-slitaz-lleugeresa-linux/</guid>
+      <description>Fent un tast de una mini distro, però força interessant:&#xA;Slitaz, a la pàgina hi ha molta informació, però en castellà&amp;hellip; de moment en català no hi ha res!&#xA;Empra Lxde amb Openbox, entre d&amp;rsquo;altres coses, a més a més de SSH, SQLite, PHP&amp;hellip;&#xA;M&amp;rsquo;ha servit per reutilitzar un llàpis de memòria petitó i així tenir una distro &amp;ldquo;viva&amp;rdquo;. Ara aprofitaré un ordinador vellet a veure com va!&#xA;Molt recomanable!</description>
+    </item>
   </channel>
 </rss>

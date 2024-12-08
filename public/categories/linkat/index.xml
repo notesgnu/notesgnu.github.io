@@ -1,24 +1,96 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>linkat on Notes GNU</title>
-    <link>https://notesgnu.github.io/categories/linkat/</link>
-    <description>Recent content in linkat on Notes GNU</description>
+    <title>Linkat on Notes GNU</title>
+    <link>http://localhost:1313/categories/linkat/</link>
+    <description>Recent content in Linkat on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/linkat/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 24 May 2020 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/linkat/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Linkatitzar Lubuntu 18.04</title>
-      <link>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</link>
+      <link>http://localhost:1313/post/2020-05-24-linkatitzar/</link>
       <pubDate>Sun, 24 May 2020 00:00:00 +0000</pubDate>
-      
-      <guid>https://notesgnu.github.io/post/2020-05-24-linkatitzar/</guid>
-      <description>Avui he agat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&amp;rsquo;he trobat amb un problema.
-el problema Quan he intentat instal.lar el paquet linkat-repos_18.04-5_all.deb
-m&amp;rsquo;ha donat el següent error:
-El paquet gksu no està instal·lat. i si vull instal.lar-lo, em diu:
-El paquet gksu no té versió disponible, però un altre paquet en fa referència.</description>
+      <guid>http://localhost:1313/post/2020-05-24-linkatitzar/</guid>
+      <description>Avui he agafat el meu vell Eeepc que vaig comprar en un viatge a Xina, i he volgut passar-lo a Linkat. He aprofitat que ja tenia una Lubuntu funcional, així que seguint les indicacions de la pàpigna, m&amp;rsquo;he trobat amb un problema.&#xA;el problema Quan he intentat instal.lar el paquet linkat-repos_18.04-5_all.deb&#xA;m&amp;rsquo;ha donat el següent error:&#xA;El paquet gksu no està instal·lat. i si vull instal.lar-lo, em diu:&#xA;El paquet gksu no té versió disponible, però un altre paquet en fa referència.</description>
     </item>
-    
+    <item>
+      <title>Control de volum gràfic a la Linkat Lleugera</title>
+      <link>http://localhost:1313/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</link>
+      <pubDate>Thu, 28 Jan 2016 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2016-01-28-control-de-volum-grafic-a-la-linkat-lleugera/</guid>
+      <description>Estic molt content amb la Linkat lleugera.&#xA;Però l’altre dia em vaig trobar que es feia una mica complex per a una persona, que no ha usat mai linux, fer canvis del control de volum. Uns companys volien activar i desactivar el volum del micròfon… Quan fas clic a la icona del volum de la barra superior, et trobes un control en terminal:&#xA;Remenant una mica, i veient com altres usuaris d’entorns LXDE ho havien solucionat, ho he provat amb la Linkat Lleugera.</description>
+    </item>
+    <item>
+      <title>Scratch 2 a la Linkat Lleugera</title>
+      <link>http://localhost:1313/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</link>
+      <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</guid>
+      <description>Scratch és un entorn de programació educatiu fet al MIT, i que en el món educatiu ens permet treballar el pensmanet computacional. El tenim per programar en línia a https://scratch.mit.edu , tot i això, a mi m&amp;rsquo;agrada poder treballar offline. Per fer-ho he seguit les instruccions de la seva pàgina https://scratch.mit.edu/scratch2download/&#xA;Axí que quan he intentat instal·lar-ho a la Linkat lleugera, però m&amp;rsquo;ha donat problemes, on em demana que instal·li el gnome keyring… que ja em consta com a instal·lat.</description>
+    </item>
+    <item>
+      <title>Llançadora a la Linkat lleugera</title>
+      <link>http://localhost:1313/post/2015-10-12-llancadora-a-la-linkat-lleugera/</link>
+      <pubDate>Mon, 12 Oct 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-10-12-llancadora-a-la-linkat-lleugera/</guid>
+      <description>Ja fa temps que uso Lubuntu com a distribució per defecte. Ara que ha sortit la nova Linkat Lleugera, he migrat de la meva Lubuntu a una Linkat. A més a més, a la meva aula hi ha quatre ordinadors de sobretaula que ara també van amb la nova Linkat lleugera! Ha estat la solució que feia temps que esperava. Per desgràcia a les escoles no sempre tenim la última tecnologia, i aquest mes de setembre quan vaig començar el curs, tenia a la nova aula quatre ordinadors amb Windows XP.</description>
+    </item>
+    <item>
+      <title>Veure DVDs en Linkat (14.04) i Ubuntu (derivades)</title>
+      <link>http://localhost:1313/post/2015-04-17-veure-dvds-en-linkat-14-04-i-ubuntu-derivades/</link>
+      <pubDate>Fri, 17 Apr 2015 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2015-04-17-veure-dvds-en-linkat-14-04-i-ubuntu-derivades/</guid>
+      <description>Ja porten uns dies que dues persones m&amp;rsquo;han preguntat el motiu pel qual no es veuen els DVDs en la Linkat 14.04, que és una derivada d&amp;rsquo;Ubuntu.&#xA;Així que només cal anar a la pàgina oficial d&amp;rsquo;Ubuntu on parla dels Formats Restringits, allí ens aconsella instal·lar els paquets libdvdcss2 que en la LinkatEdu 14.04 és libdvdread4. En la pàgina de la Linkat també ho tenim ben documentat!&#xA;Per això anem a la terminal i escrivim:</description>
+    </item>
+    <item>
+      <title>La Viquipèdia sense connexió a Internet</title>
+      <link>http://localhost:1313/post/2013-11-11-la-viquipedia-sense-connexio-a-internet/</link>
+      <pubDate>Mon, 11 Nov 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-11-11-la-viquipedia-sense-connexio-a-internet/</guid>
+      <description>Sovint tinc poca connexió a Internet, en especial quan viatjo o sóc fora de casa. A vegades m&amp;rsquo;interessa fer alguna consulta a la Viquipèdia i no puc.&#xA;Hi ha vàries opcions&amp;hellip; una d&amp;rsquo;elles és la Cdpèdia, força interessant i que podeu baixar-vos la ISO des de http://python.org.ar/Proyectos/CDPedia&#xA;Una altra opció, molt interessant és Kiwix: Permet abaixar-te la wikipedia, pots triar qualsevol idioma i executar-la fins i tot per xarxa. D&amp;rsquo;aquesta manera podem tenir un servidor amb kiwix i la resta de la cas té accés a la viquipèdia.</description>
+    </item>
+    <item>
+      <title>Afegir una llançadora a l&#39;escriptori en Linkatedu 12.04</title>
+      <link>http://localhost:1313/post/2013-06-20-afegir-una-llancadora-a-lescriptori-en-linkatedu-12-04/</link>
+      <pubDate>Thu, 20 Jun 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-06-20-afegir-una-llancadora-a-lescriptori-en-linkatedu-12-04/</guid>
+      <description>Des de que la Linkat ha passat a tenir com a base Ubuntu, ens trobem que algunes coses es fan una mica diferent.&#xA;Si volem afegir una llançadora a l&amp;rsquo;escriptori, abans es feia botó dret del ratolí sobre l&amp;rsquo;escriptori i creavem la &amp;ldquo;llançadora&amp;rdquo;, però ara no funciona.&#xA;Per poder fer-ho, podem fer en un terminal (crtl+alt+t), una vegada s&amp;rsquo;ha obert la terminal, escrivim:&#xA;gnome-desktop-item-edit ~/Escriptori &amp;ndash;create-new&#xA;I fem els mateixos passos que ja feiem abans!</description>
+    </item>
+    <item>
+      <title>Emacs24 a la Linkat</title>
+      <link>http://localhost:1313/post/2013-04-08-emacs24-a-la-linkat/</link>
+      <pubDate>Mon, 08 Apr 2013 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2013-04-08-emacs24-a-la-linkat/</guid>
+      <description>Després d&amp;rsquo;uns dies usant Emacs24 he passat a fer la instal·lació a la Linkat 11.4. No la tenim al repositori, així que per poder fer-ho la descarregarem directament de la pàgina oficial i ho compilarem. Un dels avantatges un cop instal·lat, és que des de la versió 24 podem gaudir dels repositoris propis, i així poder ampliar-lo amb nous modes, i mantenir-ho actualitzat.&#xA;Així que, el primer que caldrà és descarregar la última versió:</description>
+    </item>
+    <item>
+      <title>Nova versió de LyX a la Linkat</title>
+      <link>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
+      <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
+      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
+    </item>
+    <item>
+      <title>Turpial a la Linkat</title>
+      <link>http://localhost:1313/post/2011-06-03-turpial-a-la-linkat/</link>
+      <pubDate>Fri, 03 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-06-03-turpial-a-la-linkat/</guid>
+      <description>Divendres a la tarda, i amb ganes de llegir les piulades del dia, i com és de costum solc usar el mode d&amp;rsquo;Emacs per a Identi.ca i Turpial per a Twitter.&#xA;Com que fa uns dies que vaig instal·lar al meu vell Eeepc901, ara em calia posar-hi el Turpial.&#xA;Aquests passos serveixen tan per la Linkat com per a Opensuse 11.x.&#xA;obtenir Turpial El primer que cal és baixar el paquet tar.</description>
+    </item>
+    <item>
+      <title>Instal·lant org-mode a la Linkat</title>
+      <link>http://localhost:1313/post/2011-06-01-hola-mon-2/</link>
+      <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-06-01-hola-mon-2/</guid>
+      <description>Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.&#xA;Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)&#xA;Primer que res he instal·lat emacs a la Linkat La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:</description>
+    </item>
+    <item>
+      <title>La nova Linkat ja és aquí!</title>
+      <link>http://localhost:1313/post/2011-04-04-la-nova-linkat-ja-es-aqui/</link>
+      <pubDate>Mon, 04 Apr 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-04-04-la-nova-linkat-ja-es-aqui/</guid>
+      <description>Els companys de la Linkat han tret la nova Linkat, la 4! Basada en l&amp;rsquo;Opensuse 11.2, i amb un gran ventall de novetats que la fan molt especial. Com a docent que treballo amb la Linkat a l&amp;rsquo;escola, vull agraïr la feina que fan els que hi són al darrera!&#xA;Si en voleu saber més, a la pàgina oficial.</description>
+    </item>
   </channel>
 </rss>

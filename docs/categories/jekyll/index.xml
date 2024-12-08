@@ -1,21 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>jekyll on Notes GNU</title>
+    <title>Jekyll on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/jekyll/</link>
-    <description>Recent content in jekyll on Notes GNU</description>
+    <description>Recent content in Jekyll on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Sun, 29 Mar 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Sun, 29 Mar 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Un blog amb Jekyll</title>
       <link>https://notesgnu.github.io/post/2015-03-29-un-blog-amb-jekyll/</link>
       <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2015-03-29-un-blog-amb-jekyll/</guid>
-      <description>Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant git i jekyll. Els motius són varis, però la idea d epoder escriure un bloc des d&amp;rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.
-S&amp;rsquo;usa per escriure el llenguatge de marques MarkDown i per defecte l&amp;rsquo;extensió .</description>
+      <description>Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant git i jekyll. Els motius són varis, però la idea d epoder escriure un bloc des d&amp;rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.&#xA;S&amp;rsquo;usa per escriure el llenguatge de marques MarkDown i per defecte l&amp;rsquo;extensió .</description>
     </item>
-    
   </channel>
 </rss>

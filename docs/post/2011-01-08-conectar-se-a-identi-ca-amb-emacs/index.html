@@ -4,15 +4,14 @@
     <title>Conectar-se a Identi-ca amb Emacs // Notes GNU</title>
     <link rel="shortcut icon" href="/favicon.ico" />
     <meta charset="utf-8" />
-    <meta name="generator" content="Hugo 0.92.2" />
+    <meta name="generator" content="Hugo 0.123.7">
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <meta name="author" content="msaliko" />
     <meta name="description" content="" />
     <link rel="stylesheet" href="https://notesgnu.github.io/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
 
     
-    <meta name="twitter:card" content="summary"/>
-<meta name="twitter:title" content="Conectar-se a Identi-ca amb Emacs"/>
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Conectar-se a Identi-ca amb Emacs"/>
 <meta name="twitter:description" content="Després de portar dies buscant com usar un client d&rsquo;Identica, al final m&rsquo;he decidit per usar EMACS.
 El primer que he fet ha estat descarregar identica.el des de la seva pàgina.
 Un cop l&rsquo;he descomprimit, ho he copiat dins de la carpeta /home/user/.emacs.d/
@@ -39,17 +38,17 @@ $ emacs .emacs" />
   </head>
   <body>
     <header class="app-header">
-      <a href="https://notesgnu.github.io/"><img class="app-header-avatar" src="/msaliko.jpeg" alt="msaliko" /></a>
+      <a href="https://notesgnu.github.io/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
       <h1>Notes GNU</h1>
       <nav class="app-header-menu">
           <a class="app-header-menu-item" href="/">Inici</a>
-             ● 
+             | 
           
           <a class="app-header-menu-item" href="/about/">Sobre mi</a>
-             ● 
+             | 
           
           <a class="app-header-menu-item" href="/tags/">Etiquetes</a>
-             ● 
+             | 
           
           <a class="app-header-menu-item" href="/categories/">Categories</a>
       </nav>
@@ -125,7 +124,7 @@ $ emacs .emacs" />
 <p>Després he hagut de crear / modificar el fitxer .emacs de configuració d&rsquo;EMACS.</p>
 <p>$ emacs .emacs</p>
 <p>I he escrit el següent:</p>
-<p>(add-to-list &lsquo;load-path &ldquo;/home/user/.emacs.d/&quot;)
+<p>(add-to-list &rsquo;load-path &ldquo;/home/user/.emacs.d/&rdquo;)
 ;;; Identi.ca mode
 (require &lsquo;identica-mode)</p>
 <p>La primera línia no la tenia en cap lloc comentada, però sense aquest em retornava l&rsquo;error, ja que li hem d&rsquo;especificar a l&rsquo;EMACS on ha de carregar els modes. Si volem podem afegir-los a altres carpetes com ara ~/.emcas-extensions o d&rsquo;altres que volguem!</p>

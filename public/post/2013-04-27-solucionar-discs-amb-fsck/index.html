@@ -1,0 +1,142 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Solucionar discs amb FSCK // Notes GNU</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.123.7">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="msaliko" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://localhost:1313/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Solucionar discs amb FSCK"/>
+<meta name="twitter:description" content="Moltes vegades m&rsquo;he trobat amb discs externs que no s&rsquo;obren o que de sobte l&rsquo;ordinador es queixa que s&rsquo;ha de fer manualment el xequeig. Sovint passa per extreure-les sense desmuntar, o per altres causes, apagat iniesperat de la màquina,… Així que podem perdre la infromació del disc o no podem accedir-hi. L&rsquo;eina a usar és fsck (file system consistency check) que serveix per solucionar les inconsistències del sistema d&rsquo;arxius i si en troba pot corregir-les."/>
+
+    <meta property="og:title" content="Solucionar discs amb FSCK" />
+<meta property="og:description" content="Moltes vegades m&rsquo;he trobat amb discs externs que no s&rsquo;obren o que de sobte l&rsquo;ordinador es queixa que s&rsquo;ha de fer manualment el xequeig. Sovint passa per extreure-les sense desmuntar, o per altres causes, apagat iniesperat de la màquina,… Així que podem perdre la infromació del disc o no podem accedir-hi. L&rsquo;eina a usar és fsck (file system consistency check) que serveix per solucionar les inconsistències del sistema d&rsquo;arxius i si en troba pot corregir-les." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/2013-04-27-solucionar-discs-amb-fsck/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2013-04-27T00:00:00+00:00" />
+<meta property="article:modified_time" content="2013-04-27T00:00:00+00:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
+      <h1>Notes GNU</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Inici</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/about/">Sobre mi</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/tags/">Etiquetes</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/categories/">Categories</a>
+      </nav>
+      <p>2024 (CC) Sou lliures de copiar</p>
+      <div class="app-header-social">
+        
+          <a href="jnorbu8@gmail.com" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail">
+  <title>Correu</title>
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+          </a>
+        
+          <a href="https://github.com/notesgnu" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/manelsales" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://mastodont.cat/@msaliko" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-star">
+  <title>Mastodon</title>
+  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+          </a>
+        
+          <a href="https://croniqueslinux.wordpress.com/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-file-text">
+  <title>Wordpress</title>
+  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Solucionar discs amb FSCK</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Apr 27, 2013
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          2 min read
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <p>Moltes vegades m&rsquo;he trobat amb discs externs que no s&rsquo;obren o que de sobte l&rsquo;ordinador es queixa que s&rsquo;ha de fer manualment el xequeig. Sovint passa per extreure-les sense desmuntar, o per altres causes, apagat iniesperat de la màquina,… Així que podem perdre la infromació del disc o no podem accedir-hi. L&rsquo;eina a usar és <strong>fsck</strong> (file system consistency check) que serveix per solucionar les inconsistències del sistema d&rsquo;arxius i si en troba pot corregir-les. Per poder executar-lo cal fer-ho de manera com a superusuari (sudo / su).</p>
+<h3 id="ús">Ús:</h3>
+<p>Per poder dur-ho a terme, el primer és llistar les particions i discs, es pot fer de moltes maneres, la que faig anar és:</p>
+<p>$ cat /proc/partitions</p>
+<p>Un cop veiem la llista, ara cal desmontar-ho:</p>
+<p>$ umount /dev/sdXX</p>
+<p>I ara com superusuari iniciem <strong>fsck</strong>:</p>
+<p>$ sudo fsck -a /dev/sdXX</p>
+<h3 id="forçar-comprovació-en-reinici">Forçar comprovació en reinici:</h3>
+<p>Una altra possibilitat és que volem forçar un xequeig automàtic en el proper reinici:</p>
+<p>sudo touch /forcefsck
+sudo reboot</p>
+<h3 id="notes">Notes:</h3>
+<p>Aquesta comanda <strong>fsck</strong> se pot fer anar en qualsevol sistema de fitxers, tot i que ha d&rsquo;estar instal·lades les dependències necessàries.  Per defecte és per a sistemes de fitxers de tipus <strong>ext</strong>, si volem altres tipus <strong>FAT</strong> podem usar la comanda <strong>DOSFSCK</strong>! Altres opcions que permet són:</p>
+<p>-a fa la feina automàticament, no tindrem tot el control de l&rsquo;eina.</p>
+<p>-r al contrari de el mode automàtic, ens demanarà la confirmació en cada procés.</p>
+<p>-v mostra tota la informació del procés.</p>
+<p>- t executa un sistema de fitxers concret, p.e.:  &hellip;-t ntfs &hellip;</p>
+<p>-c fa una comprovació dels blocs en el disc.</p>
+<p>-f obliga el xequeig.</p>
+<p>-y diu Sí (yes) a totes les preguntes.</p>
+<h3 id="fonts">Fonts:</h3>
+<ul>
+<li><a href="http://ca.wikipedia.org/wiki/Fsck">Viquipèdia</a></li>
+<li><a href="http://linux.die.net/man/8/fsck">Linux Man Page</a></li>
+<li><a href="http://www.thegeekstuff.com/2012/08/fsck-command-examples/">Linux Fsck Command Examples</a></li>
+</ul>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

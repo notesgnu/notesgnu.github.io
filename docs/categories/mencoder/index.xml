@@ -1,36 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>mencoder on Notes GNU</title>
+    <title>Mencoder on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/mencoder/</link>
-    <description>Recent content in mencoder on Notes GNU</description>
+    <description>Recent content in Mencoder on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Thu, 09 Jul 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/mencoder/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 09 Jul 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/mencoder/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Girar un video</title>
       <link>https://notesgnu.github.io/post/2015-07-09-girar-un-video/</link>
       <pubDate>Thu, 09 Jul 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2015-07-09-girar-un-video/</guid>
-      <description>Avui tenia una mica de temps, i remenant videos de fa uns mesos, m&amp;rsquo;he trobat amb un video gravat amb mòbil, i es veu girat a l&amp;rsquo;ordinador.
-Així que remenant una mica, el mencoder novament em dóna un cop de mà. Escrivim a la terminal:
-mencoder -vf rotate=1 -oac pcm -ovc lavc videosensegirar.mp4 -o videogirat.mp4
-El que el fa girar és l&amp;rsquo;opció rotate=1 que el gira 90º a la dreta. Si volem en l&amp;rsquo;altra direcció ho canviem per rotate=2</description>
+      <description>Avui tenia una mica de temps, i remenant videos de fa uns mesos, m&amp;rsquo;he trobat amb un video gravat amb mòbil, i es veu girat a l&amp;rsquo;ordinador.&#xA;Així que remenant una mica, el mencoder novament em dóna un cop de mà. Escrivim a la terminal:&#xA;mencoder -vf rotate=1 -oac pcm -ovc lavc videosensegirar.mp4 -o videogirat.mp4&#xA;El que el fa girar és l&amp;rsquo;opció rotate=1 que el gira 90º a la dreta. Si volem en l&amp;rsquo;altra direcció ho canviem per rotate=2</description>
     </item>
-    
     <item>
       <title>Unir videos des de terminal</title>
       <link>https://notesgnu.github.io/post/2012-09-21-unir-videos-des-de-terminal/</link>
       <pubDate>Fri, 21 Sep 2012 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2012-09-21-unir-videos-des-de-terminal/</guid>
-      <description>Sovint acabo amb molts videos de la càmera, i no és qüestió de tenir un munt de bocins solts. Així que els podem unir en un de sol. Utilitzant la eina mencoder, des de la terminal podem unir dos o més videos en un de sol.
-Obrint una terminal:
-mencoder -oac copy -ovc copy -idx -o videofinal.avi part1.avi part2.avi :
-o també podem:
-mencoder -oac copy -ovc copy -idx -o videofinal.</description>
+      <description>Sovint acabo amb molts videos de la càmera, i no és qüestió de tenir un munt de bocins solts. Així que els podem unir en un de sol. Utilitzant la eina mencoder, des de la terminal podem unir dos o més videos en un de sol.&#xA;Obrint una terminal:&#xA;mencoder -oac copy -ovc copy -idx -o videofinal.avi part1.avi part2.avi :&#xA;o també podem:&#xA;mencoder -oac copy -ovc copy -idx -o videofinal.</description>
     </item>
-    
   </channel>
 </rss>

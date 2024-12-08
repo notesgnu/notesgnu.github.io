@@ -1,40 +1,26 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>error on Notes GNU</title>
+    <title>Error on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/error/</link>
-    <description>Recent content in error on Notes GNU</description>
+    <description>Recent content in Error on Notes GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
-    <lastBuildDate>Mon, 12 Jan 2015 00:00:00 +0000</lastBuildDate><atom:link href="https://notesgnu.github.io/categories/error/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Mon, 12 Jan 2015 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://notesgnu.github.io/categories/error/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>Enganyar quin és el nostre Sistema Operatiu</title>
       <link>https://notesgnu.github.io/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</link>
       <pubDate>Mon, 12 Jan 2015 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2015-01-12-enganyar-quin-es-el-nostre-sistema-operatiu/</guid>
-      <description>Ja fa un temps que no podia usar un servei d&amp;rsquo;aprenentage de llengües a la xarxa, el livemocha!
-Quan inicio aquest servei, la resposta que dóna és:
-
-Així que tot resolt! Ja no puc usar aquest servei!
-Així tracten alguns als usuaris de Gnu/Linux!!!!!!! :-(
- Però no m&amp;rsquo;he quedat aquí!
-Quan naveguem, la xarxa detecta el nostre navegador i sistema operatiu&amp;hellip;
-
- i pensant una mica&amp;hellip;. podem enganyar la xarxa?</description>
+      <description>Ja fa un temps que no podia usar un servei d&amp;rsquo;aprenentage de llengües a la xarxa, el livemocha!&#xA;Quan inicio aquest servei, la resposta que dóna és:&#xA;Així que tot resolt! Ja no puc usar aquest servei!&#xA;Així tracten alguns als usuaris de Gnu/Linux!!!!!!! :-(&#xA;Però no m&amp;rsquo;he quedat aquí!&#xA;Quan naveguem, la xarxa detecta el nostre navegador i sistema operatiu&amp;hellip;&#xA;i pensant una mica&amp;hellip;. podem enganyar la xarxa??? Doncs la resposta és SÍ!</description>
     </item>
-    
     <item>
       <title>Problemes amb Inkscape</title>
       <link>https://notesgnu.github.io/post/2014-09-14-problemes-amb-inkscape/</link>
       <pubDate>Sun, 14 Sep 2014 00:00:00 +0000</pubDate>
-      
       <guid>https://notesgnu.github.io/post/2014-09-14-problemes-amb-inkscape/</guid>
-      <description>Porto dos dies buscant la solució a un problema que em tenia desesperat. Dibuixant amb Inkscape, i quan copiava i després enganxava, de sobte començaven a saltar errors!
-Cannot list directory /home/usuari/.uniconvertor:[Errno 2] No such file or directory: &amp;lsquo;/home/usuari/.uniconvertor&amp;rsquo;
-problemes amb Rellegint la pàgina Uniconverter fails on copying an svg selection he trobat la solució.
-Sembla que és un error de programari… és a dir, un Bitxo o Cuca (Bug) :-D</description>
+      <description>Porto dos dies buscant la solució a un problema que em tenia desesperat. Dibuixant amb Inkscape, i quan copiava i després enganxava, de sobte començaven a saltar errors!&#xA;Cannot list directory /home/usuari/.uniconvertor:[Errno 2] No such file or directory: &amp;lsquo;/home/usuari/.uniconvertor&amp;rsquo;&#xA;problemes amb Rellegint la pàgina Uniconverter fails on copying an svg selection he trobat la solució.&#xA;Sembla que és un error de programari… és a dir, un Bitxo o Cuca (Bug) :-D</description>
     </item>
-    
   </channel>
 </rss>

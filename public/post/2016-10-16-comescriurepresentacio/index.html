@@ -1,0 +1,397 @@
+<!doctype html>
+<html lang="en">
+  <head><script src="/livereload.js?mindelay=10&amp;v=2&amp;port=1313&amp;path=livereload" data-no-instant defer></script>
+    <title>Com escriure una presentació // Notes GNU</title>
+    <link rel="shortcut icon" href="/favicon.ico" />
+    <meta charset="utf-8" />
+    <meta name="generator" content="Hugo 0.123.7">
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="author" content="msaliko" />
+    <meta name="description" content="" />
+    <link rel="stylesheet" href="http://localhost:1313/css/main.min.4a7ec8660f9a44b08c4da97c5f2e31b1192df1d4d0322e65c0dbbc6ecb1b863f.css" />
+
+    
+    <meta name="twitter:card" content="summary"/><meta name="twitter:title" content="Com escriure una presentació"/>
+<meta name="twitter:description" content="COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode
+Podeu descarregar-vos la presentació i el codi en .org
+1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:
+Org mode i Emacs i LaTeX (classe Beamer). Són eines lliures que ens permeten a partir d&rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre."/>
+
+    <meta property="og:title" content="Com escriure una presentació" />
+<meta property="og:description" content="COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode
+Podeu descarregar-vos la presentació i el codi en .org
+1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:
+Org mode i Emacs i LaTeX (classe Beamer). Són eines lliures que ens permeten a partir d&rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre." />
+<meta property="og:type" content="article" />
+<meta property="og:url" content="http://localhost:1313/post/2016-10-16-comescriurepresentacio/" /><meta property="article:section" content="post" />
+<meta property="article:published_time" content="2016-10-16T00:00:00+00:00" />
+<meta property="article:modified_time" content="2016-10-16T00:00:00+00:00" />
+
+
+
+  </head>
+  <body>
+    <header class="app-header">
+      <a href="http://localhost:1313/"><img class="app-header-avatar" src="/avatar.png" alt="msaliko" /></a>
+      <h1>Notes GNU</h1>
+      <nav class="app-header-menu">
+          <a class="app-header-menu-item" href="/">Inici</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/about/">Sobre mi</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/tags/">Etiquetes</a>
+             | 
+          
+          <a class="app-header-menu-item" href="/categories/">Categories</a>
+      </nav>
+      <p>2024 (CC) Sou lliures de copiar</p>
+      <div class="app-header-social">
+        
+          <a href="jnorbu8@gmail.com" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-mail">
+  <title>Correu</title>
+  <path d="M4 4h16c1.1 0 2 .9 2 2v12c0 1.1-.9 2-2 2H4c-1.1 0-2-.9-2-2V6c0-1.1.9-2 2-2z"></path><polyline points="22,6 12,13 2,6"></polyline>
+</svg>
+          </a>
+        
+          <a href="https://github.com/notesgnu" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-github">
+  <title>github</title>
+  <path d="M9 19c-5 1.5-5-2.5-7-3m14 6v-3.87a3.37 3.37 0 0 0-.94-2.61c3.14-.35 6.44-1.54 6.44-7A5.44 5.44 0 0 0 20 4.77 5.07 5.07 0 0 0 19.91 1S18.73.65 16 2.48a13.38 13.38 0 0 0-7 0C6.27.65 5.09 1 5.09 1A5.07 5.07 0 0 0 5 4.77a5.44 5.44 0 0 0-1.5 3.78c0 5.42 3.3 6.61 6.44 7A3.37 3.37 0 0 0 9 18.13V22"></path>
+</svg>
+          </a>
+        
+          <a href="https://twitter.com/manelsales" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-twitter">
+  <title>Twitter</title>
+  <path d="M23 3a10.9 10.9 0 0 1-3.14 1.53 4.48 4.48 0 0 0-7.86 3v1A10.66 10.66 0 0 1 3 4s-4 9 5 13a11.64 11.64 0 0 1-7 2c9 5 20 0 20-11.5a4.5 4.5 0 0 0-.08-.83A7.72 7.72 0 0 0 23 3z"></path>
+</svg>
+          </a>
+        
+          <a href="https://mastodont.cat/@msaliko" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-star">
+  <title>Mastodon</title>
+  <polygon points="12 2 15.09 8.26 22 9.27 17 14.14 18.18 21.02 12 17.77 5.82 21.02 7 14.14 2 9.27 8.91 8.26 12 2"></polygon>
+</svg>
+          </a>
+        
+          <a href="https://croniqueslinux.wordpress.com/" target="_blank" rel="noreferrer noopener">
+            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-file-text">
+  <title>Wordpress</title>
+  <path d="M14 2H6a2 2 0 0 0-2 2v16a2 2 0 0 0 2 2h12a2 2 0 0 0 2-2V8z"></path><polyline points="14 2 14 8 20 8"></polyline><line x1="16" y1="13" x2="8" y2="13"></line><line x1="16" y1="17" x2="8" y2="17"></line><polyline points="10 9 9 9 8 9"></polyline>
+</svg>
+          </a>
+        
+      </div>
+    </header>
+    <main class="app-container">
+      
+  <article class="post">
+    <header class="post-header">
+      <h1 class ="post-title">Com escriure una presentació</h1>
+      <div class="post-meta">
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-calendar">
+  <title>calendar</title>
+  <rect x="3" y="4" width="18" height="18" rx="2" ry="2"></rect><line x1="16" y1="2" x2="16" y2="6"></line><line x1="8" y1="2" x2="8" y2="6"></line><line x1="3" y1="10" x2="21" y2="10"></line>
+</svg>
+          Oct 16, 2016
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-clock">
+  <title>clock</title>
+  <circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline>
+</svg>
+          6 min read
+        </div>
+        <div>
+          <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="icon icon-tag">
+  <title>tag</title>
+  <path d="M20.59 13.41l-7.17 7.17a2 2 0 0 1-2.83 0L2 12V2h10l8.59 8.59a2 2 0 0 1 0 2.82z"></path><line x1="7" y1="7" x2="7.01" y2="7"></line>
+</svg>
+              <a class="tag" href="http://localhost:1313/tags/org-mode/">Org-Mode</a>
+              <a class="tag" href="http://localhost:1313/tags/emacs/">Emacs</a>
+        </div>
+      </div>
+    </header>
+    <div class="post-content">
+      <h1 id="com-escriure-una-presentació">COM ESCRIURE UNA PRESENTACIÓ</h1>
+<p>amb <strong>EMACS</strong> i <strong>Org-mode</strong></p>
+<blockquote>
+<p>Podeu descarregar-vos la <a href="http://xtec.cat/%7Emsales24/orgmode/presentacio.htmlpresentacio.pdf">presentació</a> i el codi en <a href="http://xtec.cat/%7Emsales24/orgmode/presentacio.htmlpresentacio.zip">.org</a></p>
+</blockquote>
+<h2 id="1-alguns-aspectes">1 Alguns aspectes</h2>
+<h3 id="11-què-anem-a-fer">1.1 Què anem a fer?</h3>
+<p>A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:</p>
+<ul>
+<li><a href="http://orgmode.org/">Org mode</a> i</li>
+<li><a href="https://www.gnu.org/software/emacs/">Emacs</a></li>
+<li>i <a href="https://www.latex-project.org/">LaTeX</a> (classe <a href="https://es.wikipedia.org/wiki/Beamer">Beamer</a>).</li>
+</ul>
+<p>Són eines <strong>lliures</strong> que ens permeten a partir d&rsquo;unes marques senzilles, realitzar presentacions en <strong>PDF</strong> que podem veure en qualsevol ordinador <em>exactament</em> com nosaltres el veiem al nostre.</p>
+<h3 id="12-com-ho-fem">1.2 Com ho fem?</h3>
+<p>A partir d&rsquo;un text pla, i editant-lo amb <strong>Org mode</strong>, ens permet amb un llenguatge de marques molt senzill, crear i editar presentacions. Això ens dóna molts avantatges:</p>
+<ul>
+<li><strong>No cal saber LaTeX</strong> per començar, tot i que amb el temps ens facilitarà molt la feina.</li>
+<li>A partir d&rsquo;unes notes <strong>tenim un document de qualitat</strong>:
+<ul>
+<li>podem moure les diapositives</li>
+<li>podem afegir taules, imatges,….</li>
+<li>podem crear un índex de treballar i fer un seguiment de la feina</li>
+<li>podem exportar-ho a altres formats (html, odt, LaTeX…)</li>
+</ul>
+</li>
+</ul>
+<h3 id="13-què-necessitem">1.3 Què necessitem</h3>
+<ul>
+<li>Tenir una instal·lació de LaTeX <a href="http://www.tug.org/texlive/">TeX Live</a></li>
+<li>Tenir instal·lat <strong>Emacs</strong> i <strong>Org mode</strong> (per fer la exportació)</li>
+</ul>
+<h2 id="2-comencem-a-fer-presentacions">2 Comencem a fer Presentacions</h2>
+<h3 id="21-el-títol">2.1 El títol</h3>
+<p>La primera diapositiva és el títol. Normalment hi posem el títol, l&rsquo;autor i la data:</p>
+<ul>
+<li>
+<p>el <strong>títol</strong> del document</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #b3b3b3;&#34;&gt;#+TITLE:&lt;/span&gt; &lt;span style=&#34;color: #afeeee; font-weight: bold;&#34;&gt;Posem el títol del document&lt;/span&gt;
+</code></pre><p>(si no el posem, no ens apareixerà a la presentació)</p>
+</li>
+</ul>
+<h3 id="22-lautor">2.2 L&rsquo;autor</h3>
+<ul>
+<li>
+<p>el nom de l&rsquo;<strong>autor/a</strong></p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #b3b3b3;&#34;&gt;#+AUTHOR:&lt;/span&gt; &lt;span style=&#34;color: #afeeee;&#34;&gt;Nom i Cognom&lt;/span&gt;
+</code></pre></li>
+</ul>
+<h3 id="23-la-data">2.3 La data</h3>
+<ul>
+<li>
+<p>la <strong>data</strong></p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #b3b3b3;&#34;&gt;#+DATE:&lt;/span&gt; &lt;span style=&#34;color: #afeeee;&#34;&gt;16 d&#39;octubre de 2016&lt;/span&gt;
+</code></pre><p>(podem usar la macro de LaTeX macro <code>\today</code>, o escriure directament <em>today</em>)</p>
+</li>
+</ul>
+<h3 id="24-aspectes-de-lletra">2.4 aspectes de lletra</h3>
+<p>Pots escriure posant el text entre marques, així tenim <strong>bold</strong>, <em>italic</em>, underlined, <code>verbatim</code>, <code>code</code> ‘+strike-through+’ i també pode posar una línia de codi:</p>
+<pre tabindex="0"><code>codi
+</code></pre><pre tabindex="0"><code>&lt;span style=&#34;color: #ffffff; background-color: #000000; text-decoration: underline;&#34;&gt;*bold*&lt;/span&gt;
+&lt;span style=&#34;background-color: #ff0000; text-decoration: underline;&#34;&gt;/italic/&lt;/span&gt;
+&lt;span style=&#34;text-decoration: underline;&#34;&gt;_underlined_&lt;/span&gt;
+&lt;span style=&#34;color: #b3b3b3;&#34;&gt;=verbatim=&lt;/span&gt; 
+&lt;span style=&#34;color: #b3b3b3;&#34;&gt;~code~&lt;/span&gt;
+&lt;span style=&#34;text-decoration: line-through;&#34;&gt;+strike-through+&lt;/span&gt;
+&lt;span style=&#34;color: #b3b3b3;&#34;&gt;: codi&lt;/span&gt;
+</code></pre><h3 id="25-opcions">2.5 opcions</h3>
+<p>Si no volem que surti alguna part del títol, podem afegir a les opcions <strong>nil</strong>, per exemple:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;#+OPTIONS: author:nil&lt;/span&gt;
+</code></pre><p><em>Es poden incloure moltes més coses (email, logos, nomde centre…), però aquest taller és només per fer un inici…</em></p>
+<h3 id="26-lestructura">2.6 L&rsquo;estructura</h3>
+<p>les presentacions festes amb Org mode aprofiten els títols per marcar cada diapositiva. Per defecte…</p>
+<ul>
+<li>els títols que marquem amb un &lsquo;*&rsquo; esdevenen cada diapo</li>
+<li>Els nivells inferiors formaran part de <strong>blocs i altres estructures de la diapo</strong></li>
+<li>la diapo de la <strong>taula de continguts</strong> (toc) es crea sola</li>
+</ul>
+<p>Si no volem que aparegui la taula de continguts, llavors a les opcions posem <strong>nil</strong>:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;#+OPTIONS: toc:nil&lt;/span&gt;
+&lt;span style=&#34;color: #00ffff;&#34;&gt;* Diapo 1&lt;/span&gt;
+el contingut
+&lt;span style=&#34;color: #0000ff;&#34;&gt;** bloc&lt;/span&gt;
+blocs interns
+</code></pre><h3 id="27-per-crear-una-diapo">2.7 Per crear una diapo</h3>
+<p>Podem crear una llista:</p>
+<ul>
+<li>item 1</li>
+<li>item 2</li>
+<li>item 3</li>
+</ul>
+<p>igual com ho fem amb el mode Org:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;* A title&lt;/span&gt;
+- item 1
+- item 2
+- item 3
+</code></pre><h3 id="28-usant-imatges">2.8 Usant imatges</h3>
+<p>podem afegir imatges:</p>
+<p><img src="http://xtec.cat/%7Emsales24/orgmode/presentacio.htmlimatges/orgmode.png" alt="orgmode.png"></p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;#+ATTR_LaTeX: :width 100&lt;/span&gt;
+ &lt;span style=&#34;color: #00ffff; text-decoration: underline;&#34;&gt;file:imatges/orgmode.png&lt;/span&gt;
+</code></pre><h3 id="29-orgmode-inserir-imatges-de-web">2.9 orgmode inserir imatges de web</h3>
+<ul>
+<li>imatge online
+<ol>
+<li>
+<p>si exportem a html podem usar imatges de la web:</p>
+<p><img src="https://www.gnu.org/software/emacs/images/emacs.png" alt="emacs.png"><!-- raw HTML omitted --><!-- raw HTML omitted -->1<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+</li>
+<li>
+<p>si exportem a PDF</p>
+<p>hem de tenir les imatges en local</p>
+</li>
+</ol>
+</li>
+</ul>
+<h3 id="210-creant-una-taula-de-continguts">2.10 Creant una taula de continguts</h3>
+<p>A les opcions <code>#+OPTIONS:</code> podem canviar l&rsquo;opció <code>H</code> al nivell que volem els títols, per exemple a <code>2</code>:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;#+OPTIONS: H:2 toc:t&lt;/span&gt;
+</code></pre><p>així tenim que ara el primer nivell esdevé seccions i el segon nivell són les diapos.</p>
+<h3 id="211-comentaris">2.11 comentaris</h3>
+<p>el comentaris es fan amb # seguit d&rsquo;un espai al davant d&rsquo;una frase… així no surt la frase a l&rsquo;exportar-se. <a href="http://orgmode.org/manual/Comment-lines.html">http://orgmode.org/manual/Comment-lines.html</a></p>
+<h3 id="212-notes-de-peu">2.12 notes de peu</h3>
+<p><code>C-x C- f</code> introdueix notes de peu i genera un apartat de notes de peu:</p>
+<pre tabindex="0"><code>text amb nota de peu&lt;span style=&#34;color: #00ffff; text-decoration: underline;&#34;&gt;[fn:1]&lt;/span&gt;
+text dos&lt;span style=&#34;color: #00ffff; text-decoration: underline;&#34;&gt;[fn:2]&lt;/span&gt;
+
+&lt;span style=&#34;color: #00ffff;&#34;&gt;* footnotes&lt;/span&gt;
+&lt;span style=&#34;color: #00ffff; text-decoration: underline;&#34;&gt;[fn:1]&lt;/span&gt; nota 1 
+&lt;span style=&#34;color: #00ffff; text-decoration: underline;&#34;&gt;[fn:2]&lt;/span&gt; nota 2
+</code></pre><p>C-u C-c C-x f més opcions de notes de peu</p>
+<h2 id="3-editant-les-presentacions">3 Editant les presentacions</h2>
+<h3 id="31-per-començar">3.1 Per començar</h3>
+<p>Carreguem el mode amb:</p>
+<pre tabindex="0"><code>M-x org-beamer-mode RET
+</code></pre><p>Si volem que es carregui directament a l&rsquo;obrir el fitxer escrivim al principi:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;#+STARTUP: beamer&lt;/span&gt;
+</code></pre><h3 id="32-recepta-final-ràpida">3.2 Recepta final ràpida</h3>
+<p>El primer, agafem un document ja fet amb <strong>Org mode</strong>, ens posem al principi</p>
+<ol>
+<li>
+<p>escrivim:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;#+STARTUP: beamer&lt;/span&gt;
+</code></pre></li>
+<li>
+<p>teclegem:</p>
+<pre tabindex="0"><code>C-c C-e #
+</code></pre><p>i demanem amb la tecla <code>TAB</code> l&rsquo;opció <code>default</code></p>
+<p>Omplim l&rsquo;autor, títol, data i d&rsquo;altres aspectes… i ja podem exportar…</p>
+</li>
+</ol>
+<h3 id="33-per-exportar-a-pdf">3.3 Per exportar a PDF</h3>
+<p>El primer que es cal és carregar el mode menor <strong>Beamer</strong> per a <strong>org-mode</strong>. Si no el tenim iniciat, ho podem activar teclejant:</p>
+<pre tabindex="0"><code>M-x org-beamer-mode
+</code></pre><p>ara ja tenim unes comandes <strong>extra</strong> al menú de l&rsquo;exportació de LaTeX</p>
+<p><code>C-c C-e l B</code></p>
+<p>Export as LaTeX buffer (Beamer).</p>
+<p><code>C-c C-e l b</code></p>
+<p>Export as LaTeX file (Beamer).</p>
+<p><code>C-c C-e l P</code></p>
+<p><strong>Export as PDF file</strong> (Beamer).</p>
+<p><code>C-c C-e l O</code></p>
+<p>Export as PDF file and <strong>open</strong> (Beamer).</p>
+<h3 id="34-exportar-com-article">3.4 Exportar com article</h3>
+<p>Usem <code>beamerarticle</code>, per exemple:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;#+startup: beamer&lt;/span&gt;
+&lt;span style=&#34;color: #00ffff;&#34;&gt;#+LaTeX_CLASS: article&lt;/span&gt;
+&lt;span style=&#34;color: #00ffff;&#34;&gt;#+LaTeX_CLASS_OPTIONS: [a4paper,twoside,11pt]&lt;/span&gt;
+&lt;span style=&#34;color: #00ffff;&#34;&gt;#+BEAMER_THEME: default&lt;/span&gt;
+&lt;span style=&#34;color: #00ffff;&#34;&gt;#+LATEX_HEADER: \usepackage{beamerarticle}&lt;/span&gt;
+</code></pre><h3 id="35-per-exportar-a-odt">3.5 Per exportar a ODT</h3>
+<p>Executem la comanda:</p>
+<pre tabindex="0"><code>M-x org-odt-export-to-odt
+</code></pre><p>Ara si volem exportar de nou només cal</p>
+<ul>
+<li><strong>C-c C-e o</strong></li>
+</ul>
+<p>i ja podem exportar-ho a <strong>odt</strong></p>
+<h3 id="36-conversor-odt-a-orgmode">3.6 conversor odt a orgmode</h3>
+<p><a href="https://bitbucket.org/josemaria.alkala/odt2org/wiki/Home">https://bitbucket.org/josemaria.alkala/odt2org/wiki/Home</a></p>
+<h3 id="37-convertir-a-wiki">3.7 convertir a wiki</h3>
+<p>Podem exportar a altres llenguatges de marques usant <strong>pandoc</strong>, per exempe si volem en llenguatge <strong>MediaWiki</strong>:</p>
+<pre tabindex="0"><code>pandoc -s -S -t mediawiki --toc document.org -o document.wiki
+</code></pre><p>més informació a la pàgina de <a href="http://pandoc.org/demos.html">Pandoc</a></p>
+<h3 id="38-incloure-altres-documents">3.8 Incloure altres documents</h3>
+<p>Podem incloure altres documents en un document principal, usant <code>#+INCLUDE:</code>:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #00ffff;&#34;&gt;#+INCLUDE: &#34;CAPITOL1.org&#34;&lt;/span&gt;
+&lt;span style=&#34;color: #00ffff;&#34;&gt;#+include: &#34;CAPITOL2.org&#34;&lt;/span&gt;
+&lt;span style=&#34;color: #00ffff;&#34;&gt;#+include: &#34;CAPITOL3.org&#34;&lt;/span&gt;
+</code></pre><h3 id="39-incloure-una-taula">3.9 Incloure una taula</h3>
+<p>Per incloure una taula usem el format típic d&rsquo;orgmode:</p>
+<table>
+<thead>
+<tr>
+<th> </th>
+<th>a</th>
+<th>b</th>
+<th>c</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td>x</td>
+<td>1</td>
+<td>2</td>
+<td>3</td>
+</tr>
+<tr>
+<td>y</td>
+<td>4</td>
+<td>5</td>
+<td>6</td>
+</tr>
+<tr>
+<td>z</td>
+<td>7</td>
+<td>8</td>
+<td>9</td>
+</tr>
+</tbody>
+</table>
+<p>L&rsquo;exemple del codi a escriure:</p>
+<pre tabindex="0"><code>&lt;span style=&#34;color: #87cefa;&#34;&gt;|   | a | b | c |&lt;/span&gt;
+&lt;span style=&#34;color: #87cefa;&#34;&gt;|---+---+---+---|&lt;/span&gt;
+&lt;span style=&#34;color: #87cefa;&#34;&gt;| x | 1 | 2 | 3 |&lt;/span&gt;
+&lt;span style=&#34;color: #87cefa;&#34;&gt;| y | 4 | 5 | 6 |&lt;/span&gt;
+&lt;span style=&#34;color: #87cefa;&#34;&gt;| z | 7 | 8 | 9 |&lt;/span&gt;
+</code></pre><h3 id="310-importar-taules">3.10 importar taules</h3>
+<p>exportem una taula de full de càlcul a cvs</p>
+<pre tabindex="0"><code>M-x org-table-import
+</code></pre><p>i escrivim la taula amb el nom</p>
+<h3 id="311-orgmode-en-altres-editors">3.11 orgmode en altres editors</h3>
+<ul>
+<li><strong>editor online</strong> d&rsquo;orgmode i altres llenguatges de marques <a href="http://markup.rocks/">http://markup.rocks/</a></li>
+<li>Sublime Text editor, with Org syntax <a href="https://github.com/danielmagnussons/orgmode">https://github.com/danielmagnussons/orgmode</a></li>
+<li>orgmode a l&rsquo;editor atom <a href="https://atom.io/packages/org">https://atom.io/packages/org</a></li>
+<li>orgzly per a <strong>android</strong> <a href="http://www.orgzly.com/">http://www.orgzly.com/</a></li>
+</ul>
+<h3 id="312-més-informació">3.12 més informació</h3>
+<ul>
+<li>questions <a href="https://stackoverflow.com/questions/tagged/org-mode">https://stackoverflow.com/questions/tagged/org-mode</a></li>
+<li>documentació <a href="http://orgmode.org/manual/index.html">http://orgmode.org/manual/index.html</a></li>
+<li>comunitat <a href="http://orgmode.org/worg/">http://orgmode.org/worg/</a></li>
+<li>exemples i receptes <a href="http://ehneilsen.net/notebook/orgExamples/org-examples.html">http://ehneilsen.net/notebook/orgExamples/org-examples.html</a></li>
+</ul>
+<h2 id="4-llicència">4 Llicència</h2>
+<h3 id="41-llicència">4.1 Llicència</h3>
+<ul>
+<li>Basat en <a href="https://github.com/fniessen/refcard-org-beamer/">reference card org-beamer</a> de Fabrice Niessen</li>
+</ul>
+<p><img src="http://xtec.cat/%7Emsales24/orgmode/presentacio.htmlimatges/by_petit.png" alt="by_petit.png"></p>
+<p><a href="https://creativecommons.org/licenses/by/4.0/deed.ca">Aquesta obra està subjecta a una llicència de Reconeixement 4.0 Internacional de Creative Commons</a></p>
+<ol>
+<li>
+<p>Sou lliure de:</p>
+<ul>
+<li>Compartir — copiar i redistribuir el material en qualsevol mitjà i format</li>
+<li>Adaptar — remesclar, transformar i crear a partir del material per a qualsevol finalitat, fins i tot comercial.</li>
+</ul>
+</li>
+</ol>
+<h2 id="footnotes">Footnotes:</h2>
+<p><!-- raw HTML omitted --><!-- raw HTML omitted -->1<!-- raw HTML omitted --><!-- raw HTML omitted --></p>
+<p><a href="http://orgmode.org/manual/Images-in-HTML-export.html">http://orgmode.org/manual/Images-in-HTML-export.html</a></p>
+<p>Date: 16 d&rsquo;octubre de 2016
+Author: Manel Sales
+Created: 2016-10-16 dg 19:30
+<a href="http://validator.w3.org/check?uri=referer">Validate</a></p>
+
+    </div>
+    <div class="post-footer">
+      
+    </div>
+  </article>
+
+    </main>
+  </body>
+</html>

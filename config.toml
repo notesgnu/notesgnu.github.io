@@ -1,7 +1,7 @@
 baseURL = "https://notesgnu.github.io/"
 title = "Notes GNU"
 theme = "m10c"
-paginate = 6
+paginate = 8
 languageCode = "en"
 DefaultContentLanguage = "ca"
 enableInlineShortcodes = true
@@ -13,8 +13,8 @@ enableemoji = true
     author = "msaliko"
     description = "2024 (CC) Sou lliures de copiar"
     google_search = true
-    avatar = "msaliko.jpeg" #l'avatar va a la carpeta "static"
-    menu_item_separator = " ● "
+    avatar = "avatar.png" #l'avatar va a la carpeta "static"
+    menu_item_separator = " | "
 
 [params.style]
   darkestColor = "#242930"
@@ -38,7 +38,7 @@ enableemoji = true
   #  lightColor = "#96a879"
   #  lightestColor = "#fff"
   #  primaryColor = "#dad865"
-  
+
 [[menu.main]]
     identifier = "home"
     name = "Inici"
@@ -56,7 +56,7 @@ enableemoji = true
   name = "Etiquetes"
   url = "/tags/"
   weight = 3
-  
+
 [[menu.main]]
     identifier = "categories"
     name = "Categories"
@@ -87,7 +87,7 @@ series = "series"
     url = "https://mastodont.cat/@msaliko"
     name = "Mastodon"
     icon = "star"
-    
+
 [[params.social]]
     url = "https://croniqueslinux.wordpress.com/"
     name = "Wordpress"

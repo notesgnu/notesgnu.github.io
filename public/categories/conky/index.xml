@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Conky on Notes GNU</title>
+    <link>http://localhost:1313/categories/conky/</link>
+    <description>Recent content in Conky on Notes GNU</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en</language>
+    <lastBuildDate>Mon, 31 Oct 2011 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/categories/conky/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Iniciar Conky automàticament en Lubuntu</title>
+      <link>http://localhost:1313/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</link>
+      <pubDate>Mon, 31 Oct 2011 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/post/2011-10-31-iniciar-conky-automaticament-en-lubuntu/</guid>
+      <description>Aquest cap de setmana he instal·lat a un netbook Point Of View (POV) la nova Lubuntu 11.10 ocelot oneiric. La veritat és que consumeix menys RAM, i va bastant lleugera. Va amb l&amp;rsquo;entorn d&amp;rsquo;escriptori lleuger LXDE.&#xA;Seguidament he instal·lat conky que és molt configurable i tenim molts exemples a la xarxa per donar-li l&amp;rsquo;aspecte que més ens agradi. Si no el tenim instal·lat, només cal:&#xA;sudo apt-get install conky-all&#xA;L&amp;rsquo;únic problema que he tingut és que no s&amp;rsquo;inciava de forma automàtica.</description>
+    </item>
+  </channel>
+</rss>
