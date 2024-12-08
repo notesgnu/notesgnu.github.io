@@ -4,7 +4,7 @@
     <title>Scratch on Notes GNU</title>
     <link>http://localhost:1313/categories/scratch/</link>
     <description>Recent content in Scratch on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Nov 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/scratch/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</link>
       <pubDate>Sun, 29 Nov 2015 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2015-11-29-scratch-2-a-la-linkat-lleugera/</guid>
-      <description>&lt;p&gt;Scratch és un entorn de programació educatiu fet al MIT, i que en el món educatiu ens permet treballar el pensmanet computacional. El tenim per programar en línia a &lt;a href=&#34;https://scratch.mit.edu&#34;&gt;https://scratch.mit.edu&lt;/a&gt; , tot i això, a mi m&amp;rsquo;agrada poder treballar offline. Per fer-ho he seguit les instruccions de la seva pàgina &lt;a href=&#34;https://scratch.mit.edu/scratch2download/&#34;&gt;https://scratch.mit.edu/scratch2download/&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Axí que quan he intentat instal·lar-ho a la &lt;strong&gt;Linkat lleugera&lt;/strong&gt;, però m&amp;rsquo;ha donat problemes, on em demana que instal·li el gnome keyring… que ja em consta com a instal·lat.&lt;/p&gt;</description>
+      <description>Scratch és un entorn de programació educatiu fet al MIT, i que en el món educatiu ens permet treballar el pensmanet computacional. El tenim per programar en línia a https://scratch.mit.edu , tot i això, a mi m&amp;rsquo;agrada poder treballar offline. Per fer-ho he seguit les instruccions de la seva pàgina https://scratch.mit.edu/scratch2download/&#xA;Axí que quan he intentat instal·lar-ho a la Linkat lleugera, però m&amp;rsquo;ha donat problemes, on em demana que instal·li el gnome keyring… que ja em consta com a instal·lat.</description>
     </item>
   </channel>
 </rss>

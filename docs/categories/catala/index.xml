@@ -4,7 +4,7 @@
     <title>Catala on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/catala/</link>
     <description>Recent content in Catala on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 25 Dec 2012 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/catala/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,28 @@
       <link>https://notesgnu.github.io/post/2012-12-25-accents-amb-un-teclat-america/</link>
       <pubDate>Tue, 25 Dec 2012 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2012-12-25-accents-amb-un-teclat-america/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/wpid-teclat.jpg&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-teclat.jpg&#34;&gt;&lt;br&gt;&#xA;Ja fa uns anys que vaig anar de viatge a la Xina i em vaig comprar un EeePC 1000HE, del que estic molt content. Hi vaig instal·lar Ubuntu (gnome), i en la configuració del teclat vaig triar la &amp;ldquo;tecla &lt;strong&gt;compose&lt;/strong&gt;&amp;rdquo;, és a dir, em permetia usar una de les tecles com a comodí per accentuar. Amb el temps m&amp;rsquo;he passat a &lt;strong&gt;Lubuntu&lt;/strong&gt; en el notebook, en especial per optimitzar recursos de la màquina, i prioritzar les eines per sobre de l&amp;rsquo;aspecte.&lt;/p&gt;</description>
+      <description>Ja fa uns anys que vaig anar de viatge a la Xina i em vaig comprar un EeePC 1000HE, del que estic molt content. Hi vaig instal·lar Ubuntu (gnome), i en la configuració del teclat vaig triar la &amp;ldquo;tecla compose&amp;rdquo;, és a dir, em permetia usar una de les tecles com a comodí per accentuar. Amb el temps m&amp;rsquo;he passat a Lubuntu en el notebook, en especial per optimitzar recursos de la màquina, i prioritzar les eines per sobre de l&amp;rsquo;aspecte.</description>
     </item>
     <item>
       <title>Escriure símbols i diacrítics en Emacs</title>
       <link>https://notesgnu.github.io/post/2011-09-10-escriure-simbols-i-diacritics-en-emacs/</link>
       <pubDate>Sat, 10 Sep 2011 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2011-09-10-escriure-simbols-i-diacritics-en-emacs/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/emacs-logo.png&#34; alt=&#34;http://www.princeton.edu/~chaol/theme/emacs-logo.png&#34;&gt; Sóc usuari novell d´Emacs, i cada cop m&amp;rsquo;agrada més. Quan vaig estar a la Xina em vaig comprar un netbook (Asus Eeepc) i només té teclat americà. El primer que vaig fer va ser posar-li Gnu/Linux (Ubuntu) i configurar-li la possibilitat del &amp;ldquo;compose&amp;rdquo;, així puc escriure usant la tecla que he predifinit (Alt-right) per poder composar lletres. En el cas d´Emacs no m&amp;rsquo;anava la tecla compose, així que la ç o les lletres accentuades eren una mica complicades d&amp;rsquo;escriure en català amb el preuat Emacs.&lt;/p&gt;</description>
+      <description>Sóc usuari novell d´Emacs, i cada cop m&amp;rsquo;agrada més. Quan vaig estar a la Xina em vaig comprar un netbook (Asus Eeepc) i només té teclat americà. El primer que vaig fer va ser posar-li Gnu/Linux (Ubuntu) i configurar-li la possibilitat del &amp;ldquo;compose&amp;rdquo;, així puc escriure usant la tecla que he predifinit (Alt-right) per poder composar lletres. En el cas d´Emacs no m&amp;rsquo;anava la tecla compose, així que la ç o les lletres accentuades eren una mica complicades d&amp;rsquo;escriure en català amb el preuat Emacs.</description>
     </item>
     <item>
       <title>Corrector de català mentre escrivim a l&#39;Emacs</title>
       <link>https://notesgnu.github.io/post/2011-07-24-corrector-de-catala-mentre-escrivim-a-lemacs/</link>
       <pubDate>Sun, 24 Jul 2011 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2011-07-24-corrector-de-catala-mentre-escrivim-a-lemacs/</guid>
-      <description>&lt;p&gt; &lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/800px-Diccionari_catal%C3%A0_valenci%C3%A0_balear.jpg&#34; alt=&#34;&#34; title=&#34;Diccionari&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Des de que uso Emacs que m&amp;rsquo;han anat sorgint dubtes, problemes i solucions referents a l&amp;rsquo;ús del català. El primer problema que vaig tenir era que no era capaç d&amp;rsquo;escriure en accents fins que ho &lt;a href=&#34;http://croniqueslinux.wordpress.com/category/catala/&#34;&gt;vaig solucionar.&lt;/a&gt; La segona cosa era com fer anar un corrector en català, i també ho vaig &lt;a href=&#34;http://croniqueslinux.wordpress.com/2011/02/24/corrector-catala-per-emacs/&#34;&gt;trobar.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ara resulta que m&amp;rsquo;he trobat que volia usar el corrector al &amp;ldquo;vol&amp;rdquo;, és a dir, com en altres programes que es va posant en roig les paraules mal escrites. La solució, usar el mode &lt;strong&gt;flyspell&lt;/strong&gt; que depén del diccionari de l&amp;rsquo;ordinador. El mode &lt;strong&gt;flyspell-mode&lt;/strong&gt; quan l&amp;rsquo;he volgut usar m&amp;rsquo;he trobat que no hem reconeixia el diccionari català, i això que el tenia instal·lat. Quan he fet un canvi de diccionari:&lt;/p&gt;</description>
+      <description>Des de que uso Emacs que m&amp;rsquo;han anat sorgint dubtes, problemes i solucions referents a l&amp;rsquo;ús del català. El primer problema que vaig tenir era que no era capaç d&amp;rsquo;escriure en accents fins que ho vaig solucionar. La segona cosa era com fer anar un corrector en català, i també ho vaig trobar.&#xA;Ara resulta que m&amp;rsquo;he trobat que volia usar el corrector al &amp;ldquo;vol&amp;rdquo;, és a dir, com en altres programes que es va posant en roig les paraules mal escrites.</description>
     </item>
     <item>
       <title>Accents a l&#39;Emacs</title>
       <link>https://notesgnu.github.io/post/2011-02-20-accents-a-lemacs/</link>
       <pubDate>Sun, 20 Feb 2011 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2011-02-20-accents-a-lemacs/</guid>
-      <description>&lt;p&gt;Des de que he començat a usar Emacs, m&amp;rsquo;he trobat amb la dificultat d&amp;rsquo;escriure els accents. Al principi, si feia anar l&amp;rsquo;emacs des de consola amb: $ emacs -nw anava perfecte, però no era la solució!!! Al final, després de provar un munt de coses, he trobat que la culpa és que tinc instal·lat l&amp;rsquo;IBUS per escriure en xinès, i pel que sigui la codificació no acaba d&amp;rsquo;anar. La solució des de terminal era en mode gràfic: $ XMODIFIERS=@im=none emacs però no era qüestió d&amp;rsquo;anar obrint terminals per executar l&amp;rsquo;emacs per escriure amb accents.&lt;/p&gt;</description>
+      <description>Des de que he començat a usar Emacs, m&amp;rsquo;he trobat amb la dificultat d&amp;rsquo;escriure els accents. Al principi, si feia anar l&amp;rsquo;emacs des de consola amb: $ emacs -nw anava perfecte, però no era la solució!!! Al final, després de provar un munt de coses, he trobat que la culpa és que tinc instal·lat l&amp;rsquo;IBUS per escriure en xinès, i pel que sigui la codificació no acaba d&amp;rsquo;anar. La solució des de terminal era en mode gràfic: $ XMODIFIERS=@im=none emacs però no era qüestió d&amp;rsquo;anar obrint terminals per executar l&amp;rsquo;emacs per escriure amb accents.</description>
     </item>
   </channel>
 </rss>

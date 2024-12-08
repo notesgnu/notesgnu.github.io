@@ -4,7 +4,7 @@
     <title>Comandes on Notes GNU</title>
     <link>http://localhost:1313/categories/comandes/</link>
     <description>Recent content in Comandes on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 13 Jan 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/comandes/index.xml" rel="self" type="application/rss+xml" />
@@ -13,28 +13,28 @@
       <link>http://localhost:1313/post/2016-01-13-bad-character-/</link>
       <pubDate>Wed, 13 Jan 2016 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2016-01-13-bad-character-/</guid>
-      <description>&lt;p&gt;Un arxiu que he llegit des de terminal m&amp;rsquo;ha donat un error de lectura:&lt;/p&gt;&#xA;&lt;p&gt;&amp;gt; bad character &amp;lsquo;�&amp;rsquo;&lt;/p&gt;&#xA;&lt;p&gt;Mirant la codificació de l&amp;rsquo;arxiu amb la comanda &lt;strong&gt;&lt;strong&gt;file&lt;/strong&gt;&lt;/strong&gt;, he vist que no té la codificació per a &lt;strong&gt;UNIX&lt;/strong&gt;, així que a canviar-ho. Primer cal instal·lar &lt;strong&gt;&lt;strong&gt;dos2unix&lt;/strong&gt;&lt;/strong&gt;:&lt;/p&gt;&#xA;&lt;p&gt;sudo apt-get install dos2unix&lt;/p&gt;&#xA;&lt;p&gt;i després a convertir-ho:&lt;/p&gt;&#xA;&lt;p&gt;dos2unix -n arxiu.txt arxiu2.txt&lt;/p&gt;&#xA;&lt;p&gt;i problema resolt!&lt;/p&gt;&#xA;&lt;p&gt;;-)&lt;/p&gt;</description>
+      <description>Un arxiu que he llegit des de terminal m&amp;rsquo;ha donat un error de lectura:&#xA;&amp;gt; bad character &amp;lsquo;�&amp;rsquo;&#xA;Mirant la codificació de l&amp;rsquo;arxiu amb la comanda file, he vist que no té la codificació per a UNIX, així que a canviar-ho. Primer cal instal·lar dos2unix:&#xA;sudo apt-get install dos2unix&#xA;i després a convertir-ho:&#xA;dos2unix -n arxiu.txt arxiu2.txt&#xA;i problema resolt!&#xA;;-)</description>
     </item>
     <item>
       <title>Espai de disc</title>
       <link>http://localhost:1313/post/2013-10-22-espai-de-disc/</link>
       <pubDate>Tue, 22 Oct 2013 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2013-10-22-espai-de-disc/</guid>
-      <description>&lt;p&gt;Hi ha moltes eines per saber l&amp;rsquo;espai del disc, tant en ús com l&amp;rsquo;espai lliure. Però moltes vegades no tenim accés a un entorn gràfic. Des de terminal tenim varies eines que ens permeten saber l&amp;rsquo;espai que tenim lliure i en ús. Dues de les dues més importants són &lt;strong&gt;du&lt;/strong&gt; i &lt;strong&gt;df&lt;/strong&gt;.&lt;br&gt;&#xA;Per saber-ne més, només cal usar el propi manual:&lt;/p&gt;&#xA;&lt;p&gt;man du&lt;/p&gt;&#xA;&lt;p&gt;o&lt;/p&gt;&#xA;&lt;p&gt;man df&lt;/p&gt;&#xA;&lt;h3 id=&#34;espai-que-tenim-lliure-i-en-ús&#34;&gt;Espai que tenim lliure i en ús&lt;/h3&gt;&#xA;&lt;p&gt;La comanda &lt;strong&gt;df&lt;/strong&gt; ens ajuda a saber l&amp;rsquo;espai lliure en el disc. Per defecte, només amb la comanda:&lt;/p&gt;</description>
+      <description>Hi ha moltes eines per saber l&amp;rsquo;espai del disc, tant en ús com l&amp;rsquo;espai lliure. Però moltes vegades no tenim accés a un entorn gràfic. Des de terminal tenim varies eines que ens permeten saber l&amp;rsquo;espai que tenim lliure i en ús. Dues de les dues més importants són du i df.&#xA;Per saber-ne més, només cal usar el propi manual:&#xA;man du&#xA;o&#xA;man df&#xA;Espai que tenim lliure i en ús La comanda df ens ajuda a saber l&amp;rsquo;espai lliure en el disc.</description>
     </item>
     <item>
       <title>extreure elements d&#39;un arxiu swf</title>
       <link>http://localhost:1313/post/2013-02-01-extreure-elements-dun-arxiu-swf/</link>
       <pubDate>Fri, 01 Feb 2013 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2013-02-01-extreure-elements-dun-arxiu-swf/</guid>
-      <description>&lt;p&gt;No m&amp;rsquo;agrada massa el flash ja que en no és un programari lliure, i no té massa bona implementació. Bé, la qüestió és que en un &lt;a href=&#34;http://ca.wikipedia.org/wiki/SWF&#34; title=&#34;swf&#34;&gt;swf&lt;/a&gt; hi havia un audio que volia tenir per separat. També serveix per les imatges que surten, que pot ser volem recuperar-les d&amp;rsquo;un swf.&lt;/p&gt;&#xA;&lt;p&gt;Un cop creat es fa difícil tornar a extreure el que s&amp;rsquo;ha incrustat&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;bé, doncs he trobat una eina que ho permet, està dins d&amp;rsquo;un conjunt d&amp;rsquo;eines anomenades &lt;a href=&#34;http://www.swftools.org/about.html&#34; title=&#34;swftools&#34;&gt;SWFTOOLS&lt;/a&gt;. Estan sota llicència GPL, i ens permeten fer un bon munt de coses.&lt;/p&gt;</description>
+      <description>No m&amp;rsquo;agrada massa el flash ja que en no és un programari lliure, i no té massa bona implementació. Bé, la qüestió és que en un swf hi havia un audio que volia tenir per separat. També serveix per les imatges que surten, que pot ser volem recuperar-les d&amp;rsquo;un swf.&#xA;Un cop creat es fa difícil tornar a extreure el que s&amp;rsquo;ha incrustat&amp;hellip;&#xA;bé, doncs he trobat una eina que ho permet, està dins d&amp;rsquo;un conjunt d&amp;rsquo;eines anomenades SWFTOOLS.</description>
     </item>
     <item>
       <title>Rsync a un disc dur extern</title>
       <link>http://localhost:1313/post/2011-07-16-rsync-a-un-disc-dur-extern/</link>
       <pubDate>Sat, 16 Jul 2011 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2011-07-16-rsync-a-un-disc-dur-extern/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/rsync.png&#34; alt=&#34;http://mindprod.com/image/iconcorp/rsync.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://es.wikipedia.org/wiki/Rsync&#34;&gt;rsync&lt;/a&gt; és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de &lt;a href=&#34;http://www.opbyte.it/grsync/&#34;&gt;Grsync&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí&lt;/p&gt;&#xA;&lt;p&gt;Un exemple de la comanda:&lt;/p&gt;&#xA;&lt;p&gt;rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/&lt;/p&gt;&#xA;&lt;p&gt;Amb això farà una còpia de seguretat.&lt;/p&gt;&#xA;&lt;p&gt;Per fer-ho via &lt;em&gt;SAMBA&lt;/em&gt; amb ssh:&lt;/p&gt;&#xA;&lt;ol&gt;&#xA;&lt;li&gt;primer cal muntar el disc amb samba&lt;/li&gt;&#xA;&lt;/ol&gt;&#xA;&lt;p&gt;mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada&lt;/p&gt;</description>
+      <description>rsync és una eina que ens permet fer còpies de seguretat entre difrents màquines, discs, i té molta versalitat. Si ens costa la línia de comandes, llavors la podem usar en entorn gràfic a través de Grsync.&#xA;rsync [OPCIONS]&amp;hellip; origen &amp;hellip; destí&#xA;Un exemple de la comanda:&#xA;rsync -r -t -v &amp;ndash;progress -s /home/usuari/lacarpeta/ /media/discdur/&#xA;Amb això farà una còpia de seguretat.&#xA;Per fer-ho via SAMBA amb ssh:&#xA;primer cal muntar el disc amb samba mount -t cifs //ip/carpetadeldiscdur /mnt/carpetadestímuntada</description>
     </item>
   </channel>
 </rss>

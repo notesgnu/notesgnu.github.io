@@ -4,7 +4,7 @@
     <title>Ogg on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/ogg/</link>
     <description>Recent content in Ogg on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Fri, 19 Oct 2012 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/ogg/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2012-10-19-convertir-audio-apecue-a-ogg/</link>
       <pubDate>Fri, 19 Oct 2012 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2012-10-19-convertir-audio-apecue-a-ogg/</guid>
-      <description>&lt;p&gt;Ja fa molt de temps se&amp;rsquo;m va ocurrer usar &lt;a href=&#34;http://www.monkeysaudio.com/&#34;&gt;http://www.monkeysaudio.com/&lt;/a&gt; per fer còpies de seguretat dels meus discs de música. Aquest programa convertia el CD d&amp;rsquo;àudio en dos fitxers, un acabat en &lt;a href=&#34;http://es.wikipedia.org/wiki/Monkey%27s_Audio&#34;&gt;APE&lt;/a&gt; i un altre amb l&amp;rsquo;extenció &lt;a href=&#34;http://es.wikipedia.org/wiki/Cue_sheet&#34;&gt;CUE&lt;/a&gt;. Després d&amp;rsquo;uns quants anys me&amp;rsquo;ls he retrobat en un disc dur extern i, avui, he volgut passar-los a &lt;strong&gt;OGG&lt;/strong&gt;. Així que mans a l&amp;rsquo;obra…&lt;br&gt;&#xA;Primer que res, caldrà instal·lar alguns paquets, en el cas de &lt;strong&gt;debian&lt;/strong&gt; jo he instal·lat els següents, que no tenia instal·lats:&lt;/p&gt;</description>
+      <description>Ja fa molt de temps se&amp;rsquo;m va ocurrer usar http://www.monkeysaudio.com/ per fer còpies de seguretat dels meus discs de música. Aquest programa convertia el CD d&amp;rsquo;àudio en dos fitxers, un acabat en APE i un altre amb l&amp;rsquo;extenció CUE. Després d&amp;rsquo;uns quants anys me&amp;rsquo;ls he retrobat en un disc dur extern i, avui, he volgut passar-los a OGG. Així que mans a l&amp;rsquo;obra…&#xA;Primer que res, caldrà instal·lar alguns paquets, en el cas de debian jo he instal·lat els següents, que no tenia instal·lats:</description>
     </item>
   </channel>
 </rss>

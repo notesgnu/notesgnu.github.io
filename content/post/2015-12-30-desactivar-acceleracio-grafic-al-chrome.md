@@ -1,6 +1,6 @@
 ---
 title: "Desactivar acceleració gràfic al Chrome"
-date: "2015-12-30"
+date: 2015-12-30
 ---
 
 Ja fa uns dies que tinc problemes amb el Youtube. Quan inicio un video en el HP550, als poc segons es penja, se sent de fons, però no es veu res.

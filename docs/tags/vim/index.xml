@@ -4,7 +4,7 @@
     <title>Vim on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/vim/</link>
     <description>Recent content in Vim on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 02 Jan 2021 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/vim/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://notesgnu.github.io/post/2022-01-02-publicar-a-wordpress-vim-2/</link>
       <pubDate>Sat, 02 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2022-01-02-publicar-a-wordpress-vim-2/</guid>
-      <description>&lt;p&gt;Ja hem començat l’any 2022 i sempre venen ganes de començar projectes i &lt;a href=&#34;https://croniqueslinux.wordpress.com/2022/01/02/publicar-un-article-des-de-vim/&#34;&gt;aprendre coses noves&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;Porto anys usant &lt;strong&gt;Emacs&lt;/strong&gt; i aquest any tinc ganes d’apendre a usar &lt;strong&gt;Vim&lt;/strong&gt;. Una de les coses que més m’agrada d’&lt;strong&gt;Emacs&lt;/strong&gt; és el &lt;em&gt;mode&lt;/em&gt; &lt;strong&gt;Orgmode&lt;/strong&gt;. Entre d’altres coses, poder publicar a &lt;em&gt;WordPress&lt;/em&gt; directament amb articles escrits &lt;em&gt;org&lt;/em&gt;.&lt;/p&gt;&#xA;&lt;p&gt;També vull usar de forma més habitual el llenguatge de marques &lt;strong&gt;Markdown&lt;/strong&gt;. Així que m’ha vingut la necessitat de publicar a &lt;em&gt;WordPress&lt;/em&gt; directament amb &lt;strong&gt;Vim&lt;/strong&gt;&lt;/p&gt;</description>
+      <description>Ja hem començat l’any 2022 i sempre venen ganes de començar projectes i aprendre coses noves.&#xA;Porto anys usant Emacs i aquest any tinc ganes d’apendre a usar Vim. Una de les coses que més m’agrada d’Emacs és el mode Orgmode. Entre d’altres coses, poder publicar a WordPress directament amb articles escrits org.&#xA;També vull usar de forma més habitual el llenguatge de marques Markdown. Així que m’ha vingut la necessitat de publicar a WordPress directament amb Vim</description>
     </item>
     <item>
       <title>Publicar un article des de VIM</title>
       <link>https://notesgnu.github.io/post/2022-01-01-publicar-a-wordpress-vim/</link>
       <pubDate>Fri, 01 Jan 2021 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2022-01-01-publicar-a-wordpress-vim/</guid>
-      <description>&lt;p&gt;Avui faig una prova d’inici de VIM i publicar-ho a WordPress Aquest post només és per fer la prova! L’article l’he fet amb MD i vim. Quan tingui una estona posaré els passos de co…&lt;/p&gt;&#xA;&lt;p&gt;Avui faig una prova d’inici de &lt;strong&gt;VIM&lt;/strong&gt; i publicar-ho a &lt;em&gt;WordPress&lt;/em&gt;&lt;br&gt;&#xA;Aquest &lt;em&gt;post&lt;/em&gt; només és per fer la prova!&lt;/p&gt;&#xA;&lt;p&gt;L’article l’he fet amb &lt;strong&gt;MD&lt;/strong&gt; i &lt;em&gt;vim&lt;/em&gt;.&lt;br&gt;&#xA;Quan tingui una estona posaré els passos de com ho he fet!&lt;/p&gt;</description>
+      <description>Avui faig una prova d’inici de VIM i publicar-ho a WordPress Aquest post només és per fer la prova! L’article l’he fet amb MD i vim. Quan tingui una estona posaré els passos de co…&#xA;Avui faig una prova d’inici de VIM i publicar-ho a WordPress&#xA;Aquest post només és per fer la prova!&#xA;L’article l’he fet amb MD i vim.&#xA;Quan tingui una estona posaré els passos de com ho he fet!</description>
     </item>
   </channel>
 </rss>

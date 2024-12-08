@@ -4,7 +4,7 @@
     <title>Reparar on Notes GNU</title>
     <link>http://localhost:1313/categories/reparar/</link>
     <description>Recent content in Reparar on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 07 Apr 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/reparar/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/2014-04-07-recuperar-cds-i-dvds/</link>
       <pubDate>Mon, 07 Apr 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2014-04-07-recuperar-cds-i-dvds/</guid>
-      <description>&lt;p&gt;Amb el temps m&amp;rsquo;he trobat que molts CDs que he gravat, deixen de funcionar, i sovint sembla que les dades i música desada ja no es pot recuperar.&lt;/p&gt;&#xA;&lt;p&gt;Hi ha moltes eines pensades per fer-ho, tan GUI com CLI, fins i tot tenim distribucions fetes especialment per tasques d&amp;rsquo;aquest tipus.&lt;/p&gt;&#xA;&lt;p&gt;En aquest cas usaré &lt;strong&gt;GNU ddrescue&lt;/strong&gt; una comanda que permet recuperar dades. Així podem crear imatges de cds, dvds, usbs i discos durs des d&amp;rsquo;on recuperar-ne. Si no el tenim instal·lat, res més senzill (en la linkat 12.04 o en Ubuntu i derivades):&lt;/p&gt;</description>
+      <description>Amb el temps m&amp;rsquo;he trobat que molts CDs que he gravat, deixen de funcionar, i sovint sembla que les dades i música desada ja no es pot recuperar.&#xA;Hi ha moltes eines pensades per fer-ho, tan GUI com CLI, fins i tot tenim distribucions fetes especialment per tasques d&amp;rsquo;aquest tipus.&#xA;En aquest cas usaré GNU ddrescue una comanda que permet recuperar dades. Així podem crear imatges de cds, dvds, usbs i discos durs des d&amp;rsquo;on recuperar-ne.</description>
     </item>
   </channel>
 </rss>

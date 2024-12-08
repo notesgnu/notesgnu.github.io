@@ -4,7 +4,7 @@
     <title>Latex on Notes GNU</title>
     <link>http://localhost:1313/categories/latex/</link>
     <description>Recent content in Latex on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Thu, 27 Dec 2012 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/latex/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</link>
       <pubDate>Thu, 27 Dec 2012 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2012-12-27-nova-versio-de-lyx-a-la-linkat/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/wpid-lyx00.png&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-lyx00.png&#34;&gt;&lt;br&gt;&#xA;Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica &lt;a href=&#34;http://www.lyx.org/WebEs.Home&#34;&gt;LyX&lt;/a&gt;. És un programa pensat per realitzar documents usant la potència de &lt;a href=&#34;http://ca.wikipedia.org/wiki/LaTeX&#34;&gt;LateX&lt;/a&gt;. Tot i que m&amp;rsquo;agrada molt el mode per &lt;strong&gt;Emacs&lt;/strong&gt; anomenat &lt;a href=&#34;http://ca.wikipedia.org/wiki/AUCTEX&#34;&gt;AucTeX&lt;/a&gt;,volia provar LyX.&lt;br&gt;&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *&lt;a href=&#34;http://linkat.xtec.cat/portal_linkat/wikilinkat/index.php/Linkat_Edu_11.4&#34;&gt;Linkat Edu 11.4&lt;/a&gt;* és la 1.6.9&lt;br&gt;&#xA;&lt;img src=&#34;images/wpid-lyx01.png&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2012/12/wpid-lyx01.png&#34;&gt;&lt;br&gt;&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.&lt;br&gt;&#xA;Així que he decidit actualitzar la versió a la 2.0.5 i aprofitar totes les noves funcionalitats, i evitar el problema de versions.&lt;/p&gt;</description>
+      <description>Aquests dies de vacances m&amp;rsquo;he posat a tafanejar una mica LyX. És un programa pensat per realitzar documents usant la potència de LateX. Tot i que m&amp;rsquo;agrada molt el mode per Emacs anomenat AucTeX,volia provar LyX.&#xA;El primer que m&amp;rsquo;he trobat és que la versió que s&amp;rsquo;instal·la a la *Linkat Edu 11.4* és la 1.6.9&#xA;I això, en un principi no és un problema, però quan he anat a un altre ordinador amb una altra versió més moderna, no s&amp;rsquo;obria després de nou a la Linkat, el document quedava actualitzat.</description>
     </item>
     <item>
       <title>Usar Texmaker a la Linkat 4</title>
       <link>http://localhost:1313/post/2011-07-19-usar-texmaker-a-la-linkat-4/</link>
       <pubDate>Tue, 19 Jul 2011 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2011-07-19-usar-texmaker-a-la-linkat-4/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/wpid-texmaker1.png&#34; alt=&#34;file://http://croniqueslinux.files.wordpress.com/2011/07/wpid-texmaker1.png&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Normalment per escriure en &lt;strong&gt;Latex&lt;/strong&gt; utilitzo &lt;strong&gt;emacs&lt;/strong&gt; en el seu mode &lt;strong&gt;AUXtex&lt;/strong&gt;. Però avui he volgut provar &lt;a href=&#34;http://www.xm1math.net/texmaker/&#34;&gt;Texmaker&lt;/a&gt; en la &lt;a href=&#34;http://linkat.xtec.cat/portal/index.php&#34;&gt;Linkat&lt;/a&gt; 4. El principal problema és que als repositoris no està, però tot té solució, sense tocar repositoris, ni afegir cap dependència. És més, si volem podem usar el sistema que explicaré per portar-ho a un llapis USB de forma portable ;-)&lt;/p&gt;&#xA;&lt;h3 id=&#34;aconseguir-el-programa&#34;&gt;aconseguir el programa&lt;/h3&gt;&#xA;&lt;p&gt;per a 32 bits&lt;/p&gt;&#xA;&lt;p&gt;wget &lt;a href=&#34;http://www.xm1math.net/texmaker/texmaker&#34;&gt;http://www.xm1math.net/texmaker/texmaker&lt;/a&gt;_linux32.tar.gz&lt;/p&gt;&#xA;&lt;p&gt;per a 64 bits&lt;/p&gt;</description>
+      <description>Normalment per escriure en Latex utilitzo emacs en el seu mode AUXtex. Però avui he volgut provar Texmaker en la Linkat 4. El principal problema és que als repositoris no està, però tot té solució, sense tocar repositoris, ni afegir cap dependència. És més, si volem podem usar el sistema que explicaré per portar-ho a un llapis USB de forma portable ;-)&#xA;aconseguir el programa per a 32 bits</description>
     </item>
   </channel>
 </rss>

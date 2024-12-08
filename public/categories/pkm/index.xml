@@ -4,7 +4,7 @@
     <title>PKM on Notes GNU</title>
     <link>http://localhost:1313/categories/pkm/</link>
     <description>Recent content in PKM on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 25 Jul 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/pkm/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/2023-07-25gestionarconeixement/</link>
       <pubDate>Tue, 25 Jul 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2023-07-25gestionarconeixement/</guid>
-      <description>&lt;h1 id=&#34;editar-o-gestionar-coneixement&#34;&gt;Editar o gestionar coneixement&lt;/h1&gt;&#xA;&lt;p&gt;Sovint em trobo cercant i analitzant un bon editor per les notes que prenc. Això sempre em porta a provar noves eines, nous formats de text i a dedicar-hi molt de temps.&lt;/p&gt;&#xA;&lt;p&gt;Fent una mica la mirada endarrere, m’adono que el gran problema és el temps invertit i la manca de resultats. Hi ha la teoria de Pareto on la major part de les vegades el 20% de l’esforç genera el 80% dels resultats. Per això, cal fer una aturada i pensar-hi.&lt;/p&gt;</description>
+      <description>Editar o gestionar coneixement Sovint em trobo cercant i analitzant un bon editor per les notes que prenc. Això sempre em porta a provar noves eines, nous formats de text i a dedicar-hi molt de temps.&#xA;Fent una mica la mirada endarrere, m’adono que el gran problema és el temps invertit i la manca de resultats. Hi ha la teoria de Pareto on la major part de les vegades el 20% de l’esforç genera el 80% dels resultats.</description>
     </item>
   </channel>
 </rss>

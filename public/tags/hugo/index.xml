@@ -4,7 +4,7 @@
     <title>Hugo on Notes GNU</title>
     <link>http://localhost:1313/tags/hugo/</link>
     <description>Recent content in Hugo on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 03 Jan 2023 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/hugo/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/post/2023-01-03exportarwordpress/</link>
       <pubDate>Tue, 03 Jan 2023 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2023-01-03exportarwordpress/</guid>
-      <description>&lt;p&gt;Hi ha diverses eines que es poden usar, entre elles hi ha &lt;a href=&#34;https://github.com/lonekorean/wordpress-export-to-markdown&#34;&gt;wordpress-export-to-markdown&lt;/a&gt;.&lt;/p&gt;&#xA;&lt;p&gt;El primer que cal fer és instaŀlar-la.&lt;/p&gt;&#xA;&lt;h2 id=&#34;instaŀlar-wordpress-export-to-markdown&#34;&gt;instaŀlar wordpress-export-to-markdown&lt;/h2&gt;&#xA;&lt;p&gt;Si seguim les instruccions, podem fer:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;npx wordpress-export-to-markdown&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Ens instaŀlar-rà els paquest necessari i ja la tindrem.&lt;/p&gt;&#xA;&lt;h2 id=&#34;baixar-còpia-de-seguretat-del-wordpress&#34;&gt;Baixar còpia de seguretat del Wordpress&lt;/h2&gt;&#xA;&lt;p&gt;A continuació, baixem l&amp;rsquo;aplicació tot el contingut del Wordpress a Markdown. La trobem&lt;/p&gt;&#xA;&lt;p&gt;Allí, exportem:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Els meus llocs → eines → exporta&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;triem:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;Export content → Exporta-ho tot&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Un cop baixat, tenim un arxiu comprimit en zip  i a dins un document en xml.&lt;/p&gt;</description>
+      <description>Hi ha diverses eines que es poden usar, entre elles hi ha wordpress-export-to-markdown.&#xA;El primer que cal fer és instaŀlar-la.&#xA;instaŀlar wordpress-export-to-markdown Si seguim les instruccions, podem fer:&#xA;npx wordpress-export-to-markdown Ens instaŀlar-rà els paquest necessari i ja la tindrem.&#xA;Baixar còpia de seguretat del Wordpress A continuació, baixem l&amp;rsquo;aplicació tot el contingut del Wordpress a Markdown. La trobem&#xA;Allí, exportem:&#xA;Els meus llocs → eines → exporta triem:&#xA;Export content → Exporta-ho tot Un cop baixat, tenim un arxiu comprimit en zip i a dins un document en xml.</description>
     </item>
     <item>
       <title>Com fer un blog amb Hugo</title>
       <link>http://localhost:1313/post/2020-06-01-blog-amb-hugo/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2020-06-01-blog-amb-hugo/</guid>
-      <description>&lt;p&gt;Porto dies remenant i pensant opcions per deixar &lt;strong&gt;Jekyll&lt;/strong&gt;.&#xA;Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes.&#xA;Moltes errors amb les &lt;em&gt;gemes&lt;/em&gt; i no es veu igual en local com a la xarxa.&lt;/p&gt;&#xA;&lt;p&gt;Una de les opcions que he trobat és &lt;strong&gt;Hugo&lt;/strong&gt;. Al principi una mica diferent a &lt;strong&gt;Jekyll&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el &lt;em&gt;tema&lt;/em&gt; que s&amp;rsquo;ajusti als meus gustos.&#xA;També he vist que la capçalera i la configuració són una mica diferents.&lt;/p&gt;</description>
+      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.&#xA;Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.&#xA;He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
     </item>
   </channel>
 </rss>

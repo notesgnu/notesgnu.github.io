@@ -4,7 +4,7 @@
     <title>Slitaz on Notes GNU</title>
     <link>http://localhost:1313/tags/slitaz/</link>
     <description>Recent content in Slitaz on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 04 Jan 2010 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/slitaz/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/2010-01-04-slitaz-lleugeresa-linux/</link>
       <pubDate>Mon, 04 Jan 2010 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2010-01-04-slitaz-lleugeresa-linux/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://www.slitaz.org/images/logo.png&#34; alt=&#34;slitaz&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Fent un tast de una mini distro, però força interessant:&lt;/p&gt;&#xA;&lt;p&gt;&lt;a href=&#34;http://www.slitaz.org/es/index.html&#34;&gt;Slitaz&lt;/a&gt;, a la pàgina hi ha molta informació, però en castellà&amp;hellip; de moment en català no hi ha res!&lt;/p&gt;&#xA;&lt;p&gt;Empra Lxde amb Openbox, entre d&amp;rsquo;altres coses, a més a més de SSH, SQLite, PHP&amp;hellip;&lt;/p&gt;&#xA;&lt;p&gt;M&amp;rsquo;ha servit per reutilitzar un llàpis de memòria petitó i així tenir una distro &amp;ldquo;viva&amp;rdquo;.  Ara aprofitaré un ordinador vellet a veure com va!&lt;/p&gt;&#xA;&lt;p&gt;Molt recomanable!&lt;/p&gt;</description>
+      <description>Fent un tast de una mini distro, però força interessant:&#xA;Slitaz, a la pàgina hi ha molta informació, però en castellà&amp;hellip; de moment en català no hi ha res!&#xA;Empra Lxde amb Openbox, entre d&amp;rsquo;altres coses, a més a més de SSH, SQLite, PHP&amp;hellip;&#xA;M&amp;rsquo;ha servit per reutilitzar un llàpis de memòria petitó i així tenir una distro &amp;ldquo;viva&amp;rdquo;. Ara aprofitaré un ordinador vellet a veure com va!&#xA;Molt recomanable!</description>
     </item>
   </channel>
 </rss>

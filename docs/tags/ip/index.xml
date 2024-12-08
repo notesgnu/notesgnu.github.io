@@ -4,7 +4,7 @@
     <title>Ip on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/ip/</link>
     <description>Recent content in Ip on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 20 Feb 2016 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/ip/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</link>
       <pubDate>Sat, 20 Feb 2016 07:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2016-02-20-canviar-ip-raspberry/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://raw.githubusercontent.com/croniqueslinux/croniqueslinux.github.io/master/images/raspberrypi.gif&#34; alt=&#34;Raspberry&#34; title=&#34;Raspberry&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Tinc una &lt;a href=&#34;https://www.raspberrypi.org&#34;&gt;Raspberry&lt;/a&gt; Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per &lt;code&gt;ssh&lt;/code&gt;. Explico els passos que he seguit.&lt;/p&gt;&#xA;&lt;p&gt;Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l&amp;rsquo;antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo cp /etc/network/interfaces interfaces.old&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Després anem editar el fitxer on es desa la configuració de xarxa:&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;sudo nano -w /etc/network/interfaces&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;Dins de l&amp;rsquo;arxiu cal editar-ho:&lt;/p&gt;</description>
+      <description>Tinc una Raspberry Pi2 amb una ip dinàmica. Ara vull una fixa per poder gestionar-la per ssh. Explico els passos que he seguit.&#xA;Per posar una ip fixa per cable a una Raspberry Pi2 primer cal fer una còpia de l&amp;rsquo;antic, ens servirà si volem tornar a deixar-ho com ho tinc ara.&#xA;sudo cp /etc/network/interfaces interfaces.old Després anem editar el fitxer on es desa la configuració de xarxa:&#xA;sudo nano -w /etc/network/interfaces Dins de l&amp;rsquo;arxiu cal editar-ho:</description>
     </item>
   </channel>
 </rss>

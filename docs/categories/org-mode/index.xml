@@ -4,7 +4,7 @@
     <title>Org-Mode on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/org-mode/</link>
     <description>Recent content in Org-Mode on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 16 Oct 2016 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/org-mode/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</guid>
-      <description>&lt;h1 id=&#34;com-escriure-una-presentació&#34;&gt;COM ESCRIURE UNA PRESENTACIÓ&lt;/h1&gt;&#xA;&lt;p&gt;amb &lt;strong&gt;EMACS&lt;/strong&gt; i &lt;strong&gt;Org-mode&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Podeu descarregar-vos la &lt;a href=&#34;http://xtec.cat/%7Emsales24/orgmode/presentacio.htmlpresentacio.pdf&#34;&gt;presentació&lt;/a&gt; i el codi en &lt;a href=&#34;http://xtec.cat/%7Emsales24/orgmode/presentacio.htmlpresentacio.zip&#34;&gt;.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;1-alguns-aspectes&#34;&gt;1 Alguns aspectes&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-què-anem-a-fer&#34;&gt;1.1 Què anem a fer?&lt;/h3&gt;&#xA;&lt;p&gt;A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://orgmode.org/&#34;&gt;Org mode&lt;/a&gt; i&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;i &lt;a href=&#34;https://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt; (classe &lt;a href=&#34;https://es.wikipedia.org/wiki/Beamer&#34;&gt;Beamer&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Són eines &lt;strong&gt;lliures&lt;/strong&gt; que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en &lt;strong&gt;PDF&lt;/strong&gt; que podem veure en qualsevol ordinador &lt;em&gt;exactament&lt;/em&gt; com nosaltres el veiem al nostre.&lt;/p&gt;</description>
+      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode&#xA;Podeu descarregar-vos la presentació i el codi en .org&#xA;1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:&#xA;Org mode i Emacs i LaTeX (classe Beamer). Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
     </item>
     <item>
       <title>Instal·lant org-mode a la Linkat</title>
       <link>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</link>
       <pubDate>Wed, 01 Jun 2011 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2011-06-01-hola-mon-2/</guid>
-      <description>&lt;p&gt;Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.&lt;/p&gt;&#xA;&lt;p&gt;Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)&lt;/p&gt;&#xA;&lt;h3 id=&#34;primer-que-res-he-installat-emacs-a-la-linkat&#34;&gt;Primer que res he instal·lat emacs a la Linkat&lt;/h3&gt;&#xA;&lt;p&gt;La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:&lt;/p&gt;</description>
+      <description>Com ja heu llegit al blog, sóc un aprenent d&amp;rsquo;Emacs i a l&amp;rsquo;escola uso Linkat. Així que en un vell Eeepc901 he decidit instal·lar la nova Linkat 4 i com no, l&amp;rsquo;Emacs amb el meu mode preferit: org-mode i org2blog.&#xA;Espero que els passos seguits puguin ser d&amp;rsquo;ajuda per algú ;)&#xA;Primer que res he instal·lat emacs a la Linkat La Linkat per defecte quan la instal·les no porta Emacs preinstal·lat, així que res més fàcil que:</description>
     </item>
   </channel>
 </rss>

@@ -4,7 +4,7 @@
     <title>Ssh on Notes GNU</title>
     <link>http://localhost:1313/categories/ssh/</link>
     <description>Recent content in Ssh on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 08 Jan 2012 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/ssh/index.xml" rel="self" type="application/rss+xml" />
@@ -13,14 +13,14 @@
       <link>http://localhost:1313/post/2012-01-08-midnight-commander-i-ssh/</link>
       <pubDate>Sun, 08 Jan 2012 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2012-01-08-midnight-commander-i-ssh/</guid>
-      <description>&lt;p&gt;Volia fer una entrada sobre l&amp;rsquo;ús del MC o &lt;a href=&#34;http://es.wikipedia.org/wiki/Midnight_Commander&#34;&gt;Midnight Comander&lt;/a&gt;, ja fa uns dies que l&amp;rsquo;estic usant i avui he descobert un ús força interessant. Comparteixo el video que he vist el seu ús amb SSH&lt;/p&gt;&#xA;&lt;p&gt;[youtube &lt;a href=&#34;http://www.youtube.com/watch?v=q6Ct7L4oZFE&amp;amp;w=480&amp;amp;h=360&#34;&gt;http://www.youtube.com/watch?v=q6Ct7L4oZFE&amp;amp;w=480&amp;amp;h=360&lt;/a&gt;]&lt;/p&gt;</description>
+      <description>Volia fer una entrada sobre l&amp;rsquo;ús del MC o Midnight Comander, ja fa uns dies que l&amp;rsquo;estic usant i avui he descobert un ús força interessant. Comparteixo el video que he vist el seu ús amb SSH&#xA;[youtube http://www.youtube.com/watch?v=q6Ct7L4oZFE&amp;amp;w=480&amp;amp;h=360]</description>
     </item>
     <item>
       <title>Problemes amb ssh</title>
       <link>http://localhost:1313/post/2011-04-10-problemes-amb-ssh/</link>
       <pubDate>Sun, 10 Apr 2011 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2011-04-10-problemes-amb-ssh/</guid>
-      <description>&lt;p&gt;Algunes vegades m&amp;rsquo;he trobat amb aquest problema, i avui he decidit veure com ho soluciono. M&amp;rsquo;agrada treballar amb ssh, tot i que ja havia tingut algun &lt;a href=&#34;http://croniqueslinux.wordpress.com/2010/11/14/warning-remote-host-identification-has-changed/&#34;&gt;problema&lt;/a&gt;, avui m&amp;rsquo;he trobat de nou amb el problema següent:&lt;/p&gt;&#xA;&lt;p&gt;port 22: Connection timed out&lt;/p&gt;&#xA;&lt;p&gt;i amb&lt;/p&gt;&#xA;&lt;p&gt;port 22: Connection refused&lt;/p&gt;&#xA;&lt;p&gt;Això m&amp;rsquo;ha passat perquè a l&amp;rsquo;ordinador que vull accedir té bloquejat el port 22. Certament, usant el programa &lt;strong&gt;nmap&lt;/strong&gt; m&amp;rsquo;he trobat amb la següent resposta:&lt;/p&gt;</description>
+      <description>Algunes vegades m&amp;rsquo;he trobat amb aquest problema, i avui he decidit veure com ho soluciono. M&amp;rsquo;agrada treballar amb ssh, tot i que ja havia tingut algun problema, avui m&amp;rsquo;he trobat de nou amb el problema següent:&#xA;port 22: Connection timed out&#xA;i amb&#xA;port 22: Connection refused&#xA;Això m&amp;rsquo;ha passat perquè a l&amp;rsquo;ordinador que vull accedir té bloquejat el port 22. Certament, usant el programa nmap m&amp;rsquo;he trobat amb la següent resposta:</description>
     </item>
   </channel>
 </rss>

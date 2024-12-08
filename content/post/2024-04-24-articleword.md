@@ -1,15 +1,13 @@
 ---
 title: "Per què no usar WORD a l'educació"
 date: 2024-04-24
-author: "Manel Sales"
 categories:  ["educació"]
 tags: ["opendocument", "educació"]
-id: 20240424181308
 ---
 
 # Per què no usar WORD a l'educació
 Article [escrit el 2016 ](http://xtec.cat/%7Emsales24/articles/articleword.html)i no han canviat tant les coses, la diferencia ara és al núvol, però seguim depenent de les eines privatives!!!
-Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l'educació! 
+Pot ser ara podríem dir: com usar eines obertes i llenguatges de marques a l'educació!
 A continuació deixò l'article tal com es va escriure:
 
 ## Per què **NO** hauríem de demanar als nostres alumnes que ens presentin els treballs en un document Word?
@@ -45,6 +43,5 @@ Aquest article va formar part de la publicació en xarxa de "42 veus sobre gover
 Tambés es va publicar a Observatori Internacional de la Democràcia Participativa [https://oidp.net/ca/content.php?id=1064](https://oidp.net/ca/content.php?id=1064)
 
 ---
- 
-[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Aquesta pàgina i tot el que hi ha està sota  la llicència [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)
 
+[![Creative Commons License](https://i.creativecommons.org/l/by-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-sa/4.0/) Aquesta pàgina i tot el que hi ha està sota  la llicència [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/)

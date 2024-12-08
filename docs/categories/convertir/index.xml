@@ -4,7 +4,7 @@
     <title>Convertir on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/convertir/</link>
     <description>Recent content in Convertir on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 27 Jan 2014 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/convertir/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2014-01-27-convertir-un-vcd-a-mpg/</link>
       <pubDate>Mon, 27 Jan 2014 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2014-01-27-convertir-un-vcd-a-mpg/</guid>
-      <description>&lt;p&gt;Fa un temps que tenic algunes pel·lícules en format VCD. Amb el temps, ocupen molt d&amp;rsquo;espai, i els CDs físics solen deteriorar-se. Així que he decidit desar-los en format de video MPG. Per fer això podem usar la comanda &lt;strong&gt;vcdxrip&lt;/strong&gt;. Res més senzill que inserir el VCD al lector de l&amp;rsquo;ordinador, i un cop inserit, usar la comanda:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;vcdxrip -p --nofiles -C&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;un cop ha acabat, ens crea un arxiu &lt;strong&gt;avseq01.mpg&lt;/strong&gt; i un altre &lt;strong&gt;videocd.xml&lt;/strong&gt;. El primer és el video, i el segon tenim les dades de la conversió. Si volem podem treure el CD des de la mateixa terminal escrivint&lt;/p&gt;</description>
+      <description>Fa un temps que tenic algunes pel·lícules en format VCD. Amb el temps, ocupen molt d&amp;rsquo;espai, i els CDs físics solen deteriorar-se. Així que he decidit desar-los en format de video MPG. Per fer això podem usar la comanda vcdxrip. Res més senzill que inserir el VCD al lector de l&amp;rsquo;ordinador, i un cop inserit, usar la comanda:&#xA;vcdxrip -p --nofiles -C un cop ha acabat, ens crea un arxiu avseq01.</description>
     </item>
   </channel>
 </rss>

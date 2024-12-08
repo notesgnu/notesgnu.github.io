@@ -4,7 +4,7 @@
     <title>Gnu on Notes GNU</title>
     <link>http://localhost:1313/tags/gnu/</link>
     <description>Recent content in Gnu on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 20 May 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/tags/gnu/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>http://localhost:1313/post/2020-05-20-nou-blog/</link>
       <pubDate>Wed, 20 May 2020 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2020-05-20-nou-blog/</guid>
-      <description>&lt;p&gt;Després de temps sense escriure, avui m&amp;rsquo;he decidit poder escriure de nou al blog. Però m&amp;rsquo;ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!&lt;/p&gt;&#xA;&lt;p&gt;Això ha fet que el canvi de temperatures faci despertar l&amp;rsquo;instint del gnu que portem dins i marxi a noves planures! ;-)&lt;/p&gt;&#xA;&lt;p&gt;Així que ara sóc de nou al blog de github però amb nova pàgina.&lt;/p&gt;</description>
+      <description>Després de temps sense escriure, avui m&amp;rsquo;he decidit poder escriure de nou al blog. Però m&amp;rsquo;ha sorgit el problema que el correu electrònic que tenia després de sis mesos sense usar-lo, i era el que tenia per defecte als blogs, ha deixat de funcionar!&#xA;Això ha fet que el canvi de temperatures faci despertar l&amp;rsquo;instint del gnu que portem dins i marxi a noves planures! ;-)&#xA;Així que ara sóc de nou al blog de github però amb nova pàgina.</description>
     </item>
   </channel>
 </rss>

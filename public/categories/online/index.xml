@@ -4,7 +4,7 @@
     <title>Online on Notes GNU</title>
     <link>http://localhost:1313/categories/online/</link>
     <description>Recent content in Online on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sat, 17 Jan 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="http://localhost:1313/categories/online/index.xml" rel="self" type="application/rss+xml" />
@@ -13,42 +13,42 @@
       <link>http://localhost:1313/post/2015-01-17-em-falla-org2blog-2a-part/</link>
       <pubDate>Sat, 17 Jan 2015 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2015-01-17-em-falla-org2blog-2a-part/</guid>
-      <description>&lt;p&gt;&lt;strong&gt;Segueix sense anar-me l&amp;rsquo;Org2blog :-(&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;p&gt;Ara ja no em va. Ho he provat des de l&amp;rsquo;Emacs 24 (GNU Emacs 24.3.1), i també des del Emacs 23. &lt;/p&gt;&#xA;&lt;p&gt;No he trobat encara la solució! No sé si és un problema de l&amp;rsquo;org2blog o de les seves dependències. Ara, amb tot actualitzat em falla dient:&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Contacting host: croniqueslinux.wordpress.com:80&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;xml-rpc-request: Error during request: 301&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;:-O&lt;/p&gt;&#xA;&lt;p&gt;Així que ho he provat per https en la configuració, en comptes de http, i sembla que sí va, però no publica, es penja amb un problema &lt;em&gt;(Variable binding depth exceeds max-specpdl-size)&lt;/em&gt;&lt;/p&gt;</description>
+      <description>Segueix sense anar-me l&amp;rsquo;Org2blog :-(&#xA;Ara ja no em va. Ho he provat des de l&amp;rsquo;Emacs 24 (GNU Emacs 24.3.1), i també des del Emacs 23. No he trobat encara la solució! No sé si és un problema de l&amp;rsquo;org2blog o de les seves dependències. Ara, amb tot actualitzat em falla dient:&#xA;Contacting host: croniqueslinux.wordpress.com:80&#xA;xml-rpc-request: Error during request: 301&#xA;:-O&#xA;Així que ho he provat per https en la configuració, en comptes de http, i sembla que sí va, però no publica, es penja amb un problema (Variable binding depth exceeds max-specpdl-size)</description>
     </item>
     <item>
       <title>Wordpress des del telèfon</title>
       <link>http://localhost:1313/post/2014-01-21-wordpress-des-del-telefon/</link>
       <pubDate>Tue, 21 Jan 2014 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2014-01-21-wordpress-des-del-telefon/</guid>
-      <description>&lt;p&gt;Ja fa temps que no em resulta senzill tenir accès a internet des de l&amp;rsquo;ordinador. Així, que m&amp;rsquo;he instal-lat l&amp;rsquo;app d&amp;rsquo;Android per wordpress. Aquesta és la primera entrada que escric des del telèfon.&lt;/p&gt;&#xA;&lt;p&gt;Cada dia resulta més senzill usar i connectar-se des dels telèfons intel.ligents (smartphones o &amp;rsquo;llestèfons&amp;rsquo;). Així que no m&amp;rsquo;he estat de provar l&amp;rsquo;app oficial del wordpress.&lt;/p&gt;&#xA;&lt;p&gt;;-)&lt;/p&gt;</description>
+      <description>Ja fa temps que no em resulta senzill tenir accès a internet des de l&amp;rsquo;ordinador. Així, que m&amp;rsquo;he instal-lat l&amp;rsquo;app d&amp;rsquo;Android per wordpress. Aquesta és la primera entrada que escric des del telèfon.&#xA;Cada dia resulta més senzill usar i connectar-se des dels telèfons intel.ligents (smartphones o &amp;rsquo;llestèfons&amp;rsquo;). Així que no m&amp;rsquo;he estat de provar l&amp;rsquo;app oficial del wordpress.&#xA;;-)</description>
     </item>
     <item>
       <title>Dia Mundial dels documents lliures</title>
       <link>http://localhost:1313/post/2010-03-31-dia-mundial-dels-documents-lliures/</link>
       <pubDate>Wed, 31 Mar 2010 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2010-03-31-dia-mundial-dels-documents-lliures/</guid>
-      <description>&lt;p&gt;Avui 31 de març és el diu mundial dels documents lliures!&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/dfd.png&#34; alt=&#34;&#34; title=&#34;odf&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Siguem lliures! Usem ODF!&lt;/p&gt;&#xA;&lt;p&gt;font: &lt;a href=&#34;http://ubuntulife.wordpress.com/2010/03/31/dia-mundial-de-los-documentos-libres/&#34;&gt;Ubuntu-Life&lt;/a&gt;&lt;/p&gt;</description>
+      <description>Avui 31 de març és el diu mundial dels documents lliures!&#xA;Siguem lliures! Usem ODF!&#xA;font: Ubuntu-Life</description>
     </item>
     <item>
       <title>Afegir motors de recerca al Firefox</title>
       <link>http://localhost:1313/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</link>
       <pubDate>Mon, 15 Feb 2010 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2010-02-15-afegir-motors-de-recerca-al-firefox/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/120px-Accessories-dictionary.svg.png&#34; alt=&#34;&#34; title=&#34;dic&#34;&gt; &lt;img src=&#34;images/120px-Firefox_Label.png&#34; alt=&#34;&#34; title=&#34;fx&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Buscant com afegir al cercador lateral del firefox m&amp;rsquo;he trobat amb la pàgina de &lt;a href=&#34;http://www.softcatala.org/wiki/Motors_de_cerca&#34;&gt;softcatlà.&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;img src=&#34;images/SC_logo.png&#34; alt=&#34;&#34; title=&#34;sc&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;&amp;ldquo;Els &lt;strong&gt;motors de cerca&lt;/strong&gt; permeten fer cerques a diferents llocs web d&amp;rsquo;una forma fàcil i ràpida utilitzant la barra de cerques del &lt;a href=&#34;http://www.softcatala.org/wiki/Firefox&#34; title=&#34;Firefox&#34;&gt;Firefox&lt;/a&gt;&lt;a href=&#34;http://www.softcatala.org/wiki/SeaMonkey&#34; title=&#34;SeaMonkey&#34;&gt;SeaMonkey&lt;/a&gt;.&lt;/em&gt; o la barra lateral del&lt;/p&gt;&#xA;&lt;p&gt;&lt;em&gt;Podeu també trobar motors de cerca en altres idiomes a la pàgina del &lt;strong&gt;&lt;a href=&#34;http://mycroft.mozdev.org/&#34; title=&#34;http://mycroft.mozdev.org/&#34;&gt;projecte Mycroft&lt;/a&gt;&lt;/strong&gt; o a &lt;strong&gt;&lt;a href=&#34;https://addons.mozilla.org/ca/firefox/browse/type:4&#34; title=&#34;https://addons.mozilla.org/ca/firefox/browse/type:4&#34;&gt;addons.mozilla.org&lt;/a&gt;&lt;/strong&gt;.&amp;rdquo;&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;On hi ha una llista llarga de motors per afegir!&lt;/p&gt;</description>
+      <description>Buscant com afegir al cercador lateral del firefox m&amp;rsquo;he trobat amb la pàgina de softcatlà.&#xA;&amp;ldquo;Els motors de cerca permeten fer cerques a diferents llocs web d&amp;rsquo;una forma fàcil i ràpida utilitzant la barra de cerques del FirefoxSeaMonkey. o la barra lateral del&#xA;Podeu també trobar motors de cerca en altres idiomes a la pàgina del projecte Mycroft o a addons.mozilla.org.&amp;rdquo;&#xA;On hi ha una llista llarga de motors per afegir!</description>
     </item>
     <item>
       <title>Full Circle Magazine</title>
       <link>http://localhost:1313/post/2010-01-20-full-circle-magazine/</link>
       <pubDate>Wed, 20 Jan 2010 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2010-01-20-full-circle-magazine/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/logo_final.png&#34; alt=&#34;FCM&#34; title=&#34;fcm&#34;&gt; Revista Online força interessant, encarada al món linux, en especial UBUNTU. Considerada la revista oficial! &lt;a href=&#34;http://fullcirclemagazine.org/&#34;&gt;http://fullcirclemagazine.org/&lt;/a&gt; PEr desgràcia de moment surt en anglès, tot i que hi ha un grup reduït de traductors que ara comencen i estan intentant traduïr-la al català. Ànims! &lt;img src=&#34;images/logoc64.jpg&#34; alt=&#34;&#34; title=&#34;fcmcat&#34;&gt; &lt;a href=&#34;https://launchpad.net/~fullcircle-cat&#34;&gt;https://launchpad.net/~fullcircle-cat&lt;/a&gt; &lt;a href=&#34;https://wiki.ubuntu.com/UbuntuMagazine/TranslateFullCircle/Catalan&#34;&gt;https://wiki.ubuntu.com/UbuntuMagazine/TranslateFullCircle/Catalan&lt;/a&gt; ;)&lt;/p&gt;</description>
+      <description>Revista Online força interessant, encarada al món linux, en especial UBUNTU. Considerada la revista oficial! http://fullcirclemagazine.org/ PEr desgràcia de moment surt en anglès, tot i que hi ha un grup reduït de traductors que ara comencen i estan intentant traduïr-la al català. Ànims! https://launchpad.net/~fullcircle-cat https://wiki.ubuntu.com/UbuntuMagazine/TranslateFullCircle/Catalan ;)</description>
     </item>
     <item>
       <title>Marcadors online</title>
       <link>http://localhost:1313/post/2010-01-09-marcadors-online/</link>
       <pubDate>Sat, 09 Jan 2010 00:00:00 +0000</pubDate>
       <guid>http://localhost:1313/post/2010-01-09-marcadors-online/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/Bookmarks.png&#34; alt=&#34;marcadors&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Fins ara sempre he desat les meues adreces d&amp;rsquo;interès a l&amp;rsquo;ordinador  emprant el navegador, però quan canviava d&amp;rsquo;ordinador (al portàtil) em trobava que havia de desar-los, fer còpies, etc&amp;hellip;. així que d&amp;rsquo;un temps cap aquí he començat a fer-ho amb el bookmarks del Goole . Però al final he decidit buscar-ne un d&amp;rsquo;alternatiu, i m&amp;rsquo;he trobat amb:&lt;/p&gt;&#xA;&lt;p&gt;1 - &lt;a href=&#34;http://delicious.com/&#34;&gt;&lt;strong&gt;del.icio.us&lt;/strong&gt;&lt;/a&gt; (delicious) molt comentat a la xarxa, amb molts marcadors compartits (però de la companyia yahoo, t&amp;rsquo;has de donar d&amp;rsquo;alta amb yahoo) i en anglès. 2 - &lt;a href=&#34;http://www.mister-wong.es/&#34;&gt;&lt;strong&gt;mister wong&lt;/strong&gt;&lt;/a&gt; - companyia alemana, força interessant, i en espanyol. (m&amp;rsquo;ha donat error amb alguna adreça meua - la considera spam) 3 - &lt;strong&gt;&lt;a href=&#34;http://www.stumbleupon.com/&#34;&gt;StumbleUpon&lt;/a&gt;&lt;/strong&gt; - empra un marcador des del navegador, en anglès. 4 - &lt;a href=&#34;http://www.diigo.com&#34;&gt;&lt;strong&gt;Diigo&lt;/strong&gt;&lt;/a&gt; - molt net i senzill, en anglès. 5 - &lt;strong&gt;&lt;a href=&#34;http://digg.com/&#34;&gt;Digg&lt;/a&gt;&lt;/strong&gt; - a l&amp;rsquo;estil de delicious 6 - &lt;a href=&#34;http://www.simpy.com/&#34;&gt;&lt;strong&gt;Simpy&lt;/strong&gt;&lt;/a&gt; - mig en català, molt senzill i net a la pantalla, menys elegant, però ràpid. &lt;a href=&#34;http://www.simpy.com&#34;&gt;http://www.simpy.com&lt;/a&gt; 7 - &lt;a href=&#34;http://www.spurl.net/&#34;&gt;&lt;strong&gt;Spurl&lt;/strong&gt;&lt;/a&gt; - registre sensen necessitat de correu electrònic, però a l&amp;rsquo;estil d&amp;rsquo;xmark. &lt;a href=&#34;http://www.spurl.net/&#34;&gt;http://www.spurl.net/&lt;/a&gt; 8 - i moltes més que he provat però deixo de banda&amp;hellip; Opció triada: &lt;strong&gt;Diigo&lt;/strong&gt; per la senzillesa i no depèn de cap companyia aliena, a més a més molt configurable.&lt;/p&gt;</description>
+      <description>Fins ara sempre he desat les meues adreces d&amp;rsquo;interès a l&amp;rsquo;ordinador emprant el navegador, però quan canviava d&amp;rsquo;ordinador (al portàtil) em trobava que havia de desar-los, fer còpies, etc&amp;hellip;. així que d&amp;rsquo;un temps cap aquí he començat a fer-ho amb el bookmarks del Goole . Però al final he decidit buscar-ne un d&amp;rsquo;alternatiu, i m&amp;rsquo;he trobat amb:&#xA;1 - del.icio.us (delicious) molt comentat a la xarxa, amb molts marcadors compartits (però de la companyia yahoo, t&amp;rsquo;has de donar d&amp;rsquo;alta amb yahoo) i en anglès.</description>
     </item>
   </channel>
 </rss>

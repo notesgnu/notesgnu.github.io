@@ -4,7 +4,7 @@
     <title>Org-Mode on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/org-mode/</link>
     <description>Recent content in Org-Mode on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Mon, 01 Jun 2020 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/org-mode/index.xml" rel="self" type="application/rss+xml" />
@@ -13,21 +13,21 @@
       <link>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</link>
       <pubDate>Mon, 01 Jun 2020 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2020-06-01-blog-amb-hugo/</guid>
-      <description>&lt;p&gt;Porto dies remenant i pensant opcions per deixar &lt;strong&gt;Jekyll&lt;/strong&gt;.&#xA;Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes.&#xA;Moltes errors amb les &lt;em&gt;gemes&lt;/em&gt; i no es veu igual en local com a la xarxa.&lt;/p&gt;&#xA;&lt;p&gt;Una de les opcions que he trobat és &lt;strong&gt;Hugo&lt;/strong&gt;. Al principi una mica diferent a &lt;strong&gt;Jekyll&lt;/strong&gt;.&lt;/p&gt;&#xA;&lt;p&gt;He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el &lt;em&gt;tema&lt;/em&gt; que s&amp;rsquo;ajusti als meus gustos.&#xA;També he vist que la capçalera i la configuració són una mica diferents.&lt;/p&gt;</description>
+      <description>Porto dies remenant i pensant opcions per deixar Jekyll. Estic content amb el rendiment que he tingut fins ara, però m&amp;rsquo;ah començat a donar problemes. Moltes errors amb les gemes i no es veu igual en local com a la xarxa.&#xA;Una de les opcions que he trobat és Hugo. Al principi una mica diferent a Jekyll.&#xA;He trobat que és molt ràpid i dona menys problemes. Això sí, no he acabat de trobar el tema que s&amp;rsquo;ajusti als meus gustos.</description>
     </item>
     <item>
       <title>Publicar amb Jekyll i Org-mode</title>
       <link>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</link>
       <pubDate>Sun, 31 May 2020 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2020-05-31-prova-amb-org/</guid>
-      <description>&lt;p&gt;Finalment he descobert una manera d&amp;rsquo;usar el meu estimat &lt;em&gt;emacs&lt;/em&gt; i el seu mode &lt;em&gt;orgmode&lt;/em&gt;&lt;/p&gt;&#xA;&lt;p&gt;Res més senzill que afegir al &lt;strong&gt;_config.yaml&lt;/strong&gt; el següent codi:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;plugins: [jekyll-org]&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;Per instaŀlar en local les &lt;em&gt;gemes&lt;/em&gt;:&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;sudo gem install jekyll-org&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;font: &lt;a href=&#34;https://github.com/eggcaker/jekyll-org&#34;&gt;jekyll-org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;p&gt;Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en &lt;em&gt;markdown&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>Finalment he descobert una manera d&amp;rsquo;usar el meu estimat emacs i el seu mode orgmode&#xA;Res més senzill que afegir al _config.yaml el següent codi:&#xA;plugins: [jekyll-org] Per instaŀlar en local les gemes:&#xA;sudo gem install jekyll-org font: jekyll-org&#xA;Nota: El problema és que a la pàgina github no es veu, en canvi en local funciona perfectament. Així, que de moment, seguiré investigant i escrivint en markdown.</description>
     </item>
     <item>
       <title>Com escriure una presentació</title>
       <link>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</link>
       <pubDate>Sun, 16 Oct 2016 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2016-10-16-comescriurepresentacio/</guid>
-      <description>&lt;h1 id=&#34;com-escriure-una-presentació&#34;&gt;COM ESCRIURE UNA PRESENTACIÓ&lt;/h1&gt;&#xA;&lt;p&gt;amb &lt;strong&gt;EMACS&lt;/strong&gt; i &lt;strong&gt;Org-mode&lt;/strong&gt;&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;Podeu descarregar-vos la &lt;a href=&#34;http://xtec.cat/%7Emsales24/orgmode/presentacio.htmlpresentacio.pdf&#34;&gt;presentació&lt;/a&gt; i el codi en &lt;a href=&#34;http://xtec.cat/%7Emsales24/orgmode/presentacio.htmlpresentacio.zip&#34;&gt;.org&lt;/a&gt;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;1-alguns-aspectes&#34;&gt;1 Alguns aspectes&lt;/h2&gt;&#xA;&lt;h3 id=&#34;11-què-anem-a-fer&#34;&gt;1.1 Què anem a fer?&lt;/h3&gt;&#xA;&lt;p&gt;A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;a href=&#34;http://orgmode.org/&#34;&gt;Org mode&lt;/a&gt; i&lt;/li&gt;&#xA;&lt;li&gt;&lt;a href=&#34;https://www.gnu.org/software/emacs/&#34;&gt;Emacs&lt;/a&gt;&lt;/li&gt;&#xA;&lt;li&gt;i &lt;a href=&#34;https://www.latex-project.org/&#34;&gt;LaTeX&lt;/a&gt; (classe &lt;a href=&#34;https://es.wikipedia.org/wiki/Beamer&#34;&gt;Beamer&lt;/a&gt;).&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;Són eines &lt;strong&gt;lliures&lt;/strong&gt; que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en &lt;strong&gt;PDF&lt;/strong&gt; que podem veure en qualsevol ordinador &lt;em&gt;exactament&lt;/em&gt; com nosaltres el veiem al nostre.&lt;/p&gt;</description>
+      <description>COM ESCRIURE UNA PRESENTACIÓ amb EMACS i Org-mode&#xA;Podeu descarregar-vos la presentació i el codi en .org&#xA;1 Alguns aspectes 1.1 Què anem a fer? A continuació explicarem com fer una presentació de manera molt senzilla a partir de notes, usant:&#xA;Org mode i Emacs i LaTeX (classe Beamer). Són eines lliures que ens permeten a partir d&amp;rsquo;unes marques senzilles, realitzar presentacions en PDF que podem veure en qualsevol ordinador exactament com nosaltres el veiem al nostre.</description>
     </item>
   </channel>
 </rss>

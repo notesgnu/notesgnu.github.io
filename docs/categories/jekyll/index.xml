@@ -4,7 +4,7 @@
     <title>Jekyll on Notes GNU</title>
     <link>https://notesgnu.github.io/categories/jekyll/</link>
     <description>Recent content in Jekyll on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Sun, 29 Mar 2015 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/categories/jekyll/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2015-03-29-un-blog-amb-jekyll/</link>
       <pubDate>Sun, 29 Mar 2015 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2015-03-29-un-blog-amb-jekyll/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;images/logo-2x.png&#34; alt=&#34;&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant &lt;strong&gt;git&lt;/strong&gt; i &lt;strong&gt;jekyll&lt;/strong&gt;. Els motius són varis, però la idea d epoder escriure un bloc des d&amp;rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.&lt;/p&gt;&#xA;&lt;p&gt;S&amp;rsquo;usa per escriure el llenguatge de marques &lt;strong&gt;&lt;a href=&#34;http://daringfireball.net/projects/markdown/&#34;&gt;MarkDown&lt;/a&gt;&lt;/strong&gt; i per defecte l&amp;rsquo;extensió .md, i &lt;strong&gt;Emacs&lt;/strong&gt; compta amb markdown-mode que facilita la seva escriptura. Així que seguim amb &lt;strong&gt;EMACS&lt;/strong&gt; :-)&lt;/p&gt;</description>
+      <description>Avui he decidit escriure alguna cosa, ja fa temps que no escric res. Així que he volgut provar una cosa que em ronda el cap fa dies, fer un bloc usant git i jekyll. Els motius són varis, però la idea d epoder escriure un bloc des d&amp;rsquo;EMACS i sincronitzar amb GIT, i amb el nom senzill… és irresistible.&#xA;S&amp;rsquo;usa per escriure el llenguatge de marques MarkDown i per defecte l&amp;rsquo;extensió .</description>
     </item>
   </channel>
 </rss>

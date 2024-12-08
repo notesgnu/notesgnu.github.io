@@ -4,7 +4,7 @@
     <title>Git on Notes GNU</title>
     <link>https://notesgnu.github.io/tags/git/</link>
     <description>Recent content in Git on Notes GNU</description>
-    <generator>Hugo</generator>
+    <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Tue, 26 Apr 2016 07:00:00 +0000</lastBuildDate>
     <atom:link href="https://notesgnu.github.io/tags/git/index.xml" rel="self" type="application/rss+xml" />
@@ -13,7 +13,7 @@
       <link>https://notesgnu.github.io/post/2016-04-26-errorgitemail/</link>
       <pubDate>Tue, 26 Apr 2016 07:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/post/2016-04-26-errorgitemail/</guid>
-      <description>&lt;p&gt;&lt;img src=&#34;https://git-scm.com/images/logo@2x.png&#34; alt=&#34;Git&#34; title=&#34;GIT&#34;&gt;&lt;/p&gt;&#xA;&lt;p&gt;Avui m&amp;rsquo;he trobat que quan he intentat fer un&lt;/p&gt;&#xA;&lt;pre&gt;&lt;code&gt;git commit -m &amp;quot;nou article&amp;quot;&#xA;&lt;/code&gt;&lt;/pre&gt;&#xA;&lt;p&gt;M&amp;rsquo;ha donat el següent error:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;git: fatal unable to auto-detect email address (got &amp;ldquo;some wrong email&amp;rdquo;)&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Em demana que configuri:&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;git config --global user.mail &amp;ldquo;&lt;a href=&#34;mailto:you@example.com&#34;&gt;you@example.com&lt;/a&gt;&amp;rdquo;&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;p&gt;Estic usant la &lt;strong&gt;Linkat&lt;/strong&gt; lleugera (lUbuntu 14.04) i sembla que és un error en configurar&#xA;&lt;del&gt;user.mail&lt;/del&gt; que li falta una &lt;strong&gt;e&lt;/strong&gt;. Si no vull que canviï tota la configuració del &lt;strong&gt;git&lt;/strong&gt; no cal posar &lt;em&gt;--global&lt;/em&gt;.&lt;/p&gt;</description>
+      <description>Avui m&amp;rsquo;he trobat que quan he intentat fer un&#xA;git commit -m &amp;quot;nou article&amp;quot; M&amp;rsquo;ha donat el següent error:&#xA;git: fatal unable to auto-detect email address (got &amp;ldquo;some wrong email&amp;rdquo;)&#xA;Em demana que configuri:&#xA;git config --global user.mail &amp;ldquo;you@example.com&amp;rdquo;&#xA;Estic usant la Linkat lleugera (lUbuntu 14.04) i sembla que és un error en configurar user.mail que li falta una e. Si no vull que canviï tota la configuració del git no cal posar --global.</description>
     </item>
   </channel>
 </rss>
