@@ -1,7 +1,7 @@
 baseURL = "https://notesgnu.github.io/"
 title = "Notes GNU"
 theme = "m10c"
-paginate = 8
+paginate = 9
 languageCode = "en"
 DefaultContentLanguage = "ca"
 enableInlineShortcodes = true
