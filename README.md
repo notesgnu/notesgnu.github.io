@@ -1,4 +1,6 @@
-Blog personal fet amb Markdown i HUGO
+Blog personal fet amb Markdown i HUGO.
+
+Usa el tema m10c
 
 
 
