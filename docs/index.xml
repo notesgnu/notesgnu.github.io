@@ -1,9 +1,9 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
-    <title>Notes GNU</title>
+    <title>Notes d&#39;un GNU</title>
     <link>https://notesgnu.github.io/</link>
-    <description>Recent content on Notes GNU</description>
+    <description>Recent content on Notes d&#39;un GNU</description>
     <generator>Hugo -- gohugo.io</generator>
     <language>en</language>
     <lastBuildDate>Wed, 24 Apr 2024 00:00:00 +0000</lastBuildDate>
@@ -111,7 +111,7 @@
       <link>https://notesgnu.github.io/about/</link>
       <pubDate>Thu, 28 Feb 2019 00:00:00 +0000</pubDate>
       <guid>https://notesgnu.github.io/about/</guid>
-      <description>Aquest blog&amp;hellip; Les cròniques són aquelles històries explicades seguint una línia temporal… a l’edat mitja en teniem de famoses.&#xA;Bé, i seguint la idea de la “chronica” vull fer un recull històric del meu aprenentage al món Gnu/Linux.&#xA;Ja porto des del 2004 posat seriosament, però sovint tot acaba en l’oblit o en trossos de paper per casa… no crec que servisca de molt, però al menys serà divertit… com ho és aprendre d’este món Gnu/Linux.</description>
+      <description>Aquest blog&amp;hellip; Les cròniques són aquelles històries explicades seguint una línia temporal. A l&amp;rsquo;Edat Mitjana en teníem de famoses.&#xA;Bé, i seguint la idea de la &amp;ldquo;chronica&amp;rdquo;, vull fer un recull històric del meu aprenentatge al món Gnu/Linux.&#xA;Porto des del 2004 com usuari habitual, aprenent i prenent notes, però sovint tot acaba en l’oblit o en trossos de paper per casa. No crec que serveixi de molt, però almenys serà divertit, com ho és aprendre d’aquest món Gnu/Linux.</description>
     </item>
     <item>
       <title>Com escriure una presentació</title>
