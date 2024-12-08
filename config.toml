@@ -11,10 +11,10 @@ enableemoji = true
 
 [params]
     author = "msaliko"
-    description = "2024 (CC) Sou lliures de copiar"
+    description = "2024 (CC-BY-NC-SA) - Sou lliures de copiar"
     google_search = true
     avatar = "avatar.png" #l'avatar va a la carpeta "static"
-    menu_item_separator = " | "
+    menu_item_separator = " ⋆ "
 
 [params.style]
   darkestColor = "#242930"
@@ -68,6 +68,7 @@ category = "categories"
 tag = "tags"
 series = "series"
 
+#Les icones n'hi ha de dos tipus les https://feathericons.com/ que només cal posar el nom i les https://simpleicons.org/ que cal posar brand-nom
 [[params.social]]
     url = "jnorbu8@gmail.com"
     name = "Correu"
@@ -79,16 +80,16 @@ series = "series"
     icon = "github"
 
 [[params.social]]
-    url = "https://twitter.com/manelsales"
-    name = "Twitter"
-    icon = "twitter"
-
-[[params.social]]
     url = "https://mastodont.cat/@msaliko"
     name = "Mastodon"
-    icon = "star"
+    icon = "user"
 
 [[params.social]]
     url = "https://croniqueslinux.wordpress.com/"
     name = "Wordpress"
     icon = "file-text"
+
+[[params.social]]
+    url = "https://bsky.app/profile/manelsales.bsky.social"
+    name = "BlueSky"
+    icon = "bold"
