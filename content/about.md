@@ -11,7 +11,7 @@ Les cròniques són aquelles històries explicades seguint una línia temporal. 
 
 Bé, i seguint la idea de la "chronica", vull fer un recull històric del meu aprenentatge al món Gnu/Linux.
 
-Ja porto des del 2004 implicat seriosament, però sovint tot acaba en l’oblit o en trossos de paper per casa. No crec que serveixi de molt, però almenys serà divertit, com ho és aprendre d’aquest món Gnu/Linux.
+Porto des del 2004 implicat seriosament, però sovint tot acaba en l’oblit o en trossos de paper per casa. No crec que serveixi de molt, però almenys serà divertit, com ho és aprendre d’aquest món Gnu/Linux.
 
 Aquest blog a GitHub neix aquest any 2016 com a continuació del que tinc a [WordPress](https://croniqueslinux.wordpress.com/).
 
