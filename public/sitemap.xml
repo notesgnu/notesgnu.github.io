@@ -146,20 +146,8 @@
     <loc>http://localhost:1313/post/2020-05-20-nou-blog/</loc>
     <lastmod>2020-05-20T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>http://localhost:1313/zone/3/</loc>
-    <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>http://localhost:1313/zone/</loc>
     <lastmod>2019-12-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/zone/1/</loc>
-    <lastmod>2019-10-28T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/zone/2/</loc>
-    <lastmod>2019-10-14T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/gallery/a/</loc>
-    <lastmod>2019-03-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>http://localhost:1313/gallery/</loc>
     <lastmod>2019-03-05T00:00:00+00:00</lastmod>
@@ -757,8 +745,6 @@
   </url><url>
     <loc>http://localhost:1313/post/2010-01-04-slitaz-lleugeresa-linux/</loc>
     <lastmod>2010-01-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>http://localhost:1313/archives/</loc>
   </url><url>
     <loc>http://localhost:1313/series/</loc>
   </url>
